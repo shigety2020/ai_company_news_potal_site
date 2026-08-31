@@ -143,6 +143,16 @@ export default async function Home({
   const featured = data.featured;
   const featuredKey = featured ? itemKey(featured) : null;
   const items = data.items.filter((item) => itemKey(item) !== featuredKey);
+  const indexNumbers = new Map<string, number>();
+  let indexSeq = 0;
+  for (const cat of CATEGORIES) {
+    for (const item of items) {
+      if (item.category === cat) {
+        indexSeq += 1;
+        indexNumbers.set(itemKey(item), indexSeq);
+      }
+    }
+  }
 
   return (
     <div className="page">
@@ -150,12 +160,10 @@ export default async function Home({
         <header className="masthead">
           <div className="masthead-brand">
             <h1 className="logo">AI社員デイリー</h1>
-            <p className="tagline">Xから集めた、AI社員の作り方</p>
-          </div>
-          <div className="masthead-meta">
             <p className="vol">VOL.001</p>
-            <p className="issue-date">{formatIssueDate(data.date)}</p>
           </div>
+          <p className="issue-date">{formatIssueDate(data.date)}</p>
+          <p className="tagline">Xから集めた、AI社員の作り方</p>
         </header>
         <main>
           <Featured item={featured} />
@@ -167,9 +175,11 @@ export default async function Home({
                 <section className="index-sp-cat" key={cat} aria-label={cat}>
                   <h3 className="index-sp-cat-title">{cat}</h3>
                   <ol className="index-sp-list">
-                    {catItems.map((item, i) => (
+                    {catItems.map((item) => (
                       <li className="index-item" key={itemKey(item)}>
-                        <span className="index-num">{String(i + 1).padStart(2, "0")}</span>
+                        <span className="index-num">
+                          {String(indexNumbers.get(itemKey(item)) ?? 0).padStart(2, "0")}
+                        </span>
                         <IndexStory item={item} />
                       </li>
                     ))}

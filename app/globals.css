@@ -43,9 +43,9 @@ img {
 }
 
 .masthead {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr auto;
   align-items: baseline;
-  justify-content: space-between;
   gap: 16px;
   padding-bottom: 14px;
   border-bottom: 1px solid var(--line);
@@ -53,8 +53,9 @@ img {
 
 .masthead-brand {
   display: flex;
-  flex-direction: column;
-  gap: 2px;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 12px;
 }
 
 .logo {
@@ -71,13 +72,7 @@ img {
   font-size: 12px;
   letter-spacing: 0.06em;
   line-height: 1.4;
-}
-
-.masthead-meta {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 2px;
+  text-align: right;
 }
 
 .vol {
@@ -95,6 +90,7 @@ img {
   letter-spacing: 0.14em;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
+  justify-self: end;
 }
 
 .featured {
@@ -250,9 +246,14 @@ img {
     letter-spacing: 0.08em;
   }
 
+  .masthead {
+    grid-template-columns: 1fr auto 1fr;
+  }
+
   .tagline {
     display: block;
     font-size: 13px;
+    justify-self: end;
   }
 
   .vol {
@@ -262,6 +263,7 @@ img {
 
   .issue-date {
     font-size: 13px;
+    justify-self: center;
   }
 
   .featured {

@@ -1,0 +1,296 @@
+:root {
+  --bg: #ffffff;
+  --heading: #000000;
+  --body: #333333;
+  --muted: #767676;
+  --accent: #d01808;
+  --line: #e2e2e2;
+  --photo: #f5f5f5;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--body);
+  font-family: var(--font-sans), "Noto Sans JP", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page {
+  padding: 20px;
+}
+
+.page-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.masthead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--line);
+}
+
+.logo {
+  color: var(--heading);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.2;
+}
+
+.issue-date {
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.cats {
+  display: flex;
+  gap: 18px;
+  list-style: none;
+  padding: 12px 0 18px;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.16em;
+}
+
+.cats li {
+  color: var(--muted);
+}
+
+.featured {
+  display: grid;
+  gap: 16px;
+  padding: 20px 0 24px;
+  border-bottom: 1px solid var(--line);
+}
+
+.photo {
+  background: var(--photo);
+  border: 1px solid var(--line);
+  aspect-ratio: 4 / 3;
+  width: 100%;
+}
+
+.featured-body.is-empty {
+  min-height: 96px;
+}
+
+.kicker-row {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.kicker {
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+
+.time {
+  color: var(--muted);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+}
+
+.featured-headline {
+  color: var(--heading);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+
+.summary {
+  color: var(--body);
+  font-size: 14px;
+  line-height: 1.7;
+  margin-top: 10px;
+}
+
+.via {
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: 12px;
+}
+
+.story:hover .featured-headline,
+.story:hover .item-headline {
+  color: var(--accent);
+}
+
+.index {
+  list-style: none;
+}
+
+.index-item {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 10px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.index-num {
+  color: var(--muted);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+  padding-top: 3px;
+}
+
+.item-headline {
+  color: var(--heading);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.45;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+
+.item-summary {
+  color: var(--body);
+  font-size: 13px;
+  line-height: 1.65;
+  margin-top: 6px;
+}
+
+.quote {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .page {
+    padding: 48px;
+  }
+
+  .logo,
+  .featured-headline,
+  .quote {
+    font-family: var(--font-serif), "Shippori Mincho", serif;
+  }
+
+  .logo {
+    font-size: 32px;
+    letter-spacing: 0.08em;
+  }
+
+  .issue-date {
+    font-size: 13px;
+  }
+
+  .cats {
+    gap: 28px;
+    padding: 16px 0 24px;
+    font-size: 13px;
+  }
+
+  .featured {
+    grid-template-columns: 1.05fr 1fr;
+    gap: 48px;
+    padding: 40px 0;
+    align-items: center;
+  }
+
+  .featured-headline {
+    font-size: 36px;
+    line-height: 1.35;
+    font-weight: 600;
+  }
+
+  .featured-body.is-empty {
+    min-height: 220px;
+  }
+
+  .summary {
+    font-size: 15px;
+  }
+
+  .index {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 8px 0 8px;
+  }
+
+  .index-item {
+    display: block;
+    padding: 28px 24px;
+    border-bottom: 1px solid var(--line);
+    border-right: 1px solid var(--line);
+  }
+
+  .index-item:nth-child(3n) {
+    border-right: none;
+    padding-right: 0;
+  }
+
+  .index-item:nth-child(3n + 1) {
+    padding-left: 0;
+  }
+
+  .index-num {
+    display: none;
+  }
+
+  .item-headline {
+    font-size: 17px;
+  }
+
+  .quote {
+    display: block;
+    border-top: 1px solid var(--line);
+    margin-top: 8px;
+    padding: 40px 0 4px;
+    color: var(--heading);
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.04em;
+  }
+
+  .quote small {
+    display: block;
+    margin-top: 14px;
+    color: var(--muted);
+    font-family: var(--font-sans), "Noto Sans JP", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.18em;
+  }
+}

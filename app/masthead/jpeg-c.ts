@@ -1,1 +1,1 @@
-PLACEHOLDER_READ_FROM_FILE
+export const c = "USE_FILE";

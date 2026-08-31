@@ -5,7 +5,6 @@
   --muted: #767676;
   --accent: #d01808;
   --line: #e2e2e2;
-  --photo: #f5f5f5;
 }
 
 * {
@@ -91,14 +90,38 @@ img {
 }
 
 .photo {
-  background: var(--photo);
+  position: relative;
+  background: var(--bg);
   border: 1px solid var(--line);
   aspect-ratio: 4 / 3;
   width: 100%;
+  overflow: hidden;
 }
 
-.featured-body.is-empty {
-  min-height: 96px;
+.photo-masthead {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+}
+
+.photo-masthead::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--accent);
+}
+
+.photo-accent {
+  display: block;
+  width: 64px;
+  height: 1px;
+  background: var(--accent);
 }
 
 .kicker-row {
@@ -154,6 +177,10 @@ img {
 
 .index {
   list-style: none;
+}
+
+.index-pc {
+  display: none;
 }
 
 .index-item {
@@ -234,38 +261,56 @@ img {
     font-weight: 600;
   }
 
-  .featured-body.is-empty {
-    min-height: 220px;
-  }
-
   .summary {
     font-size: 15px;
   }
 
-  .index {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 8px 0 8px;
+  .index-sp {
+    display: none;
   }
 
-  .index-item {
-    display: block;
+  .index-pc {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 8px 0;
+  }
+
+  .index-col {
     padding: 28px 24px;
-    border-bottom: 1px solid var(--line);
     border-right: 1px solid var(--line);
   }
 
-  .index-item:nth-child(3n) {
+  .index-col:first-child {
+    padding-left: 0;
+  }
+
+  .index-col:last-child {
     border-right: none;
     padding-right: 0;
   }
 
-  .index-item:nth-child(3n + 1) {
-    padding-left: 0;
+  .index-col-title {
+    color: var(--accent);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    padding-bottom: 14px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid var(--line);
   }
 
-  .index-num {
-    display: none;
+  .index-col-list {
+    list-style: none;
+  }
+
+  .index-pc .index-item {
+    display: block;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .index-pc .index-item:last-child {
+    border-bottom: none;
   }
 
   .item-headline {

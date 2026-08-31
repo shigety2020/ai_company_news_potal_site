@@ -79,16 +79,19 @@ async function getDaily(date: string): Promise<DailyResponse> {
 }
 
 function Photo({ src }: { src?: string | null }) {
-  if (src) {
-    return (
-      <div className="photo">
-        {/* Seed has no images; keep a plain <img> if a URL appears later. */}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
+  return (
+    <div className="photo" aria-hidden="true">
+      {src ? (
+        /* Seed has no images; keep a plain <img> if a URL appears later. */
+        /* eslint-disable-next-line @next/next/no-img-element */
         <img src={src} alt="" />
-      </div>
-    );
-  }
-  return <div className="photo" aria-hidden="true" />;
+      ) : (
+        <div className="photo-masthead">
+          <span className="photo-accent" />
+        </div>
+      )}
+    </div>
+  );
 }
 
 function Featured({ item }: { item: DailyItem | null }) {
@@ -98,7 +101,7 @@ function Featured({ item }: { item: DailyItem | null }) {
       {item ? (
         <a className="featured-body story" href={item.url} target="_blank" rel="noreferrer">
           <div className="kicker-row">
-            <span className="kicker">{item.category}</span>
+            <span className="kicker">今日の特集 01</span>
             <time className="time" dateTime={item.time}>
               {item.time}
             </time>
@@ -108,9 +111,30 @@ function Featured({ item }: { item: DailyItem | null }) {
           <p className="via">via @{item.handle}</p>
         </a>
       ) : (
-        <div className="featured-body is-empty" aria-hidden="true" />
+        <div className="featured-body">
+          <div className="kicker-row">
+            <span className="kicker">今日の特集 01</span>
+          </div>
+          <h2 className="featured-headline">今日の特集はありません</h2>
+        </div>
       )}
     </section>
+  );
+}
+
+function IndexStory({ item }: { item: DailyItem }) {
+  return (
+    <a className="story" href={item.url} target="_blank" rel="noreferrer">
+      <div className="kicker-row">
+        <time className="time" dateTime={item.time}>
+          {item.time}
+        </time>
+        <span className="kicker">{item.category}</span>
+      </div>
+      <h2 className="item-headline">{item.headline}</h2>
+      <p className="item-summary">{item.summary}</p>
+      <p className="via">via @{item.handle}</p>
+    </a>
   );
 }
 
@@ -140,24 +164,30 @@ export default async function Home({
         </ul>
         <main>
           <Featured item={featured} />
-          <ol className="index">
+          <ol className="index index-sp">
             {items.map((item, i) => (
               <li className="index-item" key={itemKey(item)}>
                 <span className="index-num">{String(i + 1).padStart(2, "0")}</span>
-                <a className="story" href={item.url} target="_blank" rel="noreferrer">
-                  <div className="kicker-row">
-                    <time className="time" dateTime={item.time}>
-                      {item.time}
-                    </time>
-                    <span className="kicker">{item.category}</span>
-                  </div>
-                  <h2 className="item-headline">{item.headline}</h2>
-                  <p className="item-summary">{item.summary}</p>
-                  <p className="via">via @{item.handle}</p>
-                </a>
+                <IndexStory item={item} />
               </li>
             ))}
           </ol>
+          <div className="index index-pc">
+            {CATEGORIES.map((cat) => (
+              <section className="index-col" key={cat} aria-label={cat}>
+                <h2 className="index-col-title">{cat}</h2>
+                <ul className="index-col-list">
+                  {items
+                    .filter((item) => item.category === cat)
+                    .map((item) => (
+                      <li className="index-item" key={itemKey(item)}>
+                        <IndexStory item={item} />
+                      </li>
+                    ))}
+                </ul>
+              </section>
+            ))}
+          </div>
         </main>
         <footer className="quote">
           役割を決めて、手順にして、任せる。

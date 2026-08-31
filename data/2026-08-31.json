@@ -1,0 +1,77 @@
+{
+  "date": "2026-08-31",
+  "featured": {
+    "time": "09:14",
+    "headline": "社内の問い合わせ応答を、AI社員3人で回し始めた",
+    "summary": "総務・情シス・営業の定型質問を役割分担し、朝の15分で前日分を片付ける運用。",
+    "handle": "seed_ops",
+    "category": "事例",
+    "url": "https://x.com/seed_ops/status/1000000000000000001"
+  },
+  "items": [
+    {
+      "time": "08:02",
+      "headline": "デジタル社員の役割カードを1枚に落とす",
+      "summary": "名前・担当・使ってよいツール・エスカレーション先だけ書く。",
+      "handle": "seed_maker",
+      "category": "作り方",
+      "url": "https://x.com/seed_maker/status/1000000000000000002"
+    },
+    {
+      "time": "08:41",
+      "headline": "朝会の議題拾いをエージェントに渡す",
+      "summary": "Slackの固定スレッドから未決を抜き、今日話すこと3つだけ渡す。",
+      "handle": "seed_standup",
+      "category": "作り方",
+      "url": "https://x.com/seed_standup/status/1000000000000000003"
+    },
+    {
+      "time": "10:05",
+      "headline": "社内向けAI社員を1ラインで仕込む",
+      "summary": "役割・知識ソース・通知先をテンプレにして、部署ごとのコピーを止める。",
+      "handle": "seed_tools",
+      "category": "ツール",
+      "url": "https://x.com/seed_tools/status/1000000000000000004"
+    },
+    {
+      "time": "11:22",
+      "headline": "プロンプトではなく、業務手順として置く",
+      "summary": "入力・判定・出力・人の確認を段にしたチェックリスト付きの手順書。",
+      "handle": "seed_flow",
+      "category": "作り方",
+      "url": "https://x.com/seed_flow/status/1000000000000000005"
+    },
+    {
+      "time": "13:08",
+      "headline": "プロジェクト管理の定例レポートをAI社員が先に書く",
+      "summary": "週次の進捗・リスク・次の動きだけ埋め、マネージャーは赤を入れる。",
+      "handle": "seed_pm",
+      "category": "事例",
+      "url": "https://x.com/seed_pm/status/1000000000000000006"
+    },
+    {
+      "time": "14:47",
+      "headline": "知識参照をツール側に固めてから使わせる",
+      "summary": "社内wikiと規約を先に結んで、任せていい範囲を明示する。",
+      "handle": "seed_kb",
+      "category": "ツール",
+      "url": "https://x.com/seed_kb/status/1000000000000000007"
+    },
+    {
+      "time": "16:19",
+      "headline": "小売の見積書きをデジタル社員が代行",
+      "summary": "案件と見積履歴から草案を作り、担当が数行直して送信するまでを一週回した。",
+      "handle": "seed_sales",
+      "category": "事例",
+      "url": "https://x.com/seed_sales/status/1000000000000000008"
+    },
+    {
+      "time": "18:03",
+      "headline": "役割ごとの通知チャンネルを先に決める",
+      "summary": "完了・確認依頼・異常の3種だけ。通知の浮きを止めるための最小設計。",
+      "handle": "seed_notify",
+      "category": "ツール",
+      "url": "https://x.com/seed_notify/status/1000000000000000009"
+    }
+  ]
+}

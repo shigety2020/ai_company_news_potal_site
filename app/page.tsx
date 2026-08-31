@@ -82,7 +82,7 @@ function Photo() {
   return (
     <div className="photo">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src="/masthead.jpg" alt="窓辺のデスクにノートとコーヒー" />
+      <img src="/masthead" alt="窓辺のデスクにノートとコーヒー" />
     </div>
   );
 }

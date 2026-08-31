@@ -20,14 +20,14 @@
     {
       "time": "08:41",
       "headline": "朝会の議題拾いをエージェントに渡す",
-      "summary": "Slackの固定スレッドから未決を抜き、今日話すことだ3つだけ渡す。",
+      "summary": "Slackの固定スレッドから未決を抜き、今日話すこと3つだけ渡す。",
       "handle": "seed_standup",
       "category": "作り方",
       "url": "https://x.com/seed_standup/status/1000000000000000003"
     },
     {
       "time": "10:05",
-      "headline": "社内向けAI社員を一ラインで仕様する",
+      "headline": "社内向けAI社員を1ラインで仕込む",
       "summary": "役割・知識ソース・通知先をテンプレにして、部署ごとのコピーを止める。",
       "handle": "seed_tools",
       "category": "ツール",
@@ -52,7 +52,7 @@
     {
       "time": "14:47",
       "headline": "知識参照をツール側に固めてから使わせる",
-      "summary": "社内wikiと规約を先に結んで、任せていい範囲を明示する。",
+      "summary": "社内wikiと規約を先に結んで、任せていい範囲を明示する。",
       "handle": "seed_kb",
       "category": "ツール",
       "url": "https://x.com/seed_kb/status/1000000000000000007"

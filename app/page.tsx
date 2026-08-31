@@ -78,18 +78,11 @@ async function getDaily(date: string): Promise<DailyResponse> {
   }
 }
 
-function Photo({ src }: { src?: string | null }) {
+function Photo() {
   return (
-    <div className="photo" aria-hidden="true">
-      {src ? (
-        /* Seed has no images; keep a plain <img> if a URL appears later. */
-        /* eslint-disable-next-line @next/next/no-img-element */
-        <img src={src} alt="" />
-      ) : (
-        <div className="photo-masthead">
-          <span className="photo-accent" />
-        </div>
-      )}
+    <div className="photo">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src="/masthead.jpg" alt="窓辺のデスクにノートとコーヒー" />
     </div>
   );
 }
@@ -97,7 +90,7 @@ function Photo({ src }: { src?: string | null }) {
 function Featured({ item }: { item: DailyItem | null }) {
   return (
     <section className="featured" aria-label="本日の特集">
-      <Photo src={item?.image} />
+      <Photo />
       {item ? (
         <a className="featured-body story" href={item.url} target="_blank" rel="noreferrer">
           <div className="kicker-row">

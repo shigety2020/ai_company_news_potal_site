@@ -91,37 +91,9 @@ img {
 
 .photo {
   position: relative;
-  background: var(--bg);
-  border: 1px solid var(--line);
   aspect-ratio: 4 / 3;
   width: 100%;
   overflow: hidden;
-}
-
-.photo-masthead {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--bg);
-}
-
-.photo-masthead::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: var(--accent);
-}
-
-.photo-accent {
-  display: block;
-  width: 64px;
-  height: 1px;
-  background: var(--accent);
 }
 
 .kicker-row {

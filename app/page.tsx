@@ -102,6 +102,7 @@ function Featured({ item }: { item: DailyItem | null }) {
           <h2 className="featured-headline">{item.headline}</h2>
           <p className="summary">{item.summary}</p>
           <p className="via">via @{item.handle}</p>
+          <p className="read-more">続きを読む →</p>
         </a>
       ) : (
         <div className="featured-body">
@@ -148,23 +149,32 @@ export default async function Home({
       <div className="page-inner">
         <header className="masthead">
           <h1 className="logo">AI社員デイリー</h1>
-          <p className="issue-date">{formatIssueDate(data.date)}</p>
+          <div className="masthead-meta">
+            <p className="vol">VOL.001</p>
+            <p className="issue-date">{formatIssueDate(data.date)}</p>
+          </div>
         </header>
-        <ul className="cats" aria-label="カテゴリ">
-          {CATEGORIES.map((cat) => (
-            <li key={cat}>{cat}</li>
-          ))}
-        </ul>
         <main>
           <Featured item={featured} />
-          <ol className="index index-sp">
-            {items.map((item, i) => (
-              <li className="index-item" key={itemKey(item)}>
-                <span className="index-num">{String(i + 1).padStart(2, "0")}</span>
-                <IndexStory item={item} />
-              </li>
-            ))}
-          </ol>
+          <div className="index index-sp">
+            <h2 className="index-heading">INDEX</h2>
+            {CATEGORIES.map((cat) => {
+              const catItems = items.filter((item) => item.category === cat);
+              return (
+                <section className="index-sp-cat" key={cat} aria-label={cat}>
+                  <h3 className="index-sp-cat-title">{cat}</h3>
+                  <ol className="index-sp-list">
+                    {catItems.map((item, i) => (
+                      <li className="index-item" key={itemKey(item)}>
+                        <span className="index-num">{String(i + 1).padStart(2, "0")}</span>
+                        <IndexStory item={item} />
+                      </li>
+                    ))}
+                  </ol>
+                </section>
+              );
+            })}
+          </div>
           <div className="index index-pc">
             {CATEGORIES.map((cat) => (
               <section className="index-col" key={cat} aria-label={cat}>
@@ -182,10 +192,6 @@ export default async function Home({
             ))}
           </div>
         </main>
-        <footer className="quote">
-          役割を決めて、手順にして、任せる。
-          <small>AI社員デイリー</small>
-        </footer>
       </div>
     </div>
   );

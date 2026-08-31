@@ -59,27 +59,28 @@ img {
   line-height: 1.2;
 }
 
+.masthead-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+}
+
+.vol {
+  display: none;
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
 .issue-date {
   color: var(--muted);
   font-size: 12px;
   letter-spacing: 0.14em;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
-}
-
-.cats {
-  display: flex;
-  gap: 18px;
-  list-style: none;
-  padding: 12px 0 18px;
-  border-bottom: 1px solid var(--line);
-  color: var(--muted);
-  font-size: 12px;
-  letter-spacing: 0.16em;
-}
-
-.cats li {
-  color: var(--muted);
 }
 
 .featured {
@@ -142,17 +143,43 @@ img {
   margin-top: 12px;
 }
 
+.read-more {
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  margin-top: 16px;
+}
+
 .story:hover .featured-headline,
 .story:hover .item-headline {
   color: var(--accent);
 }
 
-.index {
+.index-sp-list,
+.index-col-list {
   list-style: none;
 }
 
 .index-pc {
   display: none;
+}
+
+.index-heading {
+  color: var(--heading);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+  padding: 24px 0 12px;
+  border-bottom: 1px solid var(--line);
+}
+
+.index-sp-cat-title {
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  padding: 18px 0 0;
 }
 
 .index-item {
@@ -200,8 +227,7 @@ img {
   }
 
   .logo,
-  .featured-headline,
-  .quote {
+  .featured-headline {
     font-family: var(--font-serif), "Shippori Mincho", serif;
   }
 
@@ -210,13 +236,12 @@ img {
     letter-spacing: 0.08em;
   }
 
-  .issue-date {
-    font-size: 13px;
+  .vol {
+    display: block;
+    font-size: 12px;
   }
 
-  .cats {
-    gap: 28px;
-    padding: 16px 0 24px;
+  .issue-date {
     font-size: 13px;
   }
 
@@ -235,6 +260,11 @@ img {
 
   .summary {
     font-size: 15px;
+  }
+
+  .read-more {
+    font-size: 13px;
+    margin-top: 20px;
   }
 
   .index-sp {
@@ -271,10 +301,6 @@ img {
     border-bottom: 1px solid var(--line);
   }
 
-  .index-col-list {
-    list-style: none;
-  }
-
   .index-pc .index-item {
     display: block;
     padding: 20px 0;
@@ -287,27 +313,5 @@ img {
 
   .item-headline {
     font-size: 17px;
-  }
-
-  .quote {
-    display: block;
-    border-top: 1px solid var(--line);
-    margin-top: 8px;
-    padding: 40px 0 4px;
-    color: var(--heading);
-    font-size: 22px;
-    font-weight: 500;
-    text-align: center;
-    letter-spacing: 0.04em;
-  }
-
-  .quote small {
-    display: block;
-    margin-top: 14px;
-    color: var(--muted);
-    font-family: var(--font-sans), "Noto Sans JP", sans-serif;
-    font-size: 11px;
-    font-weight: 400;
-    letter-spacing: 0.18em;
   }
 }

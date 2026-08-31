@@ -93,22 +93,14 @@ function Featured({ item }: { item: DailyItem | null }) {
       <Photo />
       {item ? (
         <a className="featured-body story" href={item.url} target="_blank" rel="noreferrer">
-          <div className="kicker-row">
-            <span className="kicker">今日の特集 01</span>
-            <time className="time" dateTime={item.time}>
-              {item.time}
-            </time>
-          </div>
+          <p className="kicker">今日の特集 01</p>
           <h2 className="featured-headline">{item.headline}</h2>
           <p className="summary">{item.summary}</p>
-          <p className="via">via @{item.handle}</p>
           <p className="read-more">続きを読む →</p>
         </a>
       ) : (
         <div className="featured-body">
-          <div className="kicker-row">
-            <span className="kicker">今日の特集 01</span>
-          </div>
+          <p className="kicker">今日の特集 01</p>
           <h2 className="featured-headline">今日の特集はありません</h2>
         </div>
       )}

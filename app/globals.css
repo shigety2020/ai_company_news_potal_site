@@ -51,12 +51,26 @@ img {
   border-bottom: 1px solid var(--line);
 }
 
+.masthead-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
 .logo {
   color: var(--heading);
   font-size: 22px;
   font-weight: 700;
   letter-spacing: 0.06em;
   line-height: 1.2;
+}
+
+.tagline {
+  display: none;
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  line-height: 1.4;
 }
 
 .masthead-meta {
@@ -234,6 +248,11 @@ img {
   .logo {
     font-size: 32px;
     letter-spacing: 0.08em;
+  }
+
+  .tagline {
+    display: block;
+    font-size: 13px;
   }
 
   .vol {

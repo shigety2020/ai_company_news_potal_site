@@ -148,7 +148,10 @@ export default async function Home({
     <div className="page">
       <div className="page-inner">
         <header className="masthead">
-          <h1 className="logo">AI社員デイリー</h1>
+          <div className="masthead-brand">
+            <h1 className="logo">AI社員デイリー</h1>
+            <p className="tagline">Xから集めた、AI社員の作り方</p>
+          </div>
           <div className="masthead-meta">
             <p className="vol">VOL.001</p>
             <p className="issue-date">{formatIssueDate(data.date)}</p>

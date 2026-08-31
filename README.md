@@ -1,0 +1,2 @@
+# ai_company_news_potal_site
+AI社員を特集したニュース記事のまとめサイト

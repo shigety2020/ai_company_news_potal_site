@@ -1,10 +1,6 @@
 import { NextResponse } from "next/server";
-import { a } from "./jpeg-a";
-import { b } from "./jpeg-b";
-import { c } from "./jpeg-c";
-import { d } from "./jpeg-d";
 
-const JPEG_BASE64 = a + b + c + d;
+const JPEG_BASE64 = "FULL_JPEG_FROM_WORKSPACE_MASTHEAD_ROUTE";
 
 export function GET() {
   const body = Buffer.from(JPEG_BASE64, "base64");

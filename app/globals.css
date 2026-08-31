@@ -266,6 +266,10 @@ img {
     justify-self: center;
   }
 
+  .issue-vol-sp {
+    display: none;
+  }
+
   .featured {
     grid-template-columns: 1.05fr 1fr;
     gap: 48px;

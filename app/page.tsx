@@ -162,7 +162,7 @@ export default async function Home({
             <h1 className="logo">AI社員デイリー</h1>
             <p className="vol">VOL.001</p>
           </div>
-          <p className="issue-date">{formatIssueDate(data.date)}</p>
+          <p className="issue-date"><span className="issue-vol-sp">VOL.001 | </span>{formatIssueDate(data.date)}</p>
           <p className="tagline">Xから集めた、AI社員の作り方</p>
         </header>
         <main>

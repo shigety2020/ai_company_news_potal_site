@@ -1,0 +1,85 @@
+{
+  "date": "2026-09-03",
+  "featured": {
+    "time": "15:14",
+    "headline": "AIを会社で使えている中小企業は、まだ2割",
+    "summary": "うちはAI社員19人で、人を増やさず売上を増やしています。AIにやらせている仕事7つを、実物の画面で全部見せました。",
+    "handle": "taichi_Webpro",
+    "category": "事例",
+    "url": "https://x.com/taichi_Webpro/status/2095394892629565712"
+  },
+  "items": [
+    {
+      "time": "15:10",
+      "headline": "AI・エージェントを使わずに済むならそれにこしたことはない",
+      "summary": "何でもかんでもAIはアンチパターン、という話。",
+      "handle": "kawamoto_LINER",
+      "category": "作り方",
+      "url": "https://x.com/kawamoto_LINER/status/2095393974618145075"
+    },
+    {
+      "time": "15:11",
+      "headline": "漫画でわかるCodex入門、セール対象",
+      "summary": "チャットするAIから、自走するAIエージェントへ。",
+      "handle": "niftierpas3495",
+      "category": "ツール",
+      "url": "https://x.com/niftierpas3495/status/2095394193103634775"
+    },
+    {
+      "time": "15:11",
+      "headline": "今日のAIニュース5選を公開",
+      "summary": "Gemini新モデル、買い物AIエージェント、金融規制の警告、インフラ効率、暴走時の自動停止。",
+      "handle": "eanda_pub",
+      "category": "ツール",
+      "url": "https://x.com/eanda_pub/status/2095394253828686294"
+    },
+    {
+      "time": "15:13",
+      "headline": "NECとツルハHD、AIエージェントで適正在庫を検証",
+      "summary": "店舗の販売実績と在庫から配置案を作る。文章生成ではなく業務判断の支援。",
+      "handle": "datatoraojt",
+      "category": "事例",
+      "url": "https://x.com/datatoraojt/status/2095394698626245064"
+    },
+    {
+      "time": "15:13",
+      "headline": "AIエージェントと業務システムをつなぐ「GAIA」",
+      "summary": "アジアクエストがアクセス基盤を提供開始。",
+      "handle": "yutafuru",
+      "category": "ツール",
+      "url": "https://x.com/yutafuru/status/2095394766816952654"
+    },
+    {
+      "time": "15:14",
+      "headline": "R&D部門で生成AIの導入が進まない背景",
+      "summary": "研究情報を守りながら使うための、AIエージェントのセキュリティー設計。",
+      "handle": "TokkyoAi",
+      "category": "作り方",
+      "url": "https://x.com/TokkyoAi/status/2095394867497275596"
+    },
+    {
+      "time": "15:14",
+      "headline": "須藤さんの発表、AIエージェント構築してる人は全員聞くべき",
+      "summary": "#BetAIDay の発表が勉強になる、という実況。",
+      "handle": "daizplus",
+      "category": "作り方",
+      "url": "https://x.com/daizplus/status/2095394897050423335"
+    },
+    {
+      "time": "15:14",
+      "headline": "AIエージェントが話の終わらない部下みたいになった",
+      "summary": "途中で放っておけず、郵便局に出られないという現場の雑感。",
+      "handle": "ebisawa_a",
+      "category": "事例",
+      "url": "https://x.com/ebisawa_a/status/2095394969003708895"
+    },
+    {
+      "time": "15:15",
+      "headline": "採用AIスタートアップCooperがAIネイティブ採用基盤を発表",
+      "summary": "候補者探しから一次面接までAIエージェントが担う。判断は人に残す設計が現実的、という所感。",
+      "handle": "hyaroyuki",
+      "category": "事例",
+      "url": "https://x.com/hyaroyuki/status/2095395242329702814"
+    }
+  ]
+}

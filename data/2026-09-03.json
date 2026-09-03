@@ -2,11 +2,11 @@
   "date": "2026-09-03",
   "featured": {
     "time": "15:14",
-    "headline": "須藤さんの発表、AIエージェント構築してる人は全員聞くべき",
-    "summary": "#BetAIDay の発表が勉強になる、という実況。",
-    "handle": "daizplus",
+    "headline": "R&D部門で生成AIの導入が進まない背景",
+    "summary": "研究情報を守りながら使うための、AIエージェントのセキュリティー設計。",
+    "handle": "TokkyoAi",
     "category": "作り方",
-    "url": "https://x.com/daizplus/status/2095394897050423335"
+    "url": "https://x.com/TokkyoAi/status/2095394867497275596"
   },
   "items": [
     {
@@ -51,11 +51,11 @@
     },
     {
       "time": "15:14",
-      "headline": "R&D部門で生成AIの導入が進まない背景",
-      "summary": "研究情報を守りながら使うための、AIエージェントのセキュリティー設計。",
-      "handle": "TokkyoAi",
+      "headline": "須藤さんの発表、AIエージェント構築してる人は全員聞くべき",
+      "summary": "#BetAIDay の発表が勉強になる、という実況。",
+      "handle": "daizplus",
       "category": "作り方",
-      "url": "https://x.com/TokkyoAi/status/2095394867497275596"
+      "url": "https://x.com/daizplus/status/2095394897050423335"
     },
     {
       "time": "15:14",

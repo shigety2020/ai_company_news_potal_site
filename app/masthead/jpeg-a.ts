@@ -1,1 +1,1 @@
-LOAD_FROM_/workspace/masthead-split/jpeg-a.ts
+@/workspace/masthead-split/jpeg-a.ts

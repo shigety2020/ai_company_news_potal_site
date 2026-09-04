@@ -1,1 +1,1 @@
-PLACEHOLDER_A
+LOAD_FROM_/workspace/masthead-split/jpeg-a.ts

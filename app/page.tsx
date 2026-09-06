@@ -135,14 +135,17 @@ export default async function Home({
   const featured = data.featured;
   const featuredKey = featured ? itemKey(featured) : null;
   const items = data.items.filter((item) => itemKey(item) !== featuredKey);
+  // Screen shows max 3 per category; JSON may hold up to 20.
+  const sections = CATEGORIES.map((cat) => ({
+    cat,
+    items: items.filter((item) => item.category === cat).slice(0, 3),
+  })).filter((section) => section.items.length > 0);
   const indexNumbers = new Map<string, number>();
   let indexSeq = 0;
-  for (const cat of CATEGORIES) {
-    for (const item of items) {
-      if (item.category === cat) {
-        indexSeq += 1;
-        indexNumbers.set(itemKey(item), indexSeq);
-      }
+  for (const section of sections) {
+    for (const item of section.items) {
+      indexSeq += 1;
+      indexNumbers.set(itemKey(item), indexSeq);
     }
   }
 
@@ -161,37 +164,32 @@ export default async function Home({
           <Featured item={featured} />
           <div className="index index-sp">
             <h2 className="index-heading">INDEX</h2>
-            {CATEGORIES.map((cat) => {
-              const catItems = items.filter((item) => item.category === cat);
-              return (
-                <section className="index-sp-cat" key={cat} aria-label={cat}>
-                  <h3 className="index-sp-cat-title">{cat}</h3>
-                  <ol className="index-sp-list">
-                    {catItems.map((item) => (
-                      <li className="index-item" key={itemKey(item)}>
-                        <span className="index-num">
-                          {String(indexNumbers.get(itemKey(item)) ?? 0).padStart(2, "0")}
-                        </span>
-                        <IndexStory item={item} />
-                      </li>
-                    ))}
-                  </ol>
-                </section>
-              );
-            })}
+            {sections.map(({ cat, items: catItems }) => (
+              <section className="index-sp-cat" key={cat} aria-label={cat}>
+                <h3 className="index-sp-cat-title">{cat}</h3>
+                <ol className="index-sp-list">
+                  {catItems.map((item) => (
+                    <li className="index-item" key={itemKey(item)}>
+                      <span className="index-num">
+                        {String(indexNumbers.get(itemKey(item)) ?? 0).padStart(2, "0")}
+                      </span>
+                      <IndexStory item={item} />
+                    </li>
+                  ))}
+                </ol>
+              </section>
+            ))}
           </div>
           <div className="index index-pc">
-            {CATEGORIES.map((cat) => (
+            {sections.map(({ cat, items: catItems }) => (
               <section className="index-col" key={cat} aria-label={cat}>
                 <h2 className="index-col-title">{cat}</h2>
                 <ul className="index-col-list">
-                  {items
-                    .filter((item) => item.category === cat)
-                    .map((item) => (
-                      <li className="index-item" key={itemKey(item)}>
-                        <IndexStory item={item} />
-                      </li>
-                    ))}
+                  {catItems.map((item) => (
+                    <li className="index-item" key={itemKey(item)}>
+                      <IndexStory item={item} />
+                    </li>
+                  ))}
                 </ul>
               </section>
             ))}

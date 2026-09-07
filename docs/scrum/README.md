@@ -16,6 +16,7 @@ AI社員デイリー。イベントごとに1ファイル。振り返り用の�
 | 2026-09-06 | Sprint 3 レビュー | [2026-09-06-sprint3-review.md](./2026-09-06-sprint3-review.md) |
 | 2026-09-07 | Sprint 3 レトロ | [2026-09-07-sprint3-retro.md](./2026-09-07-sprint3-retro.md) |
 | 2026-09-07 | Sprint 4 プランニング | [2026-09-07-sprint4-planning.md](./2026-09-07-sprint4-planning.md) |
+| 2026-09-07 | Sprint 4 レビュー | [2026-09-07-sprint4-review.md](./2026-09-07-sprint4-review.md) |
 | 2026-09-07 | デイリー | [2026-09-07-daily.md](./2026-09-07-daily.md) |
 
 プロダクトバックログの正: [`PRODUCT_BACKLOG.md`](../../PRODUCT_BACKLOG.md)

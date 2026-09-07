@@ -37,6 +37,16 @@ function formatIssueDate(iso: string): string {
   return `${y}.${m}.${d}`;
 }
 
+/** Shift YYYY-MM-DD by delta days in calendar (UTC noon to avoid TZ edge). */
+function shiftDate(iso: string, delta: number): string {
+  const [y, m, d] = iso.split("-").map(Number);
+  const dt = new Date(Date.UTC(y, m - 1, d + delta, 12, 0, 0));
+  const yy = dt.getUTCFullYear();
+  const mm = String(dt.getUTCMonth() + 1).padStart(2, "0");
+  const dd = String(dt.getUTCDate()).padStart(2, "0");
+  return `${yy}-${mm}-${dd}`;
+}
+
 function emptyDaily(date: string): DailyResponse {
   return { date, featured: null, items: [] };
 }
@@ -140,6 +150,8 @@ export default async function Home({
     cat,
     items: items.filter((item) => item.category === cat).slice(0, 3),
   })).filter((section) => section.items.length > 0);
+  const prevDate = shiftDate(data.date, -1);
+  const nextDate = shiftDate(data.date, 1);
   const indexNumbers = new Map<string, number>();
   let indexSeq = 0;
   for (const section of sections) {
@@ -160,6 +172,15 @@ export default async function Home({
           <p className="issue-date"><span className="issue-vol-sp">VOL.001 | </span>{formatIssueDate(data.date)}</p>
           <p className="tagline">Xから集めた、AI社員の作り方</p>
         </header>
+        <nav className="issue-nav" aria-label="号の日付">
+          <a className="issue-nav-link" href={`/?date=${prevDate}`}>
+            ← 前日
+          </a>
+          <span className="issue-nav-current">{formatIssueDate(data.date)}</span>
+          <a className="issue-nav-link" href={`/?date=${nextDate}`}>
+            翌日 →
+          </a>
+        </nav>
         <main>
           <Featured item={featured} />
           <div className="index index-sp">

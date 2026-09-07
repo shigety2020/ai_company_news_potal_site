@@ -340,3 +340,36 @@ img {
     font-size: 17px;
   }
 }
+
+.issue-nav {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+}
+
+.issue-nav-link {
+  color: var(--muted);
+}
+
+.issue-nav-link:hover {
+  color: var(--accent);
+}
+
+.issue-nav-link:first-child {
+  justify-self: start;
+}
+
+.issue-nav-link:last-child {
+  justify-self: end;
+}
+
+.issue-nav-current {
+  color: var(--heading);
+  font-variant-numeric: tabular-nums;
+}
+

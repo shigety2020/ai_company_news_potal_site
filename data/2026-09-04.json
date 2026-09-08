@@ -1,0 +1,173 @@
+{
+  "date": "2026-09-04",
+  "featured": {
+    "time": "10:00",
+    "headline": "ClaudeCodeでAI社員を構築するとき、最初につまずいたのはファイル構造",
+    "summary": "AIの使い方やスキルではなく、ファイルの置き場所とObsidianの構造の意味だった。",
+    "handle": "makoting62",
+    "category": "作り方",
+    "url": "https://x.com/makoting62/status/2095678247342330003"
+  },
+  "items": [
+    {
+      "time": "10:00",
+      "headline": "重要なのはAI社員の人数ではない",
+      "summary": "調査・企画・法務・監査・分析・実行が同じ目的に向かって連携できるか。能力を編成する時代へ。",
+      "handle": "nox_thembuild",
+      "category": "作り方",
+      "url": "https://x.com/nox_thembuild/status/2095678504746496099"
+    },
+    {
+      "time": "10:00",
+      "headline": "Bubble 9月アプデ、AIエージェントのDBアクセスを強化",
+      "summary": "対話型プランニング、Appleでサインイン、Date変換オペレーターも追加。",
+      "handle": "RealineOfficial",
+      "category": "ツール",
+      "url": "https://x.com/RealineOfficial/status/2095678355718774994"
+    },
+    {
+      "time": "10:01",
+      "headline": "n8nでAMLアラートの自動仕分けを組んだ",
+      "summary": "毎日300件を要エスカレーション8件まで圧縮。起票まで4時間から22分。",
+      "handle": "maizunok",
+      "category": "作り方",
+      "url": "https://x.com/maizunok/status/2095678565790654751"
+    },
+    {
+      "time": "10:01",
+      "headline": "不動産申込から旧耐震指摘まで、自律型AIワーカーが処理",
+      "summary": "書式の汎用化、物件情報の表記ゆれ訂正、旧耐震基準の指摘を一連で回した事例。",
+      "handle": "SparxCS",
+      "category": "事例",
+      "url": "https://x.com/SparxCS/status/2095678570412790038"
+    },
+    {
+      "time": "10:01",
+      "headline": "GPT-6 Astraで変わるのは賢さではなく、待たずに仕事を続けること",
+      "summary": "AI秘書・業務改善・製造業DX向けの所感。",
+      "handle": "hotiron7",
+      "category": "ツール",
+      "url": "https://x.com/hotiron7/status/2095681687900619007"
+    },
+    {
+      "time": "10:01",
+      "headline": "GPT-6 AstraになってAGI突破したら、どんな性能になるか",
+      "summary": "エージェント使いこなしてる人には望みを超える生成物が出てくるかも、という観測。",
+      "handle": "shinshu_invest",
+      "category": "ツール",
+      "url": "https://x.com/shinshu_invest/status/2095678604814553578"
+    },
+    {
+      "time": "10:05",
+      "headline": "AIエージェントが読む前提になると、情報構造とセキュリティを見直す",
+      "summary": "LLMOの流れの中で、読みやすい設計と守り方の両方を変える必要がある。",
+      "handle": "yuhikimura_lab",
+      "category": "作り方",
+      "url": "https://x.com/yuhikimura_lab/status/2095679541872332870"
+    },
+    {
+      "time": "10:06",
+      "headline": "AI社員以外にも、今までにないビジネスモデルを見据えて動かせる人が理想",
+      "summary": "セキュリティも絡むのでフルスタックとの協業が必要、という視点。",
+      "handle": "fukugyou_aruyo",
+      "category": "作り方",
+      "url": "https://x.com/fukugyou_aruyo/status/2095679861084070235"
+    },
+    {
+      "time": "10:07",
+      "headline": "Day 9、AI組織を実際の仕事で動かしてみる",
+      "summary": "AI社員・AICOO・Claudeを現場の仕事に乗せる連載。",
+      "handle": "south_work5308",
+      "category": "作り方",
+      "url": "https://x.com/south_work5308/status/2095680115170787612"
+    },
+    {
+      "time": "10:08",
+      "headline": "全社展開じゃなく、推進メンバーで小さく始める",
+      "summary": "社内アンケートのリマインダーなど具体課題から任せて効果を検証する進め方。",
+      "handle": "bl_fox26",
+      "category": "作り方",
+      "url": "https://x.com/bl_fox26/status/2095680320876265785"
+    },
+    {
+      "time": "10:09",
+      "headline": "コミュニティ運営にAIエージェントを入れて負担を減らす",
+      "summary": "自事業とボランティア運営の両立のため、機械的な処理から導入を模索中。",
+      "handle": "malico_design",
+      "category": "事例",
+      "url": "https://x.com/malico_design/status/2095680514481123745"
+    },
+    {
+      "time": "10:09",
+      "headline": "差別化はモデルではなく、オーケストレーションとガードレール設計",
+      "summary": "ハーネスエンジニアリングの視点で、AIエージェントの周りを設計する話。",
+      "handle": "suzuki_tech",
+      "category": "作り方",
+      "url": "https://x.com/suzuki_tech/status/2095680702918586672"
+    },
+    {
+      "time": "10:10",
+      "headline": "要求が桁違いに上がるAIエージェント時代のデータ基盤",
+      "summary": "スピード・スケール・コストを満たす基盤とは、デブサミのセッション。",
+      "handle": "devsumi",
+      "category": "ツール",
+      "url": "https://x.com/devsumi/status/2095680802004820326"
+    },
+    {
+      "time": "10:10",
+      "headline": "AIエージェントの進化でCSの役割はどう変わるか",
+      "summary": "プロダクト組織を再設計するクローズド勉強会の案内。",
+      "handle": "productzine_jp",
+      "category": "事例",
+      "url": "https://x.com/productzine_jp/status/2095680913439137833"
+    },
+    {
+      "time": "10:11",
+      "headline": "デジタルイネーブルメントパークをグランドオープン",
+      "summary": "顧客企業のAIエージェント活用を、セッションとワークショップで支援する。",
+      "handle": "kworkcom",
+      "category": "事例",
+      "url": "https://x.com/kworkcom/status/2095681127176610012"
+    },
+    {
+      "time": "10:11",
+      "headline": "職場でAIエージェントを使い始めたら、情報をまとめてくる",
+      "summary": "アイアンマンのジャーヴィスのように、いろんな情報を先に揃えてくる現場感。",
+      "handle": "ruu_1125",
+      "category": "事例",
+      "url": "https://x.com/ruu_1125/status/2095681174933028955"
+    },
+    {
+      "time": "10:12",
+      "headline": "シート課金の方程式は、AIエージェント時代には成り立たない",
+      "summary": "人がソフトウェアを使う前提のSaaS課金が、エージェント操作では崩れるという指摘。",
+      "handle": "tegered1",
+      "category": "事例",
+      "url": "https://x.com/tegered1/status/2095681423969866198"
+    },
+    {
+      "time": "10:12",
+      "headline": "ClickHouseで実現する、AIが使う超高速データ基盤",
+      "summary": "デブサミ 2026 Summer のセッションレポート。人が使うDBからAIが使うDBへ。",
+      "handle": "ClickHouseJapan",
+      "category": "ツール",
+      "url": "https://x.com/ClickHouseJapan/status/2095681433709035616"
+    },
+    {
+      "time": "10:01",
+      "headline": "Claude Fable 5.1 と Mythos 5.1、違いは安全性分類器だけ",
+      "summary": "仕様も価格も同じ。分類器ありなしで配布範囲が分かれる。",
+      "handle": "yasuda_dev",
+      "category": "ツール",
+      "url": "https://x.com/yasuda_dev/status/2095678317018202618"
+    },
+    {
+      "time": "10:00",
+      "headline": "2026年注目のWeb3トレンドにAIエージェント",
+      "summary": "AIが自動で資産運用する流れを、RWAやL2と並べて整理。",
+      "handle": "banricoco",
+      "category": "ツール",
+      "url": "https://x.com/banricoco/status/2095678233870250011"
+    }
+  ]
+}

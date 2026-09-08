@@ -1,0 +1,375 @@
+:root {
+  --bg: #ffffff;
+  --heading: #000000;
+  --body: #333333;
+  --muted: #767676;
+  --accent: #d01808;
+  --line: #e2e2e2;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--body);
+  font-family: var(--font-sans), "Noto Sans JP", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page {
+  padding: 20px;
+}
+
+.page-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.masthead {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: baseline;
+  gap: 16px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--line);
+}
+
+.masthead-brand {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.logo {
+  color: var(--heading);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.2;
+}
+
+.tagline {
+  display: none;
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  line-height: 1.4;
+  text-align: right;
+}
+
+.vol {
+  display: none;
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.issue-date {
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  justify-self: end;
+}
+
+.featured {
+  display: grid;
+  gap: 16px;
+  padding: 20px 0 24px;
+  border-bottom: 1px solid var(--line);
+}
+
+.photo {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  width: 100%;
+  overflow: hidden;
+}
+
+.kicker-row {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.kicker {
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+
+.time {
+  color: var(--muted);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+}
+
+.featured-headline {
+  color: var(--heading);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+
+.summary {
+  color: var(--body);
+  font-size: 14px;
+  line-height: 1.7;
+  margin-top: 10px;
+}
+
+.via {
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: 12px;
+}
+
+.read-more {
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  margin-top: 16px;
+}
+
+.story:hover .featured-headline,
+.story:hover .item-headline {
+  color: var(--accent);
+}
+
+.index-sp-list,
+.index-col-list {
+  list-style: none;
+}
+
+.index-pc {
+  display: none;
+}
+
+.index-heading {
+  color: var(--heading);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+  padding: 24px 0 12px;
+  border-bottom: 1px solid var(--line);
+}
+
+.index-sp-cat-title {
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  padding: 18px 0 0;
+}
+
+.index-item {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 10px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.index-num {
+  color: var(--muted);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+  padding-top: 3px;
+}
+
+.item-headline {
+  color: var(--heading);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.45;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+
+.item-summary {
+  color: var(--body);
+  font-size: 13px;
+  line-height: 1.65;
+  margin-top: 6px;
+}
+
+.quote {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .page {
+    padding: 48px;
+  }
+
+  .logo,
+  .featured-headline {
+    font-family: var(--font-serif), "Shippori Mincho", serif;
+  }
+
+  .logo {
+    font-size: 32px;
+    letter-spacing: 0.08em;
+  }
+
+  .masthead {
+    grid-template-columns: 1fr auto 1fr;
+  }
+
+  .tagline {
+    display: block;
+    font-size: 13px;
+    justify-self: end;
+  }
+
+  .vol {
+    display: block;
+    font-size: 12px;
+  }
+
+  .issue-date {
+    font-size: 13px;
+    justify-self: center;
+  }
+
+  .issue-vol-sp {
+    display: none;
+  }
+
+  .featured {
+    grid-template-columns: 1.05fr 1fr;
+    gap: 48px;
+    padding: 40px 0;
+    align-items: center;
+  }
+
+  .featured-headline {
+    font-size: 36px;
+    line-height: 1.35;
+    font-weight: 600;
+  }
+
+  .summary {
+    font-size: 15px;
+  }
+
+  .read-more {
+    font-size: 13px;
+    margin-top: 20px;
+  }
+
+  .index-sp {
+    display: none;
+  }
+
+  .index-pc {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 8px 0;
+  }
+
+  .index-col {
+    padding: 28px 24px;
+    border-right: 1px solid var(--line);
+  }
+
+  .index-col:first-child {
+    padding-left: 0;
+  }
+
+  .index-col:last-child {
+    border-right: none;
+    padding-right: 0;
+  }
+
+  .index-col-title {
+    color: var(--accent);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    padding-bottom: 14px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .index-pc .index-item {
+    display: block;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .index-pc .index-item:last-child {
+    border-bottom: none;
+  }
+
+  .item-headline {
+    font-size: 17px;
+  }
+}
+
+.issue-nav {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+}
+
+.issue-nav-link {
+  color: var(--muted);
+}
+
+.issue-nav-link:hover {
+  color: var(--accent);
+}
+
+.issue-nav-link:first-child {
+  justify-self: start;
+}
+
+.issue-nav-link:last-child {
+  justify-self: end;
+}
+
+.issue-nav-current {
+  color: var(--heading);
+  font-variant-numeric: tabular-nums;
+}
+

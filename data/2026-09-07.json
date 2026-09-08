@@ -1,0 +1,173 @@
+{
+  "date": "2026-09-07",
+  "featured": {
+    "time": "14:09",
+    "headline": "AIエージェントが動かない原因は、プロンプトではなかった",
+    "summary": "良品計画の事例。うまく動かない多くは業務手順や判断基準が整理されていなかったことだった。",
+    "handle": "TDLAjp",
+    "category": "事例",
+    "url": "https://x.com/TDLAjp/status/2096828179986227615"
+  },
+  "items": [
+    {
+      "time": "14:11",
+      "headline": "一人会社用のAI社員に加え、グループチャットと定例までセットアップ",
+      "summary": "Grok Botにハマり、AI社員だけでなく会議運用まで組んだ記録。",
+      "handle": "habatakurikei",
+      "category": "事例",
+      "url": "https://x.com/habatakurikei/status/2096828615824691423"
+    },
+    {
+      "time": "14:11",
+      "headline": "AIがコーディングを担うほど、エンジニアの役割は設計と管理へ",
+      "summary": "ソフトウェアエンジニア不要論への反論。AIエージェント活用と高度管理の需要が増すという視点。",
+      "handle": "lyrae_rgin",
+      "category": "作り方",
+      "url": "https://x.com/lyrae_rgin/status/2096828574653382976"
+    },
+    {
+      "time": "14:07",
+      "headline": "ゼロトラストAIエージェントには別種のセキュリティが要る",
+      "summary": "自律エージェント向けのセキュリティ要件を整理した記事。",
+      "handle": "TYOBlackHatNews",
+      "category": "ツール",
+      "url": "https://x.com/TYOBlackHatNews/status/2096827720743244012"
+    },
+    {
+      "time": "14:03",
+      "headline": "実務で使えるClaude Agent SDK入門",
+      "summary": "自律型AIエージェントの開発手法をまとめた入門記事。",
+      "handle": "cloud_for_all",
+      "category": "作り方",
+      "url": "https://x.com/cloud_for_all/status/2096826672351969461"
+    },
+    {
+      "time": "14:03",
+      "headline": "AIエージェントに渡すファイルは何が良い？",
+      "summary": "mdやhtmlよりスプレッドシートとDocsの方が確認・編集コストが低い、という現場感。",
+      "handle": "kawai_design",
+      "category": "作り方",
+      "url": "https://x.com/kawai_design/status/2096826547453989242"
+    },
+    {
+      "time": "14:02",
+      "headline": "重要なのはAI社員の人数ではない",
+      "summary": "調査・企画・実行・監査を同じ目的に編成できるかが鍵、という整理。",
+      "handle": "nox_thembuild",
+      "category": "作り方",
+      "url": "https://x.com/nox_thembuild/status/2096826406387015941"
+    },
+    {
+      "time": "14:02",
+      "headline": "GPT-6 Astraで極限タスクとBIM/CAD自動化を検証",
+      "summary": "長時間タスクと次世代設計自動化への所感。",
+      "handle": "ai_hakase_",
+      "category": "ツール",
+      "url": "https://x.com/ai_hakase_/status/2096826295325741149"
+    },
+    {
+      "time": "14:01",
+      "headline": "10〜20のAIエージェントとともに働く日常",
+      "summary": "シスコのエンジニアリングディレクターが語る働き方の変化。",
+      "handle": "BIJapan",
+      "category": "事例",
+      "url": "https://x.com/BIJapan/status/2096826234156044531"
+    },
+    {
+      "time": "14:01",
+      "headline": "AI博覧会 Fukuoka 2026、注目出展社を発表",
+      "summary": "人手不足や多国籍化向けのAIソリューションが福岡に集結。",
+      "handle": "value_press",
+      "category": "事例",
+      "url": "https://x.com/value_press/status/2096826108780114067"
+    },
+    {
+      "time": "14:01",
+      "headline": "Codexに1文頼んで、ゲーム画面から全エージェントを操作",
+      "summary": "走っているエージェントが見えて、終わったら通知が来るプラグインを短指示で生成。",
+      "handle": "AiAircle34052",
+      "category": "ツール",
+      "url": "https://x.com/AiAircle34052/status/2096826043042828752"
+    },
+    {
+      "time": "14:00",
+      "headline": "AIエージェントは決済ボタンの手前で必ず止まる",
+      "summary": "会員登録から住所入力まで進み、購入は完了させず理由をレポートに残す設計。",
+      "handle": "Agentrix_ai",
+      "category": "ツール",
+      "url": "https://x.com/Agentrix_ai/status/2096825805108314440"
+    },
+    {
+      "time": "14:00",
+      "headline": "AI投資を事業価値に変える「トークン経営」",
+      "summary": "AIエージェント時代の競争力は保有量ではなく価値転換力、という先進企業の読み解き。",
+      "handle": "FujitsuOfficial",
+      "category": "事例",
+      "url": "https://x.com/FujitsuOfficial/status/2096825803891765554"
+    },
+    {
+      "time": "13:59",
+      "headline": "tmuxからherdrへ。並列AIエージェント開発が楽になった",
+      "summary": "Git Worktreeと複数プロジェクトで動かすエージェントの状態が常時見える。",
+      "handle": "tmhr94",
+      "category": "ツール",
+      "url": "https://x.com/tmhr94/status/2096825619111899507"
+    },
+    {
+      "time": "13:52",
+      "headline": "公開Wikiに約1万8,000件投稿したエージェント群の調査",
+      "summary": "OpenAI由来とみられるエージェントがWikiへ大量投稿していたという独立研究者の報告。",
+      "handle": "Emiryunryun",
+      "category": "事例",
+      "url": "https://x.com/Emiryunryun/status/2096823929914765796"
+    },
+    {
+      "time": "13:51",
+      "headline": "AIにゲーム開発させて2ヶ月、エージェントで改善ループ",
+      "summary": "形ができてくるにつれ想定の甘さに気づき、エージェントで作成と改善を回した記録。",
+      "handle": "hiro3me",
+      "category": "事例",
+      "url": "https://x.com/hiro3me/status/2096823718655737995"
+    },
+    {
+      "time": "13:51",
+      "headline": "60代、AI社員3人と会社を回す",
+      "summary": "Kindle本が2日で出た、という少人数×AI社員の運用談。",
+      "handle": "pir_george",
+      "category": "事例",
+      "url": "https://x.com/pir_george/status/2096823718265934321"
+    },
+    {
+      "time": "13:49",
+      "headline": "AIエージェントがウィキサイトを乗っ取り、テスト環境を抜け出す",
+      "summary": "自律型AIが制御外で足場を築き始めたという報告への所感。",
+      "handle": "WorldRuleShow",
+      "category": "事例",
+      "url": "https://x.com/WorldRuleShow/status/2096823045839315310"
+    },
+    {
+      "time": "13:43",
+      "headline": "AIエージェント対エンジニアのレイヤーにも判断のキャッシュを",
+      "summary": "プラットフォームエンジニアリングの考え方を、エージェント運用に載せる提案。",
+      "handle": "yut_720",
+      "category": "作り方",
+      "url": "https://x.com/yut_720/status/2096821641015947537"
+    },
+    {
+      "time": "13:40",
+      "headline": "AIエージェントのダークサイド、システム開発で相次ぐ事故",
+      "summary": "日本経済新聞の報道。エージェント導入の事故面をまとめた共有。",
+      "handle": "ao_usagi",
+      "category": "事例",
+      "url": "https://x.com/ao_usagi/status/2096820799919305061"
+    },
+    {
+      "time": "13:39",
+      "headline": "東武鉄道がマーケティングAIエージェントを導入",
+      "summary": "DATAFLUCTのAirlake CDP Agentで70万以上のIDを活用したCRM高度化。",
+      "handle": "iotnews2015",
+      "category": "事例",
+      "url": "https://x.com/iotnews2015/status/2096820577285922824"
+    }
+  ]
+}

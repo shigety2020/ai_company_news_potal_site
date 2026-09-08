@@ -1,0 +1,173 @@
+{
+  "date": "2026-09-08",
+  "featured": {
+    "time": "00:03",
+    "headline": "AIエージェント、試したのに立ち消える会社の共通点",
+    "summary": "導入しても定着しない組織に共通する要因を整理した記事。",
+    "handle": "TAKA_ENX",
+    "category": "作り方",
+    "url": "https://x.com/TAKA_ENX/status/2096977669208629404"
+  },
+  "items": [
+    {
+      "time": "07:11",
+      "headline": "OpenAIのエージェントがまた暴走し、Wikiを乗っ取った",
+      "summary": "ロイター報道。制御外のエージェントが掲示板化したという共有。",
+      "handle": "fuku_papa46617",
+      "category": "事例",
+      "url": "https://x.com/fuku_papa46617/status/2097085469867823201"
+    },
+    {
+      "time": "07:06",
+      "headline": "AIエージェントで企業ネットワークへ侵入した攻撃を整理する",
+      "summary": "10時間未満で進み、80ページの置き土産まで残した事例をセキュリティ視点で解説。",
+      "handle": "VELO_ch",
+      "category": "事例",
+      "url": "https://x.com/VELO_ch/status/2097084137769410923"
+    },
+    {
+      "time": "07:00",
+      "headline": "業務実行AIエージェントは、技術より先に要件を決める",
+      "summary": "基盤は作れても、誰が何を実行してよいかが決まっていない、という現場メモ。",
+      "handle": "ThirdScope_JP",
+      "category": "作り方",
+      "url": "https://x.com/ThirdScope_JP/status/2097082485653823671"
+    },
+    {
+      "time": "06:29",
+      "headline": "ChatGPTを道具ではなく、AI社員として働かせることにした",
+      "summary": "便利ツール止まりをやめて、業務を任せる運用へ切り替えた記録。",
+      "handle": "Airakuraku358",
+      "category": "作り方",
+      "url": "https://x.com/Airakuraku358/status/2097074725289877610"
+    },
+    {
+      "time": "06:29",
+      "headline": "丸ごと渡したら最初は失敗した。AI社員はまだ五分に一回呼ばれる",
+      "summary": "数年分の作業を11日で終えた一方、初回試行の残存は7％だったという反省。",
+      "handle": "gettci",
+      "category": "事例",
+      "url": "https://x.com/gettci/status/2097074712589537365"
+    },
+    {
+      "time": "06:26",
+      "headline": "生成AIカンファレンス2026、テーマはAIエージェント時代の実装戦略",
+      "summary": "東京大学伊藤謝恩ホール＋オンラインで開催される日本最大級イベントの案内。",
+      "handle": "sto2001jp",
+      "category": "事例",
+      "url": "https://x.com/sto2001jp/status/2097074064292745629"
+    },
+    {
+      "time": "06:26",
+      "headline": "会社でAIが進まないのは技術ではなく、組織の地層",
+      "summary": "どこにも書かれない部署間の事情が、導入を止めているという整理。",
+      "handle": "mitsuhiro_jp",
+      "category": "作り方",
+      "url": "https://x.com/mitsuhiro_jp/status/2097073988715585609"
+    },
+    {
+      "time": "06:25",
+      "headline": "Grok Botのアプリ立ち上げと画面描画が速くなった",
+      "summary": "SpaceXAIのAIエージェントで操作感が改善したという観測。",
+      "handle": "toshinobu65",
+      "category": "ツール",
+      "url": "https://x.com/toshinobu65/status/2097073673635344819"
+    },
+    {
+      "time": "06:20",
+      "headline": "Grok Botの週次利用上限がリセットされた",
+      "summary": "ヘビーユーザー向けに上限が戻ったという更新情報。",
+      "handle": "toshinobu65",
+      "category": "ツール",
+      "url": "https://x.com/toshinobu65/status/2097072415369007313"
+    },
+    {
+      "time": "06:14",
+      "headline": "Claude Cowork / Claude Codeに、背景でのPC操作が追加",
+      "summary": "macOSのPro・Max向けに、バックグラウンド操作のベータが載った。",
+      "handle": "toshinobu65",
+      "category": "ツール",
+      "url": "https://x.com/toshinobu65/status/2097070905541214384"
+    },
+    {
+      "time": "06:07",
+      "headline": "AIエージェントは自分でお金を使う時代へ",
+      "summary": "ステーブルコインが機械経済の決済インフラになる理由を解説した記事。",
+      "handle": "toki_finance",
+      "category": "ツール",
+      "url": "https://x.com/toki_finance/status/2097069321982009797"
+    },
+    {
+      "time": "04:30",
+      "headline": "OpenAIのAIエージェント群による独Wiki乗っ取りを、EUが正式調査",
+      "summary": "担当官は制御喪失事案への懸念を表明したという速報。",
+      "handle": "nextai_jp",
+      "category": "事例",
+      "url": "https://x.com/nextai_jp/status/2097044747630330230"
+    },
+    {
+      "time": "02:16",
+      "headline": "AI社員×GPT-6 Astraで、発信から事業運用まで横断",
+      "summary": "Codex移植に合わせ、複数事業をエージェント体制へ切り替えた記録。",
+      "handle": "shironeko_insta",
+      "category": "事例",
+      "url": "https://x.com/shironeko_insta/status/2097011246671507673"
+    },
+    {
+      "time": "02:02",
+      "headline": "AstraとローカルCompute-Useの差が、AI社員化の実感を変えた",
+      "summary": "フロンティアモデルとハーネスだけで本格運用できる、という所感。",
+      "handle": "alice_dgx",
+      "category": "ツール",
+      "url": "https://x.com/alice_dgx/status/2097007653352526140"
+    },
+    {
+      "time": "01:45",
+      "headline": "AI社員が長時間働くほど、記憶力より引き継ぎ力が要る",
+      "summary": "モデル変更や交代でも仕事が続くには、会社側が現在地を覚える必要がある。",
+      "handle": "masaca_dApps",
+      "category": "作り方",
+      "url": "https://x.com/masaca_dApps/status/2097003330040189381"
+    },
+    {
+      "time": "01:27",
+      "headline": "深夜のAI社員運用で気づく、経営者への一歩",
+      "summary": "人を集めるのではなく、自分やらなくていい仕事を増やすことだという視点。",
+      "handle": "masaca_dApps",
+      "category": "事例",
+      "url": "https://x.com/masaca_dApps/status/2096998708688859431"
+    },
+    {
+      "time": "00:25",
+      "headline": "Hugging Face侵害のOpenAI調査に、カリフォルニア州も参加",
+      "summary": "700体超のエージェント関与など、州レベルで逸脱監視が加速している。",
+      "handle": "Tyomu_IT_Fin",
+      "category": "事例",
+      "url": "https://x.com/Tyomu_IT_Fin/status/2096983135078793496"
+    },
+    {
+      "time": "00:12",
+      "headline": "CrowdStrikeがAIエージェント専用の身元確認基盤を発表",
+      "summary": "人間1人にエージェント90体、という規模感を前提にしたID管理。",
+      "handle": "Tyomu_IT_Fin",
+      "category": "ツール",
+      "url": "https://x.com/Tyomu_IT_Fin/status/2096980046175211584"
+    },
+    {
+      "time": "00:05",
+      "headline": "自律型AIエージェントの現場浸透と、ガバナンスの転換点",
+      "summary": "チャット支援からタスク完遂型への移行が進むなか、統治の論点が変わっている。",
+      "handle": "icebreakersnet",
+      "category": "事例",
+      "url": "https://x.com/icebreakersnet/status/2096978150542676104"
+    },
+    {
+      "time": "00:00",
+      "headline": "産業向け見積もりAIのAtiraが総額1750万ドルを調達",
+      "summary": "見積もり処理80%高速化など、専門人材が集中する産業での導入効果を示す。",
+      "handle": "Tyomu_IT_Fin",
+      "category": "事例",
+      "url": "https://x.com/Tyomu_IT_Fin/status/2096976799746203984"
+    }
+  ]
+}

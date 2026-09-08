@@ -9,4 +9,6 @@
 - `category`: `作り方` | `ツール` | `事例`
 - `featured` は `items` に重複させない
 
-`2026-08-31.json` はモックシード（仮想handle）。X収集が動いたら同じ形のJSONに差し替える。レスポンス形は変えない。
+毎朝 07:00 JST にバックエンドの自動収集が、その日の `data/YYYY-MM-DD.json` を `feat/white-editorial-skeleton` に載せる（人手 push なし）。収集前に残高確認。失敗時はファイルを置かず、無い日の空号（`featured: null`＋空目次）を壊さない。
+
+`2026-08-31.json` はモックシード（仮想handle）。レスポンス形は変えない。

@@ -1,0 +1,173 @@
+{
+  "date": "2026-09-09",
+  "featured": {
+    "time": "07:00",
+    "headline": "AI社員24人に、1人ずつ専用の指示書を持たせる",
+    "summary": "毎回同じ5項目。役割・入力・手順・禁止事項・完了判定を書いて運用する。",
+    "handle": "hiro_auto_yt",
+    "category": "作り方",
+    "url": "https://x.com/hiro_auto_yt/status/2097444918562316300"
+  },
+  "items": [
+    {
+      "time": "07:01",
+      "headline": "AIエージェントは「どれが最強か」より役割分担",
+      "summary": "調査・修正・確認・再利用をどう分けるかで仕事が進む、という現場の整理。",
+      "handle": "F8Q75WZwaibw",
+      "category": "作り方",
+      "url": "https://x.com/F8Q75WZwaibw/status/2097445121512112371"
+    },
+    {
+      "time": "06:55",
+      "headline": "AI社員の「完了です」は、まだ完成ではない",
+      "summary": "32人のAI社員が投稿や資料を作るが、完成を決めるのは人間だという運用談。",
+      "handle": "tobari2982",
+      "category": "事例",
+      "url": "https://x.com/tobari2982/status/2097443611629736372"
+    },
+    {
+      "time": "06:48",
+      "headline": "SNS更新をAIエージェントにせっついてもらう",
+      "summary": "ネタ探し・告知候補・メモの投稿文化の3役で更新を促す仕組みを構築中。",
+      "handle": "sakaicat",
+      "category": "事例",
+      "url": "https://x.com/sakaicat/status/2097441853129752886"
+    },
+    {
+      "time": "07:00",
+      "headline": "5人のAI社員を自走させる「AIオフィス化」",
+      "summary": "作業員から社長へ戻るためのロードマップ。画面の中に小さな会社を作る計画。",
+      "handle": "yymmatstu",
+      "category": "作り方",
+      "url": "https://x.com/yymmatstu/status/2097444877776846878"
+    },
+    {
+      "time": "07:02",
+      "headline": "NECにAIエージェント35体の「無人部署」",
+      "summary": "人件費は月35万円という話。24時間休まず忘れず辞めない、という現場の衝撃。",
+      "handle": "tokyo_neko_mid",
+      "category": "事例",
+      "url": "https://x.com/tokyo_neko_mid/status/2097445582411604094"
+    },
+    {
+      "time": "06:49",
+      "headline": "NEC「無人部署」35体、処理能力だけでは語れない",
+      "summary": "処理能力だけで同列比較するとAIのレベルはまるで違う、という読み。",
+      "handle": "t_seki",
+      "category": "事例",
+      "url": "https://x.com/t_seki/status/2097442212405809614"
+    },
+    {
+      "time": "07:00",
+      "headline": "Kaggle×Googleの生成AI集中講座が無料公開",
+      "summary": "プロンプトから生成AIエージェント、MLOpsまで5日間分を学べる。",
+      "handle": "hayatasuuu",
+      "category": "作り方",
+      "url": "https://x.com/hayatasuuu/status/2097444922043531312"
+    },
+    {
+      "time": "06:56",
+      "headline": "自作AIエージェント、複数プロジェクト並列へ",
+      "summary": "並列作業できるようになる予定、という開発中の報告。",
+      "handle": "mikoto2000",
+      "category": "ツール",
+      "url": "https://x.com/mikoto2000/status/2097444065164026001"
+    },
+    {
+      "time": "06:47",
+      "headline": "LLM APIのストリーミングとTool Calling入門",
+      "summary": "体感速度を上げる仕組みと、エージェントが外部処理を使う基本フローを整理。",
+      "handle": "mellow_launch",
+      "category": "作り方",
+      "url": "https://x.com/mellow_launch/status/2097441826072576121"
+    },
+    {
+      "time": "07:00",
+      "headline": "ShopifyがAI店員の公式リファレンス実装を公開",
+      "summary": "Anthropicのcommerce-agentsをUCPに接続。Google主導のオープン標準。",
+      "handle": "ClaudeCode_aca",
+      "category": "ツール",
+      "url": "https://x.com/ClaudeCode_aca/status/2097444877294321674"
+    },
+    {
+      "time": "07:00",
+      "headline": "Meta、パーソナルAIエージェント「Muse」発表",
+      "summary": "日常タスクを自律支援。セキュリティやプライバシーも考慮した設計をうたう。",
+      "handle": "TechnoEdgeJP",
+      "category": "ツール",
+      "url": "https://x.com/TechnoEdgeJP/status/2097444889114059086"
+    },
+    {
+      "time": "07:01",
+      "headline": "メタ、AIエージェント「Muse」原則無料で提供",
+      "summary": "買い物やメール代行。日本経済新聞の報道共有。",
+      "handle": "4ki4",
+      "category": "ツール",
+      "url": "https://x.com/4ki4/status/2097445230522102034"
+    },
+    {
+      "time": "07:02",
+      "headline": "Meta「Muse」、メール送信や買い物も代行",
+      "summary": "まずは米国で無料提供開始、というITmedia NEWSの共有。",
+      "handle": "z_tamura",
+      "category": "ツール",
+      "url": "https://x.com/z_tamura/status/2097445481618215266"
+    },
+    {
+      "time": "07:00",
+      "headline": "大手ERPが機能全域をAIエージェントに開放",
+      "summary": "財務会計から購買調達まで。AIが基幹システムを操作する側に回り始めた。",
+      "handle": "eggsystem0",
+      "category": "事例",
+      "url": "https://x.com/eggsystem0/status/2097444882298065151"
+    },
+    {
+      "time": "06:57",
+      "headline": "IPA、AIセキュリティ短信でエージェント逸脱に警鐘",
+      "summary": "脆弱性悪用の高速化や自律型攻撃、エージェント逸脱を主要テーマに。",
+      "handle": "catnap707",
+      "category": "事例",
+      "url": "https://x.com/catnap707/status/2097444148337115241"
+    },
+    {
+      "time": "06:47",
+      "headline": "間接プロンプトインジェクションの実例が報告",
+      "summary": "文書やメールに仕込まれた指示でエージェントが誤誘導。出所検証が要点。",
+      "handle": "dejital_secure",
+      "category": "事例",
+      "url": "https://x.com/dejital_secure/status/2097441729075085332"
+    },
+    {
+      "time": "07:00",
+      "headline": "人間1日に、AIが3.1日ぶん。増やすより絞る",
+      "summary": "OpenAI研究者は1日600ドルぶんのAIを動かす。請求は抱えた量で決まる。",
+      "handle": "rutinelabo",
+      "category": "作り方",
+      "url": "https://x.com/rutinelabo/status/2097445024938250660"
+    },
+    {
+      "time": "06:55",
+      "headline": "CarPlayから自宅AIエージェントへつなぐ構想",
+      "summary": "音声アプリ・Widget・Live Activities拡張とHome Assistant等の連携イメージ。",
+      "handle": "NightMustEnd",
+      "category": "ツール",
+      "url": "https://x.com/NightMustEnd/status/2097443819461710167"
+    },
+    {
+      "time": "07:00",
+      "headline": "設備アラームをn8n＋AIで保全判断まで",
+      "summary": "夜間警報のRPN計算と保全回しを毎回人がやっている工場向けの自動化話。",
+      "handle": "maizunok",
+      "category": "作り方",
+      "url": "https://x.com/maizunok/status/2097444879484047454"
+    },
+    {
+      "time": "07:04",
+      "headline": "AIエージェント・ストラテジストの合格証が届いた",
+      "summary": "人材像とスキル定義が合格証に明記されていて分かりやすい、という所感。",
+      "handle": "h2D7HrTdmD75512",
+      "category": "事例",
+      "url": "https://x.com/h2D7HrTdmD75512/status/2097445941901205874"
+    }
+  ]
+}

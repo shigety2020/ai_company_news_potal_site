@@ -1,1 +1,1 @@
-@file:///tmp/c0.txt
+@file:///workspace/pb8-empty-route/lib/masthead-empty/jpeg-0.ts

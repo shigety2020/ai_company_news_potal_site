@@ -1,1 +1,1 @@
-PLACEHOLDER_WILL_REPLACE
+file:///workspace/pb8_content_00_ONLY.txt

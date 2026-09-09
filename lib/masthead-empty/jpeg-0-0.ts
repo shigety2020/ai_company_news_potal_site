@@ -1,1 +1,1 @@
-file:///workspace/pb8_content_00_ONLY.txt
+@/workspace/pb8_content_00_ONLY.txt

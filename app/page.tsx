@@ -47,6 +47,13 @@ function shiftDate(iso: string, delta: number): string {
   return `${yy}-${mm}-${dd}`;
 }
 
+/** Empty-issue masthead by weekday (Sun=0 … Sat=6). */
+function emptyMastheadSrc(iso: string): string {
+  const [y, m, d] = iso.split("-").map(Number);
+  const weekday = new Date(Date.UTC(y, m - 1, d, 12, 0, 0)).getUTCDay();
+  return `/masthead-empty/${weekday}.jpg`;
+}
+
 function emptyDaily(date: string): DailyResponse {
   return { date, featured: null, items: [] };
 }
@@ -88,19 +95,20 @@ async function getDaily(date: string): Promise<DailyResponse> {
   }
 }
 
-function Photo() {
+function Photo({ src }: { src: string }) {
   return (
     <div className="photo">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src="/masthead" alt="窓辺のデスクにノートとコーヒー" />
+      <img src={src} alt="窓辺のデスクにノートとコーヒー" />
     </div>
   );
 }
 
-function Featured({ item }: { item: DailyItem | null }) {
+function Featured({ item, date }: { item: DailyItem | null; date: string }) {
+  const photoSrc = item ? "/masthead" : emptyMastheadSrc(date);
   return (
     <section className="featured" aria-label="本日の特集">
-      <Photo />
+      <Photo src={photoSrc} />
       {item ? (
         <a className="featured-body story" href={item.url} target="_blank" rel="noreferrer">
           <p className="kicker">今日の特集 01</p>
@@ -182,7 +190,7 @@ export default async function Home({
           </a>
         </nav>
         <main>
-          <Featured item={featured} />
+          <Featured item={featured} date={data.date} />
           <div className="index index-sp">
             <h2 className="index-heading">INDEX</h2>
             {sections.map(({ cat, items: catItems }) => (

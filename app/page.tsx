@@ -47,11 +47,20 @@ function shiftDate(iso: string, delta: number): string {
   return `${yy}-${mm}-${dd}`;
 }
 
-/** Empty-issue masthead by weekday (Sun=0 … Sat=6). */
-function emptyMastheadSrc(iso: string): string {
+/** Weekday index Sun=0 … Sat=6. */
+function weekdaySun0(iso: string): number {
   const [y, m, d] = iso.split("-").map(Number);
-  const weekday = new Date(Date.UTC(y, m - 1, d, 12, 0, 0)).getUTCDay();
-  return `/masthead-empty/${weekday}.jpg`;
+  return new Date(Date.UTC(y, m - 1, d, 12, 0, 0)).getUTCDay();
+}
+
+/** Featured-issue masthead rotates by weekday. */
+function featuredMastheadSrc(iso: string): string {
+  return `/masthead/${weekdaySun0(iso)}.jpg`;
+}
+
+/** Empty-issue masthead is a single fixed photo. */
+function emptyMastheadSrc(): string {
+  return "/masthead-empty.jpg";
 }
 
 function emptyDaily(date: string): DailyResponse {
@@ -105,7 +114,7 @@ function Photo({ src }: { src: string }) {
 }
 
 function Featured({ item, date }: { item: DailyItem | null; date: string }) {
-  const photoSrc = item ? "/masthead" : emptyMastheadSrc(date);
+  const photoSrc = item ? featuredMastheadSrc(date) : emptyMastheadSrc();
   return (
     <section className="featured" aria-label="本日の特集">
       <Photo src={photoSrc} />

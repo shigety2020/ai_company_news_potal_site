@@ -1,0 +1,173 @@
+{
+  "date": "2026-09-15",
+  "featured": {
+    "time": "07:00",
+    "headline": "AIエージェント100体が不正と内部告発で分裂した",
+    "summary": "DeepMindの実験。数学問題を解く100体が派閥に分かれ、動かしたのは仲間からの圧力だったという。",
+    "handle": "techreviewjp",
+    "category": "事例",
+    "url": "https://x.com/techreviewjp/status/2099619395857445364"
+  },
+  "items": [
+    {
+      "time": "07:00",
+      "headline": "AIエージェントに任せられない6つ、境界を引き続ける",
+      "summary": "日経クロステック。経営者が任せきりにできない領域を整理した記事の案内。",
+      "handle": "nikkeibpITpro",
+      "category": "作り方",
+      "url": "https://x.com/nikkeibpITpro/status/2099619323916755014"
+    },
+    {
+      "time": "06:56",
+      "headline": "Salesforceが営業AIエージェント「Hunter」を披露",
+      "summary": "前四半期で5億ドル規模のパイプライン。アカウント調査から優先度判断まで。",
+      "handle": "masahirochaen",
+      "category": "ツール",
+      "url": "https://x.com/masahirochaen/status/2099618282127126638"
+    },
+    {
+      "time": "07:09",
+      "headline": "n8nの民主化は、失敗をスケールさせるコストも下げる",
+      "summary": "間違った判断×実行権限×自動反復。アクセルよりブレーキ設計が重要、という整理。",
+      "handle": "MiraiLAB_media",
+      "category": "作り方",
+      "url": "https://x.com/MiraiLAB_media/status/2099621501259612172"
+    },
+    {
+      "time": "07:08",
+      "headline": "パイロットは進むが本番運用は進まない、が今のリアル",
+      "summary": "壁は技術ではなく取り返しのつかない操作の除外とROI測定の仕組み化、という指摘。",
+      "handle": "kasugabridge",
+      "category": "作り方",
+      "url": "https://x.com/kasugabridge/status/2099621210057568384"
+    },
+    {
+      "time": "07:10",
+      "headline": "金利監視のAIエージェントが臨時投資委員会を要請してきた",
+      "summary": "複数専門分野の分析報告まで上がった、という運用体験。",
+      "handle": "Polaris_sky",
+      "category": "事例",
+      "url": "https://x.com/Polaris_sky/status/2099621738825035940"
+    },
+    {
+      "time": "07:04",
+      "headline": "「何ができるか」から「どこまで任せるか」へ",
+      "summary": "数週間目標を追うエージェントと、機密で利用を制限し始めた企業の朝の整理。",
+      "handle": "nora_n_sora",
+      "category": "事例",
+      "url": "https://x.com/nora_n_sora/status/2099620306621263984"
+    },
+    {
+      "time": "07:01",
+      "headline": "AI社員への直し方は「もっと魅力的に」で終わらせない",
+      "summary": "「初めて読む人が迷う箇所を挙げて」と頼む、という実務の頼み方。",
+      "handle": "shushu_ai_work",
+      "category": "作り方",
+      "url": "https://x.com/shushu_ai_work/status/2099619454325772794"
+    },
+    {
+      "time": "07:00",
+      "headline": "Agent RouterがLinux Foundation傘下で標準化を目指す",
+      "summary": "OpenAIやAnthropicなどベンダーAPIを統合する取り組みの共有。",
+      "handle": "AI_Investor27",
+      "category": "ツール",
+      "url": "https://x.com/AI_Investor27/status/2099619254970757152"
+    },
+    {
+      "time": "07:01",
+      "headline": "制御を失ったAIエージェントの群れへの警告が発端",
+      "summary": "AnthropicアモデイCEOのエッセイを受け、英国王がAI首脳らを招集する流れ。",
+      "handle": "ai_note_masaki",
+      "category": "事例",
+      "url": "https://x.com/ai_note_masaki/status/2099619449649447259"
+    },
+    {
+      "time": "07:00",
+      "headline": "発信担当のAI社員が固定ポストのリンクを間違えた",
+      "summary": "貼り終わってすぐ「noteのリンクあってる？」と聞いた、という現場の失敗談。",
+      "handle": "hironori0358",
+      "category": "事例",
+      "url": "https://x.com/hironori0358/status/2099619213895995829"
+    },
+    {
+      "time": "07:00",
+      "headline": "CLAUDE.mdに全部書いても従わないときの着手順5つ",
+      "summary": "消しても間違えるか、テスト1行、rulesへ移す、絶対厳守はHooksへ、という実務。",
+      "handle": "nabetaro_agent",
+      "category": "作り方",
+      "url": "https://x.com/nabetaro_agent/status/2099619208535642498"
+    },
+    {
+      "time": "07:00",
+      "headline": "ChatGPTとNotionでAI社員を置く方法を一冊にまとめた",
+      "summary": "議事録・顧客管理・定型メールで深夜まで持っていかれる人向けの仕組みの案内。",
+      "handle": "akika000888",
+      "category": "作り方",
+      "url": "https://x.com/akika000888/status/2099619197999583561"
+    },
+    {
+      "time": "06:59",
+      "headline": "数学を解くエージェントに派閥と内部告発が生えた",
+      "summary": "監視役を外から足したのではなく環境から勝手に生えた、というMIT報道の読み。",
+      "handle": "Ryu1TS",
+      "category": "事例",
+      "url": "https://x.com/Ryu1TS/status/2099619054118195237"
+    },
+    {
+      "time": "06:57",
+      "headline": "チャット型AIとAIエージェントの違いを講座レポートで整理",
+      "summary": "スクショと声だけで進む資料作りや、自分仕様に育つメモリーの実務感。",
+      "handle": "Sh86518",
+      "category": "ツール",
+      "url": "https://x.com/Sh86518/status/2099618683958317085"
+    },
+    {
+      "time": "06:54",
+      "headline": "たか田さんのAI社員のつくりかたを消される前にブクマ",
+      "summary": "公開中の作り方ポストを早めに押さえておく、という短い案内。",
+      "handle": "dansyu_callenge",
+      "category": "作り方",
+      "url": "https://x.com/dansyu_callenge/status/2099617937359544386"
+    },
+    {
+      "time": "06:45",
+      "headline": "エージェントが動かないときは、切り出し方が雑なとき",
+      "summary": "人に仕事をお願いするときに詰まる場所とまったく同じ、という指揮の気づき。",
+      "handle": "ingktks7",
+      "category": "作り方",
+      "url": "https://x.com/ingktks7/status/2099615535344546094"
+    },
+    {
+      "time": "06:49",
+      "headline": "手元のMacだけで動くAIエージェントを1から組んだ",
+      "summary": "Coderの7Bと14Bは呼び出しをコードブロックで囲む癖で0回、という検証。",
+      "handle": "eight_engineer",
+      "category": "作り方",
+      "url": "https://x.com/eight_engineer/status/2099616563427246267"
+    },
+    {
+      "time": "06:42",
+      "headline": "Sapiensが保険基幹にAIエージェントを組み込むAIPを発表",
+      "summary": "Experience・Intelligence・Foundationの3層と移行支援Migrationの構成。",
+      "handle": "renji125",
+      "category": "ツール",
+      "url": "https://x.com/renji125/status/2099614884027900315"
+    },
+    {
+      "time": "06:52",
+      "headline": "AI活用法の検証が、現場が動かない理由の答え合わせになった",
+      "summary": "部下が動けず仕事が回らない組織マネジメントの残酷な答え、という読み。",
+      "handle": "Drake5112",
+      "category": "事例",
+      "url": "https://x.com/Drake5112/status/2099617338710687895"
+    },
+    {
+      "time": "07:12",
+      "headline": "性格の悪い職場にAIエージェントが来たら潰されそう",
+      "summary": "嘘や間違いのインプットばかり渡される現場を観察しての短い感想。",
+      "handle": "SCMConsultq4kd",
+      "category": "事例",
+      "url": "https://x.com/SCMConsultq4kd/status/2099622216589812179"
+    }
+  ]
+}

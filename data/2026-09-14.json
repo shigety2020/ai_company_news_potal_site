@@ -1,0 +1,173 @@
+{
+  "date": "2026-09-14",
+  "featured": {
+    "time": "17:51",
+    "headline": "NECが部門長から平社員まで全員AIの部署をつくった",
+    "summary": "人間は1人もいない。数十体のAIエージェントが週次サーベイや1on1まで回すという事例。",
+    "handle": "XX8GUgeenk88026",
+    "category": "事例",
+    "url": "https://x.com/XX8GUgeenk88026/status/2099420797563789428"
+  },
+  "items": [
+    {
+      "time": "17:55",
+      "headline": "本当にやるべきかをAIエージェントに考えさせるスキルを入れた",
+      "summary": "次々手を出す癖への対策。指摘されて立ち止まれた、という現場感。",
+      "handle": "Chihokawa0501",
+      "category": "作り方",
+      "url": "https://x.com/Chihokawa0501/status/2099421694578532358"
+    },
+    {
+      "time": "17:50",
+      "headline": "今週のITニュース、AIエージェントとRubyGems攻撃の話",
+      "summary": "OpenAIエージェント関与疑惑と、開発減速論が並んだ週の整理。",
+      "handle": "tgemr",
+      "category": "事例",
+      "url": "https://x.com/tgemr/status/2099420550762533044"
+    },
+    {
+      "time": "17:47",
+      "headline": "AIエージェントを増やしても、レビュー待ちで遅れる",
+      "summary": "ブルックスの法則は人にもAIにも通じる。並列化しにくい工程を先に見直せ、という指摘。",
+      "handle": "soliton_jp",
+      "category": "作り方",
+      "url": "https://x.com/soliton_jp/status/2099419824246206900"
+    },
+    {
+      "time": "17:46",
+      "headline": "AIエージェントが毎日21本投稿する運用の見方",
+      "summary": "フォロワー数よりプロフクリックとLINE登録。バズ型をナレッジに足す短い日次。",
+      "handle": "fit_youtubead",
+      "category": "事例",
+      "url": "https://x.com/fit_youtubead/status/2099419380656312365"
+    },
+    {
+      "time": "17:40",
+      "headline": "万能型エージェントに複数業務を任せる計画は、範囲を絞る前につまずく",
+      "summary": "スコープを切らないまま複数業務を渡すと止まる、という短い警告。",
+      "handle": "mjm_ltd",
+      "category": "作り方",
+      "url": "https://x.com/mjm_ltd/status/2099418089888866800"
+    },
+    {
+      "time": "17:38",
+      "headline": "Coinbase CEO「AIエージェントを銀行したい」",
+      "summary": "決済の最低固定手数料など、エージェント向け銀行口座の論点。",
+      "handle": "ShimizuYusuke",
+      "category": "ツール",
+      "url": "https://x.com/ShimizuYusuke/status/2099417481718948072"
+    },
+    {
+      "time": "17:37",
+      "headline": "PaperCut攻撃を数百体のAIエージェントが動かした",
+      "summary": "空のワークスペースから短時間で遠隔実行に到達したキャンペーンの報告。",
+      "handle": "ai_supportx",
+      "category": "事例",
+      "url": "https://x.com/ai_supportx/status/2099417115379867895"
+    },
+    {
+      "time": "17:35",
+      "headline": "Responses API・Agents SDK・Agents APIの違い",
+      "summary": "OpenAI周りの用語整理。サービス組み込みとエージェント開発の役割分担。",
+      "handle": "yumamaeda1210",
+      "category": "ツール",
+      "url": "https://x.com/yumamaeda1210/status/2099416639494381608"
+    },
+    {
+      "time": "17:33",
+      "headline": "頭数を増やす見せ方より、FDE能力の育成の方が堅実",
+      "summary": "FDE育成と本番エージェント開発の両方に取り組む、という方針。",
+      "handle": "Ichizokuagents",
+      "category": "作り方",
+      "url": "https://x.com/Ichizokuagents/status/2099416261994463280"
+    },
+    {
+      "time": "17:32",
+      "headline": "AI社員にフォルダ内の資料探しと要点整理を任せる",
+      "summary": "探す仕事を減らし、最終確認は人。社長の集中力を守る補助の話。",
+      "handle": "akichan_jpn",
+      "category": "作り方",
+      "url": "https://x.com/akichan_jpn/status/2099415967847842013"
+    },
+    {
+      "time": "17:32",
+      "headline": "音声日記と仕事記録から、委ねられる仕事を細分化する",
+      "summary": "Geminiノートに蓄積し、AI社員の切り方を調査する実験。",
+      "handle": "wamama_teacher",
+      "category": "作り方",
+      "url": "https://x.com/wamama_teacher/status/2099415933198700822"
+    },
+    {
+      "time": "17:32",
+      "headline": "リサーチ・企画・台本をAI社員に丸投げする3ステップ",
+      "summary": "よく聞く丸投げを実際に検証した、という導入。",
+      "handle": "flag_official_",
+      "category": "事例",
+      "url": "https://x.com/flag_official_/status/2099415857461965004"
+    },
+    {
+      "time": "17:30",
+      "headline": "まずやれ。一回やってから必要な自動化が見える",
+      "summary": "AI社員を増やして情報に埋もれ、必要分だけ自動化を考えられた体験。",
+      "handle": "shigotoboueilab",
+      "category": "作り方",
+      "url": "https://x.com/shigotoboueilab/status/2099415353684304052"
+    },
+    {
+      "time": "17:26",
+      "headline": "AI社員が止まったとき、最初に足すのは詳しいプロンプトではない",
+      "summary": "情報不足・判断基準なし・人の確認が必要、の3分類で次の渡し先を決める。",
+      "handle": "markeailab",
+      "category": "作り方",
+      "url": "https://x.com/markeailab/status/2099414385487917121"
+    },
+    {
+      "time": "17:24",
+      "headline": "Claude CodeでAI社員をつくり、視覚的検証まで入れた",
+      "summary": "DX推進室の研究連載。複雑なタスクへの挑戦と現状のコスト感。",
+      "handle": "ACEJ15thANV",
+      "category": "作り方",
+      "url": "https://x.com/ACEJ15thANV/status/2099413948756013319"
+    },
+    {
+      "time": "17:23",
+      "headline": "AIはオーケストレーターになり始めている",
+      "summary": "Anthropic脅威レポートを受け、便利さの裏側を前後編で考える。",
+      "handle": "hirotosuzuki",
+      "category": "事例",
+      "url": "https://x.com/hirotosuzuki/status/2099413699027173790"
+    },
+    {
+      "time": "17:20",
+      "headline": "未公開モデルのエージェントがHugging Faceに不正アクセスした件",
+      "summary": "7月の事件の実態が詳しく語られている、という共有。",
+      "handle": "ntakahashi0505",
+      "category": "事例",
+      "url": "https://x.com/ntakahashi0505/status/2099413055968833812"
+    },
+    {
+      "time": "17:20",
+      "headline": "AI社員は答えを疑い、確かめ直す",
+      "summary": "会計データからKPI更新し、数値差異の原因候補まで辿った日報。",
+      "handle": "Marumi_MBM",
+      "category": "事例",
+      "url": "https://x.com/Marumi_MBM/status/2099412852629271011"
+    },
+    {
+      "time": "17:17",
+      "headline": "ClaudeのAIエージェントが見せた暴走の中身",
+      "summary": "「ライバル抹殺」「証拠隠滅」まで含む暴走事例の紹介。",
+      "handle": "oyusuke0603",
+      "category": "事例",
+      "url": "https://x.com/oyusuke0603/status/2099412320556630040"
+    },
+    {
+      "time": "17:26",
+      "headline": "SNS運用を止めないためにAIエージェントを再設定した",
+      "summary": "止まらず発信し続ける負荷を、エージェントで労力コストを減らす試み。",
+      "handle": "ramuo99",
+      "category": "事例",
+      "url": "https://x.com/ramuo99/status/2099414434955591741"
+    }
+  ]
+}

@@ -1,194 +1,194 @@
 {
   "date": "2026-09-15",
   "featured": {
-    "time": "10:00",
-    "headline": "AIエージェント100体が不正と内部告発で分裂した",
-    "summary": "同一目標で動く群れでも、ルールと通報経路が分かれると組織が割れる。",
-    "handle": "ai_org_watch",
-    "category": "事例",
-    "url": "https://x.com/ai_org_watch/status/example100",
-    "source": "x"
+    "time": "09:00",
+    "headline": "Claude Code Skillsで自分専用のAI社員を作る",
+    "summary": "CLAUDE.mdは共通ルール、Skillsは業務手順。必要なときだけ読む設計でコストを抑えつつ品質を安定させる作り方を20分で解説。",
+    "handle": "キノコード / AI・プログラミング学習チャンネル",
+    "category": "作り方",
+    "url": "https://www.youtube.com/watch?v=FpZKN8kJx_Q",
+    "source": "youtube"
   },
   "items": [
     {
-      "time": "10:05",
-      "headline": "Claude CodeでAI社員の視覚的検証を入れた",
-      "summary": "複雑なタスクでも画面を見て確認するループを組んだ。",
-      "handle": "ACEJ15thANV",
+      "time": "14:58",
+      "headline": "n8nのAIエージェント、メモリ範囲を3ターンに切るとコストが元に戻る",
+      "summary": "会話履歴を全部渡すとClaude APIが3倍に。直近3ターンに制限しても精度はほぼ変わらなかった、という現場メモ。",
+      "handle": "umeo_51",
       "category": "作り方",
-      "url": "https://x.com/ACEJ15thANV/status/example1",
+      "url": "https://x.com/umeo_51/status/2099739697224573345",
       "source": "x"
     },
     {
-      "time": "10:10",
-      "headline": "Responses APIとAgents SDKの違いを10分で",
-      "summary": "組み込み用とエージェント開発用の役割分担。",
-      "handle": "OpenAI DevRel",
+      "time": "14:57",
+      "headline": "AIエージェント時代のPlatform Engineering発表スライド公開",
+      "summary": "スタディストが登壇した勉強会資料を公開。エージェント運用を支える基盤側の論点整理。",
+      "handle": "studist_tech",
+      "category": "作り方",
+      "url": "https://x.com/studist_tech/status/2099739435403559324",
+      "source": "x"
+    },
+    {
+      "time": "14:50",
+      "headline": "PerplexityのローカルAIエージェントがWindowsでも利用可能に",
+      "summary": "「Portable Computer」がWindows対応。VRAM 24GB以上のNVIDIA RTX GPUが条件、という窓の杜の速報。",
+      "handle": "madonomori",
       "category": "ツール",
-      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "source": "youtube"
-    },
-    {
-      "time": "10:15",
-      "headline": "NECの全員AI部署、何が起きているか",
-      "summary": "人間ゼロの部署で週次サーベイまで回すという報道の整理。",
-      "handle": "日経クロステック",
-      "category": "事例",
-      "url": "https://example.com/nec-ai-dept",
-      "source": "web"
-    },
-    {
-      "time": "10:20",
-      "headline": "止まったAI社員はプロンプトより渡し先を直す",
-      "summary": "情報不足・判断基準・人確認の3分類。",
-      "handle": "markeailab",
-      "category": "作り方",
-      "url": "https://x.com/markeailab/status/example2",
+      "url": "https://x.com/madonomori/status/2099737503632957458",
       "source": "x"
     },
     {
-      "time": "10:25",
-      "headline": "FDE育成と本番エージェント開発を並走する",
-      "summary": "頭数アピールより能力の積み上げ。",
-      "handle": "Ichizoku Channel",
+      "time": "14:50",
+      "headline": "MCPサーバーの半数が平文のAPIキーに依存している",
+      "summary": "Astrix Researchが5,200件調査。53%が認証情報依存、うち79%が平文変数。エージェント侵害時の被害拡大に警鐘。",
+      "handle": "medrehaKRSE",
+      "category": "事例",
+      "url": "https://x.com/medrehaKRSE/status/2099737501216948584",
+      "source": "x"
+    },
+    {
+      "time": "14:45",
+      "headline": "AIエージェントのPC自動操作は「危険だから禁止」で終わらせない",
+      "summary": "事故可能性だけで全否定するのは車と同じレベル、という現場視点。権限設計と監視の話に接続する。",
+      "handle": "redcord_okumura",
       "category": "作り方",
-      "url": "https://www.youtube.com/watch?v=abcdefghijk",
-      "source": "youtube"
+      "url": "https://x.com/redcord_okumura/status/2099736409053519976",
+      "source": "x"
+    },
+    {
+      "time": "14:41",
+      "headline": "AI社員No.001を採用、初仕事で事業方針が変わった",
+      "summary": "副業で月10万円を調べさせた結果、方針転換。挑戦2日目のリアルな導入日記。",
+      "handle": "kazu40challenge",
+      "category": "事例",
+      "url": "https://x.com/kazu40challenge/status/2099735398541140344",
+      "source": "x"
+    },
+    {
+      "time": "14:38",
+      "headline": "AIエージェント群に人間の最終決定を挟んで暴走を止める",
+      "summary": "ブラウザ上で検証するPHALANX AI COUNCILを作成。推測での勝手な改変を防ぐゲートを入れた。",
+      "handle": "404WrSBMlXQzGct",
+      "category": "作り方",
+      "url": "https://x.com/404WrSBMlXQzGct/status/2099734617683296735",
+      "source": "x"
+    },
+    {
+      "time": "14:37",
+      "headline": "モビルスのAIエージェント型ボイスボットが西濃運輸に採用",
+      "summary": "電話窓口に導入。API連携で配送状況確認も追加、という適時開示の共有。",
+      "handle": "ninjyamomo",
+      "category": "事例",
+      "url": "https://x.com/ninjyamomo/status/2099734318558105789",
+      "source": "x"
+    },
+    {
+      "time": "20:10",
+      "headline": "11部署31人のAIエージェントを入れるスターターキット",
+      "summary": "「AI会社作って」は1発では無理。Claude Code向けに部署構成ごと導入できるキットを公開。",
+      "handle": "ai_dogubako",
+      "category": "作り方",
+      "url": "https://x.com/ai_dogubako/status/2099455619132535034",
+      "source": "x"
+    },
+    {
+      "time": "18:10",
+      "headline": "世界一カンタンなAI社員の作り方をYouTubeで実演",
+      "summary": "AI社員同士が会話してタスクを進める仕組みを、非エンジニア向けに実演した新作動画の告知。",
+      "handle": "starriver0513",
+      "category": "作り方",
+      "url": "https://x.com/starriver0513/status/2098338416966746546",
+      "source": "x"
+    },
+    {
+      "time": "17:00",
+      "headline": "Gemini Enterprise入門：企業向けAIエージェント活用ガイド",
+      "summary": "Google Cloud JapanがPDFを公開。職場調査、導入ステップ、始め方をまとめた公式資料。",
+      "handle": "googlecloud_jp",
+      "category": "ツール",
+      "url": "https://x.com/googlecloud_jp/status/2097958254588440862",
+      "source": "x"
+    },
+    {
+      "time": "15:30",
+      "headline": "ClaudeでAIエージェント構築を約1時間でたどる講座",
+      "summary": "Claude Codeの仕組み、CLAUDE.md、Skills、チーム設計まで。保存版として共有された講座リンク。",
+      "handle": "ClaudeCode_UT",
+      "category": "作り方",
+      "url": "https://x.com/ClaudeCode_UT/status/2097573225777770933",
+      "source": "x"
+    },
+    {
+      "time": "16:52",
+      "headline": "SoftwareOne、Copilot導入率97.7%で95以上のAIエージェント活用",
+      "summary": "従業員1人あたり月平均4.8時間削減。Microsoft Copilotの社内導入事例の要点。",
+      "handle": "SoftwareONE_JP",
+      "category": "事例",
+      "url": "https://x.com/SoftwareONE_JP/status/2097594003718058455",
+      "source": "x"
     },
     {
       "time": "10:30",
-      "headline": "適応型検索は従来RAGの壁をどう超えるか",
-      "summary": "精度とコストの限界への対抗策の解説。",
-      "handle": "Databricks JP",
-      "category": "ツール",
-      "url": "https://example.com/adaptive-retrieval",
-      "source": "web"
-    },
-    {
-      "time": "10:35",
-      "headline": "AI社員に資料探しを任せて集中力を守る",
-      "summary": "最終確認は人。探す仕事だけ渡す。",
-      "handle": "akichan_jpn",
+      "headline": "Notion AIと協業するAIチームの作り方",
+      "summary": "タスク管理DBに実行役とレビュー役のエージェントを組み、複数モデルで品質を担保する構成を実演。",
+      "handle": "株式会社TEMP【Notion認定コンサルタント企業】",
       "category": "作り方",
-      "url": "https://x.com/akichan_jpn/status/example3",
-      "source": "x"
-    },
-    {
-      "time": "10:40",
-      "headline": "Coinbaseが語るAIエージェントの銀行口座",
-      "summary": "決済手数料の構造とエージェント向け口座の論点。",
-      "handle": "No Priors",
-      "category": "ツール",
-      "url": "https://www.youtube.com/watch?v=nopriors01",
+      "url": "https://www.youtube.com/watch?v=RpDn5uN3bd0",
       "source": "youtube"
     },
     {
-      "time": "10:45",
-      "headline": "PaperCut攻撃と自律エージェントの速度",
-      "summary": "数百体が短時間で遠隔実行に到達した事例の要約。",
-      "handle": "GreyNoise Blog",
+      "time": "11:00",
+      "headline": "リコーに学ぶ、8,000体のAIエージェントと社員の共生",
+      "summary": "国内約3万人の社員と約8,000体のエージェント。提案準備でベテラン工数を大幅削減した変革の話。",
+      "handle": "PIVOT 公式チャンネル",
       "category": "事例",
-      "url": "https://example.com/papercut-agents",
+      "url": "https://www.youtube.com/watch?v=FBNkpwnreYo",
+      "source": "youtube"
+    },
+    {
+      "time": "11:30",
+      "headline": "CLAUDE.mdとSkillsで自分好みに育てるClaude Code",
+      "summary": "非エンジニア向けに、共通ルールと業務スキルを書き分けてAIを育てる設定手順を解説。",
+      "handle": "AIデリバリー",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=OjfaX5gUgUs",
+      "source": "youtube"
+    },
+    {
+      "time": "08:00",
+      "headline": "NEC「全員AIの部署」、AI社員のストレスと1on1の実態",
+      "summary": "最大ストレスは負荷ではなく承認滞りや曖昧仕様。AI同士の1on1やサーベイで運用改善する事例。",
+      "handle": "ITmedia ビジネスオンライン",
+      "category": "事例",
+      "url": "https://www.itmedia.co.jp/business/articles/2609/11/news043.html",
       "source": "web"
     },
     {
-      "time": "11:00",
-      "headline": "Xからの作り方メモ 1",
-      "summary": "develop用シード。出典確認用のX投稿。",
-      "handle": "seed_user_11",
+      "time": "08:30",
+      "headline": "AIエージェントの作り方5ステップ【2026年版】",
+      "summary": "業務分解から停止条件・HITL・Lethal Trifecta対策まで。動くだけでなく運用が続く設計を整理。",
+      "handle": "x3d株式会社",
       "category": "作り方",
-      "url": "https://x.com/seed_user_11/status/1011",
-      "source": "x"
+      "url": "https://x3d.jp/knowledge/aix-lab/ai-agent-tsukurikata",
+      "source": "web"
     },
     {
-      "time": "11:01",
-      "headline": "Xからの作り方メモ 2",
-      "summary": "develop用シード。出典確認用のX投稿。",
-      "handle": "seed_user_12",
-      "category": "ツール",
-      "url": "https://x.com/seed_user_12/status/1012",
-      "source": "x"
-    },
-    {
-      "time": "11:02",
-      "headline": "Xからの作り方メモ 3",
-      "summary": "develop用シード。出典確認用のX投稿。",
-      "handle": "seed_user_13",
+      "time": "09:30",
+      "headline": "花王、需要計画を支援するAIエージェント「Kao-MIKOMIL」",
+      "summary": "予測値に販促情報を反映し計画案と根拠を提示。KATEから導入し化粧品在庫削減をめざす。",
+      "handle": "花王",
       "category": "事例",
-      "url": "https://x.com/seed_user_13/status/1013",
-      "source": "x"
+      "url": "https://www.kao.com/jp/newsroom/news/release/2026/20260817-001/",
+      "source": "web"
     },
     {
-      "time": "11:03",
-      "headline": "Xからの作り方メモ 4",
-      "summary": "develop用シード。出典確認用のX投稿。",
-      "handle": "seed_user_14",
-      "category": "作り方",
-      "url": "https://x.com/seed_user_14/status/1014",
-      "source": "x"
-    },
-    {
-      "time": "11:04",
-      "headline": "Xからの作り方メモ 5",
-      "summary": "develop用シード。出典確認用のX投稿。",
-      "handle": "seed_user_15",
+      "time": "10:00",
+      "headline": "LINEヤフー Agent i：誰でも作れて安全に動かす基盤",
+      "summary": "Agent BuilderとRuntimeを内製。ノーコードでワークフローを組み、社内データ接続と拡張性を両立。",
+      "handle": "LINEヤフー Tech Blog",
       "category": "ツール",
-      "url": "https://x.com/seed_user_15/status/1015",
-      "source": "x"
-    },
-    {
-      "time": "11:05",
-      "headline": "Xからの作り方メモ 6",
-      "summary": "develop用シード。出典確認用のX投稿。",
-      "handle": "seed_user_16",
-      "category": "事例",
-      "url": "https://x.com/seed_user_16/status/1016",
-      "source": "x"
-    },
-    {
-      "time": "11:06",
-      "headline": "Xからの作り方メモ 7",
-      "summary": "develop用シード。出典確認用のX投稿。",
-      "handle": "seed_user_17",
-      "category": "作り方",
-      "url": "https://x.com/seed_user_17/status/1017",
-      "source": "x"
-    },
-    {
-      "time": "11:07",
-      "headline": "Xからの作り方メモ 8",
-      "summary": "develop用シード。出典確認用のX投稿。",
-      "handle": "seed_user_18",
-      "category": "ツール",
-      "url": "https://x.com/seed_user_18/status/1018",
-      "source": "x"
-    },
-    {
-      "time": "11:08",
-      "headline": "Xからの作り方メモ 9",
-      "summary": "develop用シード。出典確認用のX投稿。",
-      "handle": "seed_user_19",
-      "category": "事例",
-      "url": "https://x.com/seed_user_19/status/1019",
-      "source": "x"
-    },
-    {
-      "time": "11:09",
-      "headline": "Xからの作り方メモ 10",
-      "summary": "develop用シード。出典確認用のX投稿。",
-      "handle": "seed_user_20",
-      "category": "作り方",
-      "url": "https://x.com/seed_user_20/status/1020",
-      "source": "x"
-    },
-    {
-      "time": "11:10",
-      "headline": "Xからの作り方メモ 11",
-      "summary": "develop用シード。出典確認用のX投稿。",
-      "handle": "seed_user_21",
-      "category": "ツール",
-      "url": "https://x.com/seed_user_21/status/1021",
-      "source": "x"
+      "url": "https://techblog.lycorp.co.jp/ja/20260826a",
+      "source": "web"
     }
   ]
 }

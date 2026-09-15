@@ -2,13 +2,30 @@
 
 `YYYY-MM-DD.json` を `GET /api/daily?date=` がそのまま返す。
 
-仕様は `{ date, featured, items[] }`。item は `time` / `headline` / `summary` / `handle` / `category` / `url`。
+## 契約（develop / PB#9）
+
+`{ date, featured, items[] }`
+
+各 item / featured:
 
 - `time`: JST の `HH:mm`
-- `handle`: `@` なし
+- `headline` / `summary`
+- `handle`: X は `@` なし。YouTube はチャンネル名、web はサイト名（無いときは `""`）
 - `category`: `作り方` | `ツール` | `事例`
+- `url`: 出典の正規URL
+- `source`: `"x"` | `"youtube"` | `"web"`（**必須**）
+
+ルール:
+
 - `featured` は `items` に重複させない
+- 特集1＋目次最大20
+- 無い日は `{ date, featured: null, items: [] }`
 
-毎朝 07:00 JST にバックエンドの自動収集が、その日の `data/YYYY-MM-DD.json` を `main`（本番 https://ai-company-news-potal-site.vercel.app ）に載せる（人手 push なし）。収集前に残高確認。失敗時はファイルを置かず、無い日の空号（`featured: null`＋空目次）を壊さない。
+画面側の出典行（目次のみ）は FE/UX 仕様。特集は従来どおり via なし。サムネはこの契約に含めない。
 
-`2026-08-31.json` はモックシード（仮想handle）。レスポンス形は変えない。
+## ブランチ
+
+- **`main`（本番）**: Xだけの号。毎朝収集はここへ push。従来形を壊さない
+- **`develop`**: X／YouTube／web の多ソース。シードと #9 実装はここ
+
+`2026-08-31.json` はモック。レスポンスの骨格（date / featured / items）は変えない。

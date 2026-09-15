@@ -4,6 +4,8 @@ export const dynamic = "force-dynamic";
 
 type Category = "作り方" | "ツール" | "事例";
 
+type Source = "x" | "youtube" | "web";
+
 type DailyItem = {
   time: string;
   headline: string;
@@ -11,6 +13,8 @@ type DailyItem = {
   handle: string;
   category: Category;
   url: string;
+  source?: Source;
+  sourceLabel?: string;
   image?: string | null;
 };
 
@@ -135,6 +139,22 @@ function Featured({ item, date }: { item: DailyItem | null; date: string }) {
   );
 }
 
+
+/** TOC source line. Missing source treated as x (main-compatible). */
+function formatVia(item: DailyItem): string {
+  const source: Source =
+    item.source === "youtube" || item.source === "web" || item.source === "x"
+      ? item.source
+      : "x";
+  const label =
+    item.sourceLabel?.trim() ||
+    (source === "youtube" ? "YouTube" : source === "web" ? "Web" : "X");
+  const raw = (item.handle ?? "").trim();
+  if (!raw) return `via ${label}`;
+  const name = source === "x" ? (raw.startsWith("@") ? raw : `@${raw}`) : raw;
+  return `via ${label} · ${name}`;
+}
+
 function IndexStory({ item }: { item: DailyItem }) {
   return (
     <a className="story" href={item.url} target="_blank" rel="noreferrer">
@@ -146,7 +166,7 @@ function IndexStory({ item }: { item: DailyItem }) {
       </div>
       <h2 className="item-headline">{item.headline}</h2>
       <p className="item-summary">{item.summary}</p>
-      <p className="via">via @{item.handle}</p>
+      <p className="via">{formatVia(item)}</p>
     </a>
   );
 }

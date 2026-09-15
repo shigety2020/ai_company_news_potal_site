@@ -15,6 +15,8 @@ type DailyItem = {
   url: string;
   source?: Source;
   sourceLabel?: string;
+  /** Optional TOC thumbnail URL (develop). Empty/missing = text only. */
+  thumbnail?: string | null;
   image?: string | null;
 };
 
@@ -156,6 +158,7 @@ function formatVia(item: DailyItem): string {
 }
 
 function IndexStory({ item }: { item: DailyItem }) {
+  const thumb = (item.thumbnail ?? "").trim();
   return (
     <a className="story" href={item.url} target="_blank" rel="noreferrer">
       <div className="kicker-row">
@@ -164,9 +167,19 @@ function IndexStory({ item }: { item: DailyItem }) {
         </time>
         <span className="kicker">{item.category}</span>
       </div>
-      <h2 className="item-headline">{item.headline}</h2>
-      <p className="item-summary">{item.summary}</p>
-      <p className="via">{formatVia(item)}</p>
+      <div className={thumb ? "item-row" : undefined}>
+        {thumb ? (
+          <div className="item-thumb" aria-hidden="true">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={thumb} alt="" />
+          </div>
+        ) : null}
+        <div className={thumb ? "item-copy" : undefined}>
+          <h2 className="item-headline">{item.headline}</h2>
+          <p className="item-summary">{item.summary}</p>
+          <p className="via">{formatVia(item)}</p>
+        </div>
+      </div>
     </a>
   );
 }

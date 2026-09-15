@@ -1,0 +1,194 @@
+{
+  "date": "2026-09-16",
+  "featured": {
+    "time": "08:00",
+    "headline": "AI社員の作り方｜Claude Codeで作る最短ルートと本格導入の手順",
+    "summary": "業務を1つに絞り、ナレッジをまとめ、Claude CodeのCLAUDE.mdで役割定義。設計・データ準備・構築・運用の4フェーズで実務導入まで解説。",
+    "handle": "クリスタルメソッド",
+    "category": "作り方",
+    "url": "https://crystal-method.com/blog/ai-employee-how-to-build/",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "07:15",
+      "headline": "AIエージェント派遣サービス『AIクル』が始動",
+      "summary": "「あなたの会社にAIが来る」をコンセプトに、基礎知識とRAGを標準装備した即戦力AIスタッフ派遣サービスを発表。",
+      "handle": "takinoyoshimi",
+      "category": "ツール",
+      "url": "https://x.com/takinoyoshimi/status/2099985472588300752",
+      "source": "x"
+    },
+    {
+      "time": "07:12",
+      "headline": "AIエージェント専用の通報窓口「AI Contact Hotline」公開",
+      "summary": "不審な行動を見つけたAIが人間へ直接知らせる仕組み。AI社員が増えるほど監査するAIも必要になる、という論点。",
+      "handle": "nextsignal_jp",
+      "category": "ツール",
+      "url": "https://x.com/nextsignal_jp/status/2099984679399215214",
+      "source": "x"
+    },
+    {
+      "time": "07:03",
+      "headline": "AIエージェントのツール実行にゼロトラスト認可を適用",
+      "summary": "NIST SP 800-207のPDP/PEPをOPA・Cedar・OpenFGAへ実装。エージェント時代の認可ポリシー設計メモ。",
+      "handle": "__su888",
+      "category": "作り方",
+      "url": "https://x.com/__su888/status/2099982340260819424",
+      "source": "x"
+    },
+    {
+      "time": "07:00",
+      "headline": "顧問役AIが依頼文を書き、開発AI社員に仕事を渡す運用",
+      "summary": "人間は方針相談だけ。別のAI社員が依頼文を書き、開発担当へ5タスクを渡す一人社長の実運用ログ。",
+      "handle": "hironori0358",
+      "category": "事例",
+      "url": "https://x.com/hironori0358/status/2099981616668131392",
+      "source": "x"
+    },
+    {
+      "time": "06:51",
+      "headline": "Claude CodeやCodexなどAIエージェント活用が仕事の差になる",
+      "summary": "ChatGPTだけでなくエージェントを使いこなせるかが、仕事の質とスピードを分けるという現場視点の呼びかけ。",
+      "handle": "y99118",
+      "category": "ツール",
+      "url": "https://x.com/y99118/status/2099979508938093018",
+      "source": "x"
+    },
+    {
+      "time": "06:50",
+      "headline": "AIエージェント版SOC 2「AIUC-1」認証が登場",
+      "summary": "約5000項目のテストで安全性を検証。Anthropic元社員らが設立しシリーズAで累計5500万ドル調達。",
+      "handle": "nextai_jp",
+      "category": "ツール",
+      "url": "https://x.com/nextai_jp/status/2099979076404687175",
+      "source": "x"
+    },
+    {
+      "time": "06:30",
+      "headline": "AI社員に本番と検証を先に一問させるルールを追加",
+      "summary": "本番機器の相談なのに検証環境の話が返ってきた失敗から、返事の前に検証か本番かを確認させる運用改善。",
+      "handle": "boss_arakan",
+      "category": "作り方",
+      "url": "https://x.com/boss_arakan/status/2099974035484602448",
+      "source": "x"
+    },
+    {
+      "time": "06:00",
+      "headline": "初心者向けAI社員の配置10選｜まず置くべき4人",
+      "summary": "リサーチ・企画・執筆・検品の基本4人から始め、伸びたら量産向け6人を追加する配置の実例リスト。",
+      "handle": "narukun_ai",
+      "category": "作り方",
+      "url": "https://x.com/narukun_ai/status/2099966492716462231",
+      "source": "x"
+    },
+    {
+      "time": "06:00",
+      "headline": "Gemini NotebookのAI社員を正社員化する判断基準の話",
+      "summary": "その場限りのアルバイト運用か、自分だけの判断基準を持つ継続AI社員にするかが変わる記事を共有。",
+      "handle": "hanya00508",
+      "category": "作り方",
+      "url": "https://x.com/hanya00508/status/2099966488174297286",
+      "source": "x"
+    },
+    {
+      "time": "05:36",
+      "headline": "PerplexityのローカルAIエージェントがWindowsでも利用可能に",
+      "summary": "NVIDIA公式ブログでPortable ComputerのWindows版が紹介。Gmailなど連携可能なローカルエージェント。",
+      "handle": "akichan_jpn",
+      "category": "ツール",
+      "url": "https://x.com/akichan_jpn/status/2099960568266600709",
+      "source": "x"
+    },
+    {
+      "time": "00:34",
+      "headline": "AI社員は作り方より「なぜ作りたいか」が重要",
+      "summary": "目的が見えれば効率化も自動化も進む。見えないと使われない無職社員を増やすだけ、という指摘。",
+      "handle": "michipo5",
+      "category": "作り方",
+      "url": "https://x.com/michipo5/status/2099884453141389585",
+      "source": "x"
+    },
+    {
+      "time": "00:05",
+      "headline": "執筆AIと4つの評価AIが回る改稿ループを公開",
+      "summary": "執筆担当が書き、評価担当が別視点で読み、統合担当が優先修正を返す。改稿後にもう一度評価する構成。",
+      "handle": "sako04",
+      "category": "作り方",
+      "url": "https://x.com/sako04/status/2099877321323000313",
+      "source": "x"
+    },
+    {
+      "time": "00:00",
+      "headline": "Salesforce、実務対応型AIエージェント群Agentforceを拡張",
+      "summary": "営業・サービスなど7種が長期タスクを記憶しながら実行。導入企業ではチャット問い合わせの50%をAIが解決。",
+      "handle": "o_product",
+      "category": "ツール",
+      "url": "https://x.com/o_product/status/2099876049219985434",
+      "source": "x"
+    },
+    {
+      "time": "09:00",
+      "headline": "Claude Codeで人間ひとり＋AIチームの会社運営を解説",
+      "summary": "部署ごとにCLAUDE.mdとSkillsを置き、会計・マーケ・開発を分担。定型業務はskill.mdで呼び出す運用を実演。",
+      "handle": "キノコード / AI・プログラミング学習チャンネル",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=mgNnGkApg6s",
+      "source": "youtube"
+    },
+    {
+      "time": "09:30",
+      "headline": "先回りして動くAIエージェントの作り方【基礎の6ステップ】",
+      "summary": "指示待ちをやめてループで動く設計。基本概念から実践事例まで、先回りエージェントの基礎を短時間で解説。",
+      "handle": "【アイ】のAIでできるチャンネル",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=Cps2LgY-ENE",
+      "source": "youtube"
+    },
+    {
+      "time": "10:00",
+      "headline": "ゼロからClaude Codeで自分専用のAIチームを作る方法",
+      "summary": "PR・営業・経理などフォルダとCLAUDE.mdを分け、複数ターミナルで同時に指示を出す初心者向け実演。",
+      "handle": "",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=cwHITZn23d4",
+      "source": "youtube"
+    },
+    {
+      "time": "08:30",
+      "headline": "【2026年最新】AI社員の作り方5ステップ｜ツール比較と手順",
+      "summary": "GPTs・Claude Projects・Difyを比較し、役割設計→プロンプト→ナレッジ→テスト→定着化の共通5ステップを整理。",
+      "handle": "ゴリラのAI研究所",
+      "category": "作り方",
+      "url": "https://digital-gorilla.co.jp/ai-lab/how-to-build-ai-employee/",
+      "source": "web"
+    },
+    {
+      "time": "10:30",
+      "headline": "サイバーエージェント社員の20%が使うDify、月3,000時間削減",
+      "summary": "約1,800名が利用。エージェント→ワークフロー→業務再設計の3段階と、PLG型の社内展開ノウハウを公開。",
+      "handle": "CyberAgent Developers Blog",
+      "category": "事例",
+      "url": "https://developers.cyberagent.co.jp/blog/archives/56492/",
+      "source": "web"
+    },
+    {
+      "time": "11:00",
+      "headline": "みずほFGがDify Enterpriseを全社展開、若手で52.2%短縮",
+      "summary": "制度融資提案のAIエージェント実証で全体41.8%、若手52.2%の業務時間短縮。ガバナンス付き現場主導開発。",
+      "handle": "trends",
+      "category": "事例",
+      "url": "https://trends.codecamp.jp/blogs/media/news4027",
+      "source": "web"
+    },
+    {
+      "time": "11:30",
+      "headline": "AIチャットボット作成ツール比較｜Dify・Miibo・GPTsの選び方",
+      "summary": "個人PoCはGPTs、日本語サポートと埋め込みはMiibo、複雑な業務フローやオンプレはDify、という導入指針。",
+      "handle": "AIマスターズ",
+      "category": "ツール",
+      "url": "https://www.aimasters.tokyo/ai-chatbot-builder-comparison/",
+      "source": "web"
+    }
+  ]
+}

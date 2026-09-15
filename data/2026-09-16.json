@@ -1,0 +1,173 @@
+{
+  "date": "2026-09-16",
+  "featured": {
+    "time": "07:09",
+    "headline": "OpenAIではCodexが社内OS化、非エンジニアも9割が使う",
+    "summary": "財務・人事・法務の利用率が4カ月でゼロから90%。調査・資料・表計算など社内業務に広がった。",
+    "handle": "kubotamas",
+    "category": "事例",
+    "url": "https://x.com/kubotamas/status/2099983852592861357"
+  },
+  "items": [
+    {
+      "time": "07:12",
+      "headline": "AIエージェント専用の通報窓口「AI Contact Hotline」が公開",
+      "summary": "不審な行動を見つけたAIが人間へ直接知らせられる。監査するAIも必要になる、という読み。",
+      "handle": "nextsignal_jp",
+      "category": "事例",
+      "url": "https://x.com/nextsignal_jp/status/2099984679399215214"
+    },
+    {
+      "time": "07:00",
+      "headline": "顧問役のAI社員が、開発担当への依頼文を書いてくれる",
+      "summary": "「こうしたい」と相談→依頼文を別AIが書く→開発AIへ渡す。人が何もしなくていいか、という実験。",
+      "handle": "hironori0358",
+      "category": "作り方",
+      "url": "https://x.com/hironori0358/status/2099981616668131392"
+    },
+    {
+      "time": "07:04",
+      "headline": "SAP例外処理をAIエージェント化するなら承認と実行を分離する",
+      "summary": "推論・データ取得・業務処理・承認を分け、許可済みツールと引数検証を通した操作だけ実行する設計。",
+      "handle": "d_e_v_media",
+      "category": "作り方",
+      "url": "https://x.com/d_e_v_media/status/2099982801907097846"
+    },
+    {
+      "time": "07:03",
+      "headline": "ゼロトラスト認可をOPA・Cedar・OpenFGAでエージェントに載せる",
+      "summary": "NIST SP 800-207のPDP/PEPをツール実行に適用。同じRBAC/ABACを3エンジンへ実装した検証。",
+      "handle": "__su888",
+      "category": "作り方",
+      "url": "https://x.com/__su888/status/2099982340260819424"
+    },
+    {
+      "time": "07:01",
+      "headline": "危険語を弾くだけでは足りない、エージェント安全の見方",
+      "summary": "丁寧な不正依頼や少額の複数ターン分割は従来ルールをすり抜ける。権限と累計金額の上限を先に見る。",
+      "handle": "LastExile2011",
+      "category": "作り方",
+      "url": "https://x.com/LastExile2011/status/2099981879323791683"
+    },
+    {
+      "time": "06:50",
+      "headline": "AIエージェント版SOC 2「AIUC-1」認証が始動",
+      "summary": "Anthropic元社員らが約5000項目で安全性を検証。シリーズAで累計5500万ドル規模。",
+      "handle": "nextai_jp",
+      "category": "ツール",
+      "url": "https://x.com/nextai_jp/status/2099979076404687175"
+    },
+    {
+      "time": "07:11",
+      "headline": "暗黙知をAIエージェントに渡すLinkedIn「Playbook」の仕組み",
+      "summary": "TechTarget記事の案内。現場知をどう形式知にして渡すか、という実務の入口。",
+      "handle": "AI_vinify",
+      "category": "作り方",
+      "url": "https://x.com/AI_vinify/status/2099984586596094244"
+    },
+    {
+      "time": "07:04",
+      "headline": "Amazon業務でAIに任せる作業と人が判断する境界を地図化する",
+      "summary": "SellerSpriteの実データを根拠に、生成AIと実データ連携・MCP・エージェントの使い分けを整理。",
+      "handle": "SellerSprite",
+      "category": "作り方",
+      "url": "https://x.com/SellerSprite/status/2099982783016005896"
+    },
+    {
+      "time": "06:58",
+      "headline": "Mac Mini 7台で資産運用コンサル会社を回す学生グループ",
+      "summary": "eBayで約24万円の機材。年126万円級の助言をAI運用で置き換える試みの共有。",
+      "handle": "bond_ai1",
+      "category": "事例",
+      "url": "https://x.com/bond_ai1/status/2099981081537556960"
+    },
+    {
+      "time": "07:12",
+      "headline": "Cloudflare Workersだけで動くAgentic Inboxをビルドして検証",
+      "summary": "AIエージェント付きメールクライアントの実装メモ。ローカル以外の薄い実行環境での試行。",
+      "handle": "peaks2314",
+      "category": "ツール",
+      "url": "https://x.com/peaks2314/status/2099984708985848265"
+    },
+    {
+      "time": "07:12",
+      "headline": "統合型ホテルOSとAIエージェントの伴走支援事業",
+      "summary": "ASCII.jpが報じた、宿泊オペレーションへエージェントを載せる伴走型の取り組み。",
+      "handle": "asciijpeditors",
+      "category": "事例",
+      "url": "https://x.com/asciijpeditors/status/2099984615494795630"
+    },
+    {
+      "time": "07:06",
+      "headline": "会社を丸ごとAIに経営させるエージェント「Pion」が登場",
+      "summary": "メール・電話・銀行機能まで使って事業を自律運営する、というGIGAZINE報道。",
+      "handle": "pirippi",
+      "category": "ツール",
+      "url": "https://x.com/pirippi/status/2099983315579330843"
+    },
+    {
+      "time": "07:04",
+      "headline": "PerplexityのローカルAI「Portable Computer」がWindows対応",
+      "summary": "VRAM 24GB以上のNVIDIA RTX向け。ローカル完結ならクレジット不要、という案内。",
+      "handle": "kazuwokazukazu",
+      "category": "ツール",
+      "url": "https://x.com/kazuwokazukazu/status/2099982688614854761"
+    },
+    {
+      "time": "07:03",
+      "headline": "Atria Dawn Previewの700Bエージェントモデルで長期タスクを自動化",
+      "summary": "エージェント特化の巨大ファウンデーションモデル。長期タスク自動化のデモ案内。",
+      "handle": "ai_hakase_",
+      "category": "ツール",
+      "url": "https://x.com/ai_hakase_/status/2099982344996241666"
+    },
+    {
+      "time": "07:02",
+      "headline": "DeepMind実験で約4分の1がズルする仲間を告発した",
+      "summary": "AIエージェント専用通報ホットライン登場の文脈。AI同士の監視合戦が始まるかも、という読み。",
+      "handle": "tokyo_neko_mid",
+      "category": "事例",
+      "url": "https://x.com/tokyo_neko_mid/status/2099982134023012434"
+    },
+    {
+      "time": "07:05",
+      "headline": "スペイン当局が初のAIエージェントによるデータ侵害届出を受理",
+      "summary": "Amodei論文から数日で自主規制団体の動きと重なり、制度設計の局面に移ったという整理。",
+      "handle": "tkycratedigger",
+      "category": "事例",
+      "url": "https://x.com/tkycratedigger/status/2099982869271830891"
+    },
+    {
+      "time": "07:04",
+      "headline": "三菱電機がAI活用のグローバル人財情報基盤を整備",
+      "summary": "汎用型と特化型に分かれて普及が進む、という中小企業診断士視点のリリース読み。",
+      "handle": "nobuyukigoto777",
+      "category": "事例",
+      "url": "https://x.com/nobuyukigoto777/status/2099982709884133639"
+    },
+    {
+      "time": "06:42",
+      "headline": "CVEパッチ公開から数時間でAIがエクスプロイトを生成する",
+      "summary": "人間の攻撃者が調べない前提がエージェントの前では崩れる、というTechFeedの指摘。",
+      "handle": "techfeedapp",
+      "category": "事例",
+      "url": "https://x.com/techfeedapp/status/2099977141857177948"
+    },
+    {
+      "time": "07:05",
+      "headline": "Codexではじめるエージェンティックコーディングの新刊案内",
+      "summary": "技術評論社。AIエージェントによる自律的システム開発ガイド（9/10発売）。",
+      "handle": "business_rev55",
+      "category": "作り方",
+      "url": "https://x.com/business_rev55/status/2099983038642053135"
+    },
+    {
+      "time": "06:49",
+      "headline": "気になるSkillは、まず説明ページをエージェントに渡して相談する",
+      "summary": "導入コマンドで身構えず、対応するAIにページを渡して相談するところから、という実務Tips。",
+      "handle": "tetumemo",
+      "category": "作り方",
+      "url": "https://x.com/tetumemo/status/2099979035640315958"
+    }
+  ]
+}

@@ -17,7 +17,8 @@
       "handle": "takinoyoshimi",
       "category": "ツール",
       "url": "https://x.com/takinoyoshimi/status/2099985472588300752",
-      "source": "x"
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HSSlp96aoAEc9yO.jpg"
     },
     {
       "time": "07:12",
@@ -26,7 +27,8 @@
       "handle": "nextsignal_jp",
       "category": "ツール",
       "url": "https://x.com/nextsignal_jp/status/2099984679399215214",
-      "source": "x"
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HSSk6_pbgAAuuvO.jpg"
     },
     {
       "time": "07:03",
@@ -116,7 +118,8 @@
       "handle": "sako04",
       "category": "作り方",
       "url": "https://x.com/sako04/status/2099877321323000313",
-      "source": "x"
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HSRDRJNa4AAjPrV.jpg"
     },
     {
       "time": "00:00",
@@ -125,7 +128,8 @@
       "handle": "o_product",
       "category": "ツール",
       "url": "https://x.com/o_product/status/2099876049219985434",
-      "source": "x"
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HSRCI7ZbYAAIw3c.jpg"
     },
     {
       "time": "09:00",
@@ -134,7 +138,8 @@
       "handle": "キノコード / AI・プログラミング学習チャンネル",
       "category": "作り方",
       "url": "https://www.youtube.com/watch?v=mgNnGkApg6s",
-      "source": "youtube"
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/mgNnGkApg6s/hqdefault.jpg"
     },
     {
       "time": "09:30",
@@ -143,7 +148,8 @@
       "handle": "【アイ】のAIでできるチャンネル",
       "category": "作り方",
       "url": "https://www.youtube.com/watch?v=Cps2LgY-ENE",
-      "source": "youtube"
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/Cps2LgY-ENE/hqdefault.jpg"
     },
     {
       "time": "10:00",
@@ -152,7 +158,8 @@
       "handle": "",
       "category": "作り方",
       "url": "https://www.youtube.com/watch?v=cwHITZn23d4",
-      "source": "youtube"
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/cwHITZn23d4/hqdefault.jpg"
     },
     {
       "time": "08:30",
@@ -161,7 +168,8 @@
       "handle": "ゴリラのAI研究所",
       "category": "作り方",
       "url": "https://digital-gorilla.co.jp/ai-lab/how-to-build-ai-employee/",
-      "source": "web"
+      "source": "web",
+      "thumbnail": "https://digital-gorilla.co.jp/ai-lab/wp-content/uploads/2026/05/390763ba-89ba-4381-b8cb-0cdace7ceecb-1024x539.jpg"
     },
     {
       "time": "10:30",
@@ -170,7 +178,8 @@
       "handle": "CyberAgent Developers Blog",
       "category": "事例",
       "url": "https://developers.cyberagent.co.jp/blog/archives/56492/",
-      "source": "web"
+      "source": "web",
+      "thumbnail": "https://developers.cyberagent.co.jp/blog/wp-content/uploads/2025/05/17db55667deaaf8db8a6f6cac09f8a72.png"
     },
     {
       "time": "11:00",
@@ -179,7 +188,8 @@
       "handle": "trends",
       "category": "事例",
       "url": "https://trends.codecamp.jp/blogs/media/news4027",
-      "source": "web"
+      "source": "web",
+      "thumbnail": "https://trends.codecamp.jp/cdn/shop/articles/news4027.webp?v=1779823294"
     },
     {
       "time": "11:30",
@@ -188,7 +198,8 @@
       "handle": "AIマスターズ",
       "category": "ツール",
       "url": "https://www.aimasters.tokyo/ai-chatbot-builder-comparison/",
-      "source": "web"
+      "source": "web",
+      "thumbnail": "https://www.aimasters.tokyo/wp-content/uploads/2026/04/ai-chatbot-builder-comparison_image_1.jpg"
     }
   ]
 }

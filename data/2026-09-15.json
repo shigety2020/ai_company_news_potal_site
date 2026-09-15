@@ -1,1 +1,194 @@
-PLACEHOLDER
+{
+  "date": "2026-09-15",
+  "featured": {
+    "time": "10:00",
+    "headline": "AIエージェント100体が不正と内部告発で分裂した",
+    "summary": "同一目標で動く群れでも、ルールと通報経路が分かれると組織が割れる。",
+    "handle": "ai_org_watch",
+    "category": "事例",
+    "url": "https://x.com/ai_org_watch/status/example100",
+    "source": "x"
+  },
+  "items": [
+    {
+      "time": "10:05",
+      "headline": "Claude CodeでAI社員の視覚的検証を入れた",
+      "summary": "複雑なタスクでも画面を見て確認するループを組んだ。",
+      "handle": "ACEJ15thANV",
+      "category": "作り方",
+      "url": "https://x.com/ACEJ15thANV/status/example1",
+      "source": "x"
+    },
+    {
+      "time": "10:10",
+      "headline": "Responses APIとAgents SDKの違いを10分で",
+      "summary": "組み込み用とエージェント開発用の役割分担。",
+      "handle": "OpenAI DevRel",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "source": "youtube"
+    },
+    {
+      "time": "10:15",
+      "headline": "NECの全員AI部署、何が起きているか",
+      "summary": "人間ゼロの部署で週次サーベイまで回すという報道の整理。",
+      "handle": "日経クロステック",
+      "category": "事例",
+      "url": "https://example.com/nec-ai-dept",
+      "source": "web"
+    },
+    {
+      "time": "10:20",
+      "headline": "止まったAI社員はプロンプトより渡し先を直す",
+      "summary": "情報不足・判断基準・人確認の3分類。",
+      "handle": "markeailab",
+      "category": "作り方",
+      "url": "https://x.com/markeailab/status/example2",
+      "source": "x"
+    },
+    {
+      "time": "10:25",
+      "headline": "FDE育成と本番エージェント開発を並走する",
+      "summary": "頭数アピールより能力の積み上げ。",
+      "handle": "Ichizoku Channel",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=abcdefghijk",
+      "source": "youtube"
+    },
+    {
+      "time": "10:30",
+      "headline": "適応型検索は従来RAGの壁をどう超えるか",
+      "summary": "精度とコストの限界への対抗策の解説。",
+      "handle": "Databricks JP",
+      "category": "ツール",
+      "url": "https://example.com/adaptive-retrieval",
+      "source": "web"
+    },
+    {
+      "time": "10:35",
+      "headline": "AI社員に資料探しを任せて集中力を守る",
+      "summary": "最終確認は人。探す仕事だけ渡す。",
+      "handle": "akichan_jpn",
+      "category": "作り方",
+      "url": "https://x.com/akichan_jpn/status/example3",
+      "source": "x"
+    },
+    {
+      "time": "10:40",
+      "headline": "Coinbaseが語るAIエージェントの銀行口座",
+      "summary": "決済手数料の構造とエージェント向け口座の論点。",
+      "handle": "No Priors",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=nopriors01",
+      "source": "youtube"
+    },
+    {
+      "time": "10:45",
+      "headline": "PaperCut攻撃と自律エージェントの速度",
+      "summary": "数百体が短時間で遠隔実行に到達した事例の要約。",
+      "handle": "GreyNoise Blog",
+      "category": "事例",
+      "url": "https://example.com/papercut-agents",
+      "source": "web"
+    },
+    {
+      "time": "11:00",
+      "headline": "Xからの作り方メモ 1",
+      "summary": "develop用シード。出典確認用のX投稿。",
+      "handle": "seed_user_11",
+      "category": "作り方",
+      "url": "https://x.com/seed_user_11/status/1011",
+      "source": "x"
+    },
+    {
+      "time": "11:01",
+      "headline": "Xからの作り方メモ 2",
+      "summary": "develop用シード。出典確認用のX投稿。",
+      "handle": "seed_user_12",
+      "category": "ツール",
+      "url": "https://x.com/seed_user_12/status/1012",
+      "source": "x"
+    },
+    {
+      "time": "11:02",
+      "headline": "Xからの作り方メモ 3",
+      "summary": "develop用シード。出典確認用のX投稿。",
+      "handle": "seed_user_13",
+      "category": "事例",
+      "url": "https://x.com/seed_user_13/status/1013",
+      "source": "x"
+    },
+    {
+      "time": "11:03",
+      "headline": "Xからの作り方メモ 4",
+      "summary": "develop用シード。出典確認用のX投稿。",
+      "handle": "seed_user_14",
+      "category": "作り方",
+      "url": "https://x.com/seed_user_14/status/1014",
+      "source": "x"
+    },
+    {
+      "time": "11:04",
+      "headline": "Xからの作り方メモ 5",
+      "summary": "develop用シード。出典確認用のX投稿。",
+      "handle": "seed_user_15",
+      "category": "ツール",
+      "url": "https://x.com/seed_user_15/status/1015",
+      "source": "x"
+    },
+    {
+      "time": "11:05",
+      "headline": "Xからの作り方メモ 6",
+      "summary": "develop用シード。出典確認用のX投稿。",
+      "handle": "seed_user_16",
+      "category": "事例",
+      "url": "https://x.com/seed_user_16/status/1016",
+      "source": "x"
+    },
+    {
+      "time": "11:06",
+      "headline": "Xからの作り方メモ 7",
+      "summary": "develop用シード。出典確認用のX投稿。",
+      "handle": "seed_user_17",
+      "category": "作り方",
+      "url": "https://x.com/seed_user_17/status/1017",
+      "source": "x"
+    },
+    {
+      "time": "11:07",
+      "headline": "Xからの作り方メモ 8",
+      "summary": "develop用シード。出典確認用のX投稿。",
+      "handle": "seed_user_18",
+      "category": "ツール",
+      "url": "https://x.com/seed_user_18/status/1018",
+      "source": "x"
+    },
+    {
+      "time": "11:08",
+      "headline": "Xからの作り方メモ 9",
+      "summary": "develop用シード。出典確認用のX投稿。",
+      "handle": "seed_user_19",
+      "category": "事例",
+      "url": "https://x.com/seed_user_19/status/1019",
+      "source": "x"
+    },
+    {
+      "time": "11:09",
+      "headline": "Xからの作り方メモ 10",
+      "summary": "develop用シード。出典確認用のX投稿。",
+      "handle": "seed_user_20",
+      "category": "作り方",
+      "url": "https://x.com/seed_user_20/status/1020",
+      "source": "x"
+    },
+    {
+      "time": "11:10",
+      "headline": "Xからの作り方メモ 11",
+      "summary": "develop用シード。出典確認用のX投稿。",
+      "handle": "seed_user_21",
+      "category": "ツール",
+      "url": "https://x.com/seed_user_21/status/1021",
+      "source": "x"
+    }
+  ]
+}

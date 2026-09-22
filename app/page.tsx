@@ -77,6 +77,38 @@ function itemKey(item: DailyItem): string {
   return `${item.url}::${item.headline}`;
 }
 
+
+/** Prefer one of each source (x/youtube/web), then fill to 3 in API order. */
+function pickThreePreferSources(items: DailyItem[]): DailyItem[] {
+  const picked: DailyItem[] = [];
+  const used = new Set<string>();
+  const prefer: Source[] = ["x", "youtube", "web"];
+  for (const s of prefer) {
+    if (picked.length >= 3) break;
+    const hit = items.find((item) => {
+      if (used.has(itemKey(item))) return false;
+      const src: Source =
+        item.source === "youtube" || item.source === "web" || item.source === "x"
+          ? item.source
+          : "x";
+      return src === s;
+    });
+    if (hit) {
+      picked.push(hit);
+      used.add(itemKey(hit));
+    }
+  }
+  for (const item of items) {
+    if (picked.length >= 3) break;
+    const k = itemKey(item);
+    if (used.has(k)) continue;
+    picked.push(item);
+    used.add(k);
+  }
+  return picked;
+}
+
+
 async function getBaseUrl(): Promise<string> {
   try {
     const h = await headers();
@@ -215,10 +247,10 @@ export default async function Home({
   const featured = data.featured;
   const featuredKey = featured ? itemKey(featured) : null;
   const items = data.items.filter((item) => itemKey(item) !== featuredKey);
-  // Screen shows max 3 per category; JSON may hold up to 20.
+  // Screen shows max 3 per category; prefer one of each source when present.
   const sections = CATEGORIES.map((cat) => ({
     cat,
-    items: items.filter((item) => item.category === cat).slice(0, 3),
+    items: pickThreePreferSources(items.filter((item) => item.category === cat)),
   })).filter((section) => section.items.length > 0);
   const prevDate = shiftDate(data.date, -1);
   const nextDate = shiftDate(data.date, 1);

@@ -17,7 +17,8 @@
       "handle": "umeo_51",
       "category": "作り方",
       "url": "https://x.com/umeo_51/status/2099739697224573345",
-      "source": "x"
+      "source": "x",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "14:57",
@@ -26,7 +27,8 @@
       "handle": "studist_tech",
       "category": "作り方",
       "url": "https://x.com/studist_tech/status/2099739435403559324",
-      "source": "x"
+      "source": "x",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "14:50",
@@ -35,7 +37,8 @@
       "handle": "madonomori",
       "category": "ツール",
       "url": "https://x.com/madonomori/status/2099737503632957458",
-      "source": "x"
+      "source": "x",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "14:50",
@@ -44,7 +47,8 @@
       "handle": "medrehaKRSE",
       "category": "事例",
       "url": "https://x.com/medrehaKRSE/status/2099737501216948584",
-      "source": "x"
+      "source": "x",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "14:45",
@@ -53,7 +57,8 @@
       "handle": "redcord_okumura",
       "category": "作り方",
       "url": "https://x.com/redcord_okumura/status/2099736409053519976",
-      "source": "x"
+      "source": "x",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "14:41",
@@ -62,7 +67,8 @@
       "handle": "kazu40challenge",
       "category": "事例",
       "url": "https://x.com/kazu40challenge/status/2099735398541140344",
-      "source": "x"
+      "source": "x",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "14:38",
@@ -71,7 +77,8 @@
       "handle": "404WrSBMlXQzGct",
       "category": "作り方",
       "url": "https://x.com/404WrSBMlXQzGct/status/2099734617683296735",
-      "source": "x"
+      "source": "x",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "14:37",
@@ -80,7 +87,8 @@
       "handle": "ninjyamomo",
       "category": "事例",
       "url": "https://x.com/ninjyamomo/status/2099734318558105789",
-      "source": "x"
+      "source": "x",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "20:10",
@@ -89,7 +97,8 @@
       "handle": "ai_dogubako",
       "category": "作り方",
       "url": "https://x.com/ai_dogubako/status/2099455619132535034",
-      "source": "x"
+      "source": "x",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "18:10",
@@ -98,7 +107,8 @@
       "handle": "starriver0513",
       "category": "作り方",
       "url": "https://x.com/starriver0513/status/2098338416966746546",
-      "source": "x"
+      "source": "x",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "17:00",
@@ -107,7 +117,8 @@
       "handle": "googlecloud_jp",
       "category": "ツール",
       "url": "https://x.com/googlecloud_jp/status/2097958254588440862",
-      "source": "x"
+      "source": "x",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "15:30",
@@ -116,7 +127,8 @@
       "handle": "ClaudeCode_UT",
       "category": "作り方",
       "url": "https://x.com/ClaudeCode_UT/status/2097573225777770933",
-      "source": "x"
+      "source": "x",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "16:52",
@@ -125,7 +137,8 @@
       "handle": "SoftwareONE_JP",
       "category": "事例",
       "url": "https://x.com/SoftwareONE_JP/status/2097594003718058455",
-      "source": "x"
+      "source": "x",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "10:30",
@@ -134,7 +147,8 @@
       "handle": "株式会社TEMP【Notion認定コンサルタント企業】",
       "category": "作り方",
       "url": "https://www.youtube.com/watch?v=RpDn5uN3bd0",
-      "source": "youtube"
+      "source": "youtube",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "11:00",
@@ -143,7 +157,8 @@
       "handle": "PIVOT 公式チャンネル",
       "category": "事例",
       "url": "https://www.youtube.com/watch?v=FBNkpwnreYo",
-      "source": "youtube"
+      "source": "youtube",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "11:30",
@@ -152,7 +167,8 @@
       "handle": "AIデリバリー",
       "category": "作り方",
       "url": "https://www.youtube.com/watch?v=OjfaX5gUgUs",
-      "source": "youtube"
+      "source": "youtube",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "08:00",
@@ -161,7 +177,8 @@
       "handle": "ITmedia ビジネスオンライン",
       "category": "事例",
       "url": "https://www.itmedia.co.jp/business/articles/2609/11/news043.html",
-      "source": "web"
+      "source": "web",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "08:30",
@@ -170,7 +187,8 @@
       "handle": "x3d株式会社",
       "category": "作り方",
       "url": "https://x3d.jp/knowledge/aix-lab/ai-agent-tsukurikata",
-      "source": "web"
+      "source": "web",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "09:30",
@@ -179,7 +197,8 @@
       "handle": "花王",
       "category": "事例",
       "url": "https://www.kao.com/jp/newsroom/news/release/2026/20260817-001/",
-      "source": "web"
+      "source": "web",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "10:00",
@@ -188,7 +207,8 @@
       "handle": "LINEヤフー Tech Blog",
       "category": "ツール",
       "url": "https://techblog.lycorp.co.jp/ja/20260826a",
-      "source": "web"
+      "source": "web",
+      "thumbnail": "/thumb-fallback.jpg"
     }
   ]
 }

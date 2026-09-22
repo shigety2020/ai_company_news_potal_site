@@ -15,7 +15,7 @@ type DailyItem = {
   url: string;
   source?: Source;
   sourceLabel?: string;
-  /** Optional TOC thumbnail URL (develop). Empty/missing = text only. */
+  /** TOC thumbnail URL (develop). Empty/missing → /thumb-fallback.jpg on FE. */
   thumbnail?: string | null;
   image?: string | null;
 };
@@ -157,8 +157,10 @@ function formatVia(item: DailyItem): string {
   return `via ${label} · ${name}`;
 }
 
+const THUMB_FALLBACK = "/thumb-fallback.jpg";
+
 function IndexStory({ item }: { item: DailyItem }) {
-  const thumb = (item.thumbnail ?? "").trim();
+  const thumb = (item.thumbnail ?? "").trim() || THUMB_FALLBACK;
   return (
     <a className="story" href={item.url} target="_blank" rel="noreferrer">
       <div className="kicker-row">
@@ -167,14 +169,12 @@ function IndexStory({ item }: { item: DailyItem }) {
         </time>
         <span className="kicker">{item.category}</span>
       </div>
-      <div className={thumb ? "item-row" : undefined}>
-        {thumb ? (
-          <div className="item-thumb" aria-hidden="true">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={thumb} alt="" />
-          </div>
-        ) : null}
-        <div className={thumb ? "item-copy" : undefined}>
+      <div className="item-row">
+        <div className="item-thumb" aria-hidden="true">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={thumb} alt="" />
+        </div>
+        <div className="item-copy">
           <h2 className="item-headline">{item.headline}</h2>
           <p className="item-summary">{item.summary}</p>
           <p className="via">{formatVia(item)}</p>

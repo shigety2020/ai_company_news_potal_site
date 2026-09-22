@@ -15,7 +15,8 @@
       "summary": "調査・企画・法務・監査・分析・実行が同じ目的に向かって連携できるか。能力を編成する時代へ。",
       "handle": "nox_thembuild",
       "category": "作り方",
-      "url": "https://x.com/nox_thembuild/status/2095678504746496099"
+      "url": "https://x.com/nox_thembuild/status/2095678504746496099",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "10:00",
@@ -23,7 +24,8 @@
       "summary": "対話型プランニング、Appleでサインイン、Date変換オペレーターも追加。",
       "handle": "RealineOfficial",
       "category": "ツール",
-      "url": "https://x.com/RealineOfficial/status/2095678355718774994"
+      "url": "https://x.com/RealineOfficial/status/2095678355718774994",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "10:01",
@@ -31,7 +33,8 @@
       "summary": "毎日300件を要エスカレーション8件まで圧縮。起票まで4時間から22分。",
       "handle": "maizunok",
       "category": "作り方",
-      "url": "https://x.com/maizunok/status/2095678565790654751"
+      "url": "https://x.com/maizunok/status/2095678565790654751",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "10:01",
@@ -39,7 +42,8 @@
       "summary": "書式の汎用化、物件情報の表記ゆれ訂正、旧耐震基準の指摘を一連で回した事例。",
       "handle": "SparxCS",
       "category": "事例",
-      "url": "https://x.com/SparxCS/status/2095678570412790038"
+      "url": "https://x.com/SparxCS/status/2095678570412790038",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "10:01",
@@ -47,7 +51,8 @@
       "summary": "AI秘書・業務改善・製造業DX向けの所感。",
       "handle": "hotiron7",
       "category": "ツール",
-      "url": "https://x.com/hotiron7/status/2095681687900619007"
+      "url": "https://x.com/hotiron7/status/2095681687900619007",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "10:01",
@@ -55,7 +60,8 @@
       "summary": "エージェント使いこなしてる人には望みを超える生成物が出てくるかも、という観測。",
       "handle": "shinshu_invest",
       "category": "ツール",
-      "url": "https://x.com/shinshu_invest/status/2095678604814553578"
+      "url": "https://x.com/shinshu_invest/status/2095678604814553578",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "10:05",
@@ -63,7 +69,8 @@
       "summary": "LLMOの流れの中で、読みやすい設計と守り方の両方を変える必要がある。",
       "handle": "yuhikimura_lab",
       "category": "作り方",
-      "url": "https://x.com/yuhikimura_lab/status/2095679541872332870"
+      "url": "https://x.com/yuhikimura_lab/status/2095679541872332870",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "10:06",
@@ -71,7 +78,8 @@
       "summary": "セキュリティも絡むのでフルスタックとの協業が必要、という視点。",
       "handle": "fukugyou_aruyo",
       "category": "作り方",
-      "url": "https://x.com/fukugyou_aruyo/status/2095679861084070235"
+      "url": "https://x.com/fukugyou_aruyo/status/2095679861084070235",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "10:07",
@@ -79,7 +87,8 @@
       "summary": "AI社員・AICOO・Claudeを現場の仕事に乗せる連載。",
       "handle": "south_work5308",
       "category": "作り方",
-      "url": "https://x.com/south_work5308/status/2095680115170787612"
+      "url": "https://x.com/south_work5308/status/2095680115170787612",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "10:08",
@@ -87,7 +96,8 @@
       "summary": "社内アンケートのリマインダーなど具体課題から任せて効果を検証する進め方。",
       "handle": "bl_fox26",
       "category": "作り方",
-      "url": "https://x.com/bl_fox26/status/2095680320876265785"
+      "url": "https://x.com/bl_fox26/status/2095680320876265785",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "10:09",
@@ -95,7 +105,8 @@
       "summary": "自事業とボランティア運営の両立のため、機械的な処理から導入を模索中。",
       "handle": "malico_design",
       "category": "事例",
-      "url": "https://x.com/malico_design/status/2095680514481123745"
+      "url": "https://x.com/malico_design/status/2095680514481123745",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "10:09",
@@ -103,7 +114,8 @@
       "summary": "ハーネスエンジニアリングの視点で、AIエージェントの周りを設計する話。",
       "handle": "suzuki_tech",
       "category": "作り方",
-      "url": "https://x.com/suzuki_tech/status/2095680702918586672"
+      "url": "https://x.com/suzuki_tech/status/2095680702918586672",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "10:10",
@@ -111,7 +123,8 @@
       "summary": "スピード・スケール・コストを満たす基盤とは、デブサミのセッション。",
       "handle": "devsumi",
       "category": "ツール",
-      "url": "https://x.com/devsumi/status/2095680802004820326"
+      "url": "https://x.com/devsumi/status/2095680802004820326",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "10:10",
@@ -119,7 +132,8 @@
       "summary": "プロダクト組織を再設計するクローズド勉強会の案内。",
       "handle": "productzine_jp",
       "category": "事例",
-      "url": "https://x.com/productzine_jp/status/2095680913439137833"
+      "url": "https://x.com/productzine_jp/status/2095680913439137833",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "10:11",
@@ -127,7 +141,8 @@
       "summary": "顧客企業のAIエージェント活用を、セッションとワークショップで支援する。",
       "handle": "kworkcom",
       "category": "事例",
-      "url": "https://x.com/kworkcom/status/2095681127176610012"
+      "url": "https://x.com/kworkcom/status/2095681127176610012",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "10:11",
@@ -135,7 +150,8 @@
       "summary": "アイアンマンのジャーヴィスのように、いろんな情報を先に揃えてくる現場感。",
       "handle": "ruu_1125",
       "category": "事例",
-      "url": "https://x.com/ruu_1125/status/2095681174933028955"
+      "url": "https://x.com/ruu_1125/status/2095681174933028955",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "10:12",
@@ -143,7 +159,8 @@
       "summary": "人がソフトウェアを使う前提のSaaS課金が、エージェント操作では崩れるという指摘。",
       "handle": "tegered1",
       "category": "事例",
-      "url": "https://x.com/tegered1/status/2095681423969866198"
+      "url": "https://x.com/tegered1/status/2095681423969866198",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "10:12",
@@ -151,7 +168,8 @@
       "summary": "デブサミ 2026 Summer のセッションレポート。人が使うDBからAIが使うDBへ。",
       "handle": "ClickHouseJapan",
       "category": "ツール",
-      "url": "https://x.com/ClickHouseJapan/status/2095681433709035616"
+      "url": "https://x.com/ClickHouseJapan/status/2095681433709035616",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "10:01",
@@ -159,7 +177,8 @@
       "summary": "仕様も価格も同じ。分類器ありなしで配布範囲が分かれる。",
       "handle": "yasuda_dev",
       "category": "ツール",
-      "url": "https://x.com/yasuda_dev/status/2095678317018202618"
+      "url": "https://x.com/yasuda_dev/status/2095678317018202618",
+      "thumbnail": "/thumb-fallback.jpg"
     },
     {
       "time": "10:00",
@@ -167,7 +186,8 @@
       "summary": "AIが自動で資産運用する流れを、RWAやL2と並べて整理。",
       "handle": "banricoco",
       "category": "ツール",
-      "url": "https://x.com/banricoco/status/2095678233870250011"
+      "url": "https://x.com/banricoco/status/2095678233870250011",
+      "thumbnail": "/thumb-fallback.jpg"
     }
   ]
 }

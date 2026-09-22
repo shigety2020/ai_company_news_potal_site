@@ -15,7 +15,7 @@ type DailyItem = {
   url: string;
   source?: Source;
   sourceLabel?: string;
-  /** TOC thumbnail URL (develop). Empty/missing → /thumb-fallback.jpg on FE. */
+  /** TOC thumbnail URL (develop). Empty/legacy single fallback → URL-hash /thumb-fallback/0..5.jpg. */
   thumbnail?: string | null;
   image?: string | null;
 };
@@ -157,10 +157,30 @@ function formatVia(item: DailyItem): string {
   return `via ${label} · ${name}`;
 }
 
-const THUMB_FALLBACK = "/thumb-fallback.jpg";
+const THUMB_FALLBACK_COUNT = 6;
+
+/** Stable positive hash for URL → fixed fallback index. */
+function stableHash(s: string): number {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) {
+    h = (Math.imul(h, 31) + s.charCodeAt(i)) >>> 0;
+  }
+  return h;
+}
+
+function thumbFallbackForUrl(url: string): string {
+  return `/thumb-fallback/${stableHash(url || "") % THUMB_FALLBACK_COUNT}.jpg`;
+}
+
+/** Prefer acquired thumbnail; empty or legacy `/thumb-fallback.jpg` → URL-hash 0..5. */
+function resolveThumb(item: DailyItem): string {
+  const t = (item.thumbnail ?? "").trim();
+  if (t && t !== "/thumb-fallback.jpg") return t;
+  return thumbFallbackForUrl(item.url);
+}
 
 function IndexStory({ item }: { item: DailyItem }) {
-  const thumb = (item.thumbnail ?? "").trim() || THUMB_FALLBACK;
+  const thumb = resolveThumb(item);
   return (
     <a className="story" href={item.url} target="_blank" rel="noreferrer">
       <div className="kicker-row">

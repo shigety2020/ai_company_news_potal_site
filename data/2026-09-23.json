@@ -21,44 +21,14 @@
       "thumbnail": "/thumb-fallback/2.jpg"
     },
     {
-      "time": "01:04",
-      "headline": "AIオフィスで設計→開発→テストまで自動、待機AIは止めてトークン節約",
-      "summary": "開発秘書に指示するだけで振り分け進行。動かないAI社員は待機エリアへ移し、コスト暴走を防ぐ試作。",
-      "handle": "SnowDiorama",
-      "category": "作り方",
-      "url": "https://x.com/SnowDiorama/status/2102428864047964299",
-      "source": "x",
-      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2102428794221199360/img/n2cnE6Fy30LXIPzz.jpg"
-    },
-    {
-      "time": "03:27",
-      "headline": "DiscordにClaude Codeを常駐、AI社員同士が同期・納期リマインド",
-      "summary": "人間が介入せず進む会話画面つき。マーケ現場でのマルチエージェント連携の実演。",
-      "handle": "starriver0513",
-      "category": "作り方",
-      "url": "https://x.com/starriver0513/status/2102464859707465917",
-      "source": "x",
-      "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/2102464821509926912/pu/img/PkNDRlVX3Vloq8HM.jpg"
-    },
-    {
-      "time": "07:00",
-      "headline": "GoogleのAX、落ちても続きから再開できるエージェント実行基盤",
-      "summary": "長時間エージェントの弱点は途中落ちで全部やり直し。イベントログとスナップショットで再開可能に。",
-      "handle": "Kenichi_KNZW",
-      "category": "ツール",
-      "url": "https://x.com/Kenichi_KNZW/status/2102518303566479550",
-      "source": "x",
-      "thumbnail": "/thumb-fallback/5.jpg"
-    },
-    {
-      "time": "07:00",
-      "headline": "RabbitがR1不要のスタンドアロンAIエージェントとOS3を発表",
-      "summary": "デバイスなしで動くクラウドOS。エージェント普及の入口として注目される新発表。",
-      "handle": "AI_Investor27",
-      "category": "ツール",
-      "url": "https://x.com/AI_Investor27/status/2102518350240969199",
-      "source": "x",
-      "thumbnail": "https://pbs.twimg.com/news_img/2102501733679476736/uTF_xL_e?format=jpg&name=orig"
+      "time": "08:30",
+      "headline": "導入5か月でAIエージェント2万個、SkyがGemini Enterprise実例を公開",
+      "summary": "Google Cloud Next Tokyo 26基調講演。社員が自発作成した業務特化エージェントの規模感。",
+      "handle": "Ｓｋｙ Style Blog",
+      "category": "事例",
+      "url": "https://www.skygroup.jp/corporate-blog/article/2614/",
+      "source": "web",
+      "thumbnail": "https://corporate-blog-skygroup.g.kuroco-img.app/v=1789098468/files/topics/2614_ext_3_0.jpg"
     },
     {
       "time": "01:37",
@@ -71,16 +41,6 @@
       "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2102436992785207296/img/l2Z6Zpx_Z1tXsmVS.jpg"
     },
     {
-      "time": "07:07",
-      "headline": "AIエージェント用の動画編集エンジン、利用料はエージェント代のみ",
-      "summary": "動画編集をエージェントから叩けるエンジン登場。ツール接続の選択肢が広がる一例。",
-      "handle": "43ryo1",
-      "category": "ツール",
-      "url": "https://x.com/43ryo1/status/2102520153292574809",
-      "source": "x",
-      "thumbnail": "/thumb-fallback/4.jpg"
-    },
-    {
       "time": "01:44",
       "headline": "悪意ある拡張機能1つで5ブラウザーのAIエージェントを乗っ取る検証",
       "summary": "BragJackと呼ばれる脅威。エージェントに権限を渡す前に見るセキュリティの事例。",
@@ -89,26 +49,6 @@
       "url": "https://x.com/kenebeii/status/2102439009989652938",
       "source": "x",
       "thumbnail": "/thumb-fallback/3.jpg"
-    },
-    {
-      "time": "00:15",
-      "headline": "AI社員で集客・販売・フォローをつなぐロードマップ",
-      "summary": "任せる作業の見つけ方から自動化の組み立てまで。ひとり運営向けの入口整理。",
-      "handle": "T_AI_System",
-      "category": "作り方",
-      "url": "https://x.com/T_AI_System/status/2102416584212087218",
-      "source": "x",
-      "thumbnail": "https://pbs.twimg.com/media/HS1IvWQasAA79vv.jpg"
-    },
-    {
-      "time": "07:00",
-      "headline": "AI社員同士の受け渡しに「何を・どの形式で・誰に」を定める",
-      "summary": "上流が曖昧なら下流は歪む。人間の部署間連携と同じ型をAI社員間にも適用する論点。",
-      "handle": "AxiomPartner",
-      "category": "作り方",
-      "url": "https://x.com/AxiomPartner/status/2102518382193180924",
-      "source": "x",
-      "thumbnail": "/thumb-fallback/1.jpg"
     },
     {
       "time": "00:00",
@@ -131,6 +71,16 @@
       "thumbnail": "/thumb-fallback/0.jpg"
     },
     {
+      "time": "01:04",
+      "headline": "AIオフィスで設計→開発→テストまで自動、待機AIは止めてトークン節約",
+      "summary": "開発秘書に指示するだけで振り分け進行。動かないAI社員は待機エリアへ移し、コスト暴走を防ぐ試作。",
+      "handle": "SnowDiorama",
+      "category": "作り方",
+      "url": "https://x.com/SnowDiorama/status/2102428864047964299",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2102428794221199360/img/n2cnE6Fy30LXIPzz.jpg"
+    },
+    {
       "time": "09:00",
       "headline": "Claude Code Skillsで自分専用のAI社員を作る方法",
       "summary": "SkillsとCLAUDE.mdの使い分け、トークン節約と品質安定の要点を20分で解説。",
@@ -139,36 +89,6 @@
       "url": "https://www.youtube.com/watch?v=FpZKN8kJx_Q",
       "source": "youtube",
       "thumbnail": "https://i.ytimg.com/vi/FpZKN8kJx_Q/hqdefault.jpg"
-    },
-    {
-      "time": "09:30",
-      "headline": "人間ひとり＋AIチームで会社を運営する仕組み",
-      "summary": "部署別SkillsとMCP連携で、ひとりでも会社運営を回すClaude Codeの設計を解説。",
-      "handle": "キノコード / AI・プログラミング学習チャンネル",
-      "category": "作り方",
-      "url": "https://www.youtube.com/watch?v=mgNnGkApg6s",
-      "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/mgNnGkApg6s/hqdefault.jpg"
-    },
-    {
-      "time": "10:00",
-      "headline": "AIエージェントを最強にするオーケストレーションSkills",
-      "summary": "単体スキルを正しい順番で束ね、大きな仕事を一回の指示で任せる設計を動画で解説。",
-      "handle": "AI共創イノベーションサテライト@ワンダー佐藤源彦(ChatGPT Claude Gemini 等)",
-      "category": "作り方",
-      "url": "https://www.youtube.com/watch?v=rWARWkHWJTk",
-      "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/rWARWkHWJTk/hqdefault.jpg"
-    },
-    {
-      "time": "10:30",
-      "headline": "ゼロからClaude Codeで自分専用AIチームを作る",
-      "summary": "役割別フォルダとCLAUDE.mdでPR・営業・経理を並列起動する初心者向け手順。",
-      "handle": "【さき】のAIでええやん。",
-      "category": "作り方",
-      "url": "https://www.youtube.com/watch?v=cwHITZn23d4",
-      "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/cwHITZn23d4/hqdefault.jpg"
     },
     {
       "time": "08:00",
@@ -181,14 +101,24 @@
       "thumbnail": "https://churaweb.net/wp-content/uploads/2026/09/2026-09-07_blog-thumb_ai-agent-tsukurikata.png"
     },
     {
-      "time": "08:30",
-      "headline": "導入5か月でAIエージェント2万個、SkyがGemini Enterprise実例を公開",
-      "summary": "Google Cloud Next Tokyo 26基調講演。社員が自発作成した業務特化エージェントの規模感。",
-      "handle": "Ｓｋｙ Style Blog",
-      "category": "事例",
-      "url": "https://www.skygroup.jp/corporate-blog/article/2614/",
-      "source": "web",
-      "thumbnail": "https://corporate-blog-skygroup.g.kuroco-img.app/v=1789098468/files/topics/2614_ext_3_0.jpg"
+      "time": "03:27",
+      "headline": "DiscordにClaude Codeを常駐、AI社員同士が同期・納期リマインド",
+      "summary": "人間が介入せず進む会話画面つき。マーケ現場でのマルチエージェント連携の実演。",
+      "handle": "starriver0513",
+      "category": "作り方",
+      "url": "https://x.com/starriver0513/status/2102464859707465917",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/2102464821509926912/pu/img/PkNDRlVX3Vloq8HM.jpg"
+    },
+    {
+      "time": "09:30",
+      "headline": "人間ひとり＋AIチームで会社を運営する仕組み",
+      "summary": "部署別SkillsとMCP連携で、ひとりでも会社運営を回すClaude Codeの設計を解説。",
+      "handle": "キノコード / AI・プログラミング学習チャンネル",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=mgNnGkApg6s",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/mgNnGkApg6s/hqdefault.jpg"
     },
     {
       "time": "11:00",
@@ -201,6 +131,26 @@
       "thumbnail": "https://binxai.co.jp/images/blog/aws-agentcore-ai-agent-common-platform/og.jpg"
     },
     {
+      "time": "00:15",
+      "headline": "AI社員で集客・販売・フォローをつなぐロードマップ",
+      "summary": "任せる作業の見つけ方から自動化の組み立てまで。ひとり運営向けの入口整理。",
+      "handle": "T_AI_System",
+      "category": "作り方",
+      "url": "https://x.com/T_AI_System/status/2102416584212087218",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HS1IvWQasAA79vv.jpg"
+    },
+    {
+      "time": "10:00",
+      "headline": "AIエージェントを最強にするオーケストレーションSkills",
+      "summary": "単体スキルを正しい順番で束ね、大きな仕事を一回の指示で任せる設計を動画で解説。",
+      "handle": "AI共創イノベーションサテライト@ワンダー佐藤源彦(ChatGPT Claude Gemini 等)",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=rWARWkHWJTk",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/rWARWkHWJTk/hqdefault.jpg"
+    },
+    {
       "time": "11:30",
       "headline": "Claude Codeで10部門の仮想経営チームを構築した全手順",
       "summary": "部門別エージェントと司令塔CLAUDE.mdで、1人社長でも組織として意思決定する型。",
@@ -209,6 +159,56 @@
       "url": "https://note.com/4_r_r_s/n/ncb0308d9c7c0",
       "source": "web",
       "thumbnail": "https://assets.st-note.com/production/uploads/images/262561521/rectangle_large_type_2_4d16964beb34dca81af2b95550e33233.png?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "07:00",
+      "headline": "AI社員同士の受け渡しに「何を・どの形式で・誰に」を定める",
+      "summary": "上流が曖昧なら下流は歪む。人間の部署間連携と同じ型をAI社員間にも適用する論点。",
+      "handle": "AxiomPartner",
+      "category": "作り方",
+      "url": "https://x.com/AxiomPartner/status/2102518382193180924",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "10:30",
+      "headline": "ゼロからClaude Codeで自分専用AIチームを作る",
+      "summary": "役割別フォルダとCLAUDE.mdでPR・営業・経理を並列起動する初心者向け手順。",
+      "handle": "【さき】のAIでええやん。",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=cwHITZn23d4",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/cwHITZn23d4/hqdefault.jpg"
+    },
+    {
+      "time": "07:00",
+      "headline": "GoogleのAX、落ちても続きから再開できるエージェント実行基盤",
+      "summary": "長時間エージェントの弱点は途中落ちで全部やり直し。イベントログとスナップショットで再開可能に。",
+      "handle": "Kenichi_KNZW",
+      "category": "ツール",
+      "url": "https://x.com/Kenichi_KNZW/status/2102518303566479550",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "07:00",
+      "headline": "RabbitがR1不要のスタンドアロンAIエージェントとOS3を発表",
+      "summary": "デバイスなしで動くクラウドOS。エージェント普及の入口として注目される新発表。",
+      "handle": "AI_Investor27",
+      "category": "ツール",
+      "url": "https://x.com/AI_Investor27/status/2102518350240969199",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/news_img/2102501733679476736/uTF_xL_e?format=jpg&name=orig"
+    },
+    {
+      "time": "07:07",
+      "headline": "AIエージェント用の動画編集エンジン、利用料はエージェント代のみ",
+      "summary": "動画編集をエージェントから叩けるエンジン登場。ツール接続の選択肢が広がる一例。",
+      "handle": "43ryo1",
+      "category": "ツール",
+      "url": "https://x.com/43ryo1/status/2102520153292574809",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
     }
   ]
 }

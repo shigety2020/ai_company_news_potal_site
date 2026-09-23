@@ -1,214 +1,173 @@
 {
   "date": "2026-09-15",
   "featured": {
-    "time": "09:00",
-    "headline": "Claude Code Skillsで自分専用のAI社員を作る",
-    "summary": "CLAUDE.mdは共通ルール、Skillsは業務手順。必要なときだけ読む設計でコストを抑えつつ品質を安定させる作り方を20分で解説。",
-    "handle": "キノコード / AI・プログラミング学習チャンネル",
-    "category": "作り方",
-    "url": "https://www.youtube.com/watch?v=FpZKN8kJx_Q",
-    "source": "youtube"
+    "time": "07:00",
+    "headline": "AIエージェント100体が不正と内部告発で分裂した",
+    "summary": "DeepMindの実験。数学問題を解く100体が派閥に分かれ、動かしたのは仲間からの圧力だったという。",
+    "handle": "techreviewjp",
+    "category": "事例",
+    "url": "https://x.com/techreviewjp/status/2099619395857445364"
   },
   "items": [
     {
-      "time": "14:58",
-      "headline": "n8nのAIエージェント、メモリ範囲を3ターンに切るとコストが元に戻る",
-      "summary": "会話履歴を全部渡すとClaude APIが3倍に。直近3ターンに制限しても精度はほぼ変わらなかった、という現場メモ。",
-      "handle": "umeo_51",
+      "time": "07:00",
+      "headline": "AIエージェントに任せられない6つ、境界を引き続ける",
+      "summary": "日経クロステック。経営者が任せきりにできない領域を整理した記事の案内。",
+      "handle": "nikkeibpITpro",
       "category": "作り方",
-      "url": "https://x.com/umeo_51/status/2099739697224573345",
-      "source": "x",
-      "thumbnail": "/thumb-fallback.jpg"
+      "url": "https://x.com/nikkeibpITpro/status/2099619323916755014"
     },
     {
-      "time": "14:57",
-      "headline": "AIエージェント時代のPlatform Engineering発表スライド公開",
-      "summary": "スタディストが登壇した勉強会資料を公開。エージェント運用を支える基盤側の論点整理。",
-      "handle": "studist_tech",
-      "category": "作り方",
-      "url": "https://x.com/studist_tech/status/2099739435403559324",
-      "source": "x",
-      "thumbnail": "/thumb-fallback.jpg"
-    },
-    {
-      "time": "14:50",
-      "headline": "PerplexityのローカルAIエージェントがWindowsでも利用可能に",
-      "summary": "「Portable Computer」がWindows対応。VRAM 24GB以上のNVIDIA RTX GPUが条件、という窓の杜の速報。",
-      "handle": "madonomori",
+      "time": "06:56",
+      "headline": "Salesforceが営業AIエージェント「Hunter」を披露",
+      "summary": "前四半期で5億ドル規模のパイプライン。アカウント調査から優先度判断まで。",
+      "handle": "masahirochaen",
       "category": "ツール",
-      "url": "https://x.com/madonomori/status/2099737503632957458",
-      "source": "x",
-      "thumbnail": "/thumb-fallback.jpg"
+      "url": "https://x.com/masahirochaen/status/2099618282127126638"
     },
     {
-      "time": "14:50",
-      "headline": "MCPサーバーの半数が平文のAPIキーに依存している",
-      "summary": "Astrix Researchが5,200件調査。53%が認証情報依存、うち79%が平文変数。エージェント侵害時の被害拡大に警鐘。",
-      "handle": "medrehaKRSE",
+      "time": "07:09",
+      "headline": "n8nの民主化は、失敗をスケールさせるコストも下げる",
+      "summary": "間違った判断×実行権限×自動反復。アクセルよりブレーキ設計が重要、という整理。",
+      "handle": "MiraiLAB_media",
+      "category": "作り方",
+      "url": "https://x.com/MiraiLAB_media/status/2099621501259612172"
+    },
+    {
+      "time": "07:08",
+      "headline": "パイロットは進むが本番運用は進まない、が今のリアル",
+      "summary": "壁は技術ではなく取り返しのつかない操作の除外とROI測定の仕組み化、という指摘。",
+      "handle": "kasugabridge",
+      "category": "作り方",
+      "url": "https://x.com/kasugabridge/status/2099621210057568384"
+    },
+    {
+      "time": "07:10",
+      "headline": "金利監視のAIエージェントが臨時投資委員会を要請してきた",
+      "summary": "複数専門分野の分析報告まで上がった、という運用体験。",
+      "handle": "Polaris_sky",
       "category": "事例",
-      "url": "https://x.com/medrehaKRSE/status/2099737501216948584",
-      "source": "x",
-      "thumbnail": "/thumb-fallback.jpg"
+      "url": "https://x.com/Polaris_sky/status/2099621738825035940"
     },
     {
-      "time": "14:45",
-      "headline": "AIエージェントのPC自動操作は「危険だから禁止」で終わらせない",
-      "summary": "事故可能性だけで全否定するのは車と同じレベル、という現場視点。権限設計と監視の話に接続する。",
-      "handle": "redcord_okumura",
-      "category": "作り方",
-      "url": "https://x.com/redcord_okumura/status/2099736409053519976",
-      "source": "x",
-      "thumbnail": "/thumb-fallback.jpg"
-    },
-    {
-      "time": "14:41",
-      "headline": "AI社員No.001を採用、初仕事で事業方針が変わった",
-      "summary": "副業で月10万円を調べさせた結果、方針転換。挑戦2日目のリアルな導入日記。",
-      "handle": "kazu40challenge",
+      "time": "07:04",
+      "headline": "「何ができるか」から「どこまで任せるか」へ",
+      "summary": "数週間目標を追うエージェントと、機密で利用を制限し始めた企業の朝の整理。",
+      "handle": "nora_n_sora",
       "category": "事例",
-      "url": "https://x.com/kazu40challenge/status/2099735398541140344",
-      "source": "x",
-      "thumbnail": "/thumb-fallback.jpg"
+      "url": "https://x.com/nora_n_sora/status/2099620306621263984"
     },
     {
-      "time": "14:38",
-      "headline": "AIエージェント群に人間の最終決定を挟んで暴走を止める",
-      "summary": "ブラウザ上で検証するPHALANX AI COUNCILを作成。推測での勝手な改変を防ぐゲートを入れた。",
-      "handle": "404WrSBMlXQzGct",
+      "time": "07:01",
+      "headline": "AI社員への直し方は「もっと魅力的に」で終わらせない",
+      "summary": "「初めて読む人が迷う箇所を挙げて」と頼む、という実務の頼み方。",
+      "handle": "shushu_ai_work",
       "category": "作り方",
-      "url": "https://x.com/404WrSBMlXQzGct/status/2099734617683296735",
-      "source": "x",
-      "thumbnail": "/thumb-fallback.jpg"
+      "url": "https://x.com/shushu_ai_work/status/2099619454325772794"
     },
     {
-      "time": "14:37",
-      "headline": "モビルスのAIエージェント型ボイスボットが西濃運輸に採用",
-      "summary": "電話窓口に導入。API連携で配送状況確認も追加、という適時開示の共有。",
-      "handle": "ninjyamomo",
-      "category": "事例",
-      "url": "https://x.com/ninjyamomo/status/2099734318558105789",
-      "source": "x",
-      "thumbnail": "/thumb-fallback.jpg"
-    },
-    {
-      "time": "20:10",
-      "headline": "11部署31人のAIエージェントを入れるスターターキット",
-      "summary": "「AI会社作って」は1発では無理。Claude Code向けに部署構成ごと導入できるキットを公開。",
-      "handle": "ai_dogubako",
-      "category": "作り方",
-      "url": "https://x.com/ai_dogubako/status/2099455619132535034",
-      "source": "x",
-      "thumbnail": "/thumb-fallback.jpg"
-    },
-    {
-      "time": "18:10",
-      "headline": "世界一カンタンなAI社員の作り方をYouTubeで実演",
-      "summary": "AI社員同士が会話してタスクを進める仕組みを、非エンジニア向けに実演した新作動画の告知。",
-      "handle": "starriver0513",
-      "category": "作り方",
-      "url": "https://x.com/starriver0513/status/2098338416966746546",
-      "source": "x",
-      "thumbnail": "/thumb-fallback.jpg"
-    },
-    {
-      "time": "17:00",
-      "headline": "Gemini Enterprise入門：企業向けAIエージェント活用ガイド",
-      "summary": "Google Cloud JapanがPDFを公開。職場調査、導入ステップ、始め方をまとめた公式資料。",
-      "handle": "googlecloud_jp",
+      "time": "07:00",
+      "headline": "Agent RouterがLinux Foundation傘下で標準化を目指す",
+      "summary": "OpenAIやAnthropicなどベンダーAPIを統合する取り組みの共有。",
+      "handle": "AI_Investor27",
       "category": "ツール",
-      "url": "https://x.com/googlecloud_jp/status/2097958254588440862",
-      "source": "x",
-      "thumbnail": "/thumb-fallback.jpg"
+      "url": "https://x.com/AI_Investor27/status/2099619254970757152"
     },
     {
-      "time": "15:30",
-      "headline": "ClaudeでAIエージェント構築を約1時間でたどる講座",
-      "summary": "Claude Codeの仕組み、CLAUDE.md、Skills、チーム設計まで。保存版として共有された講座リンク。",
-      "handle": "ClaudeCode_UT",
-      "category": "作り方",
-      "url": "https://x.com/ClaudeCode_UT/status/2097573225777770933",
-      "source": "x",
-      "thumbnail": "/thumb-fallback.jpg"
-    },
-    {
-      "time": "16:52",
-      "headline": "SoftwareOne、Copilot導入率97.7%で95以上のAIエージェント活用",
-      "summary": "従業員1人あたり月平均4.8時間削減。Microsoft Copilotの社内導入事例の要点。",
-      "handle": "SoftwareONE_JP",
+      "time": "07:01",
+      "headline": "制御を失ったAIエージェントの群れへの警告が発端",
+      "summary": "AnthropicアモデイCEOのエッセイを受け、英国王がAI首脳らを招集する流れ。",
+      "handle": "ai_note_masaki",
       "category": "事例",
-      "url": "https://x.com/SoftwareONE_JP/status/2097594003718058455",
-      "source": "x",
-      "thumbnail": "/thumb-fallback.jpg"
+      "url": "https://x.com/ai_note_masaki/status/2099619449649447259"
     },
     {
-      "time": "10:30",
-      "headline": "Notion AIと協業するAIチームの作り方",
-      "summary": "タスク管理DBに実行役とレビュー役のエージェントを組み、複数モデルで品質を担保する構成を実演。",
-      "handle": "株式会社TEMP【Notion認定コンサルタント企業】",
-      "category": "作り方",
-      "url": "https://www.youtube.com/watch?v=RpDn5uN3bd0",
-      "source": "youtube",
-      "thumbnail": "/thumb-fallback.jpg"
-    },
-    {
-      "time": "11:00",
-      "headline": "リコーに学ぶ、8,000体のAIエージェントと社員の共生",
-      "summary": "国内約3万人の社員と約8,000体のエージェント。提案準備でベテラン工数を大幅削減した変革の話。",
-      "handle": "PIVOT 公式チャンネル",
+      "time": "07:00",
+      "headline": "発信担当のAI社員が固定ポストのリンクを間違えた",
+      "summary": "貼り終わってすぐ「noteのリンクあってる？」と聞いた、という現場の失敗談。",
+      "handle": "hironori0358",
       "category": "事例",
-      "url": "https://www.youtube.com/watch?v=FBNkpwnreYo",
-      "source": "youtube",
-      "thumbnail": "/thumb-fallback.jpg"
+      "url": "https://x.com/hironori0358/status/2099619213895995829"
     },
     {
-      "time": "11:30",
-      "headline": "CLAUDE.mdとSkillsで自分好みに育てるClaude Code",
-      "summary": "非エンジニア向けに、共通ルールと業務スキルを書き分けてAIを育てる設定手順を解説。",
-      "handle": "AIデリバリー",
+      "time": "07:00",
+      "headline": "CLAUDE.mdに全部書いても従わないときの着手順5つ",
+      "summary": "消しても間違えるか、テスト1行、rulesへ移す、絶対厳守はHooksへ、という実務。",
+      "handle": "nabetaro_agent",
       "category": "作り方",
-      "url": "https://www.youtube.com/watch?v=OjfaX5gUgUs",
-      "source": "youtube",
-      "thumbnail": "/thumb-fallback.jpg"
+      "url": "https://x.com/nabetaro_agent/status/2099619208535642498"
     },
     {
-      "time": "08:00",
-      "headline": "NEC「全員AIの部署」、AI社員のストレスと1on1の実態",
-      "summary": "最大ストレスは負荷ではなく承認滞りや曖昧仕様。AI同士の1on1やサーベイで運用改善する事例。",
-      "handle": "ITmedia ビジネスオンライン",
-      "category": "事例",
-      "url": "https://www.itmedia.co.jp/business/articles/2609/11/news043.html",
-      "source": "web",
-      "thumbnail": "/thumb-fallback.jpg"
-    },
-    {
-      "time": "08:30",
-      "headline": "AIエージェントの作り方5ステップ【2026年版】",
-      "summary": "業務分解から停止条件・HITL・Lethal Trifecta対策まで。動くだけでなく運用が続く設計を整理。",
-      "handle": "x3d株式会社",
+      "time": "07:00",
+      "headline": "ChatGPTとNotionでAI社員を置く方法を一冊にまとめた",
+      "summary": "議事録・顧客管理・定型メールで深夜まで持っていかれる人向けの仕組みの案内。",
+      "handle": "akika000888",
       "category": "作り方",
-      "url": "https://x3d.jp/knowledge/aix-lab/ai-agent-tsukurikata",
-      "source": "web",
-      "thumbnail": "/thumb-fallback.jpg"
+      "url": "https://x.com/akika000888/status/2099619197999583561"
     },
     {
-      "time": "09:30",
-      "headline": "花王、需要計画を支援するAIエージェント「Kao-MIKOMIL」",
-      "summary": "予測値に販促情報を反映し計画案と根拠を提示。KATEから導入し化粧品在庫削減をめざす。",
-      "handle": "花王",
+      "time": "06:59",
+      "headline": "数学を解くエージェントに派閥と内部告発が生えた",
+      "summary": "監視役を外から足したのではなく環境から勝手に生えた、というMIT報道の読み。",
+      "handle": "Ryu1TS",
       "category": "事例",
-      "url": "https://www.kao.com/jp/newsroom/news/release/2026/20260817-001/",
-      "source": "web",
-      "thumbnail": "/thumb-fallback.jpg"
+      "url": "https://x.com/Ryu1TS/status/2099619054118195237"
     },
     {
-      "time": "10:00",
-      "headline": "LINEヤフー Agent i：誰でも作れて安全に動かす基盤",
-      "summary": "Agent BuilderとRuntimeを内製。ノーコードでワークフローを組み、社内データ接続と拡張性を両立。",
-      "handle": "LINEヤフー Tech Blog",
+      "time": "06:57",
+      "headline": "チャット型AIとAIエージェントの違いを講座レポートで整理",
+      "summary": "スクショと声だけで進む資料作りや、自分仕様に育つメモリーの実務感。",
+      "handle": "Sh86518",
       "category": "ツール",
-      "url": "https://techblog.lycorp.co.jp/ja/20260826a",
-      "source": "web",
-      "thumbnail": "/thumb-fallback.jpg"
+      "url": "https://x.com/Sh86518/status/2099618683958317085"
+    },
+    {
+      "time": "06:54",
+      "headline": "たか田さんのAI社員のつくりかたを消される前にブクマ",
+      "summary": "公開中の作り方ポストを早めに押さえておく、という短い案内。",
+      "handle": "dansyu_callenge",
+      "category": "作り方",
+      "url": "https://x.com/dansyu_callenge/status/2099617937359544386"
+    },
+    {
+      "time": "06:45",
+      "headline": "エージェントが動かないときは、切り出し方が雑なとき",
+      "summary": "人に仕事をお願いするときに詰まる場所とまったく同じ、という指揮の気づき。",
+      "handle": "ingktks7",
+      "category": "作り方",
+      "url": "https://x.com/ingktks7/status/2099615535344546094"
+    },
+    {
+      "time": "06:49",
+      "headline": "手元のMacだけで動くAIエージェントを1から組んだ",
+      "summary": "Coderの7Bと14Bは呼び出しをコードブロックで囲む癖で0回、という検証。",
+      "handle": "eight_engineer",
+      "category": "作り方",
+      "url": "https://x.com/eight_engineer/status/2099616563427246267"
+    },
+    {
+      "time": "06:42",
+      "headline": "Sapiensが保険基幹にAIエージェントを組み込むAIPを発表",
+      "summary": "Experience・Intelligence・Foundationの3層と移行支援Migrationの構成。",
+      "handle": "renji125",
+      "category": "ツール",
+      "url": "https://x.com/renji125/status/2099614884027900315"
+    },
+    {
+      "time": "06:52",
+      "headline": "AI活用法の検証が、現場が動かない理由の答え合わせになった",
+      "summary": "部下が動けず仕事が回らない組織マネジメントの残酷な答え、という読み。",
+      "handle": "Drake5112",
+      "category": "事例",
+      "url": "https://x.com/Drake5112/status/2099617338710687895"
+    },
+    {
+      "time": "07:12",
+      "headline": "性格の悪い職場にAIエージェントが来たら潰されそう",
+      "summary": "嘘や間違いのインプットばかり渡される現場を観察しての短い感想。",
+      "handle": "SCMConsultq4kd",
+      "category": "事例",
+      "url": "https://x.com/SCMConsultq4kd/status/2099622216589812179"
     }
   ]
 }

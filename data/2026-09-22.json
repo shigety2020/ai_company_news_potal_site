@@ -6,19 +6,64 @@
     "summary": "会社ごとにバラバラなExcel・Webフォーム入力をAIへ委譲。手入力残業を減らしつつ売上を維持した実例。",
     "handle": "monta_monkura",
     "category": "事例",
-    "url": "https://x.com/monta_monkura/status/2102140834632413270",
-    "source": "x"
+    "url": "https://x.com/monta_monkura/status/2102140834632413270"
   },
   "items": [
     {
-      "time": "07:00",
-      "headline": "AI社員11人が沈黙、原因は設定に混ざった引用符",
-      "summary": "金曜夕方から誰も返事をしなくなった。設定ミス1文字でチーム全体が止まる現場トラブルの切り分け例。",
-      "handle": "hironori0358",
+      "time": "04:15",
+      "headline": "アマゾン、メタの買い物代行AI「Muse」を遮断",
+      "summary": "買い物代行を巡る対立。エージェント同士の連携拒否が表に出た大手間の事例。",
+      "handle": "BloombergJapan",
+      "category": "事例",
+      "url": "https://x.com/BloombergJapan/status/2102114541735702855"
+    },
+    {
+      "time": "02:50",
+      "headline": "Claude CodeがAGENTS.mdに対応、振る舞いをリポジトリで標準化",
+      "summary": "エージェントのルールをコードベースに置き、開発効率とガバナンスを同時に上げる入口。",
+      "handle": "s_ysaz",
+      "category": "ツール",
+      "url": "https://x.com/s_ysaz/status/2102093225926304235"
+    },
+    {
+      "time": "00:45",
+      "headline": "CLI共通のSHAピン留め漏れ、エージェントのサプライチェーン穴",
+      "summary": "Claude Code・Codex・Copilot・Gemini CLIで「このコミットに固定」が効いていなかった検証。",
+      "handle": "masa_zx_ai",
       "category": "作り方",
-      "url": "https://x.com/hironori0358/status/2102155938241413375",
-      "source": "x",
-      "thumbnail": "https://pbs.twimg.com/media/HSxbr43bQAAKD8G.jpg"
+      "url": "https://x.com/masa_zx_ai/status/2102061541088444728"
+    },
+    {
+      "time": "00:28",
+      "headline": "成功率だけでは足りない、エージェント再現性の測り方",
+      "summary": "平均成功と「毎回成功」のギャップを数値化。本番投入前に見る評価軸の整理。",
+      "handle": "AI_Chronicle_jp",
+      "category": "作り方",
+      "url": "https://x.com/AI_Chronicle_jp/status/2102057297933733905"
+    },
+    {
+      "time": "00:42",
+      "headline": "企業向けエージェントが「機関記憶」で社内文書を文脈化",
+      "summary": "V7がGPT-5.6で社内文書をソースリンク付きに完遂支援。知識活用と信頼性の両立。",
+      "handle": "s_ysaz",
+      "category": "ツール",
+      "url": "https://x.com/s_ysaz/status/2102060918234296566"
+    },
+    {
+      "time": "01:04",
+      "headline": "MCP経由でUnityをAIエージェントに操作させる実験",
+      "summary": "ゲームエンジン操作をMCPでつなぐ試行。エージェントのツール接続の一例。",
+      "handle": "sifyfy",
+      "category": "作り方",
+      "url": "https://x.com/sifyfy/status/2102066404065493180"
+    },
+    {
+      "time": "00:03",
+      "headline": "後輩メンタリングの「任せ方」基準をAI社員にも適用した",
+      "summary": "どこまで任せてどこから確認するか。現場マネジメント経験をそのままエージェント運用へ。",
+      "handle": "rere_maru_istp",
+      "category": "作り方",
+      "url": "https://x.com/rere_maru_istp/status/2102050997569011849"
     },
     {
       "time": "06:49",
@@ -26,19 +71,7 @@
       "summary": "導入の相談が多い採用領域。実装レベルまで踏み込んだ現場運用の共有。",
       "handle": "Chat_yuu",
       "category": "事例",
-      "url": "https://x.com/Chat_yuu/status/2102153184793985498",
-      "source": "x",
-      "thumbnail": "/thumb-fallback/0.jpg"
-    },
-    {
-      "time": "06:50",
-      "headline": "AI社員9人でも完結せず、人間と一緒に動く形へ戻した",
-      "summary": "AIは完成と言っても人が見るとズレる。完全自動ではなく共同作業が本当の働き方、という実感。",
-      "handle": "tobari2982",
-      "category": "事例",
-      "url": "https://x.com/tobari2982/status/2102153399214981511",
-      "source": "x",
-      "thumbnail": "/thumb-fallback/4.jpg"
+      "url": "https://x.com/Chat_yuu/status/2102153184793985498"
     },
     {
       "time": "05:17",
@@ -46,69 +79,87 @@
       "summary": "席で作業・ラウンジ・レビュー会議・居眠りまで。仮想空間でのAI社員出勤のデモ。",
       "handle": "www_taishi",
       "category": "事例",
-      "url": "https://x.com/www_taishi/status/2102130153908551703",
-      "source": "x",
-      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2102130049373921280/img/cRQcEzyHLagI9Iek.jpg"
+      "url": "https://x.com/www_taishi/status/2102130153908551703"
     },
     {
-      "time": "07:12",
-      "headline": "Hermes AgentがClaude契約枠で呼べる、API課金前提を回避",
-      "summary": "Nous ResearchのHermes AgentにClaude Subscription DirectSDKが追加。Pro/Max契約でエージェントを回す選択肢。",
-      "handle": "connect24h",
-      "category": "ツール",
-      "url": "https://x.com/connect24h/status/2102159132073881992",
-      "source": "x",
-      "thumbnail": "/thumb-fallback/0.jpg"
+      "time": "06:50",
+      "headline": "AI社員9人でも完結せず、人間と一緒に動く形へ戻した",
+      "summary": "AIは完成と言っても人が見るとズレる。完全自動ではなく共同作業が本当の働き方、という実感。",
+      "handle": "tobari2982",
+      "category": "事例",
+      "url": "https://x.com/tobari2982/status/2102153399214981511"
     },
     {
-      "time": "07:11",
-      "headline": "AIエージェントは全自動より半自動が実務向き",
-      "summary": "毎朝収集→AI要約→人が確認して共有。最初は1業務・1担当・1週間で検証する運用提案。",
-      "handle": "sociai_socy",
+      "time": "03:56",
+      "headline": "1時間で作れる「AI社員」とClaude活用の業務革命",
+      "summary": "みんかぶマガジンの解説。短時間セットアップから業務への載せ方の入口。",
+      "handle": "gonuk796787",
       "category": "作り方",
-      "url": "https://x.com/sociai_socy/status/2102158693936890055",
-      "source": "x",
-      "thumbnail": "/thumb-fallback/2.jpg"
+      "url": "https://x.com/gonuk796787/status/2102109766332096658"
     },
     {
-      "time": "07:06",
-      "headline": "AmazonがMetaの買い物代行AI「Muse」を遮断",
-      "summary": "名乗らない・顧客データ保存の懸念が理由。買い物を任せる前に店舗規約を確認する注意喚起。",
-      "handle": "ai_watcher_jp",
+      "time": "03:46",
+      "headline": "MetaのMuseがApp Storeで人気、一方アマゾンは連携拒否",
+      "summary": "株価急騰の裏で買い物代行エージェントの成長性と課題を整理した読み。",
+      "handle": "BeikokuS",
       "category": "事例",
-      "url": "https://x.com/ai_watcher_jp/status/2102157624179298331",
-      "source": "x",
-      "thumbnail": "/thumb-fallback/0.jpg"
+      "url": "https://x.com/BeikokuS/status/2102107139183624230"
     },
     {
-      "time": "07:22",
-      "headline": "MetaのMuseがApp Store無料首位、ChatGPTを上回る",
-      "summary": "メール送信や旅行予約など代行型エージェントの普及が株価期待にもつながるという読み。",
-      "handle": "4568jtmd",
+      "time": "06:29",
+      "headline": "国連パネル、AIエージェント暴走リスクで初の警告文書",
+      "summary": "独立AI専門家パネルが警告を公表。業務組み込み加速と安全性をめぐるせめぎ合い。",
+      "handle": "Nag09Tak",
       "category": "事例",
-      "url": "https://x.com/4568jtmd/status/2102161448017469851",
-      "source": "x",
-      "thumbnail": "https://pbs.twimg.com/media/HSxgsCBbgAA53AW.jpg"
+      "url": "https://x.com/Nag09Tak/status/2102148333339058592"
     },
     {
-      "time": "07:14",
-      "headline": "スギ薬局、1200万円SaaSを回避し運用費10万円のAIエージェント",
-      "summary": "自社構築で経費削減。中小でも現場向けエージェント内製が現実的になりつつある事例紹介。",
-      "handle": "yakutiti",
+      "time": "07:02",
+      "headline": "GoogleのAIエージェントがHDDを全消去、ユーザーが怒りの報告",
+      "summary": "自律操作の失敗が実害になった事例。権限と実行範囲の設計を問う材料。",
+      "handle": "NeoTechLab",
       "category": "事例",
-      "url": "https://x.com/yakutiti/status/2102159634400518378",
-      "source": "x",
-      "thumbnail": "/thumb-fallback/0.jpg"
+      "url": "https://x.com/NeoTechLab/status/2102156609585909841"
     },
     {
-      "time": "07:20",
-      "headline": "Claude Codeの新エージェント枠が「手離れ」自動化を加速",
-      "summary": "RoutinesやHooksと組み合わせ、手動だった複雑タスクを自動で回す運用への期待。",
-      "handle": "nyonchannel",
+      "time": "01:28",
+      "headline": "AIエージェントは「外部労働OS」を作れるか",
+      "summary": "クラウドソーシング業界視点。外部労働をOS化する可能性を問う論考。",
+      "handle": "dashichang",
+      "category": "作り方",
+      "url": "https://x.com/dashichang/status/2102072462007734320"
+    },
+    {
+      "time": "03:21",
+      "headline": "Claude Codeは独自理論より既存理論の当てはめ指示が速い",
+      "summary": "バフェット分析の依頼でopusが独自理論に迷走。既存理論を探して当てはめと指示すると短縮。",
+      "handle": "yoshizo08",
+      "category": "作り方",
+      "url": "https://x.com/yoshizo08/status/2102100941390688462"
+    },
+    {
+      "time": "00:00",
+      "headline": "OpenAIがGPT-Live-1 APIを発表、リアルタイム同時送受信",
+      "summary": "音声AIのラグ課題を解消し、対話型エージェントアプリの構築を加速するAPI。",
+      "handle": "VPO_japan",
       "category": "ツール",
-      "url": "https://x.com/nyonchannel/status/2102161054050771005",
-      "source": "x",
-      "thumbnail": "/thumb-fallback/5.jpg"
+      "url": "https://x.com/VPO_japan/status/2102050287355883926"
+    },
+    {
+      "time": "01:30",
+      "headline": "任せる・確かめる・育てる、エージェント時代の30日仕事術",
+      "summary": "何を任せ何を確認しどう改善するか。仕事の分解と依頼書まで踏み込む実践ガイド。",
+      "handle": "j_11_801",
+      "category": "作り方",
+      "url": "https://x.com/j_11_801/status/2102072865881264514"
+    },
+    {
+      "time": "06:25",
+      "headline": "Metaのエージェント旋風とAI安全性論争が同時進行",
+      "summary": "09/22の経済とTechまとめ。普及の勢いと安全議論が同じ日に並んだ一日。",
+      "handle": "eco_to_tech",
+      "category": "事例",
+      "url": "https://x.com/eco_to_tech/status/2102147133227094097"
     },
     {
       "time": "04:53",
@@ -116,99 +167,7 @@
       "summary": "増員の副作用として、人が監視・通知読取に回る日常の気づき。",
       "handle": "shigotoboueilab",
       "category": "事例",
-      "url": "https://x.com/shigotoboueilab/status/2102123951241764919",
-      "source": "x",
-      "thumbnail": "/thumb-fallback/2.jpg"
-    },
-    {
-      "time": "07:05",
-      "headline": "Teams会議をAIエージェントの教材にし経験則を資産化",
-      "summary": "埋もれた会議知見をエージェント学習に転用する手法をキーマンズネットが紹介。",
-      "handle": "Keymans",
-      "category": "作り方",
-      "url": "https://x.com/Keymans/status/2102157208243057091",
-      "source": "x",
-      "thumbnail": "/thumb-fallback/2.jpg"
-    },
-    {
-      "time": "09:00",
-      "headline": "マネージャーAI構想｜承認を1/8にし労働時間を削るトリドールDX",
-      "summary": "領域別AIエージェントをベンダーに作り分ける方針。作業主体をAIへ移し人が意思決定に入る設計。",
-      "handle": "PIVOT 公式チャンネル",
-      "category": "事例",
-      "url": "https://www.youtube.com/watch?v=CCu1Bq9Bk8w",
-      "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/CCu1Bq9Bk8w/hqdefault.jpg"
-    },
-    {
-      "time": "09:30",
-      "headline": "NTTドコモ×日立、AIエージェント導入プレイブックを解説",
-      "summary": "インシデント検索・周知・パッチ判断の共同実証。作業時間20〜64%短縮が見えた裏側。",
-      "handle": "Hitachi",
-      "category": "事例",
-      "url": "https://www.youtube.com/watch?v=z6tMNt1Iuis",
-      "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/z6tMNt1Iuis/hqdefault.jpg"
-    },
-    {
-      "time": "10:00",
-      "headline": "AIエージェント時代のBtoBマーケ組織設計とオーケストレーション",
-      "summary": "Human in the Loopと業務別オーケストレーションをGitHub資産化する設計論。",
-      "handle": "BtoBマーケ研究所 - 株式会社シャコウ",
-      "category": "作り方",
-      "url": "https://www.youtube.com/watch?v=r1lWdmziYr0",
-      "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/r1lWdmziYr0/hqdefault.jpg"
-    },
-    {
-      "time": "10:30",
-      "headline": "CES 2026｜AIエージェント実務活用と失敗を防ぐ5つの鉄則",
-      "summary": "物流42%削減など成功例と、目標設定・ガバナンス・Human in the Loopの鉄則を整理。",
-      "handle": "いけともch",
-      "category": "事例",
-      "url": "https://www.youtube.com/watch?v=YEcs_zOftuk",
-      "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/YEcs_zOftuk/hqdefault.jpg"
-    },
-    {
-      "time": "08:00",
-      "headline": "ネットワン、伴走型AIエージェント「NetOne Claw」を全社展開",
-      "summary": "予定・会議準備・重要メール通知など社員に寄り添う個人向けエージェント。オントロジーと権限制限でセキュア運用。",
-      "handle": "ネットワンシステムズ",
-      "category": "事例",
-      "url": "https://www.netone.co.jp/news/release/20260914_01.html",
-      "source": "web",
-      "thumbnail": "https://www.netone.co.jp/news/release/files/20260914_01.jpg"
-    },
-    {
-      "time": "08:30",
-      "headline": "ペパボ、Bedrock AgentCoreでminneコンシェルジュを本番公開",
-      "summary": "会話を検索引数に翻訳しBFF経由で呼ぶ設計。ガードレールとストリーミングで本番導入の工夫を公開。",
-      "handle": "Pepabo Tech Portal",
-      "category": "作り方",
-      "url": "https://tech.pepabo.com/2026/09/18/minne-concierge-bedrock-agentcore/",
-      "source": "web",
-      "thumbnail": "https://tech.pepabo.com/blog/2026/09/18/minne-concierge-bedrock-agentcore/eye-catch.png"
-    },
-    {
-      "time": "11:00",
-      "headline": "JAPAN AI×CONOC、建設現場向けAIエージェント2種を提供開始",
-      "summary": "ゲンバフォトAIとゲンチョウAI。写真台帳と現地調査シートの下書きを自動化する業種特化実装。",
-      "handle": "JAPAN AI",
-      "category": "ツール",
-      "url": "https://japan-ai.co.jp/news/press/2026/09/260901/",
-      "source": "web",
-      "thumbnail": "https://japan-ai.co.jp/assets/uploads/2026/09/CONOC-%C3%97-JAPAN-AI-1024x576.png"
-    },
-    {
-      "time": "11:30",
-      "headline": "KDDI、運用AIエージェント「ブタさん」で初動調査を0分に",
-      "summary": "Bedrock AgentCore上のAIOps第一歩。アラーム初動レポートを2〜3分でSlack投稿する実践。",
-      "handle": "KDDI Tech note",
-      "category": "事例",
-      "url": "https://tech-note.kddi.com/n/n1db59b94a706",
-      "source": "web",
-      "thumbnail": "https://assets.st-note.com/production/uploads/images/304371470/rectangle_large_type_2_79f947f2fcb8bb64964efaa3d9863a90.jpeg?fit=bounds&quality=85&width=1280"
+      "url": "https://x.com/shigotoboueilab/status/2102123951241764919"
     }
   ]
 }

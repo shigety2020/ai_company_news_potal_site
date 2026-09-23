@@ -6,79 +6,24 @@
     "summary": "朝の事前稼働から受け渡し・品質基準まで時系列で分解。AI社員運用はシステム導入ではなく組織設計だという整理。",
     "handle": "AxiomPartner",
     "category": "作り方",
-    "url": "https://x.com/AxiomPartner/status/2102518357321036253",
-    "source": "x"
+    "url": "https://x.com/AxiomPartner/status/2102518357321036253"
   },
   "items": [
+    {
+      "time": "00:00",
+      "headline": "AIエージェントに株式投資を任せる人々",
+      "summary": "ウォール・ストリート・ジャーナルが報じた投資委任の現場。自律エージェントと資産運用の接点。",
+      "handle": "WSJJapan",
+      "category": "事例",
+      "url": "https://x.com/WSJJapan/status/2102412658548818051"
+    },
     {
       "time": "05:30",
       "headline": "AI社員に任せると最初は仕事が増えた、でも「やらなくていい仕事」が増えてきた",
       "summary": "教えて確認して直す工程で一度は負荷増。運用が回り始めてから減る仕事が出た、という現場実感。",
       "handle": "aiteamos_jp",
       "category": "事例",
-      "url": "https://x.com/aiteamos_jp/status/2102495651355410604",
-      "source": "x",
-      "thumbnail": "/thumb-fallback/2.jpg"
-    },
-    {
-      "time": "12:00",
-      "headline": "導入5か月でAIエージェント2万個、SkyがGemini Enterprise実例を公開",
-      "summary": "Google Cloud Next Tokyo 26基調講演。社員が自発作成した業務特化エージェントの規模感。",
-      "handle": "Ｓｋｙ Style Blog",
-      "category": "事例",
-      "url": "https://www.skygroup.jp/corporate-blog/article/2614/",
-      "source": "web",
-      "thumbnail": "https://corporate-blog-skygroup.g.kuroco-img.app/v=1789098468/files/topics/2614_ext_3_0.jpg"
-    },
-    {
-      "time": "01:37",
-      "headline": "3DバーチャルオフィスでAI社員に仕事を頼み、会議と議事録まで",
-      "summary": "話しかけて依頼、Mキーで会議招集、スクリーン共有後に議事録自動。仮想空間での協働デモ。",
-      "handle": "www_taishi",
-      "category": "事例",
-      "url": "https://x.com/www_taishi/status/2102437050461082045",
-      "source": "x",
-      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2102436992785207296/img/l2Z6Zpx_Z1tXsmVS.jpg"
-    },
-    {
-      "time": "12:30",
-      "headline": "全社員にClaude Codeを配ったミツモア「Claude Code祭り」の舞台裏",
-      "summary": "3日で385件のSKILL創出。週3回以上利用が28%→80%へ。全社浸透の事例。",
-      "handle": "株式会社ミツモア",
-      "category": "事例",
-      "url": "https://note.com/meetsmore/n/n46b19417e60e",
-      "source": "web",
-      "thumbnail": "https://assets.st-note.com/production/uploads/images/298807122/rectangle_large_type_2_504d03b07dbbae76b358022bf7a9ccb8.png?fit=bounds&quality=85&width=1280"
-    },
-    {
-      "time": "01:44",
-      "headline": "悪意ある拡張機能1つで5ブラウザーのAIエージェントを乗っ取る検証",
-      "summary": "BragJackと呼ばれる脅威。エージェントに権限を渡す前に見るセキュリティの事例。",
-      "handle": "kenebeii",
-      "category": "事例",
-      "url": "https://x.com/kenebeii/status/2102439009989652938",
-      "source": "x",
-      "thumbnail": "/thumb-fallback/3.jpg"
-    },
-    {
-      "time": "13:00",
-      "headline": "ハコベル、エンジニア主導で全社AIエージェント活用を加速",
-      "summary": "ガードレール先行・相談チャンネル・段階配布。「使わないことがリスク」の全社展開。",
-      "handle": "ハコベル",
-      "category": "事例",
-      "url": "https://note.com/hacobell/n/n9c63576db772",
-      "source": "web",
-      "thumbnail": "https://assets.st-note.com/production/uploads/images/304670773/rectangle_large_type_2_75ff8a03ee064b5a5b5c8e6a76eebcd0.png?fit=bounds&quality=85&width=1280"
-    },
-    {
-      "time": "06:33",
-      "headline": "AIエージェントで漫画第2巻が完成、謝辞に入れるレベル",
-      "summary": "セリフと説明の微修正だけで通った制作実例。創作領域でのエージェント活用の手応え。",
-      "handle": "EiraKindle2026",
-      "category": "事例",
-      "url": "https://x.com/EiraKindle2026/status/2102511733231542645",
-      "source": "x",
-      "thumbnail": "/thumb-fallback/0.jpg"
+      "url": "https://x.com/aiteamos_jp/status/2102495651355410604"
     },
     {
       "time": "01:04",
@@ -86,29 +31,7 @@
       "summary": "開発秘書に指示するだけで振り分け進行。動かないAI社員は待機エリアへ移し、コスト暴走を防ぐ試作。",
       "handle": "SnowDiorama",
       "category": "作り方",
-      "url": "https://x.com/SnowDiorama/status/2102428864047964299",
-      "source": "x",
-      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2102428794221199360/img/n2cnE6Fy30LXIPzz.jpg"
-    },
-    {
-      "time": "09:00",
-      "headline": "【実演】Claude CodeでAI社長→AI社員→自動化をゼロから作る",
-      "summary": "初心者向けに、役割分担と自動化までを画面実演。組織としてAIを動かす入り口。",
-      "handle": "フィアナ",
-      "category": "作り方",
-      "url": "https://www.youtube.com/watch?v=HE0kHYZvH0c",
-      "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/HE0kHYZvH0c/hqdefault.jpg"
-    },
-    {
-      "time": "08:00",
-      "headline": "AIエージェントの作り方｜Claude CodeとCodexで作る3ステップ",
-      "summary": "ナレッジ蓄積・業務棚卸し・スキル化まで。自社専用AI社員を作る実務向け手順。",
-      "handle": "ちゅらウェブ",
-      "category": "作り方",
-      "url": "https://churaweb.net/ai/ai-agent-tsukurikata/",
-      "source": "web",
-      "thumbnail": "https://churaweb.net/wp-content/uploads/2026/09/2026-09-07_blog-thumb_ai-agent-tsukurikata.png"
+      "url": "https://x.com/SnowDiorama/status/2102428864047964299"
     },
     {
       "time": "03:27",
@@ -116,79 +39,7 @@
       "summary": "人間が介入せず進む会話画面つき。マーケ現場でのマルチエージェント連携の実演。",
       "handle": "starriver0513",
       "category": "作り方",
-      "url": "https://x.com/starriver0513/status/2102464859707465917",
-      "source": "x",
-      "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/2102464821509926912/pu/img/PkNDRlVX3Vloq8HM.jpg"
-    },
-    {
-      "time": "09:30",
-      "headline": "Claude Codeで会社経営、AI社員10人を月3,000円で雇う実演",
-      "summary": "少額プランで複数役割を回す構成を実演。コスト感と役割設計の具体例。",
-      "handle": "福田卓馬 | EXTAGE株式会社",
-      "category": "作り方",
-      "url": "https://www.youtube.com/watch?v=QJySNFYvTPk",
-      "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/QJySNFYvTPk/hqdefault.jpg"
-    },
-    {
-      "time": "08:30",
-      "headline": "非エンジニアが自分専用のAIエージェントを作ってみた",
-      "summary": "VS Code＋Claude Code＋GitHubで1時間半。業務フォルダとCLAUDE.mdから始める実録。",
-      "handle": "自然体、AI日記",
-      "category": "作り方",
-      "url": "https://note.com/shizentai_biz/n/n8d2ef92d5d64",
-      "source": "web",
-      "thumbnail": "https://assets.st-note.com/production/uploads/images/315987724/rectangle_large_type_2_270d305cbc04546cfd1b5545da0e42e0.png?fit=bounds&quality=85&width=1280"
-    },
-    {
-      "time": "00:15",
-      "headline": "AI社員で集客・販売・フォローをつなぐロードマップ",
-      "summary": "任せる作業の見つけ方から自動化の組み立てまで。ひとり運営向けの入口整理。",
-      "handle": "T_AI_System",
-      "category": "作り方",
-      "url": "https://x.com/T_AI_System/status/2102416584212087218",
-      "source": "x",
-      "thumbnail": "https://pbs.twimg.com/media/HS1IvWQasAA79vv.jpg"
-    },
-    {
-      "time": "10:00",
-      "headline": "ClaudeCodeで自分の分身AI社員が仕事を自動で進める方法",
-      "summary": "分身エージェントの組み立て方をやさしく解説。日常業務の委任パターン。",
-      "handle": "【さき】のAIでええやん。",
-      "category": "作り方",
-      "url": "https://www.youtube.com/watch?v=TQ36wSt0LSo",
-      "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/TQ36wSt0LSo/hqdefault.jpg"
-    },
-    {
-      "time": "11:30",
-      "headline": "AWS AgentCoreで企業AIエージェントを共通基盤で量産する方法",
-      "summary": "認証・権限・監視を共通化し、部門ごとの個別開発を減らす本番展開の設計論。",
-      "handle": "Binx AI",
-      "category": "作り方",
-      "url": "https://binxai.co.jp/blog/aws-agentcore-ai-agent-common-platform",
-      "source": "web",
-      "thumbnail": "https://binxai.co.jp/images/blog/aws-agentcore-ai-agent-common-platform/og.jpg"
-    },
-    {
-      "time": "07:00",
-      "headline": "AI社員同士の受け渡しに「何を・どの形式で・誰に」を定める",
-      "summary": "上流が曖昧なら下流は歪む。人間の部署間連携と同じ型をAI社員間にも適用する論点。",
-      "handle": "AxiomPartner",
-      "category": "作り方",
-      "url": "https://x.com/AxiomPartner/status/2102518382193180924",
-      "source": "x",
-      "thumbnail": "/thumb-fallback/1.jpg"
-    },
-    {
-      "time": "10:30",
-      "headline": "AIエージェントを最強にするオーケストレーションSkills",
-      "summary": "単体スキルを正しい順番で束ね、大きな仕事を一回の指示で任せる設計を動画で解説。",
-      "handle": "AI共創イノベーションサテライト@ワンダー佐藤源彦(ChatGPT Claude Gemini 等)",
-      "category": "作り方",
-      "url": "https://www.youtube.com/watch?v=rWARWkHWJTk",
-      "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/rWARWkHWJTk/hqdefault.jpg"
+      "url": "https://x.com/starriver0513/status/2102464859707465917"
     },
     {
       "time": "07:00",
@@ -196,19 +47,127 @@
       "summary": "長時間エージェントの弱点は途中落ちで全部やり直し。イベントログとスナップショットで再開可能に。",
       "handle": "Kenichi_KNZW",
       "category": "ツール",
-      "url": "https://x.com/Kenichi_KNZW/status/2102518303566479550",
-      "source": "x",
-      "thumbnail": "/thumb-fallback/5.jpg"
+      "url": "https://x.com/Kenichi_KNZW/status/2102518303566479550"
     },
     {
-      "time": "11:00",
-      "headline": "Claude Skills最強活用法5選、業務を一気に効率化するAIエージェント術",
-      "summary": "議事録からExcel集計まで、Skillsで定型業務を安定再現する実演付き解説。",
-      "handle": "ねもたく-企業AI活用の参謀-",
+      "time": "07:00",
+      "headline": "RabbitがR1不要のスタンドアロンAIエージェントとOS3を発表",
+      "summary": "デバイスなしで動くクラウドOS。エージェント普及の入口として注目される新発表。",
+      "handle": "AI_Investor27",
       "category": "ツール",
-      "url": "https://www.youtube.com/watch?v=B8mcZ3iNw1U",
-      "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/B8mcZ3iNw1U/hqdefault.jpg"
+      "url": "https://x.com/AI_Investor27/status/2102518350240969199"
+    },
+    {
+      "time": "06:42",
+      "headline": "AIエージェント評価で見落とされがちな手法",
+      "summary": "成功率だけでは測れない評価軸。Qiitaで共有された実務向けの視点整理。",
+      "handle": "qiitapoi",
+      "category": "作り方",
+      "url": "https://x.com/qiitapoi/status/2102513940937015465"
+    },
+    {
+      "time": "03:02",
+      "headline": "調査・執筆・公開・分析を1本で回すAIエージェント運用テンプレート",
+      "summary": "コピペ可能な運用テンプレ。コンテンツ制作フローをエージェントに載せる型の共有。",
+      "handle": "HAL_2001_SAN",
+      "category": "作り方",
+      "url": "https://x.com/HAL_2001_SAN/status/2102458595082428819"
+    },
+    {
+      "time": "01:37",
+      "headline": "3DバーチャルオフィスでAI社員に仕事を頼み、会議と議事録まで",
+      "summary": "話しかけて依頼、Mキーで会議招集、スクリーン共有後に議事録自動。仮想空間での協働デモ。",
+      "handle": "www_taishi",
+      "category": "事例",
+      "url": "https://x.com/www_taishi/status/2102437050461082045"
+    },
+    {
+      "time": "07:07",
+      "headline": "AIエージェント用の動画編集エンジン、利用料はエージェント代のみ",
+      "summary": "動画編集をエージェントから叩けるエンジン登場。ツール接続の選択肢が広がる一例。",
+      "handle": "43ryo1",
+      "category": "ツール",
+      "url": "https://x.com/43ryo1/status/2102520153292574809"
+    },
+    {
+      "time": "06:56",
+      "headline": "AIエージェントを強くするオーケストレーションSkillsの解説",
+      "summary": "複数スキルを束ねて動かす設計の動画解説。エージェントの指揮層をどう書くかの入口。",
+      "handle": "left_up",
+      "category": "作り方",
+      "url": "https://x.com/left_up/status/2102517469944680450"
+    },
+    {
+      "time": "01:44",
+      "headline": "悪意ある拡張機能1つで5ブラウザーのAIエージェントを乗っ取る検証",
+      "summary": "BragJackと呼ばれる脅威。エージェントに権限を渡す前に見るセキュリティの事例。",
+      "handle": "kenebeii",
+      "category": "事例",
+      "url": "https://x.com/kenebeii/status/2102439009989652938"
+    },
+    {
+      "time": "00:39",
+      "headline": "JevでAIエージェントのハーネスはどう変わるのか",
+      "summary": "エージェント実行の土台（ハーネス）の変化を追う解説リンク。実装層の読み物。",
+      "handle": "tech_wiki",
+      "category": "作り方",
+      "url": "https://x.com/tech_wiki/status/2102422482422825032"
+    },
+    {
+      "time": "05:04",
+      "headline": "OpenAI、9月29日に新AIエージェント発表へ",
+      "summary": "次のエージェント製品発表の観測。ツール選定と検証スケジュールに影響しうるニュース。",
+      "handle": "yoshi1014092",
+      "category": "ツール",
+      "url": "https://x.com/yoshi1014092/status/2102489345332793763"
+    },
+    {
+      "time": "05:04",
+      "headline": "OrcaRouter、AIエージェント実行記録の相互転送を開始",
+      "summary": "実行ログをエージェント間で渡せる機能。引き継ぎと再現性のためのインフラ寄り発表。",
+      "handle": "yoshi1014092",
+      "category": "ツール",
+      "url": "https://x.com/yoshi1014092/status/2102489242182299947"
+    },
+    {
+      "time": "06:18",
+      "headline": "米Amazon、Metaの買い物代行AI「Muse」をブロック",
+      "summary": "プライバシーとセキュリティを理由に連携拒否。エージェント同士の境界が表に出た事例。",
+      "handle": "kiokushiah44216",
+      "category": "事例",
+      "url": "https://x.com/kiokushiah44216/status/2102507848416833620"
+    },
+    {
+      "time": "00:15",
+      "headline": "AI社員で集客・販売・フォローをつなぐロードマップ",
+      "summary": "任せる作業の見つけ方から自動化の組み立てまで。ひとり運営向けの入口整理。",
+      "handle": "T_AI_System",
+      "category": "作り方",
+      "url": "https://x.com/T_AI_System/status/2102416584212087218"
+    },
+    {
+      "time": "07:00",
+      "headline": "AI社員同士の受け渡しに「何を・どの形式で・誰に」を定める",
+      "summary": "上流が曖昧なら下流は歪む。人間の部署間連携と同じ型をAI社員間にも適用する論点。",
+      "handle": "AxiomPartner",
+      "category": "作り方",
+      "url": "https://x.com/AxiomPartner/status/2102518382193180924"
+    },
+    {
+      "time": "00:03",
+      "headline": "AIエージェントは、まだ自分の立場を知らない",
+      "summary": "役割認識の未熟さを問う読み物。権限設計と自己認識のギャップを意識させる一文。",
+      "handle": "chunkwords",
+      "category": "作り方",
+      "url": "https://x.com/chunkwords/status/2102413406670340366"
+    },
+    {
+      "time": "06:33",
+      "headline": "AIエージェントで漫画第2巻が完成、謝辞に入れるレベル",
+      "summary": "セリフと説明の微修正だけで通った制作実例。創作領域でのエージェント活用の手応え。",
+      "handle": "EiraKindle2026",
+      "category": "事例",
+      "url": "https://x.com/EiraKindle2026/status/2102511733231542645"
     }
   ]
 }

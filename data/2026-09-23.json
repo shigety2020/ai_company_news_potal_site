@@ -21,7 +21,7 @@
       "thumbnail": "/thumb-fallback/2.jpg"
     },
     {
-      "time": "08:30",
+      "time": "12:00",
       "headline": "導入5か月でAIエージェント2万個、SkyがGemini Enterprise実例を公開",
       "summary": "Google Cloud Next Tokyo 26基調講演。社員が自発作成した業務特化エージェントの規模感。",
       "handle": "Ｓｋｙ Style Blog",
@@ -41,6 +41,16 @@
       "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2102436992785207296/img/l2Z6Zpx_Z1tXsmVS.jpg"
     },
     {
+      "time": "12:30",
+      "headline": "全社員にClaude Codeを配ったミツモア「Claude Code祭り」の舞台裏",
+      "summary": "3日で385件のSKILL創出。週3回以上利用が28%→80%へ。全社浸透の事例。",
+      "handle": "株式会社ミツモア",
+      "category": "事例",
+      "url": "https://note.com/meetsmore/n/n46b19417e60e",
+      "source": "web",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/298807122/rectangle_large_type_2_504d03b07dbbae76b358022bf7a9ccb8.png?fit=bounds&quality=85&width=1280"
+    },
+    {
       "time": "01:44",
       "headline": "悪意ある拡張機能1つで5ブラウザーのAIエージェントを乗っ取る検証",
       "summary": "BragJackと呼ばれる脅威。エージェントに権限を渡す前に見るセキュリティの事例。",
@@ -51,14 +61,14 @@
       "thumbnail": "/thumb-fallback/3.jpg"
     },
     {
-      "time": "00:00",
-      "headline": "AIエージェントに株式投資を任せる人々",
-      "summary": "ウォール・ストリート・ジャーナルが報じた投資委任の現場。自律エージェントと資産運用の接点。",
-      "handle": "WSJJapan",
+      "time": "13:00",
+      "headline": "ハコベル、エンジニア主導で全社AIエージェント活用を加速",
+      "summary": "ガードレール先行・相談チャンネル・段階配布。「使わないことがリスク」の全社展開。",
+      "handle": "ハコベル",
       "category": "事例",
-      "url": "https://x.com/WSJJapan/status/2102412658548818051",
-      "source": "x",
-      "thumbnail": "/thumb-fallback/2.jpg"
+      "url": "https://note.com/hacobell/n/n9c63576db772",
+      "source": "web",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/304670773/rectangle_large_type_2_75ff8a03ee064b5a5b5c8e6a76eebcd0.png?fit=bounds&quality=85&width=1280"
     },
     {
       "time": "06:33",
@@ -82,13 +92,13 @@
     },
     {
       "time": "09:00",
-      "headline": "Claude Code Skillsで自分専用のAI社員を作る方法",
-      "summary": "SkillsとCLAUDE.mdの使い分け、トークン節約と品質安定の要点を20分で解説。",
-      "handle": "キノコード / AI・プログラミング学習チャンネル",
+      "headline": "【実演】Claude CodeでAI社長→AI社員→自動化をゼロから作る",
+      "summary": "初心者向けに、役割分担と自動化までを画面実演。組織としてAIを動かす入り口。",
+      "handle": "フィアナ",
       "category": "作り方",
-      "url": "https://www.youtube.com/watch?v=FpZKN8kJx_Q",
+      "url": "https://www.youtube.com/watch?v=HE0kHYZvH0c",
       "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/FpZKN8kJx_Q/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/HE0kHYZvH0c/hqdefault.jpg"
     },
     {
       "time": "08:00",
@@ -112,23 +122,23 @@
     },
     {
       "time": "09:30",
-      "headline": "人間ひとり＋AIチームで会社を運営する仕組み",
-      "summary": "部署別SkillsとMCP連携で、ひとりでも会社運営を回すClaude Codeの設計を解説。",
-      "handle": "キノコード / AI・プログラミング学習チャンネル",
+      "headline": "Claude Codeで会社経営、AI社員10人を月3,000円で雇う実演",
+      "summary": "少額プランで複数役割を回す構成を実演。コスト感と役割設計の具体例。",
+      "handle": "福田卓馬 | EXTAGE株式会社",
       "category": "作り方",
-      "url": "https://www.youtube.com/watch?v=mgNnGkApg6s",
+      "url": "https://www.youtube.com/watch?v=QJySNFYvTPk",
       "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/mgNnGkApg6s/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/QJySNFYvTPk/hqdefault.jpg"
     },
     {
-      "time": "11:00",
-      "headline": "AWS AgentCoreで企業AIエージェントを共通基盤で量産する方法",
-      "summary": "認証・権限・監視を共通化し、部門ごとの個別開発を減らす本番展開の設計論。",
-      "handle": "Binx AI",
+      "time": "08:30",
+      "headline": "非エンジニアが自分専用のAIエージェントを作ってみた",
+      "summary": "VS Code＋Claude Code＋GitHubで1時間半。業務フォルダとCLAUDE.mdから始める実録。",
+      "handle": "自然体、AI日記",
       "category": "作り方",
-      "url": "https://binxai.co.jp/blog/aws-agentcore-ai-agent-common-platform",
+      "url": "https://note.com/shizentai_biz/n/n8d2ef92d5d64",
       "source": "web",
-      "thumbnail": "https://binxai.co.jp/images/blog/aws-agentcore-ai-agent-common-platform/og.jpg"
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/315987724/rectangle_large_type_2_270d305cbc04546cfd1b5545da0e42e0.png?fit=bounds&quality=85&width=1280"
     },
     {
       "time": "00:15",
@@ -142,23 +152,23 @@
     },
     {
       "time": "10:00",
-      "headline": "AIエージェントを最強にするオーケストレーションSkills",
-      "summary": "単体スキルを正しい順番で束ね、大きな仕事を一回の指示で任せる設計を動画で解説。",
-      "handle": "AI共創イノベーションサテライト@ワンダー佐藤源彦(ChatGPT Claude Gemini 等)",
+      "headline": "ClaudeCodeで自分の分身AI社員が仕事を自動で進める方法",
+      "summary": "分身エージェントの組み立て方をやさしく解説。日常業務の委任パターン。",
+      "handle": "【さき】のAIでええやん。",
       "category": "作り方",
-      "url": "https://www.youtube.com/watch?v=rWARWkHWJTk",
+      "url": "https://www.youtube.com/watch?v=TQ36wSt0LSo",
       "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/rWARWkHWJTk/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/TQ36wSt0LSo/hqdefault.jpg"
     },
     {
       "time": "11:30",
-      "headline": "Claude Codeで10部門の仮想経営チームを構築した全手順",
-      "summary": "部門別エージェントと司令塔CLAUDE.mdで、1人社長でも組織として意思決定する型。",
-      "handle": "note（ショーへー）",
+      "headline": "AWS AgentCoreで企業AIエージェントを共通基盤で量産する方法",
+      "summary": "認証・権限・監視を共通化し、部門ごとの個別開発を減らす本番展開の設計論。",
+      "handle": "Binx AI",
       "category": "作り方",
-      "url": "https://note.com/4_r_r_s/n/ncb0308d9c7c0",
+      "url": "https://binxai.co.jp/blog/aws-agentcore-ai-agent-common-platform",
       "source": "web",
-      "thumbnail": "https://assets.st-note.com/production/uploads/images/262561521/rectangle_large_type_2_4d16964beb34dca81af2b95550e33233.png?fit=bounds&quality=85&width=1280"
+      "thumbnail": "https://binxai.co.jp/images/blog/aws-agentcore-ai-agent-common-platform/og.jpg"
     },
     {
       "time": "07:00",
@@ -172,13 +182,13 @@
     },
     {
       "time": "10:30",
-      "headline": "ゼロからClaude Codeで自分専用AIチームを作る",
-      "summary": "役割別フォルダとCLAUDE.mdでPR・営業・経理を並列起動する初心者向け手順。",
-      "handle": "【さき】のAIでええやん。",
+      "headline": "AIエージェントを最強にするオーケストレーションSkills",
+      "summary": "単体スキルを正しい順番で束ね、大きな仕事を一回の指示で任せる設計を動画で解説。",
+      "handle": "AI共創イノベーションサテライト@ワンダー佐藤源彦(ChatGPT Claude Gemini 等)",
       "category": "作り方",
-      "url": "https://www.youtube.com/watch?v=cwHITZn23d4",
+      "url": "https://www.youtube.com/watch?v=rWARWkHWJTk",
       "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/cwHITZn23d4/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/rWARWkHWJTk/hqdefault.jpg"
     },
     {
       "time": "07:00",
@@ -191,24 +201,14 @@
       "thumbnail": "/thumb-fallback/5.jpg"
     },
     {
-      "time": "07:00",
-      "headline": "RabbitがR1不要のスタンドアロンAIエージェントとOS3を発表",
-      "summary": "デバイスなしで動くクラウドOS。エージェント普及の入口として注目される新発表。",
-      "handle": "AI_Investor27",
+      "time": "11:00",
+      "headline": "Claude Skills最強活用法5選、業務を一気に効率化するAIエージェント術",
+      "summary": "議事録からExcel集計まで、Skillsで定型業務を安定再現する実演付き解説。",
+      "handle": "ねもたく-企業AI活用の参謀-",
       "category": "ツール",
-      "url": "https://x.com/AI_Investor27/status/2102518350240969199",
-      "source": "x",
-      "thumbnail": "https://pbs.twimg.com/news_img/2102501733679476736/uTF_xL_e?format=jpg&name=orig"
-    },
-    {
-      "time": "07:07",
-      "headline": "AIエージェント用の動画編集エンジン、利用料はエージェント代のみ",
-      "summary": "動画編集をエージェントから叩けるエンジン登場。ツール接続の選択肢が広がる一例。",
-      "handle": "43ryo1",
-      "category": "ツール",
-      "url": "https://x.com/43ryo1/status/2102520153292574809",
-      "source": "x",
-      "thumbnail": "/thumb-fallback/4.jpg"
+      "url": "https://www.youtube.com/watch?v=B8mcZ3iNw1U",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/B8mcZ3iNw1U/hqdefault.jpg"
     }
   ]
 }

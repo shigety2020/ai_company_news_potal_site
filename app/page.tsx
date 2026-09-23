@@ -4,6 +4,8 @@ export const dynamic = "force-dynamic";
 
 type Category = "作り方" | "ツール" | "事例";
 
+type Source = "x" | "youtube" | "web";
+
 type DailyItem = {
   time: string;
   headline: string;
@@ -11,6 +13,10 @@ type DailyItem = {
   handle: string;
   category: Category;
   url: string;
+  source?: Source;
+  sourceLabel?: string;
+  /** TOC thumbnail URL (develop). Empty/legacy single fallback → URL-hash /thumb-fallback/0..5.jpg. */
+  thumbnail?: string | null;
   image?: string | null;
 };
 
@@ -70,6 +76,38 @@ function emptyDaily(date: string): DailyResponse {
 function itemKey(item: DailyItem): string {
   return `${item.url}::${item.headline}`;
 }
+
+
+/** Prefer one of each source (x/youtube/web), then fill to 3 in API order. */
+function pickThreePreferSources(items: DailyItem[]): DailyItem[] {
+  const picked: DailyItem[] = [];
+  const used = new Set<string>();
+  const prefer: Source[] = ["x", "youtube", "web"];
+  for (const s of prefer) {
+    if (picked.length >= 3) break;
+    const hit = items.find((item) => {
+      if (used.has(itemKey(item))) return false;
+      const src: Source =
+        item.source === "youtube" || item.source === "web" || item.source === "x"
+          ? item.source
+          : "x";
+      return src === s;
+    });
+    if (hit) {
+      picked.push(hit);
+      used.add(itemKey(hit));
+    }
+  }
+  for (const item of items) {
+    if (picked.length >= 3) break;
+    const k = itemKey(item);
+    if (used.has(k)) continue;
+    picked.push(item);
+    used.add(k);
+  }
+  return picked;
+}
+
 
 async function getBaseUrl(): Promise<string> {
   try {
@@ -135,7 +173,46 @@ function Featured({ item, date }: { item: DailyItem | null; date: string }) {
   );
 }
 
+
+/** TOC source line. Missing source treated as x (main-compatible). */
+function formatVia(item: DailyItem): string {
+  const source: Source =
+    item.source === "youtube" || item.source === "web" || item.source === "x"
+      ? item.source
+      : "x";
+  const label =
+    item.sourceLabel?.trim() ||
+    (source === "youtube" ? "YouTube" : source === "web" ? "Web" : "X");
+  const raw = (item.handle ?? "").trim();
+  if (!raw) return `via ${label}`;
+  const name = source === "x" ? (raw.startsWith("@") ? raw : `@${raw}`) : raw;
+  return `via ${label} · ${name}`;
+}
+
+const THUMB_FALLBACK_COUNT = 6;
+
+/** Stable positive hash for URL → fixed fallback index. */
+function stableHash(s: string): number {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) {
+    h = (Math.imul(h, 31) + s.charCodeAt(i)) >>> 0;
+  }
+  return h;
+}
+
+function thumbFallbackForUrl(url: string): string {
+  return `/thumb-fallback/${stableHash(url || "") % THUMB_FALLBACK_COUNT}.jpg`;
+}
+
+/** Prefer acquired thumbnail; empty or legacy `/thumb-fallback.jpg` → URL-hash 0..5. */
+function resolveThumb(item: DailyItem): string {
+  const t = (item.thumbnail ?? "").trim();
+  if (t && t !== "/thumb-fallback.jpg") return t;
+  return thumbFallbackForUrl(item.url);
+}
+
 function IndexStory({ item }: { item: DailyItem }) {
+  const thumb = resolveThumb(item);
   return (
     <a className="story" href={item.url} target="_blank" rel="noreferrer">
       <div className="kicker-row">
@@ -144,9 +221,17 @@ function IndexStory({ item }: { item: DailyItem }) {
         </time>
         <span className="kicker">{item.category}</span>
       </div>
-      <h2 className="item-headline">{item.headline}</h2>
-      <p className="item-summary">{item.summary}</p>
-      <p className="via">via @{item.handle}</p>
+      <div className="item-row">
+        <div className="item-thumb" aria-hidden="true">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={thumb} alt="" />
+        </div>
+        <div className="item-copy">
+          <h2 className="item-headline">{item.headline}</h2>
+          <p className="item-summary">{item.summary}</p>
+          <p className="via">{formatVia(item)}</p>
+        </div>
+      </div>
     </a>
   );
 }
@@ -162,10 +247,10 @@ export default async function Home({
   const featured = data.featured;
   const featuredKey = featured ? itemKey(featured) : null;
   const items = data.items.filter((item) => itemKey(item) !== featuredKey);
-  // Screen shows max 3 per category; JSON may hold up to 20.
+  // Screen shows max 3 per category; prefer one of each source when present.
   const sections = CATEGORIES.map((cat) => ({
     cat,
-    items: items.filter((item) => item.category === cat).slice(0, 3),
+    items: pickThreePreferSources(items.filter((item) => item.category === cat)),
   })).filter((section) => section.items.length > 0);
   const prevDate = shiftDate(data.date, -1);
   const nextDate = shiftDate(data.date, 1);

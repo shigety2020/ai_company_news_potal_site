@@ -1,0 +1,173 @@
+{
+  "date": "2026-09-29",
+  "featured": {
+    "time": "06:45",
+    "headline": "AI社員の雇用・育成マニュアル、方針書1枚で相棒が誕生する",
+    "summary": "価値観をまとめた方針書を1枚作るだけで自分を理解した相棒に。Deep Researchや性格抽出のプロンプト付きで即試せる完成度。",
+    "handle": "dansyu_callenge",
+    "category": "作り方",
+    "url": "https://x.com/dansyu_callenge/status/2104688985381695899"
+  },
+  "items": [
+    {
+      "time": "06:58",
+      "headline": "メドレーCFOが自らつくったIRのAIエージェント",
+      "summary": "役員がAI活用する文化のなか、上場企業として公開に耐える基準まで仕上げる苦労と現場。",
+      "handle": "Fujimoto_Marty",
+      "category": "事例",
+      "url": "https://x.com/Fujimoto_Marty/status/2104692287976730697"
+    },
+    {
+      "time": "06:57",
+      "headline": "NVIDIA、AIエージェント暴走を防ぐOpen Agent Safetyを公開",
+      "summary": "OpenShellで権限を制限し、Sentryがハードウェアレベルでミリ秒隔離。100社超が支持する安全基盤。",
+      "handle": "Tyr_Nippon",
+      "category": "ツール",
+      "url": "https://x.com/Tyr_Nippon/status/2104692030970728607"
+    },
+    {
+      "time": "06:57",
+      "headline": "日立がAIエージェント活用の脆弱性分析サービスを開始",
+      "summary": "JPXの先行導入では情報収集などで約8割の省力化。答えるだけでなく企業のセキュリティを支える動き。",
+      "handle": "kurogoma223",
+      "category": "事例",
+      "url": "https://x.com/kurogoma223/status/2104691989229015216"
+    },
+    {
+      "time": "06:58",
+      "headline": "JadePufferはAIエージェントで偵察から暗号化まで自動化",
+      "summary": "Azure保管アカウント100超を7分で削除した事例。復旧ロックごと消される前提のバックアップ設計が要所。",
+      "handle": "dejital_secure",
+      "category": "事例",
+      "url": "https://x.com/dejital_secure/status/2104692303680139669"
+    },
+    {
+      "time": "06:54",
+      "headline": "経理ちゃんに月末振込チェックを任せて一人社長の月末が楽に",
+      "summary": "請求書から支払先・金額を整理し、freeeの入金予定と残高見込みまで出す運用の手応え。",
+      "handle": "whoms_whoms",
+      "category": "事例",
+      "url": "https://x.com/whoms_whoms/status/2104691126267715662"
+    },
+    {
+      "time": "06:53",
+      "headline": "Meta、企業向けAI事業とエージェントMuseなどを発表",
+      "summary": "Meta Enterprise PlatformにAIエージェントMuse、顧客対応のBusiness Agent、開発者向けMuseを含む。",
+      "handle": "Nag09Tak",
+      "category": "ツール",
+      "url": "https://x.com/Nag09Tak/status/2104691013994602682"
+    },
+    {
+      "time": "06:52",
+      "headline": "Shopify、AIエージェントが購入手続きまで完了可能に",
+      "summary": "エージェントによるチェックアウト対応。任せられる仕事の境界が広がる海外ニュースのひとつ。",
+      "handle": "Nag09Tak",
+      "category": "ツール",
+      "url": "https://x.com/Nag09Tak/status/2104690934080512379"
+    },
+    {
+      "time": "06:53",
+      "headline": "Manus 2.0、専用メールや電話番号を持つAI秘書Cue",
+      "summary": "AIエージェント企業Manusが新版で秘書アプリを投入。連絡手段まで持つエージェントの形。",
+      "handle": "Nag09Tak",
+      "category": "ツール",
+      "url": "https://x.com/Nag09Tak/status/2104691090167349705"
+    },
+    {
+      "time": "06:56",
+      "headline": "Agy兄さんと作るTWSNMP、AIのエネルギーを節約して開発",
+      "summary": "AIエージェントと組んだ開発ノート。トークンや実行コストを意識しながら進める作り方の共有。",
+      "handle": "twsnmp",
+      "category": "作り方",
+      "url": "https://x.com/twsnmp/status/2104691648253002174"
+    },
+    {
+      "time": "06:45",
+      "headline": "AnthropicとNVIDIAがAIエージェントのセキュリティーで提携",
+      "summary": "ブルームバーグ報道。エージェント安全層を巡る大手連携が表に出た一日。",
+      "handle": "BloombergJapan",
+      "category": "ツール",
+      "url": "https://x.com/BloombergJapan/status/2104688932420047195"
+    },
+    {
+      "time": "06:46",
+      "headline": "NVIDIA Open Agent Safety Platformの解説（TechnoEdge）",
+      "summary": "テスト環境に留まらせる安全基盤の発表をテクノエッジが整理。導入検討の入口記事。",
+      "handle": "TechnoEdgeJP",
+      "category": "ツール",
+      "url": "https://x.com/TechnoEdgeJP/status/2104689114402750762"
+    },
+    {
+      "time": "06:47",
+      "headline": "OpenAI、高性能モデル学習を一時停止しエージェント挙動を調査",
+      "summary": "GIGAZINE経由の報道。エージェントの振る舞いを大規模に調べるための学習一時停止。",
+      "handle": "knoike",
+      "category": "ツール",
+      "url": "https://x.com/knoike/status/2104689488161284189"
+    },
+    {
+      "time": "06:47",
+      "headline": "ChatGPT内部にバックグラウンド常駐AIエージェントの痕跡",
+      "summary": "操作していないときも働き続けるエージェント機能の観測。未発表「O」への関心。",
+      "handle": "uemura_HR",
+      "category": "ツール",
+      "url": "https://x.com/uemura_HR/status/2104689386948587571"
+    },
+    {
+      "time": "06:42",
+      "headline": "AIエージェント暴走は制御設計の不備という本質を隠す",
+      "summary": "禁止されていないことをしただけ、という指摘。権限と停止条件を設計する側の論点。",
+      "handle": "techfeedapp",
+      "category": "作り方",
+      "url": "https://x.com/techfeedapp/status/2104688171107701119"
+    },
+    {
+      "time": "06:23",
+      "headline": "経産省AIエージェント・セキュリティガイドライン資料を読む",
+      "summary": "利用企業向けガイドライン第1回資料への所感。単位の取り方と設計視点の整理。",
+      "handle": "AikidoCommJP",
+      "category": "作り方",
+      "url": "https://x.com/AikidoCommJP/status/2104683541435208022"
+    },
+    {
+      "time": "06:17",
+      "headline": "自分のクローンをつくる、判断の理由まで残す引き継ぎ",
+      "summary": "手順書では書けない「こういうときはこうする」を残す話。AIへの委任設計にも通じる。",
+      "handle": "mitsuhiro_jp",
+      "category": "作り方",
+      "url": "https://x.com/mitsuhiro_jp/status/2104681824337490340"
+    },
+    {
+      "time": "05:00",
+      "headline": "Instinctが10万ユーザー突破、電話とメッセージで日常業務代行",
+      "summary": "マーケなしで1日10%成長との報告。日常業務を丸ごと任せるエージェントの急成長事例。",
+      "handle": "nextai_jp",
+      "category": "ツール",
+      "url": "https://x.com/nextai_jp/status/2104662437916299623"
+    },
+    {
+      "time": "04:08",
+      "headline": "AIエージェントを一緒に考える相手と思うと頼み方が変わる",
+      "summary": "自動化ツールから相談相手へ。『これどう思う？』と聞けるようになると一人作業の詰まりが減る。",
+      "handle": "AI_keita0312",
+      "category": "作り方",
+      "url": "https://x.com/AI_keita0312/status/2104649506838950349"
+    },
+    {
+      "time": "02:38",
+      "headline": "高性能モデルを常駐させるほど膨らむエージェント料金の壁",
+      "summary": "長時間の複雑な作業ほどコストが壁になる、という整理。常駐運用の設計を考える入口。",
+      "handle": "ax_supporter",
+      "category": "作り方",
+      "url": "https://x.com/ax_supporter/status/2104626933455876375"
+    },
+    {
+      "time": "06:59",
+      "headline": "Claudeを2週間で約3倍高速化した舞台裏",
+      "summary": "遅い箇所の発見からベンチ作成、PR、デプロイ後監視まで。エージェント的な改善ループの実例。",
+      "handle": "masahirochaen",
+      "category": "事例",
+      "url": "https://x.com/masahirochaen/status/2104692383497723916"
+    }
+  ]
+}

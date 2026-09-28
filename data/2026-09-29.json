@@ -1,0 +1,215 @@
+{
+  "date": "2026-09-29",
+  "featured": {
+    "time": "07:00",
+    "headline": "果物の名を持つDeNAのAI社員たち、組織実装の裏側",
+    "summary": "Slack常駐・部署配属・日報まで。Lemon検証からBerry横展開と、影響度別の段階リリースを公開。",
+    "handle": "DeNA Engineering",
+    "category": "事例",
+    "url": "https://engineering.dena.com/blog/2026/08/ai-employee-introduction/",
+    "source": "web",
+    "thumbnail": "https://engineering.dena.com/blog/2026/08/ai-employee-introduction/cover.png"
+  },
+  "items": [
+    {
+      "time": "07:30",
+      "headline": "AI社員の実体は、役割を1つに絞った指示書と実行の仕組み",
+      "summary": "正式機能ではなく自前の呼び方。サブエージェントか予約実行で、今は4役割に絞って運用する整理。",
+      "handle": "engineer__117",
+      "category": "作り方",
+      "url": "https://x.com/engineer__117/status/2101801196725932054",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "12:00",
+      "headline": "AI社員を作る3ステップ、個人事業で回る仕組みを解説",
+      "summary": "採用の考え方から部署分け、日々の運用まで。人間ゼロ部署の仕組みを個人事業に落とす動画。",
+      "handle": "AIでラクする研究室",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=ZFoIbr4THkg",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/ZFoIbr4THkg/hqdefault.jpg"
+    },
+    {
+      "time": "08:00",
+      "headline": "【2026年最新】AI社員の作り方｜Claude Code実装5ステップ",
+      "summary": "役割定義→ツール選定→CLAUDE.md/Skills→Slack・cron接続→運用改善。非エンジニア向けの実装手順。",
+      "handle": "株式会社Uravation",
+      "category": "作り方",
+      "url": "https://uravation.com/media/ai-shain-tsukurikata-guide-2026/",
+      "source": "web",
+      "thumbnail": "https://uravation.com/wp-content/uploads/2026/07/ai-shain-tsukurikata-thumb.png"
+    },
+    {
+      "time": "07:17",
+      "headline": "Claude CodeでAIエージェント（中級編）コンテキスト管理とPlan Mode",
+      "summary": "コンテキスト管理からPlan Mode・検証までをやさしく解説したnote案内。実装の次の一段。",
+      "handle": "AI_kagakuri",
+      "category": "作り方",
+      "url": "https://x.com/AI_kagakuri/status/2104697145060466711",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "14:00",
+      "headline": "何日も動くエージェントをどう作るか｜Mastra durable解説",
+      "summary": "long-runningとdurableの切り分け、stream再接続、signal起床、schedule運用までを整理した解説。",
+      "handle": "Mastra",
+      "category": "作り方",
+      "url": "https://www.youtube.com/live/GnRshJRM6X8",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/GnRshJRM6X8/hqdefault.jpg"
+    },
+    {
+      "time": "09:00",
+      "headline": "Claude CodeのskillsでAI仮想会社の社員を作る",
+      "summary": "CLAUDE.mdを憲法、skillsを職務手順に分割。リサーチ・執筆・校閲の公開フローをファイルで固定。",
+      "handle": "yukke_dev",
+      "category": "作り方",
+      "url": "https://zenn.dev/yukke_dev/articles/20260903-claude-code-skills-ai-company",
+      "source": "web",
+      "thumbnail": "https://res.cloudinary.com/zenn/image/upload/s--Wd5D_EDN--/c_fit%2Cg_north_west%2Cl_text:notosansjp-bold.otf_55_bold:Claude%2520Code%25E3%2581%25AEskills%25E3%2581%25A7AI%25E4%25BB%25AE%25E6%2583%25B3%25E4%25BC%259A%25E7%25A4%25BE%25E3%2581%25AE%25E7%25A4%25BE%25E5%2593%25A1%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258B%2Cw_1010%2Cv_top:0/g_south_west%2Cl_text:notosansjp-regular.otf_37_regular:yukke_dev%2Cx_203%2Cy_98/g_south_west%2Cl_text:notosansjp-regular.otf_37_regular:2026%252F09%252F03%2Cx_203%2Cy_50/g_north_west%2Ce_colorize%2Cco_rgb:FFFFFF%2Cl_text:notosansjp-regular.otf_70_regular:%F0%9F%93%84%2Cx_62%2Cy_64/v1627281835/default/og-base-w1200-v2.png"
+    },
+    {
+      "time": "07:12",
+      "headline": "AIエージェントに社内DBの鍵を渡さず「覗かせる」MCP設計",
+      "summary": "直接権限を持たせず、データスペースとの間に境界を一枚挟む発想。Podcast案内つきの権限設計メモ。",
+      "handle": "AIR_Labs_zZ",
+      "category": "作り方",
+      "url": "https://x.com/AIR_Labs_zZ/status/2104695710319030584",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "07:19",
+      "headline": "SNS運用をAI社員に任せるときの切り分けと導入手順",
+      "summary": "AIに任せる作業と人が確認する作業を先に分ける。取引ルームで動作確認してから受領する流れ。",
+      "handle": "EmployeeStoreJP",
+      "category": "作り方",
+      "url": "https://x.com/EmployeeStoreJP/status/2101798458667745742",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HSsWf-LbAAAzv-y.jpg"
+    },
+    {
+      "time": "16:19",
+      "headline": "PLAYがAWS DevOps Agentで全社共通のインシデント基盤を構築",
+      "summary": "AIエージェントを組織構造に乗せる事例。委譲範囲と組織設計まで踏み込んだAWSブログ紹介。",
+      "handle": "kakakakakku",
+      "category": "事例",
+      "url": "https://x.com/kakakakakku/status/2104470981050008039",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "11:00",
+      "headline": "エクスペリサス、Claude Code全社導入で業務スキル700件超を共有",
+      "summary": "45名が743スキル・127体の業務別エージェントを登録。非エンジニアの53%が日常活用と報告。",
+      "handle": "エクスペリサス",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000044.000091779.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/91779/44/91779-44-f6854209cf492c25ce902f7b3887efe5-1609x1073.jpg"
+    },
+    {
+      "time": "07:19",
+      "headline": "中国がAIエージェント規制を施行、権限の3層で自律を規律",
+      "summary": "日常業務は自律、可逆判断は承認、不可逆は自動化禁止。法務からセキュリティへ論点が移る読み。",
+      "handle": "__su888",
+      "category": "事例",
+      "url": "https://x.com/__su888/status/2104697408785399928",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTTSK9VbQAA57DJ.jpg"
+    },
+    {
+      "time": "10:00",
+      "headline": "ライフネット生命、全部門に自社開発AIエージェント導入完了",
+      "summary": "生成AI利用率100%の土台から、部門主導で業務プロセス自動化へ。7月末導入完了を発表。",
+      "handle": "ライフネット生命",
+      "category": "事例",
+      "url": "https://www.lifenet-seimei.co.jp/newsrelease/1190897_1707.html",
+      "source": "web",
+      "thumbnail": "https://www.lifenet-seimei.co.jp/shared/img/ogp/ci.png"
+    },
+    {
+      "time": "21:07",
+      "headline": "PIVOT、社内ナレッジ検索AIエージェントを数週間で立ち上げ",
+      "summary": "全社ChatGPT導入の次。ナレッジ検索とUXリサーチ支援を伴走し本番運用へ入る事例記事。",
+      "handle": "jp_okazaki",
+      "category": "事例",
+      "url": "https://x.com/jp_okazaki/status/2090047992690774128",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "08:30",
+      "headline": "Ｓｋｙ、Gemini Enterpriseで社内AIエージェント2万個突破",
+      "summary": "導入5か月で2万個超、定着率98%。データ基盤整備が全社展開を支えたとする実践報告。",
+      "handle": "Ｓｋｙ株式会社",
+      "category": "事例",
+      "url": "https://www.skygroup.jp/news/260924_01/",
+      "source": "web",
+      "thumbnail": "https://www.skygroup.jp/common/img/ogp_img.jpg"
+    },
+    {
+      "time": "13:00",
+      "headline": "障害初期調査15分を「実質ゼロ」に、PLAYのエージェント連携",
+      "summary": "AWS DevOpsエージェントとNew Relic MCPを連携。属人化を解き、対応人員を広げた現場事例。",
+      "handle": "＠IT",
+      "category": "事例",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/03/news049.html",
+      "source": "web",
+      "thumbnail": "https://image.itmedia.co.jp/ait/articles/2608/03/cover_news049.jpg"
+    },
+    {
+      "time": "15:00",
+      "headline": "AIエージェントに動画チャンネル運用をほぼ丸ごと任せた5ヶ月",
+      "summary": "WhatsAppから6パラメータで制作。クーロン事故とゲート位置の学びを公開した運用実録。",
+      "handle": "Goldrush Computing",
+      "category": "事例",
+      "url": "https://goldrushcomputing.com/blog/ai-agent-video-pipeline",
+      "source": "web",
+      "thumbnail": "https://goldrushcomputing.com/_astro/hero_scene.D6OBaxkS_ZKuWwG.jpeg"
+    },
+    {
+      "time": "07:16",
+      "headline": "NVIDIAがAIエージェント向け安全基盤「Open Agent Safety Platform」を発表",
+      "summary": "OpenShellで最小権限、Sentryがチップ上で挙動監視。逸脱時に止める安全側の発表整理。",
+      "handle": "AkihisaShiozaki",
+      "category": "ツール",
+      "url": "https://x.com/AkihisaShiozaki/status/2104696741253779692",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "13:00",
+      "headline": "進化したAIエージェントGensparkの全26機能を実演解説",
+      "summary": "調査・スライド・ブラウザ操作まで一気通貫。機能ごとの実演でエージェントの守備範囲を把握する動画。",
+      "handle": "ウェブ職TV@AIセキュリティ専門",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=dplfq5hYDno",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/dplfq5hYDno/hqdefault.jpg"
+    },
+    {
+      "time": "07:19",
+      "headline": "Nexisが「Traceity」正式リリース、社内記憶をエージェントへ",
+      "summary": "規程・仕様・マニュアルをまとめて承認済みナレッジに。回答が微妙なときの「会社の記憶」側の打ち手。",
+      "handle": "NTP_186",
+      "category": "ツール",
+      "url": "https://x.com/NTP_186/status/2104697635458486507",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "07:19",
+      "headline": "Replit、AIエージェントにアプリ開発を任せられる料金プラン整理",
+      "summary": "CoreとProの差、並列エージェント数と共同編集上限。ブラウザ開発環境のエージェント選択肢。",
+      "handle": "subsc_now",
+      "category": "ツール",
+      "url": "https://x.com/subsc_now/status/2104697478893506859",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    }
+  ]
+}

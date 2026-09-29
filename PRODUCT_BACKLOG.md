@@ -2,14 +2,15 @@
 
 価値順。ログイン／コメントは後回し。
 
-最終更新: 2026-09-14（Sprint 8 Done／PB#8）
+最終更新: 2026-09-29（ブランチ方針を更新）
 
 スクラムイベント記録: [`docs/scrum/`](./docs/scrum/README.md)
 
 ## ブランチ方針
 
-- **本番 `main`** ＝ Xだけ
-- **`develop`** ＝ X＋YouTube（＋ネット記事）開発中。feature は develop 起点
+- 号データ（`data/`）は `main` が正。`develop` では収集しない。
+- 収集仕様の変更は `main` から切ったブランチで手動収集 → preview 確認 → `main`。
+- アプリのコードは従来どおり `feature` → `develop` → `main`。
 
 ## 契約（触らない）
 

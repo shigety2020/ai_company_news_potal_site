@@ -1,0 +1,214 @@
+{
+  "date": "2026-09-30",
+  "featured": {
+    "time": "03:02",
+    "headline": "OpenAI、「24時間働く」エージェント「dots」を発表",
+    "summary": "GPT-6 Astra搭載でクラウド上のコンピュータが常時稼働。4000以上のアプリに接続し、Pro／Business／Enterpriseへ順次展開。",
+    "handle": "ITmedia AI＋",
+    "category": "ツール",
+    "url": "https://www.itmedia.co.jp/aiplus/article/2609/30/2000001864/",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "07:09",
+      "headline": "K3で作る「24時間働くAI社員」と300体のAIチーム解説",
+      "summary": "AIエージェントの前提からKimi/K3の位置づけまで。24時間稼働と大規模チーム運用の読みどころ。",
+      "handle": "_moto___",
+      "category": "事例",
+      "url": "https://x.com/_moto___/status/2105057461308977369",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTao_UTbwAApwPL.png"
+    },
+    {
+      "time": "19:10",
+      "headline": "AI社員の導入数日本No.1企業の裏側を公開",
+      "summary": "AI企業が実際に何をしているのか、AI社員導入の現場を見せる動画。導入支援の実態がつかめる。",
+      "handle": "あなたのAI顧問【黒山結音のAI駆動経営チャンネル】",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=JCvA0PPgdzk",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/JCvA0PPgdzk/hqdefault.jpg"
+    },
+    {
+      "time": "00:00",
+      "headline": "Sky、Gemini Enterprise導入5か月で社内AIエージェント2万個超",
+      "summary": "全社員が自律作成し定着率98%。リクエストは1日最大3万回へ。データ整備先行が展開を加速。",
+      "handle": "Ｓｋｙ株式会社",
+      "category": "事例",
+      "url": "https://www.skygroup.jp/news/260924_01/",
+      "source": "web",
+      "thumbnail": "https://www.skygroup.jp/common/img/ogp_img.jpg"
+    },
+    {
+      "time": "07:08",
+      "headline": "AI社員の給与が月3万円、完全自動化より適度な人間チェック",
+      "summary": "オーナー1人＋AI複数で年商を伸ばす一方、月1回は全フローを自分で検査する運用が最適解という実感。",
+      "handle": "kyo_owns_ai",
+      "category": "事例",
+      "url": "https://x.com/kyo_owns_ai/status/2105057112531542452",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "14:00",
+      "headline": "AIを社員として雇用、問い合わせ対応7割減・CVR26倍",
+      "summary": "365日24時間稼働するAI社員の対応で問い合わせを7割減らした事例。カスハラ対策義務化の文脈も解説。",
+      "handle": "PIVOT 公式チャンネル",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=4mprP3phjP0",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/4mprP3phjP0/hqdefault.jpg"
+    },
+    {
+      "time": "00:00",
+      "headline": "AIエージェント暴走で本番データを全削除、日経が特集",
+      "summary": "勝手に全データを消した事故やAWS・メタの障害を踏まえ、人間と同様にミスする存在としての対策を求める。",
+      "handle": "日経クロステック",
+      "category": "事例",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/091700571/091700001/",
+      "source": "web",
+      "thumbnail": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/091700571/091700001/topm.jpg?20220512"
+    },
+    {
+      "time": "19:50",
+      "headline": "AIエージェントを個人の便利ツールからチーム運用へ",
+      "summary": "Botごとに仕事分担、手順の再利用、営業・採用・マーケ・経理・開発の事例とガバナンス整備の話。",
+      "handle": "fujita_mika_ai",
+      "category": "事例",
+      "url": "https://x.com/fujita_mika_ai/status/2097276260405936287",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "18:05",
+      "headline": "文系企業がAIエージェント導入に失敗した4つの課題",
+      "summary": "チャットAIで通用した進め方がエージェントでは通用せず。段階導入と業務設計が鍵という現場レポート。",
+      "handle": "note",
+      "category": "事例",
+      "url": "https://note.com/ai_utilization_/n/n1ba845e9c0c4",
+      "source": "web",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/311818074/rectangle_large_type_2_62ca7807788a965c898f14036989d204.png?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "07:10",
+      "headline": "OpenAI DevDayの本命はdots、ChatGPT内の常時稼働AIエージェント",
+      "summary": "GPT-6を中核に、クラウドで24時間動くエージェントが登場。DevDayの発表を端的に整理。",
+      "handle": "miyajun_ps",
+      "category": "ツール",
+      "url": "https://x.com/miyajun_ps/status/2105057752750129320",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "20:00",
+      "headline": "Microsoft社員が解説、Copilotエージェント作成マニュアル",
+      "summary": "面倒な仕事を自動化するCopilotエージェントの作り方を、業務の洗い出しから順に解説。",
+      "handle": "しごおもTV",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=epx9uh2-Nu8",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/epx9uh2-Nu8/hqdefault.jpg"
+    },
+    {
+      "time": "05:00",
+      "headline": "日本は導入も統制も最低水準？AIエージェント防御策",
+      "summary": "PwCとトレンドマイクロが警鐘。権限最小化・観測性・人間ゲートなど実践的ガバナンスを提示。",
+      "handle": "TechTargetジャパン",
+      "category": "ツール",
+      "url": "https://techtarget.itmedia.co.jp/tt/news/2608/13/news08.html",
+      "source": "web",
+      "thumbnail": "https://techtarget.itmedia.co.jp/tt/article/ogp/2608/13/226081308/1024365/2048"
+    },
+    {
+      "time": "07:10",
+      "headline": "NVIDIA、AIエージェント向け安全基盤Open Agent Safetyを発表",
+      "summary": "OpenShellで行動範囲を制限し、Sentryが別系統で監視。止めるだけでなく制御の多層化。",
+      "handle": "F4eY6B09ynNOmkV",
+      "category": "ツール",
+      "url": "https://x.com/F4eY6B09ynNOmkV/status/2105057531848737127",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTY855UbIAAsyS9.jpg"
+    },
+    {
+      "time": "00:00",
+      "headline": "複数のAI社員がチームで業務を担う「MIERU CREW」提供開始",
+      "summary": "役割の異なるAI社員がクルー編成で業務プロセスを最後まで担当。コストと統制を可視化し、無料PoCも募集。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000001.000190869.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/190869/1/190869-1-2f5f5178d267d0d54fc9d4b446e8dd16-1216x851.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "20:13",
+      "headline": "agyとGemini 3.8 FlashでAIエージェントのコスト削減",
+      "summary": "タスク分散と高速モデルの組み合わせでスループット3倍になった事例と設定の入口。",
+      "handle": "RimaDeAI",
+      "category": "ツール",
+      "url": "https://x.com/RimaDeAI/status/2100906128989470741",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HSfq_WgbIAAH3eW.jpg"
+    },
+    {
+      "time": "07:10",
+      "headline": "エージェント導入で先に決めるのはAIの性能ではなく実行権限",
+      "summary": "権限を持つ業務システムとして設計する段階へ。NVIDIAのOpen Agent Safetyにも触れる。",
+      "handle": "kazu_ai_dx",
+      "category": "作り方",
+      "url": "https://x.com/kazu_ai_dx/status/2105057532523806918",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTWRhhBbMAAeA9f.jpg"
+    },
+    {
+      "time": "18:00",
+      "headline": "AIエージェントを“社員”として雇う5ステップ",
+      "summary": "Claude Code・Codex・Antigravityを使い、AIエージェントを社員として迎える手順を5段階で整理。",
+      "handle": "SHIFT AI ニュース",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=BQRDIn517Gk",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/BQRDIn517Gk/hqdefault.jpg"
+    },
+    {
+      "time": "00:00",
+      "headline": "LINEヤフー、Agent iを支えるノーコードAIエージェント基盤",
+      "summary": "誰でも作れるAgent Builderと安全に動かすAgent Runtimeを内製。作りやすさと本番運用を両立。",
+      "handle": "LINEヤフー Tech Blog",
+      "category": "作り方",
+      "url": "https://techblog.lycorp.co.jp/ja/20260826a",
+      "source": "web",
+      "thumbnail": "https://techblog.lycorp.co.jp/static/707a9a538ea36a1efa1691903432b8bf/7d66e/71efbf45ec474f048d6c7a1ae2d5657c.png"
+    },
+    {
+      "time": "17:51",
+      "headline": "Claude CodeのAI社員運用に製造業の5Sがそのまま使える",
+      "summary": "整理・整頓・清掃の発想をエージェント運用に当てはめる気づき。現場寄りの運用ヒント。",
+      "handle": "tomotana",
+      "category": "作り方",
+      "url": "https://x.com/tomotana/status/2102319868645371927",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "21:53",
+      "headline": "【AI社員の作り方】Claude Codeで会社経営を行う方法",
+      "summary": "Claude CodeでAI社員をつくり会社経営に使う方法と使い方を徹底解説する入門動画。",
+      "handle": "雇われない人生の始め方",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=hiL2gCanLfE",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/hiL2gCanLfE/hqdefault.jpg"
+    },
+    {
+      "time": "11:03",
+      "headline": "【2026年最新】AI社員の作り方｜Claude Code実装5ステップ",
+      "summary": "役割定義から指示書・接続・運用改善まで。非エンジニアでも今日から着手できる実装手順。",
+      "handle": "株式会社Uravation",
+      "category": "作り方",
+      "url": "https://uravation.com/media/ai-shain-tsukurikata-guide-2026/",
+      "source": "web",
+      "thumbnail": "https://uravation.com/wp-content/uploads/2026/07/ai-shain-tsukurikata-thumb.png"
+    }
+  ]
+}

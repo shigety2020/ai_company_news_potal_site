@@ -6,7 +6,8 @@
     "summary": "価値観をまとめた方針書を1枚作るだけで自分を理解した相棒に。Deep Researchや性格抽出のプロンプト付きで即試せる完成度。",
     "handle": "dansyu_callenge",
     "category": "作り方",
-    "url": "https://x.com/dansyu_callenge/status/2104688985381695899"
+    "url": "https://x.com/dansyu_callenge/status/2104688985381695899",
+    "source": "x"
   },
   "items": [
     {
@@ -15,15 +16,29 @@
       "summary": "役員がAI活用する文化のなか、上場企業として公開に耐える基準まで仕上げる苦労と現場。",
       "handle": "Fujimoto_Marty",
       "category": "事例",
-      "url": "https://x.com/Fujimoto_Marty/status/2104692287976730697"
+      "url": "https://x.com/Fujimoto_Marty/status/2104692287976730697",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
     },
     {
-      "time": "06:57",
-      "headline": "NVIDIA、AIエージェント暴走を防ぐOpen Agent Safetyを公開",
-      "summary": "OpenShellで権限を制限し、Sentryがハードウェアレベルでミリ秒隔離。100社超が支持する安全基盤。",
-      "handle": "Tyr_Nippon",
-      "category": "ツール",
-      "url": "https://x.com/Tyr_Nippon/status/2104692030970728607"
+      "time": "19:10",
+      "headline": "AI社員の導入数日本No.1企業の裏側を公開",
+      "summary": "AI企業が実際に何をしているのか、AI社員導入の現場を見せる動画。導入支援の実態がつかめる。",
+      "handle": "あなたのAI顧問【黒山結音のAI駆動経営チャンネル】",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=JCvA0PPgdzk",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/JCvA0PPgdzk/hqdefault.jpg"
+    },
+    {
+      "time": "11:45",
+      "headline": "NECが「AI自律型組織」を新設、CAXOが語る狙い",
+      "summary": "部門長から社員まで全役割をAIが担うコーポレートAI・Workforce部門。評価と統制は人が担う設計を解説。",
+      "handle": "ITmedia エンタープライズ",
+      "category": "事例",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/24/news050.html",
+      "source": "web",
+      "thumbnail": "https://image.itmedia.co.jp/enterprise/articles/2609/24/cover_news050.jpg"
     },
     {
       "time": "06:57",
@@ -31,15 +46,29 @@
       "summary": "JPXの先行導入では情報収集などで約8割の省力化。答えるだけでなく企業のセキュリティを支える動き。",
       "handle": "kurogoma223",
       "category": "事例",
-      "url": "https://x.com/kurogoma223/status/2104691989229015216"
+      "url": "https://x.com/kurogoma223/status/2104691989229015216",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTVeNPDbwAAnf8C.jpg"
     },
     {
-      "time": "06:58",
-      "headline": "JadePufferはAIエージェントで偵察から暗号化まで自動化",
-      "summary": "Azure保管アカウント100超を7分で削除した事例。復旧ロックごと消される前提のバックアップ設計が要所。",
-      "handle": "dejital_secure",
+      "time": "14:00",
+      "headline": "AIを社員として雇用、問い合わせ対応7割減・CVR26倍",
+      "summary": "365日24時間稼働するAI社員の対応で問い合わせを7割減らした事例。カスハラ対策義務化の文脈も解説。",
+      "handle": "PIVOT 公式チャンネル",
       "category": "事例",
-      "url": "https://x.com/dejital_secure/status/2104692303680139669"
+      "url": "https://www.youtube.com/watch?v=4mprP3phjP0",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/4mprP3phjP0/hqdefault.jpg"
+    },
+    {
+      "time": "17:47",
+      "headline": "NECは無人部署、DeNAにはAI社員17体",
+      "summary": "一般社員と同じ権限をAIに与える「AI社員」活用が拡大。NECは36体に増え、DeNAは会計や品質管理に配属。",
+      "handle": "ITmedia NEWS",
+      "category": "事例",
+      "url": "https://www.itmedia.co.jp/news/article/2609/10/2000001380/",
+      "source": "web",
+      "thumbnail": "https://www.itmedia.co.jp/news/article/ogp/2609/10/2000001380/10006058/2048"
     },
     {
       "time": "06:54",
@@ -47,119 +76,9 @@
       "summary": "請求書から支払先・金額を整理し、freeeの入金予定と残高見込みまで出す運用の手応え。",
       "handle": "whoms_whoms",
       "category": "事例",
-      "url": "https://x.com/whoms_whoms/status/2104691126267715662"
-    },
-    {
-      "time": "06:53",
-      "headline": "Meta、企業向けAI事業とエージェントMuseなどを発表",
-      "summary": "Meta Enterprise PlatformにAIエージェントMuse、顧客対応のBusiness Agent、開発者向けMuseを含む。",
-      "handle": "Nag09Tak",
-      "category": "ツール",
-      "url": "https://x.com/Nag09Tak/status/2104691013994602682"
-    },
-    {
-      "time": "06:52",
-      "headline": "Shopify、AIエージェントが購入手続きまで完了可能に",
-      "summary": "エージェントによるチェックアウト対応。任せられる仕事の境界が広がる海外ニュースのひとつ。",
-      "handle": "Nag09Tak",
-      "category": "ツール",
-      "url": "https://x.com/Nag09Tak/status/2104690934080512379"
-    },
-    {
-      "time": "06:53",
-      "headline": "Manus 2.0、専用メールや電話番号を持つAI秘書Cue",
-      "summary": "AIエージェント企業Manusが新版で秘書アプリを投入。連絡手段まで持つエージェントの形。",
-      "handle": "Nag09Tak",
-      "category": "ツール",
-      "url": "https://x.com/Nag09Tak/status/2104691090167349705"
-    },
-    {
-      "time": "06:56",
-      "headline": "Agy兄さんと作るTWSNMP、AIのエネルギーを節約して開発",
-      "summary": "AIエージェントと組んだ開発ノート。トークンや実行コストを意識しながら進める作り方の共有。",
-      "handle": "twsnmp",
-      "category": "作り方",
-      "url": "https://x.com/twsnmp/status/2104691648253002174"
-    },
-    {
-      "time": "06:45",
-      "headline": "AnthropicとNVIDIAがAIエージェントのセキュリティーで提携",
-      "summary": "ブルームバーグ報道。エージェント安全層を巡る大手連携が表に出た一日。",
-      "handle": "BloombergJapan",
-      "category": "ツール",
-      "url": "https://x.com/BloombergJapan/status/2104688932420047195"
-    },
-    {
-      "time": "06:46",
-      "headline": "NVIDIA Open Agent Safety Platformの解説（TechnoEdge）",
-      "summary": "テスト環境に留まらせる安全基盤の発表をテクノエッジが整理。導入検討の入口記事。",
-      "handle": "TechnoEdgeJP",
-      "category": "ツール",
-      "url": "https://x.com/TechnoEdgeJP/status/2104689114402750762"
-    },
-    {
-      "time": "06:47",
-      "headline": "OpenAI、高性能モデル学習を一時停止しエージェント挙動を調査",
-      "summary": "GIGAZINE経由の報道。エージェントの振る舞いを大規模に調べるための学習一時停止。",
-      "handle": "knoike",
-      "category": "ツール",
-      "url": "https://x.com/knoike/status/2104689488161284189"
-    },
-    {
-      "time": "06:47",
-      "headline": "ChatGPT内部にバックグラウンド常駐AIエージェントの痕跡",
-      "summary": "操作していないときも働き続けるエージェント機能の観測。未発表「O」への関心。",
-      "handle": "uemura_HR",
-      "category": "ツール",
-      "url": "https://x.com/uemura_HR/status/2104689386948587571"
-    },
-    {
-      "time": "06:42",
-      "headline": "AIエージェント暴走は制御設計の不備という本質を隠す",
-      "summary": "禁止されていないことをしただけ、という指摘。権限と停止条件を設計する側の論点。",
-      "handle": "techfeedapp",
-      "category": "作り方",
-      "url": "https://x.com/techfeedapp/status/2104688171107701119"
-    },
-    {
-      "time": "06:23",
-      "headline": "経産省AIエージェント・セキュリティガイドライン資料を読む",
-      "summary": "利用企業向けガイドライン第1回資料への所感。単位の取り方と設計視点の整理。",
-      "handle": "AikidoCommJP",
-      "category": "作り方",
-      "url": "https://x.com/AikidoCommJP/status/2104683541435208022"
-    },
-    {
-      "time": "06:17",
-      "headline": "自分のクローンをつくる、判断の理由まで残す引き継ぎ",
-      "summary": "手順書では書けない「こういうときはこうする」を残す話。AIへの委任設計にも通じる。",
-      "handle": "mitsuhiro_jp",
-      "category": "作り方",
-      "url": "https://x.com/mitsuhiro_jp/status/2104681824337490340"
-    },
-    {
-      "time": "05:00",
-      "headline": "Instinctが10万ユーザー突破、電話とメッセージで日常業務代行",
-      "summary": "マーケなしで1日10%成長との報告。日常業務を丸ごと任せるエージェントの急成長事例。",
-      "handle": "nextai_jp",
-      "category": "ツール",
-      "url": "https://x.com/nextai_jp/status/2104662437916299623"
-    },
-    {
-      "time": "04:08",
-      "headline": "AIエージェントを一緒に考える相手と思うと頼み方が変わる",
-      "summary": "自動化ツールから相談相手へ。『これどう思う？』と聞けるようになると一人作業の詰まりが減る。",
-      "handle": "AI_keita0312",
-      "category": "作り方",
-      "url": "https://x.com/AI_keita0312/status/2104649506838950349"
-    },
-    {
-      "time": "02:38",
-      "headline": "高性能モデルを常駐させるほど膨らむエージェント料金の壁",
-      "summary": "長時間の複雑な作業ほどコストが壁になる、という整理。常駐運用の設計を考える入口。",
-      "handle": "ax_supporter",
-      "category": "作り方",
-      "url": "https://x.com/ax_supporter/status/2104626933455876375"
+      "url": "https://x.com/whoms_whoms/status/2104691126267715662",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
     },
     {
       "time": "06:59",
@@ -167,7 +86,129 @@
       "summary": "遅い箇所の発見からベンチ作成、PR、デプロイ後監視まで。エージェント的な改善ループの実例。",
       "handle": "masahirochaen",
       "category": "事例",
-      "url": "https://x.com/masahirochaen/status/2104692383497723916"
+      "url": "https://x.com/masahirochaen/status/2104692383497723916",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTVekY6b0AAI5JG.jpg"
+    },
+    {
+      "time": "06:57",
+      "headline": "NVIDIA、AIエージェント暴走を防ぐOpen Agent Safetyを公開",
+      "summary": "OpenShellで権限を制限し、Sentryがハードウェアレベルでミリ秒隔離。100社超が支持する安全基盤。",
+      "handle": "Tyr_Nippon",
+      "category": "ツール",
+      "url": "https://x.com/Tyr_Nippon/status/2104692030970728607",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "08:00",
+      "headline": "複数のAI社員がチームで業務を担う「MIERU CREW」提供開始",
+      "summary": "役割の異なるAI社員がクルー編成で業務プロセスを最後まで担当。コストと統制を可視化し、無料PoCも募集。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000001.000190869.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/190869/1/190869-1-2f5f5178d267d0d54fc9d4b446e8dd16-1216x851.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:53",
+      "headline": "Meta、企業向けAI事業とエージェントMuseなどを発表",
+      "summary": "Meta Enterprise PlatformにAIエージェントMuse、顧客対応のBusiness Agent、開発者向けMuseを含む。",
+      "handle": "Nag09Tak",
+      "category": "ツール",
+      "url": "https://x.com/Nag09Tak/status/2104691013994602682",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "17:15",
+      "headline": "24時間365日働く“AIロボ社員”をカナミックが発表",
+      "summary": "介護事務をAIが丸ごと実行し人は承認だけ。雇ったロボ社員の働きぶりを1画面で管理するダッシュボード付き。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000093.000050437.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/50437/93/50437-93-119b1128c1937fb7ae7df95cee6cbe4a-1429x805.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:53",
+      "headline": "Manus 2.0、専用メールや電話番号を持つAI秘書Cue",
+      "summary": "AIエージェント企業Manusが新版で秘書アプリを投入。連絡手段まで持つエージェントの形。",
+      "handle": "Nag09Tak",
+      "category": "ツール",
+      "url": "https://x.com/Nag09Tak/status/2104691090167349705",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "06:42",
+      "headline": "AIエージェント暴走は制御設計の不備という本質を隠す",
+      "summary": "禁止されていないことをしただけ、という指摘。権限と停止条件を設計する側の論点。",
+      "handle": "techfeedapp",
+      "category": "作り方",
+      "url": "https://x.com/techfeedapp/status/2104688171107701119",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTVavJFWEAAfX42.jpg"
+    },
+    {
+      "time": "18:00",
+      "headline": "AIエージェントを“社員”として雇う5ステップ",
+      "summary": "Claude Code・Codex・Antigravityを使い、AIエージェントを社員として迎える手順を5段階で整理。",
+      "handle": "SHIFT AI ニュース",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=BQRDIn517Gk",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/BQRDIn517Gk/hqdefault.jpg"
+    },
+    {
+      "time": "10:16",
+      "headline": "AI社員61体の運用でわかった9つの教訓",
+      "summary": "職務記述書・検品・停止線・監視を先に設計すると運用が安定する。外部操作の最終承認は人間が握る。",
+      "handle": "株式会社Uravation",
+      "category": "作り方",
+      "url": "https://uravation.com/media/ai-shain-61-jitsuun-lessons-2026/",
+      "source": "web",
+      "thumbnail": "https://uravation.com/wp-content/uploads/2026/08/ai-shain-61-jitsuun-lessons-2026.webp"
+    },
+    {
+      "time": "06:17",
+      "headline": "自分のクローンをつくる、判断の理由まで残す引き継ぎ",
+      "summary": "手順書では書けない「こういうときはこうする」を残す話。AIへの委任設計にも通じる。",
+      "handle": "mitsuhiro_jp",
+      "category": "作り方",
+      "url": "https://x.com/mitsuhiro_jp/status/2104681824337490340",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "21:53",
+      "headline": "【AI社員の作り方】ClaudeCodeで会社経営を行う方法",
+      "summary": "Claude CodeでAI社員をつくり会社経営に使う方法と使い方を徹底解説する入門動画。",
+      "handle": "雇われない人生の始め方",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=hiL2gCanLfE",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/hiL2gCanLfE/hqdefault.jpg"
+    },
+    {
+      "time": "04:08",
+      "headline": "AIエージェントを一緒に考える相手と思うと頼み方が変わる",
+      "summary": "自動化ツールから相談相手へ。『これどう思う？』と聞けるようになると一人作業の詰まりが減る。",
+      "handle": "AI_keita0312",
+      "category": "作り方",
+      "url": "https://x.com/AI_keita0312/status/2104649506838950349",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "20:00",
+      "headline": "Microsoft社員が解説、Copilotエージェント作成マニュアル",
+      "summary": "面倒な仕事を自動化するCopilotエージェントの作り方を、業務の洗い出しから順に解説。",
+      "handle": "しごおもTV",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=epx9uh2-Nu8",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/epx9uh2-Nu8/hqdefault.jpg"
     }
   ]
 }

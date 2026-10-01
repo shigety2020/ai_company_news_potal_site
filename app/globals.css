@@ -133,11 +133,6 @@ img {
   font-size: 22px;
   font-weight: 700;
   line-height: 1.4;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
-  overflow: hidden;
 }
 
 .summary {
@@ -241,8 +236,8 @@ img {
   line-height: 1.45;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
   overflow: hidden;
 }
 
@@ -404,4 +399,3 @@ img {
   color: var(--heading);
   font-variant-numeric: tabular-nums;
 }
-

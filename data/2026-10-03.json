@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-03",
+  "featured": {
+    "time": "08:00",
+    "headline": "複数AI社員がチームで業務を担う「MIERU CREW」提供開始",
+    "summary": "経費精算や請求書など6領域で、役割分担するAI社員クルーを設計・可視化。承認・監査・コスト統制を備えたAI社員プラットフォーム。",
+    "handle": "PR TIMES",
+    "category": "ツール",
+    "url": "https://prtimes.jp/main/html/rd/p/000000001.000190869.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "19:05",
+      "headline": "Claude CodeのAI社員会社、34人から5人へ再編成した現場ログ",
+      "summary": "前回は名札だけの部署が半分。進行・調査・執筆・検品・デザインの5人体制で全員が実際に仕事する形へ作り直した。",
+      "handle": "kimura_0314",
+      "category": "事例",
+      "url": "https://x.com/kimura_0314/status/2105962244102144058",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2105280969498603520/img/K9tvPQb9atFClUfo.jpg"
+    },
+    {
+      "time": "18:00",
+      "headline": "Claude CodeのAI社員でひとり起業、年商1000万を目指す実演",
+      "summary": "AI社員を使ったひとり起業の進め方を実演。役割分担から収益化までの流れがわかる。",
+      "handle": "むっちょの副業月5万攻略",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=NmHuq95jHXs",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/NmHuq95jHXs/hqdefault.jpg"
+    },
+    {
+      "time": "10:00",
+      "headline": "西日本鉄道でBLUEISH AgentsのPoC、複数部門の定型業務を検証",
+      "summary": "鉄道・不動産・ホテル・経理で帳票処理や資料作成を約3ヶ月検証。現場定着と横断適用の手応えを確認。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000090.000078860.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/78860/90/78860-90-24e622b164938015ee6701067cd0ca60-3900x2048.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "14:32",
+      "headline": "入金リマインドAI社員が月末月初の事務を半減させた現場",
+      "summary": "請求の入金確認と未入金ユーザーへの一斉メールをAI社員に委任。事務員の負荷軽減としてクライアントに好評。",
+      "handle": "naomu_ai",
+      "category": "事例",
+      "url": "https://x.com/naomu_ai/status/2105893735343256050",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTmjMHTa4AATeC2.jpg"
+    },
+    {
+      "time": "11:56",
+      "headline": "AI社員にSNS運用を任せたDAY2、人間作業は63分まで削減",
+      "summary": "企画・原稿・レビューはAI、Canvaと最終確認・投稿は人間。完全自動化ではなく半自動運用の実験ログ。",
+      "handle": "f9ailab",
+      "category": "事例",
+      "url": "https://x.com/f9ailab/status/2105854293073101170",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTl7qaNbwAAWjfg.jpg"
+    },
+    {
+      "time": "00:24",
+      "headline": "出勤ボタンで13人のAI社員が入社するオフィスUIを試作",
+      "summary": "アプリの前に会社を作る発想。押すとAI社員が席に着く様子を動画で共有し、役割は実験しながら決める。",
+      "handle": "kanadeapuri",
+      "category": "事例",
+      "url": "https://x.com/kanadeapuri/status/2106042768007340498",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2106042746079514624/img/1mU0ZhjX5skLjPap.jpg"
+    },
+    {
+      "time": "12:30",
+      "headline": "不動産会社のAI社員、推奨判定は社長が拒否し材料集めに限定",
+      "summary": "導入8日目に「判定は不要、自分で決める」と線引き。任せるのは決めるための事実と数字まで、という現場判断。",
+      "handle": "allez_design",
+      "category": "事例",
+      "url": "https://x.com/allez_design/status/2105862838246142254",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTS-T7WbYAAp9cX.jpg"
+    },
+    {
+      "time": "12:17",
+      "headline": "Employee Storeに「はじめる」診断、合うAI社員を4問で絞る",
+      "summary": "手放したい作業からAI社員を選べる導線。決済と納品もサイト内で完結するストア機能の案内。",
+      "handle": "EmployeeStoreJP",
+      "category": "ツール",
+      "url": "https://x.com/EmployeeStoreJP/status/2105859779918958637",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTmESNkbIAAYSKo.jpg"
+    },
+    {
+      "time": "08:00",
+      "headline": "OpenClawで超優秀なAI社員を構築し経営を伸ばす方法",
+      "summary": "セルフホスト型エージェントOpenClawの強みと、経営者がAI社員を組み立てるポイントを解説。",
+      "handle": "『Cat'AI』〜経営者のためのAI動画メディア〜",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=eNhQepWmFUk",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/eNhQepWmFUk/hqdefault.jpg"
+    },
+    {
+      "time": "10:00",
+      "headline": "カオナビがAIエージェント「KTi」をリリース、意思決定に伴走",
+      "summary": "キャリア相談と人材検索から提供開始。自社人材データを権限内で参照し、対話で意思決定を支援する。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000378.000030113.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/30113/378/30113-378-4bae507576b53450a4cb783534f786d8-1828x920.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "01:44",
+      "headline": "せいぬスクールにClaude Code実務カリキュラムを追加中",
+      "summary": "AI社員・AI秘書を実務で使う前提の講座拡充。作業丸投げで収益化まで見据えた学習導線を紹介。",
+      "handle": "seinu_note",
+      "category": "ツール",
+      "url": "https://x.com/seinu_note/status/2106062733246677244",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTo85HbbQAUvT6G.jpg"
+    },
+    {
+      "time": "12:00",
+      "headline": "AI社員のための「脳」をつくる、知識蓄積だけでは成果が出ない理由",
+      "summary": "ChatGPT・Gemini・Claudeを前提に、ナレッジの置き方と成果が出る設計の違いを整理する動画。",
+      "handle": "Ailly -AIサービス開発、コンサル",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=e3u1SIDYdis",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/e3u1SIDYdis/hqdefault.jpg"
+    },
+    {
+      "time": "17:23",
+      "headline": "営業AIエージェント「Aitane」β版、10月1日より提供開始",
+      "summary": "カスタムエージェントやダッシュボード、モバイル連携を追加。商談記録や進捗集計など営業事務を支援。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000014.000168809.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/168809/14/168809-14-0833578d126e66b4e9ccda02f4a3a1c8-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "13:30",
+      "headline": "業務自動化AIエージェント「palton AI」正式提供開始",
+      "summary": "セキュリティと「止まる・直せない」課題に向き合うAI×RPA。複雑な業務自動化を言葉から実行へ。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000103.000031844.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/31844/103/31844-103-6ca9e3fb971a27fa69328e0131c3d1a0-640x200.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "19:57",
+      "headline": "Claude CodeでThreads運用AI社員6人を立てる分担の作り方",
+      "summary": "リサーチから投稿づくりまで役割を分け、1日1時間で回す運用。AI社員としての人員配置例が具体的。",
+      "handle": "riku_threads",
+      "category": "作り方",
+      "url": "https://x.com/riku_threads/status/2105975387654393997",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTntbeZbUAAfBGp.jpg"
+    },
+    {
+      "time": "19:00",
+      "headline": "ClaudeCodeでAI社員10人を月3,000円で雇う会社経営の実演",
+      "summary": "低コストで複数AI社員を雇う手順を実演。役割設計から運用までの立ち上げ方が追える。",
+      "handle": "福田卓馬 | EXTAGE株式会社",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=QJySNFYvTPk",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/QJySNFYvTPk/hqdefault.jpg"
+    },
+    {
+      "time": "08:00",
+      "headline": "AIエージェントの作り方5ステップ、検証と停止条件まで設計",
+      "summary": "業務分解から指示書・検証・Human in the Loopまで。組織で運用が続くための設計を2026年版で解説。",
+      "handle": "x3d株式会社",
+      "category": "作り方",
+      "url": "https://x3d.jp/knowledge/aix-lab/ai-agent-tsukurikata",
+      "source": "web",
+      "thumbnail": "https://exe.x3d.jp/wp-content/uploads/2026/07/ai-agent-tsukurikata-eyecatch-scaled.webp"
+    },
+    {
+      "time": "11:27",
+      "headline": "AI社員を作るならまず事業用フォルダを会社にする",
+      "summary": "Codexなどのエージェント利用時、SNS運用やnote販売など用途別フォルダを職場として切る最初の一手。",
+      "handle": "mitsunari_ai",
+      "category": "作り方",
+      "url": "https://x.com/mitsunari_ai/status/2079030453017907365",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HNozLUFaoAAY0J8.jpg"
+    },
+    {
+      "time": "21:53",
+      "headline": "ClaudeCodeで会社経営、AI社員の作り方と使い方を徹底解説",
+      "summary": "雇われない人生向けに、Claude CodeでAI社員を立てて経営に使う手順を体系的に解説。",
+      "handle": "雇われない人生の始め方",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=hiL2gCanLfE",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/hiL2gCanLfE/hqdefault.jpg"
+    },
+    {
+      "time": "11:03",
+      "headline": "AI社員の作り方5ステップ、Claude Code実装ガイド2026",
+      "summary": "役割定義から指示書・Slack連携・運用改善まで。非エンジニアでも着手できる実装手順を公開。",
+      "handle": "株式会社Uravation",
+      "category": "作り方",
+      "url": "https://uravation.com/media/ai-shain-tsukurikata-guide-2026/",
+      "source": "web",
+      "thumbnail": "https://uravation.com/wp-content/uploads/2026/07/ai-shain-tsukurikata-thumb.png"
+    }
+  ]
+}

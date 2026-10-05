@@ -10,13 +10,14 @@ function readB64(b64Name) {
   if (existsSync(single)) {
     return readFileSync(single, "utf8").replace(/\s+/g, "");
   }
-  // Concatenate .part1 + .part2 if present (for large assets pushed via MCP)
-  const p1 = join(brand, b64Name + ".part1");
-  const p2 = join(brand, b64Name + ".part2");
-  if (existsSync(p1) && existsSync(p2)) {
-    return (readFileSync(p1, "utf8") + readFileSync(p2, "utf8")).replace(/\s+/g, "");
+  let out = "";
+  for (let i = 1; i <= 16; i++) {
+    const p = join(brand, `${b64Name}.part${i}`);
+    if (!existsSync(p)) break;
+    out += readFileSync(p, "utf8");
   }
-  throw new Error("missing brand asset: " + b64Name);
+  if (!out) throw new Error("missing brand asset: " + b64Name);
+  return out.replace(/\s+/g, "");
 }
 
 function writeFromB64(relOut, b64Name) {

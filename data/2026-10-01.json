@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-01",
+  "featured": {
+    "time": "00:00",
+    "headline": "Appier研究がNeurIPS採択、AIエージェントがツールを自ら作る段階へ",
+    "summary": "SMITH枠組みでツールの作成・利用・改良を一体学習。小型モデルが大型超えの再利用可能ツールを生み、推論コスト削減にも寄与。",
+    "handle": "Appier",
+    "category": "ツール",
+    "url": "https://www.appier.com/ja-jp/press-media/joint-optimization-of-tool-creation-and-use-for-llm",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "07:04",
+      "headline": "Salesforce、商談創出AI「Hunter」と進行AI「Piper」を発表",
+      "summary": "アウトバウンドとインバウンドの商談をAIエージェントが実行。営業は人間前提という常識が崩れ始めた動きを整理。",
+      "handle": "susumu_utage",
+      "category": "事例",
+      "url": "https://x.com/susumu_utage/status/2105418513813000563",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTfy-qobgAAgzEq.jpg"
+    },
+    {
+      "time": "12:00",
+      "headline": "未来で流行るAI社員とは？まだ語られていない本当の形",
+      "summary": "流行りのAI社員論とは違う視点で、現場で使われる形と落とし穴を解説する動画。",
+      "handle": "AI仙人 【AI歴10年・ガチADHD男】",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=iahxsJLPlaA",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/iahxsJLPlaA/hqdefault.jpg"
+    },
+    {
+      "time": "10:00",
+      "headline": "ServiceNowが業務別AIスペシャリストを拡充、全部門へ自律実行",
+      "summary": "助言から実行へ。Autonomous Workforceの業務別スペシャリスト拡充と現場への展開を整理。",
+      "handle": "Meliorra AI Lab",
+      "category": "事例",
+      "url": "https://media.meliorra.co/articles/news-20260915-servicenow-autonomous-workforce-specialists/",
+      "source": "web",
+      "thumbnail": "https://media.meliorra.co/images/covers/news-20260915-servicenow-autonomous-workforce-specialists.png"
+    },
+    {
+      "time": "07:00",
+      "headline": "人間ひとり・社員は全員AI、自動化できる仕事を本人に聞いた",
+      "summary": "秘書役のAI社員に「自動化できることは？」と問い、各AI社員にも同じ質問を投げた現場ログ。",
+      "handle": "hironori0358",
+      "category": "事例",
+      "url": "https://x.com/hironori0358/status/2105417428339765653",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTfx_nSbkAAslNF.jpg"
+    },
+    {
+      "time": "18:00",
+      "headline": "Claude CodeでAI社員を作ったら月10万稼げた【実演】",
+      "summary": "AI社員を組み上げて収益化した実演。作り方から運用・販売まで一連の流れがわかる。",
+      "handle": "ここなのAI大学",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=Vlf3hpaEzoc",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/Vlf3hpaEzoc/hqdefault.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "提案書を不合格にした検算専門のAI社員、経営管理室の補佐",
+      "summary": "社長が直した数字が戻っていない箇所を指摘。AI社員同士の品質チェック運用の一例。",
+      "handle": "aikaishawip",
+      "category": "事例",
+      "url": "https://x.com/aikaishawip/status/2105402304375468356",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTNJSXHasAADMll.jpg"
+    },
+    {
+      "time": "23:46",
+      "headline": "ServiceNow、AIを働き手として組織に組み込む業務分担を明確化",
+      "summary": "最上位のAutonomous Workforceが実務を担い、人は管理・監督へ。AI社員としての位置づけが鮮明に。",
+      "handle": "ai_medtics",
+      "category": "事例",
+      "url": "https://x.com/ai_medtics/status/2105308338468847996",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTeOxtcbsAEjVZ7.jpg"
+    },
+    {
+      "time": "22:31",
+      "headline": "ChatGPTのdotが$100プランでも利用可能に、AI社員1号として育成",
+      "summary": "長い付き合いになる前提で名前と画像を作り込む動き。個人秘書と会社マスコットの使い分けも話題。",
+      "handle": "hikarine3",
+      "category": "ツール",
+      "url": "https://x.com/hikarine3/status/2105289493091889227",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTd9CqaaMAEsP1B.png"
+    },
+    {
+      "time": "21:11",
+      "headline": "OpenAI Codex徹底ガイド、ChatGPTだけじゃもったいない",
+      "summary": "入門の次に見るCodex解説。基本からハック、AI社員へのクリエイティブ応用まで一本でカバー。",
+      "handle": "AI様の下僕",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=8PzlIthxUDo",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/8PzlIthxUDo/hqdefault.jpg"
+    },
+    {
+      "time": "11:00",
+      "headline": "PCA、基幹業務と連携する「PCA AIエージェント」をリリース",
+      "summary": "自然言語でデータ分析からレポート作成まで。権限範囲内でPCA Archの業務機能を実行。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000146.000068180.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/68180/146/68180-146-dfd6542c6d0aed30c9d474c19aa565cf-962x728.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "07:11",
+      "headline": "NVIDIA OpenShell、AIエージェントを隔離環境で動かす安全ランタイム",
+      "summary": "ホストへ直接放さず、権限とネットワークを管理する土台。自律エージェントの実行基盤として注目。",
+      "handle": "plattypuus",
+      "category": "ツール",
+      "url": "https://x.com/plattypuus/status/2105420180704596331",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "20:00",
+      "headline": "AIエージェントの仕組みを完全理解、プロが徹底解説",
+      "summary": "エージェントとは何かを仕組みから整理。導入前に押さえるべき基礎の全体像がつかめる。",
+      "handle": "いまにゅのAIプログラミング塾",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=mZ3F2be6yA0",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/mZ3F2be6yA0/hqdefault.jpg"
+    },
+    {
+      "time": "11:00",
+      "headline": "Zendesk、業界特化とカスタムの特化型AIエージェントを発表",
+      "summary": "業務最大80%自動化をうたう。国内でMCPクライアント一般提供も開始。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000062.000064750.html",
+      "source": "web",
+      "thumbnail": "https://d26a57ydsghvgx.cloudfront.net/content/newsroom/SAthumbnail.jpeg"
+    },
+    {
+      "time": "21:17",
+      "headline": "承認済みAI社員をAPIキーなしで検索できるEmployee Store",
+      "summary": "キーワード・言語・件数で一覧取得。出品申請は審査待ち。Claude CodeやCodexからMCPでも呼べる。",
+      "handle": "EmployeeStoreJP",
+      "category": "ツール",
+      "url": "https://x.com/EmployeeStoreJP/status/2105270935154741319",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTdsvJmaEAAuMdd.jpg"
+    },
+    {
+      "time": "09:00",
+      "headline": "スマホの主役はAIエージェントへ、クアルコム新SoCの衝撃",
+      "summary": "アプリ中心から意図理解で横断実行するエージェント中心へ。Snapdragon 8 Elite Extreme Gen 6を解説。",
+      "handle": "ASCII.jp",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/436/4436689/",
+      "source": "web",
+      "thumbnail": "https://ascii.jp/img/2026/09/23/4529138/xl/850dc1ea5e2aaa17.jpg?20200122"
+    },
+    {
+      "time": "13:00",
+      "headline": "PKSHA、オンプレで動くPrivate AI Agentsの提供開始",
+      "summary": "機密を外部に出さず低コストサーバで高速応答。国産LLM含むオープンモデルを企業管理環境で運用。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000271.000022705.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/22705/271/22705-271-d92c2901dfcf7d0e69bdc8244b555e54-1999x1050.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "07:10",
+      "headline": "外部情報を使うAIは、答えより根拠の履歴を先に残す",
+      "summary": "いつ・どこから来た情報かを設計に入れる。エージェントに外部参照させるときの実務ポイント。",
+      "handle": "kazu_ai_dx",
+      "category": "作り方",
+      "url": "https://x.com/kazu_ai_dx/status/2105419919483716055",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTc_DiTbsAAEwf1.jpg"
+    },
+    {
+      "time": "19:00",
+      "headline": "Claude CodeでAI社長→AI社員→自動化をゼロから作る",
+      "summary": "初心者向け実演。役割分担から自動化まで、AI社員チームの立ち上げ手順を追える。",
+      "handle": "Claudeを使えば苦労しない | フィアナ",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=HE0kHYZvH0c",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/HE0kHYZvH0c/hqdefault.jpg"
+    },
+    {
+      "time": "08:00",
+      "headline": "Copilot StudioでノーコードAI社員を作る6ステップ完全ガイド",
+      "summary": "役割定義からナレッジ追加、Teams公開まで。今日から着手できる実装手順を整理。",
+      "handle": "ティースリー株式会社",
+      "category": "作り方",
+      "url": "https://ai-training.t-tthree.com/copilot-studio-ai-agent-guide/",
+      "source": "web",
+      "thumbnail": "https://ai-training.t-tthree.com/wp-content/uploads/2026/08/copilot-studio-eyecatch-1024x576.png"
+    },
+    {
+      "time": "07:08",
+      "headline": "AIエージェント比較はREAD・ACT・APPROVEの権限設計で見る",
+      "summary": "モデル性能や接続数だけでなく「何をさせない設定ができるか」が実務の見極めどころ。",
+      "handle": "Cocoredo_2509",
+      "category": "作り方",
+      "url": "https://x.com/Cocoredo_2509/status/2105419507565294061",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    }
+  ]
+}

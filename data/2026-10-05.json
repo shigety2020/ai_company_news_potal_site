@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-05",
+  "featured": {
+    "time": "05:00",
+    "headline": "みずほ、AIエージェント「Cowork」を約3万人に導入へ",
+    "summary": "交通費精算やSNS分析、業務監査など非定型作業も自律処理。8月にPoCを始め、2027年度にもFG・銀行・信託の計約3万人へ。",
+    "handle": "日経クロステック（xTECH）",
+    "category": "事例",
+    "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12072/",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "08:00",
+      "headline": "社長1人とAI社員だけで会社は回るか、実験アカウントが500人到達",
+      "summary": "企画・執筆・分析をAI社員が担当する実験中の会社。裏側は社長とAI社員の掛け合い形式でnoteに公開。",
+      "handle": "chip_shokai",
+      "category": "事例",
+      "url": "https://x.com/chip_shokai/status/2106519672447246454",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTuZl07a4AA6Z4d.jpg"
+    },
+    {
+      "time": "20:30",
+      "headline": "非エンジニア社長、AI社員18役と定時の仕事95本で会社を回す実録",
+      "summary": "ルールブック・AI社員・定時で動く仕事の3部品を本物の画面で紹介。作るAIと確かめるAIを分け、最後は人が決める。",
+      "handle": "非エンジニア社長Dの業務効率化チャンネル",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=uaU-s9JTQpE",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/uaU-s9JTQpE/hqdefault.jpg"
+    },
+    {
+      "time": "12:00",
+      "headline": "かんぽ生命、法人営業1,200名にbellSalesAI、商談報告を約80%短縮",
+      "summary": "Salesforce入力エージェントで活動報告と顧客カルテの作成が1件約50分から約10分へ。報告の質も向上した。",
+      "handle": "アットプレス",
+      "category": "事例",
+      "url": "https://www.atpress.ne.jp/news/633661",
+      "source": "web",
+      "thumbnail": "https://www.atpress.ne.jp/releases/633661/img_633661_1.png"
+    },
+    {
+      "time": "07:14",
+      "headline": "セールスフォース、サポートを約4000人減らし営業は増やす",
+      "summary": "顧客サポートを約9000人から約5000人に縮める一方、AIエージェント製品を売る営業は最大5000人規模で採用する考え。",
+      "handle": "TECHcirc_c",
+      "category": "事例",
+      "url": "https://x.com/TECHcirc_c/status/2106508298874757350",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTvSIpRXYAAFA3a.jpg"
+    },
+    {
+      "time": "18:00",
+      "headline": "NECのAI社員36体にストレスチェック、出てきたのは新人の悩み",
+      "summary": "仕様が決まらない・支援が受けられない・管理されていない。一次資料まで戻り、AIを部署として置く意味を検証。",
+      "handle": "裏取りAIニュース",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=coznsk5fWZE",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/coznsk5fWZE/hqdefault.jpg"
+    },
+    {
+      "time": "11:00",
+      "headline": "KMユナイテッド、Agentforceで人事・労務の問い合わせを90%削減",
+      "summary": "中堅・中小の建設企業がAIエージェントを導入。月60件の社内問い合わせを24時間即時対応に切り替えた。",
+      "handle": "Salesforce",
+      "category": "事例",
+      "url": "https://www.salesforce.com/jp/news/press-releases/2026/09/30/kmu-customer-news/",
+      "source": "web",
+      "thumbnail": "https://www.salesforce.com/jp/news/wp-content/uploads/sites/21/2026/09/image1_829a99.png"
+    },
+    {
+      "time": "12:21",
+      "headline": "生成AI活用企業でもAIエージェント「利用中」は3.3%",
+      "summary": "矢野経済研究所が国内500社を調査。生成AIは全社活用11.3%、一部部署32.1%で、エージェントはまだ少数。",
+      "handle": "kubo_ai_sensei",
+      "category": "事例",
+      "url": "https://x.com/kubo_ai_sensei/status/2106585405290381317",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTwYQkNaoAAWStg.jpg"
+    },
+    {
+      "time": "16:23",
+      "headline": "Discordで動画編集を覚えたAI社員、肝はナレッジを与えること",
+      "summary": "素材リンクを渡すだけでスマホから編集を依頼。量産より、Obsidianに貯めた知識でAI社員を教育する大切さを語る。",
+      "handle": "pkm_tk111",
+      "category": "事例",
+      "url": "https://x.com/pkm_tk111/status/2106646285579395221",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "18:00",
+      "headline": "日鉄ソリューションズ、Anthropicと提携し既存システム刷新を支援",
+      "summary": "システム構築大手NSSOLが戦略的パートナー契約。開発支援AIのClaudeを使い、企業の既存システム刷新を後押しする。",
+      "handle": "LangChainJP",
+      "category": "ツール",
+      "url": "https://x.com/LangChainJP/status/2106670849801560228",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTxl-X5W0AEJsh7.jpg"
+    },
+    {
+      "time": "03:28",
+      "headline": "OpenAI、24時間自律で動くAIエージェント「Dots」を発表",
+      "summary": "DevDay 2026で発表されたエージェントを解説。4,000以上のアプリ連携やSlack・Teams統合、企業向けの使い方まで。",
+      "handle": "理系ニュース",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=IhqNS5QrDVc",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/IhqNS5QrDVc/hqdefault.jpg"
+    },
+    {
+      "time": "11:00",
+      "headline": "企業専用AIエージェントを受託開発する「ObotWORKS」提供開始",
+      "summary": "情報収集・書類作成・データ登録・通知まで一連で実行。人が確認する工程も一緒に設計し、6〜10週間で導入。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000116.000036236.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/36236/116/36236-116-a4a306a98e4d9e542230b4bdf42a0664-1864x817.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "07:07",
+      "headline": "Andon Labs、AIエージェントに業務運営を任せる基盤を公開",
+      "summary": "方針設定からツール操作までAIが実行。人間は進捗の監視や物理作業・顧客対応へ役割を移す。",
+      "handle": "ai_medtics",
+      "category": "ツール",
+      "url": "https://x.com/ai_medtics/status/2106868826520600731",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HT0aCF4acAAtkBX.jpg"
+    },
+    {
+      "time": "00:00",
+      "headline": "一次面接をAIに任せる採用管理「QRUU」が正式提供",
+      "summary": "応募者はブラウザでAI面接官と対話し、評価の下書きが担当者に届く。合否の判断は人が行う。",
+      "handle": "共同通信社",
+      "category": "ツール",
+      "url": "https://www.kyodo.co.jp/pr/2026-10-01_4038870/",
+      "source": "web",
+      "thumbnail": "https://d17gj49471obkc.cloudfront.net/kyodopress_cms/wp-content/uploads/2026/10/prw_PI1im_cM2KNOU9-430x269.png"
+    },
+    {
+      "time": "19:19",
+      "headline": "ChatGPTで1人AI社員チーム、ネタ探しから分析まで役割を分ける",
+      "summary": "ネタ探し・タイトル・執筆・検品・分析に役割を分けるだけ。初心者が今日から試せる形でnoteにまとめた。",
+      "handle": "JnxQp3t",
+      "category": "作り方",
+      "url": "https://x.com/JnxQp3t/status/2106690776713552113",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "19:00",
+      "headline": "ChatGPTのCodexだけでAI社員5人を雇う方法を実演",
+      "summary": "営業・集客・経理・人事・経営の5人を定義。商談の文字起こしから提案書とLPが3分半で出るまでを編集なしで見せる。",
+      "handle": "福田卓馬 | EXTAGE株式会社",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=mU33D3bM49Q",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/mU33D3bM49Q/hqdefault.jpg"
+    },
+    {
+      "time": "13:46",
+      "headline": "Claude CodeのAI社員の作り方、20体運用で分かった検査係の大切さ",
+      "summary": ".claude/agents/ にMarkdown1枚で作れる。name・description・toolsの書き方と、最初は検査係を置く理由を解説。",
+      "handle": "レコプラ",
+      "category": "作り方",
+      "url": "https://desire-planet.com/claude-code-ai-shain/",
+      "source": "web",
+      "thumbnail": "https://desire-planet.com/wp-content/uploads/2026/09/claude-code-ai-shain_eyecatch.jpg"
+    },
+    {
+      "time": "21:39",
+      "headline": "DiscordにAI社員を集めた、役割分担と設計・運用の記録",
+      "summary": "Discordに複数のBotを立て、作業内容に応じてCodexやAntigravityへ割り当てる仕組みの作り方をnoteに記録。",
+      "handle": "nobu28tp",
+      "category": "作り方",
+      "url": "https://x.com/nobu28tp/status/2106725976386547994",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "18:00",
+      "headline": "Claude Codeで朝の営業を自動化、AI社員3人を雇う7つの手順",
+      "summary": "共通の指示書1枚とX・LINE・メール担当の3人で、朝の営業をOKを押すだけに。下書きは社員、送るのは自分。",
+      "handle": "AIに丸投げ界隈【ゆっくり解説】",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=JFTxQbhc_9k",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/JFTxQbhc_9k/hqdefault.jpg"
+    },
+    {
+      "time": "21:22",
+      "headline": "Claude CodeのskillsでAI仮想会社の社員を作る",
+      "summary": "CLAUDE.mdを会社の憲法、.claude/skills/を職務記述書に。リサーチ・執筆・校閲を分け、公開は人のレビューを条件にする。",
+      "handle": "Zenn",
+      "category": "作り方",
+      "url": "https://zenn.dev/yukke_dev/articles/20260903-claude-code-skills-ai-company",
+      "source": "web",
+      "thumbnail": "https://res.cloudinary.com/zenn/image/upload/s--Wd5D_EDN--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25AEskills%25E3%2581%25A7AI%25E4%25BB%25AE%25E6%2583%25B3%25E4%25BC%259A%25E7%25A4%25BE%25E3%2581%25AE%25E7%25A4%25BE%25E5%2593%25A1%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:yukke%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzRkNzM3N2Y5NGUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE"
+    },
+    {
+      "time": "20:00",
+      "headline": "Runwayで作ったAI動画が万バズ、分析と編集をAI社員に任せる",
+      "summary": "AI社員が分析・台本・字幕を担当し、生成はRunway。2週間で約50万回再生までの作り方を実演で解説。",
+      "handle": "久保直樹 | AI先生",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=MS6zPY2n3Tg",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/MS6zPY2n3Tg/hqdefault.jpg"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-04",
+  "featured": {
+    "time": "10:00",
+    "headline": "ELYZA、音声対話AIエージェント「ELYZA Voice Agent」を開発",
+    "summary": "対話から予約変更・申請・記録まで一連で支援。コンタクトセンター知見とRSI研究を活かした音声エージェント。",
+    "handle": "ELYZA",
+    "category": "ツール",
+    "url": "https://elyza.ai/news/2026/10/02/voiceagent",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "13:19",
+      "headline": "社員9人全員AIのオフィス、実案件を回す現場ログ",
+      "summary": "制作・経理・SNSを席ごとに分担し、迷ったら社長に確認。広報のAI社員が編集した動画も公開。",
+      "handle": "70dDa5c7TBqKRQ0",
+      "category": "事例",
+      "url": "https://x.com/70dDa5c7TBqKRQ0/status/2106237673400901817",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2106237575681953792/img/FGTynOBem7HXPk3o.jpg"
+    },
+    {
+      "time": "11:00",
+      "headline": "Claude CodeでAI社員を作ったら月10万、note販売までの実演",
+      "summary": "AI社員で記事作成から価格設計まで一連を実演。安すぎ・高すぎの失敗を避け段階値上げする流れも解説。",
+      "handle": "ここなのAI大学",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=Vlf3hpaEzoc",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/Vlf3hpaEzoc/hqdefault.jpg"
+    },
+    {
+      "time": "10:00",
+      "headline": "ウォーターエージェンシー、ChatSense全社導入で資料作成が数時間に",
+      "summary": "上下水道の維持管理会社がセキュアな法人AIを導入。議事録・提案資料が約1週間から数時間へ短縮。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000412.000073671.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/73671/412/73671-412-e0ab77158400a7e52ab8a267228f3531-1680x945.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "23:10",
+      "headline": "AI社員にYouTubeサムネを作らせ、毎回同じ型で揃えた現場",
+      "summary": "丸投げではなくスキルで人物・構図を固定。回ごとに違う人が出る問題を手順で解消した実験ログ。",
+      "handle": "kk_connect2022",
+      "category": "事例",
+      "url": "https://x.com/kk_connect2022/status/2106386441362415717",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTtjSvAbQAAQwSn.jpg"
+    },
+    {
+      "time": "12:00",
+      "headline": "AI社員10人で会社が回るは嘘、賢い使い方を解説",
+      "summary": "人数を増やすだけでは回らない理由と、役割設計・人間の確認ポイントに絞った運用の現実解を解説。",
+      "handle": "戸田AI顧問",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=dp5GTXkkxwo",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/dp5GTXkkxwo/hqdefault.jpg"
+    },
+    {
+      "time": "10:00",
+      "headline": "KDDIアイレット、AIエージェント導入で対応時間を約17%短縮",
+      "summary": "回答生成と検品を二層化したサポートデスクAI。4.2時間から3.5時間へ短縮し出典付きでレビューに集中。",
+      "handle": "cloudpack",
+      "category": "事例",
+      "url": "https://cloudpack.jp/casestudy/26-16-kddiiret.html",
+      "source": "web",
+      "thumbnail": "https://cloudpack.jp/wp-content/uploads/2026/03/img_kddiiret-logo-ogp.png"
+    },
+    {
+      "time": "07:00",
+      "headline": "AI社員に任せない仕事を先に決める、金額・謝罪・値引きは自分",
+      "summary": "11年の経験から雇わない4領域を明示。任せる前に境界を引く現場ルールの共有。",
+      "handle": "oji_ai_hire",
+      "category": "事例",
+      "url": "https://x.com/oji_ai_hire/status/2106504573817110961",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTZSJG5bMAAhzDI.jpg"
+    },
+    {
+      "time": "18:51",
+      "headline": "OpenAI dotsとClaude Code、AI社員にするなら用途で選ぶ",
+      "summary": "dotsは社長の分身、Claude Codeは部署の仕組み。社員ゼロ・AI社員17人で回す起業家の選び方。",
+      "handle": "YUI_singer_0917",
+      "category": "ツール",
+      "url": "https://x.com/YUI_singer_0917/status/2106321251857809619",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTsoAqVbwAAvaPs.jpg"
+    },
+    {
+      "time": "11:24",
+      "headline": "OpenAI DevDay 2026、dots・Space・Codexの仕事への使い方",
+      "summary": "新サービス・新機能20選を整理。常時稼働エージェントdotsを業務でどう使うかの観点で解説。",
+      "handle": "チエロ | AIに強い、経営者の相談役",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=xtPqDo9QmLk",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/xtPqDo9QmLk/hqdefault.jpg"
+    },
+    {
+      "time": "10:00",
+      "headline": "ELYZA、音声対話AIエージェント「ELYZA Voice Agent」を開発",
+      "summary": "対話から予約変更・申請・記録まで一連で支援。コンタクトセンター知見とRSI研究を活かした音声エージェント。",
+      "handle": "ELYZA",
+      "category": "ツール",
+      "url": "https://elyza.ai/news/2026/10/02/voiceagent",
+      "source": "web",
+      "thumbnail": "https://elyza.ai/opengraph-image.png?opengraph-image.3xl7316ajhpxz.png"
+    },
+    {
+      "time": "12:22",
+      "headline": "Employee Store、AI社員検索を新着・雇用数・評価・価格で並べ替え",
+      "summary": "職種と形式で絞ったうえで比較できるストア導線。任せたい作業から合うAI社員を探す機能強化。",
+      "handle": "EmployeeStoreJP",
+      "category": "ツール",
+      "url": "https://x.com/EmployeeStoreJP/status/2106223368425128400",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTrO-Dda4AAwOIU.jpg"
+    },
+    {
+      "time": "10:00",
+      "headline": "初心者でも「AI社員を雇う」仕事環境を実現する方法",
+      "summary": "AI社員を雇う前提の環境づくりを初心者向けに解説。ツール選定から日常運用までの入口。",
+      "handle": "Nagomi-ke | 難波拓斗",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=eNO3IrbRhhs",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/eNO3IrbRhhs/hqdefault.jpg"
+    },
+    {
+      "time": "09:00",
+      "headline": "Sprocket、GA4とサーチコンソールを質問だけで分析するAIエージェント",
+      "summary": "探索レポート不要で週次確認や月次レポートを対話で実行。SproAgentデータ分析エージェントの新機能。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000230.000032195.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/32195/230/32195-230-6a126875a4b56d5420fd0af28cfd4dfe-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "08:00",
+      "headline": "OpenAI dotsの始め方、日本のPro対象と任せる範囲の安全設計",
+      "summary": "対象プラン・作成手順・Custom rulesとAuto-reviewまで。発売時点でできないことも整理した導入ガイド。",
+      "handle": "AI時短ラボ",
+      "category": "ツール",
+      "url": "https://www.ai-jitan-hub.com/news/openai-dots-guide-plans-japan-safety",
+      "source": "web",
+      "thumbnail": "https://www.ai-jitan-hub.com/news/openai-dots-guide-plans-japan-safety/opengraph-image"
+    },
+    {
+      "time": "19:43",
+      "headline": "広告動画編集AI社員の手順書に「間」の消し方を書く",
+      "summary": "話の切り替わりの無音が離脱を招く問題。編集担当AI社員の手順書へ具体ルールを足す作り方。",
+      "handle": "ichiaimarketer",
+      "category": "作り方",
+      "url": "https://x.com/ichiaimarketer/status/2106334268846960770",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2106334195748655104/img/YNef_2lm0mHuzrlT.jpg"
+    },
+    {
+      "time": "12:00",
+      "headline": "Claude CodeでAI社長→AI社員→自動化をゼロから作る実演",
+      "summary": "初心者向けに役割階層の立て方から自動化まで。画面を追いながら同じ構成を再現できる手順。",
+      "handle": "Claudeを使えば苦労しない | フィアナ",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=HE0kHYZvH0c",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/HE0kHYZvH0c/hqdefault.jpg"
+    },
+    {
+      "time": "08:00",
+      "headline": "AIエージェントの作り方、ノーコード／SDK／任せる型の3段階",
+      "summary": "DifyからClaude Agent SDK、Agents APIまで段階別に整理。暴走と課金を止める4つの安全装置も解説。",
+      "handle": "AI時短ラボ",
+      "category": "作り方",
+      "url": "https://www.ai-jitan-hub.com/news/ai-agent-how-to-build-guide-2026",
+      "source": "web",
+      "thumbnail": "https://www.ai-jitan-hub.com/news/ai-agent-how-to-build-guide-2026/opengraph-image"
+    },
+    {
+      "time": "22:20",
+      "headline": "領収書仕分けをAI社員に渡す流れ、迷った科目は人が決める",
+      "summary": "写真と科目一覧を渡し日付・金額・科目を一覧化。経費可否の最終判断だけ人に残す手順。",
+      "handle": "EmployeeStoreJP",
+      "category": "作り方",
+      "url": "https://x.com/EmployeeStoreJP/status/2106373706792759454",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HTtXr8ba0AA6APn.jpg"
+    },
+    {
+      "time": "12:00",
+      "headline": "Claude Codeで分身AI社員が仕事を自動で進める方法",
+      "summary": "自分の分身として動くAI社員の立て方を簡潔に解説。任せる範囲の決め方が追える。",
+      "handle": "【さき】のAIでええやん。",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=TQ36wSt0LSo",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/TQ36wSt0LSo/hqdefault.jpg"
+    },
+    {
+      "time": "12:00",
+      "headline": "AIエージェントをノーコードで作る5ステップ、Dify実演",
+      "summary": "業務を1つに絞りノード接続からテストまで。限界の分岐増加や失敗時処理の線引きも明示。",
+      "handle": "SHIFT AI TIMES",
+      "category": "作り方",
+      "url": "https://shift-ai.co.jp/blog/75728/",
+      "source": "web",
+      "thumbnail": "https://shift-ai.co.jp/blog/wp-content/uploads/2026/09/thumbnail-34.png"
+    }
+  ]
+}

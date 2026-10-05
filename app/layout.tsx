@@ -21,9 +21,19 @@ const serif = Shippori_Mincho({
 });
 
 export const metadata: Metadata = {
-  title: "AI社員デイリー",
-  description:
-    "AI社員の作り方・ツール・事例を、毎日ひとつの特集と見出し一覧で。",
+  title: "みんなのデジタル社員",
+  description: "AI社員の話題を、毎朝まとめて",
+  openGraph: {
+    title: "みんなのデジタル社員",
+    description: "AI社員の話題を、毎朝まとめて",
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "みんなのデジタル社員" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "みんなのデジタル社員",
+    description: "AI社員の話題を、毎朝まとめて",
+    images: ["/og.png"],
+  },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

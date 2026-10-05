@@ -16,19 +16,28 @@ function readB64(b64Name) {
     if (!existsSync(p)) break;
     out += readFileSync(p, "utf8");
   }
-  if (!out) throw new Error("missing brand asset: " + b64Name);
+  if (!out) return null;
   return out.replace(/\s+/g, "");
 }
 
-function writeFromB64(relOut, b64Name) {
+function writeFromB64(relOut, b64Name, { optional = false } = {}) {
+  const b64 = readB64(b64Name);
+  if (!b64) {
+    if (optional) {
+      console.log("skip", relOut, "(no", b64Name + ")");
+      return;
+    }
+    throw new Error("missing brand asset: " + b64Name);
+  }
   const out = join(root, relOut);
   mkdirSync(dirname(out), { recursive: true });
-  const buf = Buffer.from(readB64(b64Name), "base64");
+  const buf = Buffer.from(b64, "base64");
   writeFileSync(out, buf);
   console.log("wrote", relOut, buf.length, "bytes");
 }
 
-writeFromB64("public/og.png", "og.png.b64");
+// OG is served by app/opengraph-image.tsx (+ /og.png rewrite). Optional static fallback:
+writeFromB64("public/og.png", "og.png.b64", { optional: true });
 writeFromB64("public/favicon.ico", "favicon.ico.b64");
 writeFromB64("app/favicon.ico", "favicon.ico.b64");
 writeFromB64("app/apple-icon.png", "apple-icon.png.b64");

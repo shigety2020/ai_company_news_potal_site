@@ -43,19 +43,30 @@ img {
 }
 
 .masthead {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: baseline;
-  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
   padding-bottom: 14px;
   border-bottom: 1px solid var(--line);
 }
 
 .masthead-brand {
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  min-width: 0;
+  width: 100%;
+}
+
+.masthead-title-row {
+  display: flex;
   flex-direction: row;
   align-items: baseline;
   gap: 12px;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .logo {
@@ -64,15 +75,24 @@ img {
   font-weight: 700;
   letter-spacing: 0.06em;
   line-height: 1.2;
+  white-space: nowrap;
+}
+
+.disclaimer {
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+  max-width: 100%;
 }
 
 .tagline {
-  display: none;
+  display: block;
   color: var(--muted);
   font-size: 12px;
   letter-spacing: 0.06em;
   line-height: 1.4;
-  text-align: right;
+  text-align: left;
 }
 
 .vol {
@@ -90,7 +110,7 @@ img {
   letter-spacing: 0.14em;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
-  justify-self: end;
+  align-self: flex-start;
 }
 
 .featured {
@@ -274,13 +294,26 @@ img {
   }
 
   .masthead {
+    display: grid;
     grid-template-columns: 1fr auto 1fr;
+    align-items: start;
+    gap: 16px;
+  }
+
+  .masthead-brand {
+    width: auto;
+  }
+
+  .disclaimer {
+    font-size: 12px;
   }
 
   .tagline {
     display: block;
     font-size: 13px;
+    text-align: right;
     justify-self: end;
+    align-self: center;
   }
 
   .vol {
@@ -291,6 +324,7 @@ img {
   .issue-date {
     font-size: 13px;
     justify-self: center;
+    align-self: center;
   }
 
   .issue-vol-sp {

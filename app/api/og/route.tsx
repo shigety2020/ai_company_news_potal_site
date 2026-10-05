@@ -1,27 +1,20 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "みんなのデジタル社員";
-export const size = { width: 1200, height: 630 };
-export const contentType = "image/png";
+export const runtime = "nodejs";
 
 const SITE = "みんなのデジタル社員";
 const NOTE = "※実在の人間の求人情報ではありません";
+const SIZE = { width: 1200, height: 630 };
 
 const FONT_BOLD =
   "https://cdn.jsdelivr.net/fontsource/fonts/noto-sans-jp@5.2.5/japanese-700-normal.ttf";
 const FONT_REGULAR =
   "https://cdn.jsdelivr.net/fontsource/fonts/noto-sans-jp@5.2.5/japanese-400-normal.ttf";
 
-export default async function OpenGraphImage() {
+export async function GET() {
   const [fontRegular, fontBold] = await Promise.all([
-    fetch(FONT_REGULAR).then((r) => {
-      if (!r.ok) throw new Error(`font regular ${r.status}`);
-      return r.arrayBuffer();
-    }),
-    fetch(FONT_BOLD).then((r) => {
-      if (!r.ok) throw new Error(`font bold ${r.status}`);
-      return r.arrayBuffer();
-    }),
+    fetch(FONT_REGULAR).then((r) => r.arrayBuffer()),
+    fetch(FONT_BOLD).then((r) => r.arrayBuffer()),
   ]);
 
   return new ImageResponse(
@@ -94,7 +87,7 @@ export default async function OpenGraphImage() {
       </div>
     ),
     {
-      ...size,
+      ...SIZE,
       fonts: [
         { name: "Noto Sans JP", data: fontRegular, style: "normal", weight: 400 },
         { name: "Noto Sans JP", data: fontBold, style: "normal", weight: 700 },

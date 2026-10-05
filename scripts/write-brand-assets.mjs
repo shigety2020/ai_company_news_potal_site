@@ -36,7 +36,7 @@ function writeFromB64(relOut, b64Name, { optional = false } = {}) {
   console.log("wrote", relOut, buf.length, "bytes");
 }
 
-// OG is served by app/opengraph-image.tsx (+ /og.png rewrite). Optional static fallback:
+// OG is served by app/opengraph-image.tsx and /api/og (+ /og.png rewrite). Optional static fallback:
 writeFromB64("public/og.png", "og.png.b64", { optional: true });
 writeFromB64("public/favicon.ico", "favicon.ico.b64");
 writeFromB64("app/favicon.ico", "favicon.ico.b64");

@@ -268,11 +268,14 @@ export default async function Home({
       <div className="page-inner">
         <header className="masthead">
           <div className="masthead-brand">
-            <h1 className="logo">AI社員デイリー</h1>
-            <p className="vol">VOL.001</p>
+            <div className="masthead-title-row">
+              <h1 className="logo">みんなのデジタル社員</h1>
+              <p className="vol">VOL.001</p>
+            </div>
+            <p className="disclaimer">※実在の人間の求人情報ではありません</p>
           </div>
           <p className="issue-date"><span className="issue-vol-sp">VOL.001 | </span>{formatIssueDate(data.date)}</p>
-          <p className="tagline">Xから集めた、AI社員の作り方</p>
+          <p className="tagline">AI社員の話題を、毎朝まとめて</p>
         </header>
         <nav className="issue-nav" aria-label="号の日付">
           <a className="issue-nav-link" href={`/?date=${prevDate}`}>

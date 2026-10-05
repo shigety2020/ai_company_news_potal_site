@@ -2,7 +2,8 @@
   "name": "ai-company-news-potal-site",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "prebuild": "node scripts/write-brand-assets.mjs",
+    "dev": "node scripts/write-brand-assets.mjs && next dev",
     "build": "next build",
     "start": "next start"
   },

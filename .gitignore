@@ -5,3 +5,14 @@ out
 *.log
 .env*
 !.env.example
+
+# Generated brand assets (from scripts/write-brand-assets.mjs)
+/public/og.png
+/public/favicon.ico
+/public/apple-icon.png
+/public/icon-16.png
+/public/icon-32.png
+/public/icon.svg
+/app/favicon.ico
+/app/apple-icon.png
+/app/icon.png

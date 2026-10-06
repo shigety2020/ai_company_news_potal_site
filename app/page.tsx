@@ -64,10 +64,28 @@ function featuredMastheadSrc(iso: string): string {
   return `/masthead/${weekdaySun0(iso)}.jpg`;
 }
 
+/** Alt text for /masthead/0..6.jpg, indexed by the issue date's weekday (Sun=0 … Sat=6). */
+const MASTHEAD_ALTS = [
+  "窓辺のデスクにノートとコーヒー",
+  "白い壁の机にノートパソコンと黄色い付箋",
+  "窓辺に並ぶ鉢植えの観葉植物",
+  "窓辺の机にヘッドホンとノート",
+  "積んだ本の上の白いカップ",
+  "窓辺のキーボードとマグカップ",
+  "観葉植物とコーヒーのある木の机に開いたノート",
+] as const;
+
+/** Featured-issue masthead alt; same weekday index as featuredMastheadSrc (issue date, not today). */
+function featuredMastheadAlt(iso: string): string {
+  return MASTHEAD_ALTS[weekdaySun0(iso)];
+}
+
 /** Empty-issue masthead is a single fixed photo. */
 function emptyMastheadSrc(): string {
   return "/masthead-empty.jpg";
 }
+
+const EMPTY_MASTHEAD_ALT = "白い本の上に置いたべっ甲柄のメガネ";
 
 function emptyDaily(date: string): DailyResponse {
   return { date, featured: null, items: [] };
@@ -158,11 +176,11 @@ async function findLatestIssue(fromDate: string): Promise<DailyResponse> {
   return emptyDaily(fromDate);
 }
 
-function Photo({ src }: { src: string }) {
+function Photo({ src, alt }: { src: string; alt: string }) {
   return (
     <div className="photo">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={src} alt="窓辺のデスクにノートとコーヒー" />
+      <img src={src} alt={alt} />
     </div>
   );
 }
@@ -179,9 +197,10 @@ function Featured({
   showLatestLink: boolean;
 }) {
   const photoSrc = item ? featuredMastheadSrc(date) : emptyMastheadSrc();
+  const photoAlt = item ? featuredMastheadAlt(date) : EMPTY_MASTHEAD_ALT;
   return (
     <section className="featured" aria-label="本日の特集">
-      <Photo src={photoSrc} />
+      <Photo src={photoSrc} alt={photoAlt} />
       {item ? (
         <a className="featured-body story" href={item.url} target="_blank" rel="noreferrer">
           <p className="kicker">{isLatest ? "今日の特集" : "この号の特集"} 01</p>

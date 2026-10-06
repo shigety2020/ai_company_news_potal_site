@@ -64,10 +64,28 @@ function featuredMastheadSrc(iso: string): string {
   return `/masthead/${weekdaySun0(iso)}.jpg`;
 }
 
+/** Alt text for /masthead/0..6.jpg, indexed by the issue date's weekday (Sun=0 … Sat=6). */
+const MASTHEAD_ALTS = [
+  "窓辺のデスクにノートとコーヒー",
+  "白い壁の机にノートパソコンと黄色い付箋",
+  "窓辺に並ぶ鉢植えの観葉植物",
+  "窓辺の机にヘッドホンとノート",
+  "積んだ本の上の白いカップ",
+  "窓辺のキーボードとマグカップ",
+  "観葉植物とコーヒーのある木の机に開いたノート",
+] as const;
+
+/** Featured-issue masthead alt; same weekday index as featuredMastheadSrc (issue date, not today). */
+function featuredMastheadAlt(iso: string): string {
+  return MASTHEAD_ALTS[weekdaySun0(iso)];
+}
+
 /** Empty-issue masthead is a single fixed photo. */
 function emptyMastheadSrc(): string {
   return "/masthead-empty.jpg";
 }
+
+const EMPTY_MASTHEAD_ALT = "白い本の上に置いたべっ甲柄のメガネ";
 
 function emptyDaily(date: string): DailyResponse {
   return { date, featured: null, items: [] };
@@ -142,34 +160,75 @@ async function getDaily(date: string): Promise<DailyResponse> {
   }
 }
 
-function Photo({ src }: { src: string }) {
+/** How far `/` walks back looking for an issue with content. */
+const LATEST_LOOKBACK_DAYS = 14;
+
+/**
+ * Latest issue with content, walking back one day at a time from `fromDate`.
+ * Falls back to the (empty) issue of `fromDate` when nothing is found.
+ * TODO(PB5): replace this walk with the API's `prevDate` once /api/daily returns it.
+ */
+async function findLatestIssue(fromDate: string): Promise<DailyResponse> {
+  for (let i = 0; i <= LATEST_LOOKBACK_DAYS; i++) {
+    const data = await getDaily(shiftDate(fromDate, -i));
+    if (data.items.length > 0) return data;
+  }
+  return emptyDaily(fromDate);
+}
+
+function Photo({ src, alt }: { src: string; alt: string }) {
   return (
     <div className="photo">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={src} alt="窓辺のデスクにノートとコーヒー" />
+      <img src={src} alt={alt} />
     </div>
   );
 }
 
-function Featured({ item, date }: { item: DailyItem | null; date: string }) {
+function Featured({
+  item,
+  date,
+  isLatest,
+  showLatestLink,
+}: {
+  item: DailyItem | null;
+  date: string;
+  isLatest: boolean;
+  showLatestLink: boolean;
+}) {
   const photoSrc = item ? featuredMastheadSrc(date) : emptyMastheadSrc();
+  const photoAlt = item ? featuredMastheadAlt(date) : EMPTY_MASTHEAD_ALT;
   return (
     <section className="featured" aria-label="本日の特集">
-      <Photo src={photoSrc} />
+      <Photo src={photoSrc} alt={photoAlt} />
       {item ? (
         <a className="featured-body story" href={item.url} target="_blank" rel="noreferrer">
-          <p className="kicker">今日の特集 01</p>
+          <p className="kicker">{isLatest ? "今日の特集" : "この号の特集"} 01</p>
           <h2 className="featured-headline">{item.headline}</h2>
           <p className="summary">{item.summary}</p>
           <p className="read-more">続きを読む →</p>
         </a>
       ) : (
-        <div className="featured-body">
-          <p className="kicker">今日の特集 01</p>
-          <h2 className="featured-headline">今日の特集はありません</h2>
-        </div>
+        <EmptyIssueBody showLatestLink={showLatestLink} />
       )}
     </section>
+  );
+}
+
+/**
+ * Empty issue (items empty): one line + link to the latest issue with content.
+ * The link is hidden when no issue with content was found (it would point to this same page).
+ */
+function EmptyIssueBody({ showLatestLink }: { showLatestLink: boolean }) {
+  return (
+    <div className="featured-body">
+      <h2 className="featured-headline">この日は収集できませんでした</h2>
+      {showLatestLink && (
+        <a className="latest-link" href="/">
+          最新の号へ →
+        </a>
+      )}
+    </div>
   );
 }
 
@@ -242,8 +301,17 @@ export default async function Home({
   searchParams: Promise<{ date?: string }>;
 }) {
   const { date: dateParam } = await searchParams;
-  const date = dateParam && DATE_RE.test(dateParam) ? dateParam : jstDate();
-  const data = await getDaily(date);
+  const today = jstDate();
+  const hasDateParam = Boolean(dateParam && DATE_RE.test(dateParam));
+  // `/` (no date) opens the latest issue with content, not today's possibly empty one.
+  const latestPromise = findLatestIssue(today);
+  const [data, latest] = await Promise.all([
+    hasDateParam ? getDaily(dateParam as string) : latestPromise,
+    latestPromise,
+  ]);
+  const isEmptyIssue = data.items.length === 0;
+  const hasLatestIssue = latest.items.length > 0;
+  const isLatestIssue = hasLatestIssue && data.date >= latest.date;
   const featured = data.featured;
   const featuredKey = featured ? itemKey(featured) : null;
   const items = data.items.filter((item) => itemKey(item) !== featuredKey);
@@ -287,39 +355,48 @@ export default async function Home({
           </a>
         </nav>
         <main>
-          <Featured item={featured} date={data.date} />
-          <div className="index index-sp">
-            <h2 className="index-heading">INDEX</h2>
-            {sections.map(({ cat, items: catItems }) => (
-              <section className="index-sp-cat" key={cat} aria-label={cat}>
-                <h3 className="index-sp-cat-title">{cat}</h3>
-                <ol className="index-sp-list">
-                  {catItems.map((item) => (
-                    <li className="index-item" key={itemKey(item)}>
-                      <span className="index-num">
-                        {String(indexNumbers.get(itemKey(item)) ?? 0).padStart(2, "0")}
-                      </span>
-                      <IndexStory item={item} />
-                    </li>
-                  ))}
-                </ol>
-              </section>
-            ))}
-          </div>
-          <div className="index index-pc">
-            {sections.map(({ cat, items: catItems }) => (
-              <section className="index-col" key={cat} aria-label={cat}>
-                <h2 className="index-col-title">{cat}</h2>
-                <ul className="index-col-list">
-                  {catItems.map((item) => (
-                    <li className="index-item" key={itemKey(item)}>
-                      <IndexStory item={item} />
-                    </li>
-                  ))}
-                </ul>
-              </section>
-            ))}
-          </div>
+          <Featured
+            item={isEmptyIssue ? null : featured}
+            date={data.date}
+            isLatest={isLatestIssue}
+            showLatestLink={hasLatestIssue}
+          />
+          {!isEmptyIssue && (
+            <>
+              <div className="index index-sp">
+                <h2 className="index-heading">INDEX</h2>
+                {sections.map(({ cat, items: catItems }) => (
+                  <section className="index-sp-cat" key={cat} aria-label={cat}>
+                    <h3 className="index-sp-cat-title">{cat}</h3>
+                    <ol className="index-sp-list">
+                      {catItems.map((item) => (
+                        <li className="index-item" key={itemKey(item)}>
+                          <span className="index-num">
+                            {String(indexNumbers.get(itemKey(item)) ?? 0).padStart(2, "0")}
+                          </span>
+                          <IndexStory item={item} />
+                        </li>
+                      ))}
+                    </ol>
+                  </section>
+                ))}
+              </div>
+              <div className="index index-pc">
+                {sections.map(({ cat, items: catItems }) => (
+                  <section className="index-col" key={cat} aria-label={cat}>
+                    <h2 className="index-col-title">{cat}</h2>
+                    <ul className="index-col-list">
+                      {catItems.map((item) => (
+                        <li className="index-item" key={itemKey(item)}>
+                          <IndexStory item={item} />
+                        </li>
+                      ))}
+                    </ul>
+                  </section>
+                ))}
+              </div>
+            </>
+          )}
         </main>
       </div>
     </div>

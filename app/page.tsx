@@ -143,7 +143,7 @@ async function getDaily(date: string): Promise<DailyResponse> {
 }
 
 /** How far `/` walks back looking for an issue with content. */
-const LATEST_LOOKBACK_DAYS = 31;
+const LATEST_LOOKBACK_DAYS = 14;
 
 /**
  * Latest issue with content, walking back one day at a time from `fromDate`.
@@ -171,10 +171,12 @@ function Featured({
   item,
   date,
   isLatest,
+  showLatestLink,
 }: {
   item: DailyItem | null;
   date: string;
   isLatest: boolean;
+  showLatestLink: boolean;
 }) {
   const photoSrc = item ? featuredMastheadSrc(date) : emptyMastheadSrc();
   return (
@@ -188,20 +190,25 @@ function Featured({
           <p className="read-more">続きを読む →</p>
         </a>
       ) : (
-        <EmptyIssueBody />
+        <EmptyIssueBody showLatestLink={showLatestLink} />
       )}
     </section>
   );
 }
 
-/** Empty issue (items empty): one line + link to the latest issue with content. */
-function EmptyIssueBody() {
+/**
+ * Empty issue (items empty): one line + link to the latest issue with content.
+ * The link is hidden when no issue with content was found (it would point to this same page).
+ */
+function EmptyIssueBody({ showLatestLink }: { showLatestLink: boolean }) {
   return (
     <div className="featured-body">
       <h2 className="featured-headline">この日は収集できませんでした</h2>
-      <a className="latest-link" href="/">
-        最新の号へ →
-      </a>
+      {showLatestLink && (
+        <a className="latest-link" href="/">
+          最新の号へ →
+        </a>
+      )}
     </div>
   );
 }
@@ -284,7 +291,8 @@ export default async function Home({
     latestPromise,
   ]);
   const isEmptyIssue = data.items.length === 0;
-  const isLatestIssue = latest.items.length > 0 && data.date >= latest.date;
+  const hasLatestIssue = latest.items.length > 0;
+  const isLatestIssue = hasLatestIssue && data.date >= latest.date;
   const featured = data.featured;
   const featuredKey = featured ? itemKey(featured) : null;
   const items = data.items.filter((item) => itemKey(item) !== featuredKey);
@@ -328,7 +336,12 @@ export default async function Home({
           </a>
         </nav>
         <main>
-          <Featured item={isEmptyIssue ? null : featured} date={data.date} isLatest={isLatestIssue} />
+          <Featured
+            item={isEmptyIssue ? null : featured}
+            date={data.date}
+            isLatest={isLatestIssue}
+            showLatestLink={hasLatestIssue}
+          />
           {!isEmptyIssue && (
             <>
               <div className="index index-sp">

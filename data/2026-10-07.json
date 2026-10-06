@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-07",
+  "featured": {
+    "time": "10:00",
+    "headline": "カラクリの顧客対応AIエージェント、さくらインターネットで自己解決率が約80%に",
+    "summary": "「さくらのレンタルサーバ」のサポートで、マニュアルのURLを登録するだけで答えるAIが一次窓口になった。自己解決率は約49%から約80%に上がり、スタッフへの問い合わせは最大3割減った。",
+    "handle": "PR TIMES",
+    "category": "事例",
+    "url": "https://prtimes.jp/main/html/rd/p/000000165.000025663.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "23:27",
+      "headline": "未入金の確認から督促メールの下書きまで、AI社員の定期の仕事に",
+      "summary": "丸の内ビルマネジメントのAI社員の公開実験、10月6日の分。人は中身を確かめて、送るかどうかだけを決める。料金改定の打診状の準備も進めた。",
+      "handle": "Marumi_MBM",
+      "category": "事例",
+      "url": "https://x.com/Marumi_MBM/status/2107477905760481415",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "11:55",
+      "headline": "紙と電話で回る水産の会社に、LINEで動くAI社員を入れた",
+      "summary": "社員10名ちょっとの卸の会社で、電話のメモをLINEに送るだけで納品書やクール便の配送票ができる仕組みを、現場の人と一緒に作った話。",
+      "handle": "AI顧問の現場録 | AiWiLL",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=XKzLJi6ocPs",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/XKzLJi6ocPs/hqdefault.jpg"
+    },
+    {
+      "time": "11:00",
+      "headline": "建設のKMユナイテッド、Agentforceで人事・労務への問い合わせを90%減らす",
+      "summary": "月に延べ60件あった人事・労務担当への社内の問い合わせを、AIエージェントが24時間受け持つ。担当者は新人の育成などに時間を回せるようになった。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000407.000041550.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/41550/407/41550-407-ac80b07339e835f519ac0804add84ed8-602x339.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "21:51",
+      "headline": "お掃除DXのリ・プロダクツ、AI社員「オルタ」で事務の仕事を効率化",
+      "summary": "先月からAI社員「オルタ」を入れて、バックオフィスの仕事を軽くしている。目指すのは残業ゼロの職場だと代表が投稿。",
+      "handle": "takaoku_repro",
+      "category": "事例",
+      "url": "https://x.com/takaoku_repro/status/2107453779931238730",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "12:02",
+      "headline": "AIエージェントに6つ任せたら「全部終わりました」、でも成果はゼロ",
+      "summary": "6体とも別のエージェントを起動して、結果を待たずに終わっていた。記録のファイルは0バイト。報告ではなく、できた物を確かめようと呼びかける。",
+      "handle": "AIコンパス",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=I5IhccO4mzY",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/I5IhccO4mzY/hqdefault.jpg"
+    },
+    {
+      "time": "12:15",
+      "headline": "国内AIエージェント動向、TaxSysは記帳処理を90分から10分に",
+      "summary": "10月6日号のまとめ。TaxSysは月1.68万時間を減らした。みずほFGの自律基盤のPoCや、LINEヤフーの日程調整エージェントにもふれている。",
+      "handle": "yasuhito_morimo",
+      "category": "事例",
+      "url": "https://x.com/yasuhito_morimo/status/2107308770657464512",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HT6qIWvaYAA-UaB.jpg"
+    },
+    {
+      "time": "05:13",
+      "headline": "NECネクサソリューションズ、電話の一次受付をする音声AIエージェントを提供開始",
+      "summary": "生成AIで電話の一次受付や用件の聞き取り、通話の文字起こし・要約を自動で行う。人の対応が要る用件は担当者に回す。",
+      "handle": "GENICPRESSAPP",
+      "category": "ツール",
+      "url": "https://x.com/GENICPRESSAPP/status/2107564871839776970",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HT-TEI9bkAAUkz5.jpg"
+    },
+    {
+      "time": "19:00",
+      "headline": "物流の自動配車に生成AI、「LYNA AGENT」開発の裏側",
+      "summary": "ライナロジクスの物流向け生成AIサービス。開発者が、AIを使った開発のしかたや、これから増える機能、25年の積み重ねを語る。",
+      "handle": "物流ナビ【運送会社と荷主のためのチャンネル】",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=LTDKXQMRzy8",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/LTDKXQMRzy8/hqdefault.jpg"
+    },
+    {
+      "time": "10:00",
+      "headline": "ポップコーン、採用広報の記事を書くAI社員「採用広報くん」を公開",
+      "summary": "会社名とURLを入れると、AIがホームページを読んで採用広報の記事を約5分で作る。料金は初期費用10万円、月額4,800円（税抜）。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000125.000033900.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/33900/125/33900-125-f1a1a2c3d9ae2b20feef04497d4988f9-2400x1260.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "22:50",
+      "headline": "富士通、小売業向けの4つのAIエージェントをトライアルで提供開始",
+      "summary": "売上構造分析や販売計画（MD計画）など4つのAIエージェントと実行基盤を試せる。正式な提供は2027年6月の予定。",
+      "handle": "genicpress_edit",
+      "category": "ツール",
+      "url": "https://x.com/genicpress_edit/status/2107468570661912707",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HT87e_pbAAEgK-g.jpg"
+    },
+    {
+      "time": "12:17",
+      "headline": "エクサベース AI、AI選びから実行まで手伝う「バディエージェント」を10月末に提供",
+      "summary": "AIキャラクター「パルン」が、合うAIモデルやエージェントを選んで動かし、使い方のヒントも出す。社内文書から情報を整理する機能も入れる予定。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000500.000030192.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/30192/500/30192-500-7e586dce8f73b9e8f27321a8002ab1cc-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "15:51",
+      "headline": "エイチエムコム、ワークスアイディとAIエージェント事業を本格始動",
+      "summary": "上場企業の適時開示を毎日紹介するアカウントの投稿。2社が組んで、AIエージェントの事業を本格的に始めると伝えている。",
+      "handle": "IGoldeneggs",
+      "category": "ツール",
+      "url": "https://x.com/IGoldeneggs/status/2107363218163224861",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HT7brefXoAA7UC_.jpg"
+    },
+    {
+      "time": "21:00",
+      "headline": "Microsoft 365があれば、追加費用なしで自分専用のAIエージェント",
+      "summary": "Microsoftの「Agent Builder」を使えば、プログラミングの知識がなくてもAIエージェントを組み立てられるという紹介。",
+      "handle": "k_naokun0329",
+      "category": "ツール",
+      "url": "https://x.com/k_naokun0329/status/2107440779849588993",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/2107440760413192195/pu/img/Mi06EyuW90llptjR.jpg"
+    },
+    {
+      "time": "08:02",
+      "headline": "Codexのサブエージェントで「AI社員の作り方」、10月8日に無料セミナー",
+      "summary": "10月5日のClaude Code版に続くCodex版。サブエージェント機能を使ってAI社員を作る方法を、10月8日14時から解説する。",
+      "handle": "ds_nakajima",
+      "category": "作り方",
+      "url": "https://x.com/ds_nakajima/status/2107244945551827367",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HT44racbEAAEtR-.jpg"
+    },
+    {
+      "time": "20:51",
+      "headline": "1人目のAI社員は「秘書」、「おはよう」で今日やることを3つに絞る",
+      "summary": "Claude Codeで秘書のルール4項目を書き、やることメモから理由と目安時間つきで3つ選ばせる。メモを勝手に消さない、予定やメールを勝手に入れないことも決める。",
+      "handle": "エレン【30日でAI組織を作る】",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=zhuqfHIw2mA",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/zhuqfHIw2mA/hqdefault.jpg"
+    },
+    {
+      "time": "14:55",
+      "headline": "AI社員の作り方、1つの仕事を選んで、1件試して直す",
+      "summary": "役割と完了条件を書いた指示書の例を示し、最初の試しとしてLP制作を1件動かした結果を紹介。閲覧・下書き・送信のどこまで任せるかの決め方も。",
+      "handle": "MyMarketer",
+      "category": "作り方",
+      "url": "https://mymarketer.jp/blog/ai-employee-how-to-build",
+      "source": "web",
+      "thumbnail": "https://my-marketer-media.s3.ap-northeast-1.amazonaws.com/media/2026/09/bddd43b2-5eb4-4a52-8b44-09033225233f_cover.png"
+    },
+    {
+      "time": "07:03",
+      "headline": "AIエージェントを業務に入れる前に、IDと権限を確かめる",
+      "summary": "Microsoftの2026 Digital Defense Reportは、AIをデータ・ツール・ID・権限まで含むシステムとして見る。エージェントのID、アクセス、認証、取り消しが論点だと紹介。",
+      "handle": "louis_lab_88",
+      "category": "作り方",
+      "url": "https://x.com/louis_lab_88/status/2107592485471932750",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HT514YgakAAxDt3.jpg"
+    },
+    {
+      "time": "19:15",
+      "headline": "AIエージェント×Obsidianで、AIへの説明し直しをやめる",
+      "summary": "ClaudeとChatGPTに同じフォルダを読み書きさせ、人はObsidianで読む使い方を解説。iCloudでの同期のしかたや、Googleドライブとの比べ方も。",
+      "handle": "Leo Tohyama / AIコーチ",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=BStkW1HTfmk",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/BStkW1HTfmk/hqdefault.jpg"
+    },
+    {
+      "time": "20:01",
+      "headline": "AI社員の作り方を採用と同じ5手順で、試用期間は2週間",
+      "summary": "担当業務を1つに絞り、任せる範囲と社内の情報、やらせないことを決めて、2〜3人で2週間試す。更新する担当を1人決めるのも大事だという。",
+      "handle": "Ai-Raku",
+      "category": "作り方",
+      "url": "https://ai-raku.com/media/gyomu-koritsuka/ai-shain-tsukurikata/",
+      "source": "web",
+      "thumbnail": "https://ai-raku.com/wp-content/uploads/2026/09/eyecatch-ai-shain-tsukurikata.png"
+    },
+    {
+      "time": "22:45",
+      "headline": "GeminiとGemini Notebookで、AI社員の基礎的な作り方",
+      "summary": "Gemini Notebook（旧NotebookLM）とGeminiを使って、仕事を任せるAI社員を作る基本を解説する動画。",
+      "handle": "【さき】のAIでええやん。",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=yQo4UijSDBQ",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/yQo4UijSDBQ/hqdefault.jpg"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-06",
+  "featured": {
+    "time": "11:00",
+    "headline": "第一生命、営業支援AI「デジタルバディ」を約3万5000人で本格稼働",
+    "summary": "議事録の自動作成や社内文書の照会、手紙・メールの文案づくりを支援。AIの出力を別のAIで確かめ、使われない機能は現場の声で切った。",
+    "handle": "＠IT",
+    "category": "事例",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/05/news019.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "20:00",
+      "headline": "AI社員にショート動画を1本頼んだら、21分で41秒の動画ができた",
+      "summary": "頼んだあと人は何も触らず、AI社員が音声15本・画面9枚・映像3本を作り、検査を4つ通して保存した。",
+      "handle": "aigc367",
+      "category": "事例",
+      "url": "https://x.com/aigc367/status/2107063293642957233",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/2107063274177277952/pu/img/uf73U9m9y1RjP-kf.jpg"
+    },
+    {
+      "time": "14:44",
+      "headline": "AI社員28人と人間10人、社長がいなくても回る会社を作る途中を公開",
+      "summary": "中小企業の経理・人事・SNSなどをほぼAIに任せ、「AI社員管制室」で毎日見張る。AIが勝手に県へ申し込んだ失敗談も。",
+      "handle": "自分らしくあれ。ムー北村チャンネル",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=QGJ_K09J9V0",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/QGJ_K09J9V0/hqdefault.jpg"
+    },
+    {
+      "time": "07:30",
+      "headline": "AI社員の運用で起きた事故15件と、先に入れるべき3つの仕組み",
+      "summary": "5月〜10月の自社記録を5つの型に分類。最初に入れるのは、外への送信・公開を人の1クリックに残す承認の線だという。",
+      "handle": "Uravation",
+      "category": "事例",
+      "url": "https://uravation.com/media/ai-shain-unyo-jiko-15ken-shikumi-2026/",
+      "source": "web",
+      "thumbnail": "https://uravation.com/wp-content/uploads/2026/10/ai-shain-unyo-jiko-15ken-shikumi-2026-thumb.png"
+    },
+    {
+      "time": "10:04",
+      "headline": "AI社員を入れたら人の作業時間が63分から4分に、でも「届く」は課題",
+      "summary": "投稿づくりの実験のDAY4報告。作る速さは上がったが反応はまだ。次は作業時間を増やさずに反応を増やせるか試す。",
+      "handle": "f9ailab",
+      "category": "事例",
+      "url": "https://x.com/f9ailab/status/2106913338135621698",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HT1BHF0aIAA9RjQ.jpg"
+    },
+    {
+      "time": "19:00",
+      "headline": "ソフトバンク最年少部長に密着、寝ている間もAIを働かせる仕事術",
+      "summary": "27歳でAIエージェント「satto workspace」を開発し、約45人の部下を持つ平岡拓さん。AIを使った働き方を語る。",
+      "handle": "東洋経済オンライン",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=tW8uyT6GOag",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/tW8uyT6GOag/hqdefault.jpg"
+    },
+    {
+      "time": "18:47",
+      "headline": "ITエンジニアの勤務先の52.7%がAIエージェントを導入済み",
+      "summary": "サーバーワークスが260人に調査。10業務すべてで「AI主体」が「人間主体」を上回り、81.1%がAIの判断が人より優れる場面があると回答。",
+      "handle": "Tesla_Optimus_K",
+      "category": "事例",
+      "url": "https://x.com/Tesla_Optimus_K/status/2107045126896079270",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HT26WaRbsAAiJcm.jpg"
+    },
+    {
+      "time": "10:01",
+      "headline": "大阪の不動産会社で、購入諸費用の概算明細をAIエージェントが作成",
+      "summary": "中古戸建の購入にかかる諸費用の明細づくりを担当。VPS上で動く自社のAIエージェントの導入事例として紹介。",
+      "handle": "SparxCS",
+      "category": "事例",
+      "url": "https://x.com/SparxCS/status/2106912532053250228",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HT1BvgjbUAAYfy_.jpg"
+    },
+    {
+      "time": "17:26",
+      "headline": "日立、AIエージェントで脆弱性対応を支援、JPXが先行導入",
+      "summary": "脆弱性やパッチの情報を集め、システムへの影響や対応の優先度を整理するサービス。日本経済新聞の記事を紹介した投稿。",
+      "handle": "Mechta66654250",
+      "category": "ツール",
+      "url": "https://x.com/Mechta66654250/status/2107024741135778260",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HT2ny3oXQAEwVU6.jpg"
+    },
+    {
+      "time": "15:50",
+      "headline": "デジタル庁「ガバメントAI 源内」、エージェントチャットの使い方を解説",
+      "summary": "資料の読み込み・整理や比較など複数の手順をAIにまとめて頼める機能。手順は日本語の「スキル」で書かれ、職員が直せる。",
+      "handle": "デジタル庁",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=bLAFambh3Zg",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/bLAFambh3Zg/hqdefault.jpg"
+    },
+    {
+      "time": "11:30",
+      "headline": "INTLOOP、営業と人材育成のAIエージェント「INTLOOP Pocket」を正式提供",
+      "summary": "第1弾の営業支援に加え、第2弾は自社の研修からコースを作り、AI講師と24時間学べる育成支援エージェント。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000208.000023636.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/23636/208/23636-208-d123003a59fb559f97b594a8bc91dcb9-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "08:00",
+      "headline": "MicrosoftとHugging Face、業務用AIエージェントの評価環境を紹介",
+      "summary": "「ThinkingBox」で同じ条件の仕事を繰り返し任せても大丈夫かを確かめる。OpenEnv経由で自分のモデルでも試せる。",
+      "handle": "KinoshitaTsks",
+      "category": "ツール",
+      "url": "https://x.com/KinoshitaTsks/status/2106882138343919770",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HT0mEXraIAAgQ9F.jpg"
+    },
+    {
+      "time": "11:10",
+      "headline": "エヌビディア、AIエージェントの暴走を見張るソフトを提供、日立など100社が採用",
+      "summary": "ソフトとハードの2層で自律型AIを守る仕組みを解説。日立が挑むフィジカルAIの安全な自律化の使いどころも。",
+      "handle": "コンピューターサイエンス勉強ch",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=W4q1lbvw0KM",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/W4q1lbvw0KM/hqdefault.jpg"
+    },
+    {
+      "time": "05:30",
+      "headline": "ポップコーン、日程調整を担当するAI社員「日程調整くん」を無料公開",
+      "summary": "Googleカレンダーの空き時間から、メールやチャットに貼れる候補の文面を数秒で作成。相手も自分の予定と照らして選べる。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000124.000033900.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/33900/124/33900-124-17b462161fc15bde312001d5fe0adc5c-2400x1260.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "23:49",
+      "headline": "LINEが予定決めを手伝う「日程調整エージェント」を提供開始",
+      "summary": "今日のAIニュース3選。Cohereの企業向けAIエージェント基盤「North 2」の発表なども短く紹介。",
+      "handle": "TORA276990",
+      "category": "ツール",
+      "url": "https://x.com/TORA276990/status/2107120970809176126",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/2107120923329667072/pu/img/zuAULLQajwR2fF_f.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "Gemini Sparkで「面接」と打つと、最初のAI社員を一緒に作れる",
+      "summary": "Geminiが会話しながらAI社員（スキル）と仕事を組み立てる。部署を作るときの「求人票と就業規則」もリプに公開。",
+      "handle": "daifukujinji",
+      "category": "作り方",
+      "url": "https://x.com/daifukujinji/status/2107214370669515182",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2107214342177558528/img/UY1Db7-3N3OGDO-o.jpg"
+    },
+    {
+      "time": "18:14",
+      "headline": "CLAUDE.mdはAI社員の就業規則、最初に書く5項目",
+      "summary": "会社の目的・資料の場所・仕事の進め方・禁止・報告の5つ。Claude Codeに下書きさせる手順を実際の画面で見せる。",
+      "handle": "エレン【30日でAI組織を作る】",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=bFFaq1_DNSM",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/bFFaq1_DNSM/hqdefault.jpg"
+    },
+    {
+      "time": "05:29",
+      "headline": "Claude Codeのサブエージェント、覚えるフィールドは6つでいい",
+      "summary": "公式プラグイン34本の定義を調べ、実際に使われていた6つに絞って作り方を解説。tools を書かないと全部の道具を継承する点に注意。",
+      "handle": "SyachikuLOG",
+      "category": "作り方",
+      "url": "https://syachiku.net/claude-code-subagents/",
+      "source": "web",
+      "thumbnail": "https://syachiku.net/wp-content/uploads/2026/10/claude-code-subagents.png"
+    },
+    {
+      "time": "21:04",
+      "headline": "制作AI社員には初稿、検収AI社員には要件との差分を頼む",
+      "summary": "人は商品情報・表現・最終品質を確かめる。次の依頼文に「何がそろったら完成か」を一行足すのがコツ。",
+      "handle": "utage_nadamoto",
+      "category": "作り方",
+      "url": "https://x.com/utage_nadamoto/status/2107079533010821311",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "21:03",
+      "headline": "電話番号とメールを持つ自分専用のAIを作る、Manus「Cue」の使い方",
+      "summary": "エージェントの作り方、電話番号・メールの持たせ方、カレンダー連携までを画面つきで実演。Manus社のタイアップ動画。",
+      "handle": "チャエン【AI研究所】",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=psmZTSHM270",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/psmZTSHM270/hqdefault.jpg"
+    },
+    {
+      "time": "21:42",
+      "headline": "Claude CodeでAI社員を雇う全手順、設定ファイルごと公開",
+      "summary": "スキル78個・AI社員4人・270行のルールファイルの中身を公開。渡せる作業の仕分けから15分のテストまで4ステップ。",
+      "handle": "note",
+      "category": "作り方",
+      "url": "https://note.com/wad0427/n/n977aa1f5c51e",
+      "source": "web",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/302879891/rectangle_large_type_2_cdf2c56fc65b7642d4d6c9d7fae99ce5.png?fit=bounds&quality=85&width=1280"
+    }
+  ]
+}

@@ -433,3 +433,24 @@ img {
   color: var(--heading);
   font-variant-numeric: tabular-nums;
 }
+
+/* Empty issue (PB1): link to the latest issue with content. */
+.latest-link {
+  display: inline-block;
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  margin-top: 16px;
+}
+
+.latest-link:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 1024px) {
+  .latest-link {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+}

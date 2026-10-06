@@ -142,6 +142,22 @@ async function getDaily(date: string): Promise<DailyResponse> {
   }
 }
 
+/** How far `/` walks back looking for an issue with content. */
+const LATEST_LOOKBACK_DAYS = 31;
+
+/**
+ * Latest issue with content, walking back one day at a time from `fromDate`.
+ * Falls back to the (empty) issue of `fromDate` when nothing is found.
+ * TODO(PB5): replace this walk with the API's `prevDate` once /api/daily returns it.
+ */
+async function findLatestIssue(fromDate: string): Promise<DailyResponse> {
+  for (let i = 0; i <= LATEST_LOOKBACK_DAYS; i++) {
+    const data = await getDaily(shiftDate(fromDate, -i));
+    if (data.items.length > 0) return data;
+  }
+  return emptyDaily(fromDate);
+}
+
 function Photo({ src }: { src: string }) {
   return (
     <div className="photo">
@@ -151,25 +167,42 @@ function Photo({ src }: { src: string }) {
   );
 }
 
-function Featured({ item, date }: { item: DailyItem | null; date: string }) {
+function Featured({
+  item,
+  date,
+  isLatest,
+}: {
+  item: DailyItem | null;
+  date: string;
+  isLatest: boolean;
+}) {
   const photoSrc = item ? featuredMastheadSrc(date) : emptyMastheadSrc();
   return (
     <section className="featured" aria-label="本日の特集">
       <Photo src={photoSrc} />
       {item ? (
         <a className="featured-body story" href={item.url} target="_blank" rel="noreferrer">
-          <p className="kicker">今日の特集 01</p>
+          <p className="kicker">{isLatest ? "今日の特集" : "この号の特集"} 01</p>
           <h2 className="featured-headline">{item.headline}</h2>
           <p className="summary">{item.summary}</p>
           <p className="read-more">続きを読む →</p>
         </a>
       ) : (
-        <div className="featured-body">
-          <p className="kicker">今日の特集 01</p>
-          <h2 className="featured-headline">今日の特集はありません</h2>
-        </div>
+        <EmptyIssueBody />
       )}
     </section>
+  );
+}
+
+/** Empty issue (items empty): one line + link to the latest issue with content. */
+function EmptyIssueBody() {
+  return (
+    <div className="featured-body">
+      <h2 className="featured-headline">この日は収集できませんでした</h2>
+      <a className="latest-link" href="/">
+        最新の号へ →
+      </a>
+    </div>
   );
 }
 
@@ -242,8 +275,16 @@ export default async function Home({
   searchParams: Promise<{ date?: string }>;
 }) {
   const { date: dateParam } = await searchParams;
-  const date = dateParam && DATE_RE.test(dateParam) ? dateParam : jstDate();
-  const data = await getDaily(date);
+  const today = jstDate();
+  const hasDateParam = Boolean(dateParam && DATE_RE.test(dateParam));
+  // `/` (no date) opens the latest issue with content, not today's possibly empty one.
+  const latestPromise = findLatestIssue(today);
+  const [data, latest] = await Promise.all([
+    hasDateParam ? getDaily(dateParam as string) : latestPromise,
+    latestPromise,
+  ]);
+  const isEmptyIssue = data.items.length === 0;
+  const isLatestIssue = latest.items.length > 0 && data.date >= latest.date;
   const featured = data.featured;
   const featuredKey = featured ? itemKey(featured) : null;
   const items = data.items.filter((item) => itemKey(item) !== featuredKey);
@@ -287,39 +328,43 @@ export default async function Home({
           </a>
         </nav>
         <main>
-          <Featured item={featured} date={data.date} />
-          <div className="index index-sp">
-            <h2 className="index-heading">INDEX</h2>
-            {sections.map(({ cat, items: catItems }) => (
-              <section className="index-sp-cat" key={cat} aria-label={cat}>
-                <h3 className="index-sp-cat-title">{cat}</h3>
-                <ol className="index-sp-list">
-                  {catItems.map((item) => (
-                    <li className="index-item" key={itemKey(item)}>
-                      <span className="index-num">
-                        {String(indexNumbers.get(itemKey(item)) ?? 0).padStart(2, "0")}
-                      </span>
-                      <IndexStory item={item} />
-                    </li>
-                  ))}
-                </ol>
-              </section>
-            ))}
-          </div>
-          <div className="index index-pc">
-            {sections.map(({ cat, items: catItems }) => (
-              <section className="index-col" key={cat} aria-label={cat}>
-                <h2 className="index-col-title">{cat}</h2>
-                <ul className="index-col-list">
-                  {catItems.map((item) => (
-                    <li className="index-item" key={itemKey(item)}>
-                      <IndexStory item={item} />
-                    </li>
-                  ))}
-                </ul>
-              </section>
-            ))}
-          </div>
+          <Featured item={isEmptyIssue ? null : featured} date={data.date} isLatest={isLatestIssue} />
+          {!isEmptyIssue && (
+            <>
+              <div className="index index-sp">
+                <h2 className="index-heading">INDEX</h2>
+                {sections.map(({ cat, items: catItems }) => (
+                  <section className="index-sp-cat" key={cat} aria-label={cat}>
+                    <h3 className="index-sp-cat-title">{cat}</h3>
+                    <ol className="index-sp-list">
+                      {catItems.map((item) => (
+                        <li className="index-item" key={itemKey(item)}>
+                          <span className="index-num">
+                            {String(indexNumbers.get(itemKey(item)) ?? 0).padStart(2, "0")}
+                          </span>
+                          <IndexStory item={item} />
+                        </li>
+                      ))}
+                    </ol>
+                  </section>
+                ))}
+              </div>
+              <div className="index index-pc">
+                {sections.map(({ cat, items: catItems }) => (
+                  <section className="index-col" key={cat} aria-label={cat}>
+                    <h2 className="index-col-title">{cat}</h2>
+                    <ul className="index-col-list">
+                      {catItems.map((item) => (
+                        <li className="index-item" key={itemKey(item)}>
+                          <IndexStory item={item} />
+                        </li>
+                      ))}
+                    </ul>
+                  </section>
+                ))}
+              </div>
+            </>
+          )}
         </main>
       </div>
     </div>

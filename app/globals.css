@@ -153,6 +153,9 @@ img {
   font-size: 22px;
   font-weight: 700;
   line-height: 1.4;
+  /* PB3: 最後の行が1文字だけにならないように（Chrome は文節で折り返す） */
+  text-wrap: pretty;
+  word-break: auto-phrase;
 }
 
 .summary {
@@ -254,6 +257,9 @@ img {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.45;
+  /* PB3: 最後の行が1文字だけにならないように（Chrome は文節で折り返す） */
+  text-wrap: pretty;
+  word-break: auto-phrase;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;

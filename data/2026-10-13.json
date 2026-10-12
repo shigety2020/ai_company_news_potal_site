@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-13",
+  "featured": {
+    "time": "06:00",
+    "headline": "NTTドコモビジネス、管理職をまねた「AI上司」を全37組織に200超",
+    "summary": "管理職の判断基準や業務知識をもとに、議事録や社内資料を根拠に社員の相談に答える。社員は上司に報告する前にAI上司へ資料を見せ、弱い論点を指摘してもらう。社員が作ったAIエージェントは9月末で約2万8000に達した。",
+    "handle": "AI4Japan",
+    "category": "事例",
+    "url": "https://ai4japan.com/nyusu/ntt-docomo-business-ai-joshi-zen-37-soshiki-ni-200-tai-cho-donyu/",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "01:01",
+      "headline": "大学2年生がClaude Codeで作った、AI社員20人の5階建てオフィス",
+      "summary": "夜のオフィス画面で、AI社員が「夜景がきれい」とつぶやいていた。作った理由と、うまくいかなかったこと5つをnoteにまとめている。",
+      "handle": "den_ai_lab_X",
+      "category": "事例",
+      "url": "https://x.com/den_ai_lab_X/status/2108950995497783559",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/card_img/2108950850479755264/rYhP-Eqy?format=jpg&name=800x419"
+    },
+    {
+      "time": "16:39",
+      "headline": "製造業の社長が3日間のClaude研修で「何でもできる」と言うまで",
+      "summary": "半導体のテストソケットを設計・製造するSDK（横浜市）の導入事例。3D CADの図面を2Dに描き直す手間や、Coworkに定期実行を頼むデモ、Skillを社内で作っていくこれからを話す。",
+      "handle": "HelloCraftAI",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=5d257Lui12E",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/5d257Lui12E/hqdefault.jpg"
+    },
+    {
+      "time": "10:48",
+      "headline": "GMO、Google Cloudと約6,000人の仕事をAIで作り直すプロジェクト",
+      "summary": "国内の約6,000人がGemini EnterpriseとGoogle Workspaceを使える環境を整え、業務の流れ、データ基盤、EC・決済などの新サービス、セキュリティの4つの領域で進める。2027年11月30日までの業務自動化を目標にしている。",
+      "handle": "イノベーション総研",
+      "category": "事例",
+      "url": "https://iri-group.jp/knowledge/gmo-google-ai-project/",
+      "source": "web",
+      "thumbnail": "https://iri-group.jp/wp/wp-content/uploads/2026/10/newswatch-daily-20261010-0900-gmo-google-ai-project.png"
+    },
+    {
+      "time": "18:54",
+      "headline": "広告マーケターが、広告の設定・運用・動画制作のAI社員を鍛え中",
+      "summary": "AI社員が働いてくれるので、自分はPCに話しかけるだけ。今の仕事は、AI社員が効率よく働けるようにナレッジとフォルダを整え、調整を続けることだという。",
+      "handle": "naoe_kuryu",
+      "category": "事例",
+      "url": "https://x.com/naoe_kuryu/status/2109221022050455869",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "19:30",
+      "headline": "Claude Codeで2か月の仕事が1時間に、採用支援の会社の社長が語る",
+      "summary": "株式会社スターレットの岡田社長が、Claude Codeを使ったWebアプリづくりや、対面研修のよさ、AIエージェントへの驚きを話す顧客対談。",
+      "handle": "石丸真平のAI解説・FDEチャンネル【 株式会社ネクストスケール】",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=jAP2Cb4IYhc",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/jAP2Cb4IYhc/hqdefault.jpg"
+    },
+    {
+      "time": "00:00",
+      "headline": "シダックス、部署ごとに散らばる社内情報をAIエージェントで一つに",
+      "summary": "チャットボットでは広げにくかったため、Google Cloudで全社のAIエージェント基盤を作った。KDDIアイレットの「かんたん AI パック」をもとに、MCPで外のツールともつないでいる。",
+      "handle": "cloudpack",
+      "category": "事例",
+      "url": "https://cloudpack.jp/casestudy/26-17-shidax.html",
+      "source": "web",
+      "thumbnail": "https://cloudpack.jp/wp-content/uploads/2023/08/img_casestudy-shidax-ogp.png"
+    },
+    {
+      "time": "12:21",
+      "headline": "ドコモSMTBネット銀行、Snowflake移行で描く「Agentic Enterprise」への道",
+      "summary": "まず同期して使える状態にし、完全に移してデータモデルを作り直す。品質やコード体系を整えたうえで、Cortex AIとStreamlitで業務部門へ広げる、という段階を紹介している。",
+      "handle": "gen0707",
+      "category": "事例",
+      "url": "https://x.com/gen0707/status/2109122214775894074",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HUUauLLaIAAN-VR.png"
+    },
+    {
+      "time": "18:00",
+      "headline": "作ったAI社員が動いていない、その管理をOpenAIのdotsに任せた",
+      "summary": "レンタルスペースの再予約を、前回の予約探しから同じ部屋・同じ条件をそろえて決済の直前までdotsに任せた。決済のボタンだけは自分で押したという。",
+      "handle": "なおむ-AI事業研究所-",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=BiUtVLZ4Q1Y",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/BiUtVLZ4Q1Y/hqdefault.jpg"
+    },
+    {
+      "time": "20:32",
+      "headline": "サノフィ、社内のAIエージェントで購買申請の準備を3日から5分未満に",
+      "summary": "社内向けのアシスタント「Concierge」は質問に答えるところから始まり、外に任せていた仕事も担うようになった。サポートの8割は人を介さずに解決しているという。",
+      "handle": "Forbes JAPAN",
+      "category": "事例",
+      "url": "https://forbesjapan.com/articles/detail/106201",
+      "source": "web",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "22:21",
+      "headline": "パソコンが苦手な40代が、AIの社員を雇うまで",
+      "summary": "「AI社員」と聞いて最初は「はいはい」と思っていた。今は、ターミナルが何かもわからない自分の代わりに、AI社員がターミナルを触っているという体験をnoteに書いた。",
+      "handle": "22ji_shacho",
+      "category": "事例",
+      "url": "https://x.com/22ji_shacho/status/2109635602782249340",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/card_img/2109635144730734592/2CbKrUhQ?format=jpg&name=800x419"
+    },
+    {
+      "time": "12:00",
+      "headline": "ゴムマリ、給与計算をチェックする業務AIエージェントを提供開始",
+      "summary": "給与計算の結果を勤怠・人事データと照らし合わせ、確かめるべき明細を根拠つきで一覧にする。今の計算は変えずに、人のチェックと並べて入れられる。",
+      "handle": "o_product",
+      "category": "ツール",
+      "url": "https://x.com/o_product/status/2109479178034897248",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HUZgIlWakAAhz6k.jpg"
+    },
+    {
+      "time": "02:26",
+      "headline": "Cohere、エージェントAI基盤「North 2」を発表",
+      "summary": "記憶やSkills、自動化などの新しい機能と、ユーザーやエージェントごとにトークンの使い方を管理する仕組みが中心。公式発表と報道で確かめられたことと、まだわからないことを分けて整理している。",
+      "handle": "AIすきかも",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=j__ctvCp2dE",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/j__ctvCp2dE/hqdefault.jpg"
+    },
+    {
+      "time": "12:23",
+      "headline": "Google、仕事を任せられる「Gemini エージェント」を発表",
+      "summary": "質問への回答から資料づくり、画像、コードの作成と実行まで、1つの入力欄で頼める。Gmailやドライブなどの中でも動き、PCを閉じたあとも数時間から数日かかる作業を続ける。",
+      "handle": "Impress Watch",
+      "category": "ツール",
+      "url": "https://www.watch.impress.co.jp/docs/news/2147050.html",
+      "source": "web",
+      "thumbnail": "https://www.watch.impress.co.jp/img/ipw/list/2147/050/g02.jpg"
+    },
+    {
+      "time": "06:06",
+      "headline": "Postman、AIエージェントが呼ぶAPIやLLMをまとめて管理する「Fabric Gateway」",
+      "summary": "AIエージェントやMCPが使うAPI・LLMを一か所で管理する。9月29日に提供を始め、Freeプランは月0ドルでリクエスト数は無制限、監査ログは30日残る。",
+      "handle": "weevee_jp",
+      "category": "ツール",
+      "url": "https://x.com/weevee_jp/status/2109027912590745992",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HUTFpwJaYAEprE0.jpg"
+    },
+    {
+      "time": "22:02",
+      "headline": "AIエージェントへの一言でゲームのエフェクトを作るSkillを無料公開",
+      "summary": "Claude Code、Codex、Cursorなどにそのまま入れられる。入れる前と後で、できあがるエフェクトがどう変わるかを動画で見せている。",
+      "handle": "KanaWorks_AI",
+      "category": "ツール",
+      "url": "https://x.com/KanaWorks_AI/status/2109268377663656272",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2109267937966329856/img/DIn9e4uw0vHnlw9v.jpg"
+    },
+    {
+      "time": "05:25",
+      "headline": "100人のAI社員より、100個の仕事の型",
+      "summary": "AI社員を次々に増やすより、受付・調査・資料作成・確認・顧客説明といった仕事の型を増やすほうが大切だ、と税理士法人TASの中野裕史さんが整理している。",
+      "handle": "HirofumiTAS",
+      "category": "作り方",
+      "url": "https://x.com/HirofumiTAS/status/2109742305972498764",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HUdPcY-aoAA3x14.jpg"
+    },
+    {
+      "time": "18:00",
+      "headline": "優秀なAI社員は、できることを絞って作る、6つの手順を実演",
+      "summary": "役割・やってはいけないこと・権限を先に絞るのが要点。商談メモから広告を作る「広告AI」を、Claude Codeでゼロから作る6つの手順を画面で見せる。",
+      "handle": "福田卓馬【AI×会社経営】EXTAGE株式会社",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=XzvPVRR2laQ",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/XzvPVRR2laQ/hqdefault.jpg"
+    },
+    {
+      "time": "21:50",
+      "headline": "AIエージェントを作る7つの手順、基盤の選び方と本番で動かすコツ",
+      "summary": "任せる業務を1つに絞り、ワークフローかエージェントかを決める。基盤とLLM、役割と指示文、ツールと社内データの接続、評価データでのテスト、権限を絞った公開の順に進める。",
+      "handle": "AINOW",
+      "category": "作り方",
+      "url": "https://ainow.ai/2026/10/12/278430/",
+      "source": "web",
+      "thumbnail": "https://ainow.ai/wp-content/uploads/2026/10/thumbnail-7.jpg"
+    },
+    {
+      "time": "16:20",
+      "headline": "AI社員を「何でも屋1人」から「専門8人」に分けたら、権限の渡し忘れに気づいた",
+      "summary": "指示は出しやすくなった一方で、担当の説明文とツールの権限がずれて動かない2体が見つかった。その経緯をnoteにまとめている。",
+      "handle": "waDm2k6bL139021",
+      "category": "作り方",
+      "url": "https://x.com/waDm2k6bL139021/status/2109182210033025028",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/card_img/2109177938256314368/2FoO4aDb?format=jpg&name=800x419"
+    },
+    {
+      "time": "05:00",
+      "headline": "Claude CodeでAI社員を作る、最初の1人は「確かめる係」",
+      "summary": "AI社員（公式の名前はサブエージェント）を、AIを使ったことがない会社員向けに説明する。役割は部署ではなく「集める・書く・確かめる」の流れで分け、最初の1人の作り方とメモに書く3つを話す。",
+      "handle": "てつろー【マネするだけAI時短術】",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=Nky94mNC7XQ",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/Nky94mNC7XQ/hqdefault.jpg"
+    }
+  ]
+}

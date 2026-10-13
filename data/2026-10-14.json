@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-14",
+  "featured": {
+    "time": "09:00",
+    "headline": "CS Technologies、AI社員を組織図に置いて本格運用、人と合わせて500名規模へ",
+    "summary": "10月6日から、AIエージェントを組織図上の役割を持つ「AI社員」としてマーケティング・営業・カスタマーサクセス・経理に配置した。AI社員ごとに担当業務・権限・報告ライン・評価指標を決め、人は目的を示す「指示」と要所の「承認」に集中する。企業向けの開発も、AI社員1体16万円からで受ける。",
+    "handle": "PR TIMES",
+    "category": "事例",
+    "url": "https://prtimes.jp/main/html/rd/p/000000005.000122132.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "16:30",
+      "headline": "NEC、CEATECで人とAI社員が一緒に働く「AI自律型組織」を見せる",
+      "summary": "CEATEC 2026のNECブースで、人と共創する「AI自律型組織」を紹介している。会場では、人とAI社員が一緒に働く様子や、AI社員の成果物を見られる。",
+      "handle": "NEC_jp_pr",
+      "category": "事例",
+      "url": "https://x.com/NEC_jp_pr/status/2109909503168651470",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2109907606064259072/img/UzFIy_xz2wf4209G.jpg"
+    },
+    {
+      "time": "20:41",
+      "headline": "ChatGPTのdotsを1週間、「AI秘書」に任せて分かったこと",
+      "summary": "フライトの変更や電車の通過時刻、メールと予定からの提案など、仕事と生活で1週間試した。今のやり方を無理に崩さず、気軽に頼める相手として加えるくらいがちょうどいい、という結論と、期待ほどではなかった使い方、任せる範囲の設定を紹介する。",
+      "handle": "Leo Tohyama / AIコーチ",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=9Cpx9cKvcqk",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/9Cpx9cKvcqk/hqdefault.jpg"
+    },
+    {
+      "time": "09:00",
+      "headline": "国際協力銀行、採用選考にVARIETASの「AI面接官」を入れた",
+      "summary": "効率化のためではなく、応募者一人ひとりの想いや力を深く汲み取り、公平な選考にするための導入だという。AI面接官は人の判断を置き換えず、評価の基盤や選考データの分析で応募者を多面的に見る手助けをする。",
+      "handle": "産経ニュース",
+      "category": "事例",
+      "url": "https://www.sankei.com/pressrelease/prtimes/QO63J6RVJBKZ3KSIOEJPBL4QM4/",
+      "source": "web",
+      "thumbnail": "https://www.sankei.com/resizer/v2/https%3A%2F%2Fdpgdieoe6npux.cloudfront.net%2Fprtimes%2FC33QN2ZTIBLVZLN5ZV6RXZJFHU?auth=fe9b276a3730da9588bf81e2a84e489a97951e21664f3f661419e895d3e9d657&quality=50&smart=true&width=1200&height=675"
+    },
+    {
+      "time": "21:10",
+      "headline": "毎朝画像を1枚頼んでいたAI社員が、15秒のCMまで作った",
+      "summary": "最初はHAZの画像とX投稿文を作るだけの仕事だった。試しにAI社員「クリス」に動画編集を頼んでみたら、思ったより良いCMができたという制作の実録をnoteにまとめている。",
+      "handle": "SINGLATELIER",
+      "category": "事例",
+      "url": "https://x.com/SINGLATELIER/status/2109980139165737344",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/card_img/2109979560297234432/PQegJsTa?format=jpg&name=800x419"
+    },
+    {
+      "time": "17:26",
+      "headline": "採用担当2人の現場で、採用AIエージェントを1か月使ってみて",
+      "summary": "「書類通過」とチャットに入れるだけで候補者へのメール文面ができ、日程調整を頼めば日程調整リンクの発行やステータスの更新まで進む。面接官への評価の依頼も自動で送り、止まっていれば何度でも催促する。",
+      "handle": "フェアパス┃採用オペレーションAIエージェント",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=PkDam2vMVfE",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/PkDam2vMVfE/hqdefault.jpg"
+    },
+    {
+      "time": "10:00",
+      "headline": "電通エルフトアーキテクト、AIを「使う人・使わない人」の差を埋める",
+      "summary": "社内でAIを使っている人と使っていない人の差が大きかった。AI Portalizeで社内で作ったものを見える化し、作った人が目立つようにして、ほかのメンバーも「自分も作ってみよう」と動きやすくした。",
+      "handle": "産経ニュース",
+      "category": "事例",
+      "url": "https://www.sankei.com/pressrelease/prtimes/DYGKKH6K6FOZ5A3ECITLM5TLQM/",
+      "source": "web",
+      "thumbnail": "https://www.sankei.com/resizer/v2/https%3A%2F%2Fdpgdieoe6npux.cloudfront.net%2Fprtimes%2FMKB6N6KQOVKHBIPVXWIY7XFVG4?auth=db78fc225e763b61f2ae1f590acb3915418480115b1ca6bd77e0600ff13c1681&quality=50&smart=true&width=1200&height=675"
+    },
+    {
+      "time": "08:00",
+      "headline": "AI社員が、人の操作に気づいて自分から手を止めた",
+      "summary": "Macの画面撮影を頼んだら、撮影の道具が人のClaude操作を検知した。AI社員が確かめると別の業務に切り替わっていたので、そこから先は何も触らずに中断。撮れたのは2枚で、送信も承認も0件だった。",
+      "handle": "penmaru_aishain",
+      "category": "事例",
+      "url": "https://x.com/penmaru_aishain/status/2109781165263798354",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "18:11",
+      "headline": "社員ゼロのひとり社長、AI社員17人で営業部を回す全工程",
+      "summary": "見込み企業のリスト作り、AI検索の無料診断、案内メール、アポの確定、提案スライドまで、営業部のAI社員6人の仕事を画面で見せる。うまくいかなかったことと、その直し方も話している。",
+      "handle": "吉成ゆい | AI社員とひとり社長【Claude Code経営】",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=r6AG475xYzM",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/r6AG475xYzM/hqdefault.jpg"
+    },
+    {
+      "time": "17:19",
+      "headline": "AI社員が広告の問い合わせ4件に返信案、商談に進める準備まで",
+      "summary": "予算・目的・希望時期を確かめられる形に返信案を整えた。現場の事務や契約の確認も決まった時間に処理している、という丸の内ビルマネジメントのAI社員の公開実験の記録。",
+      "handle": "Marumi_MBM",
+      "category": "事例",
+      "url": "https://x.com/Marumi_MBM/status/2109922010427965882",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "06:29",
+      "headline": "AIエージェントでコードは増えても、マージまでの時間は平均49%のび",
+      "summary": "AIエージェントを入れるとコードを作る量は増えるが、PRがマージされるまでの時間は平均49%のび、変更を頼まれる割合はほぼ2倍になった。レビューの負担がふくらんでいるという研究結果を紹介している。",
+      "handle": "techfeedapp",
+      "category": "事例",
+      "url": "https://x.com/techfeedapp/status/2110120718394441794",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HUinnDjXYAAylMe.jpg"
+    },
+    {
+      "time": "18:00",
+      "headline": "デライト、AIエージェントの実行基盤「Agentino」のPublic β版を提供開始",
+      "summary": "ふつうの言葉で書いた業務の手順をコードにして実行する。手順と実行の記録はチームで共有して定期的に動かせ、大事な操作の前には人が承認する仕組みがある。",
+      "handle": "o_product",
+      "category": "ツール",
+      "url": "https://x.com/o_product/status/2109932163462558097",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HUf8H0JbYAAGWKK.jpg"
+    },
+    {
+      "time": "20:00",
+      "headline": "AhrefsのAIエージェント「Letaido」に、SEOや広告の分析を一言で頼む",
+      "summary": "Ahrefsのプロモーション動画。Googleのスパムアップデートの影響分析、キーワード調査、競合の比較、LLMOの推奨率、ChatGPT広告とGoogle広告の振り返りまでをチャットで頼む様子を、実際の画面で見せる。",
+      "handle": "SEOおたく / LANY(レイニー)",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=e2BkI0bGwiY",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/e2BkI0bGwiY/hqdefault.jpg"
+    },
+    {
+      "time": "10:00",
+      "headline": "ゴムマリ、人事の発令を読み取って取り込む業務AIエージェントを提供開始",
+      "summary": "異動・任免・出向などの発令通知を、PDFやスキャン画像も含めて読み取り、人事給与システムに取り込める形に変える。今のシステムは変えずに使え、初期構築は50万円から、運用は月5万円から。",
+      "handle": "財経新聞",
+      "category": "ツール",
+      "url": "https://www.zaikei.co.jp/releases/3659039/",
+      "source": "web",
+      "thumbnail": "https://www.zaikei.co.jp/files/press/20261013120405941prt0.jpg"
+    },
+    {
+      "time": "07:00",
+      "headline": "AgilePoint、AIエージェントの動きを一か所で見る「AI Control Tower Dashboard」",
+      "summary": "AIに仕事を任せるほど、どの業務で何をしたかを見えるようにすることが大事になる。AIの稼働状況や実行したアクション、監査ログなどをまとめて確かめられる。",
+      "handle": "AgilepointJP",
+      "category": "ツール",
+      "url": "https://x.com/AgilepointJP/status/2109766059129778520",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HUA_z-CbkAARU1_.jpg"
+    },
+    {
+      "time": "05:02",
+      "headline": "ウォーカー、会話だけで刺繍ミシンのデータを作るAIエージェント「Embroid」の実証を開始",
+      "summary": "「おしゃれに崩して」「針の密度を上げて」と伝えるだけで、家庭用や業務用のミシンでそのまま縫えるデータを作る。刺繍の技法23種を学ばせ、専用ソフトを使わずにチャットだけで作れるようにした。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000081.000041726.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/41726/81/41726-81-dc1b1abbb5d8212b83c1aa003fd22da7-1137x1098.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "12:00",
+      "headline": "AI社員の記録が消えた、依頼文に「追記専用」と入れて直した",
+      "summary": "Claude Codeで作ったAI社員の記録が、既存のファイルの上書きで消えた。依頼文に「追記専用」と入れて直すまでを、AI社員の会社の失敗ログ第1話としてnoteに書いている。",
+      "handle": "ai_neko_log",
+      "category": "作り方",
+      "url": "https://x.com/ai_neko_log/status/2109841570317127750",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/card_img/2108595579282669568/mDrWHg5Y?format=jpg&name=800x419"
+    },
+    {
+      "time": "19:00",
+      "headline": "Excelを渡すだけで会社のテンプレどおりのパワポを作る「スライド作成AI社員」",
+      "summary": "Microsoft 365 CopilotのエージェントとCopilot Coworkのスキルで、売上データから会社のテンプレートどおりの売上報告スライドを作る。名前と指示の入れ方、テンプレの渡し方を順に見せ、2つの作り方の仕上がりも比べる。",
+      "handle": "メンタエクセル",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=E5J1-NXcScg",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/E5J1-NXcScg/hqdefault.jpg"
+    },
+    {
+      "time": "00:29",
+      "headline": "Claude CodeでAI社員18人の会社を回す、フォルダ構成と決まり",
+      "summary": "9月から仕事を18の担当に分けてClaude CodeとCodexに渡している会社が、フォルダ構成と全社の決まりのファイルを実物の名前で見せる。担当ごとの役割のファイルには「受け持たない事」と「人に戻す場面」も同じ重さで書く。",
+      "handle": "Zenn",
+      "category": "作り方",
+      "url": "https://zenn.dev/chiero/articles/36f7889983c90c",
+      "source": "web",
+      "thumbnail": "https://res.cloudinary.com/zenn/image/upload/s--YOhqQDqC--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25A7%2520AI%25E7%25A4%25BE%25E5%2593%25A118%25E4%25BA%25BA%25E3%2581%25AE%25E4%25BC%259A%25E7%25A4%25BE%25E3%2582%2592%25E9%2581%258B%25E5%2596%25B6%25E3%2581%2599%25E3%2582%258B%25EF%25BC%259A%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25AB%25E3%2583%2580%25E6%25A7%258B%25E6%2588%2590%25E3%2581%25A8%25E6%25B1%25BA%25E3%2581%25BE%25E3%2582%258A%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:CHIERO%2Cx_90%2Cy_121/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE"
+    },
+    {
+      "time": "08:00",
+      "headline": "AIエージェントの設計を「レシピ」で学ぶスライド",
+      "summary": "業務の分け方と、複数のエージェントやツールのつなぎ方、まとめ役の役割と境界、つまずきやすいところ、業務の設計から実装へ落とし込む流れを、料理のレシピの形で整理したスライドを紹介している。",
+      "handle": "SkillupAi",
+      "category": "作り方",
+      "url": "https://x.com/SkillupAi/status/2109781166920511834",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HUdvXoKaIAA_4xC.jpg"
+    },
+    {
+      "time": "08:00",
+      "headline": "AIエージェントは「答えるだけ」から始めて「実行する」へ広げる",
+      "summary": "Copilot Studioで、最初はナレッジに社内資料を入れて答えるだけにする。現場に使ってもらって回答を確かめてから、エージェントフローを足して申請の登録まで実行させる、という広げる順番を画面で見せる。",
+      "handle": "業務AI実装ラボ | Microsoft 365・Copilot Studio活用",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=pTRBy7mE-1s",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/pTRBy7mE-1s/hqdefault.jpg"
+    }
+  ]
+}

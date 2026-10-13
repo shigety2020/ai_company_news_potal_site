@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-08",
+  "featured": {
+    "time": "06:00",
+    "headline": "三井住友銀行、社長を再現した「AI-CEO」を行員約3万人に展開",
+    "summary": "中島CEOの発言や経歴に加えてウィットまで作り込み、仕事に限らず行員の相談に応じる。効率化ではなく、気軽にAIに触れて楽しんでもらうことが目的で、工数での効果測定もしていないという。",
+    "handle": "JBpress",
+    "category": "事例",
+    "url": "https://jbpress.ismedia.jp/articles/-/97243",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "07:15",
+      "headline": "ひとり社長に、ChatGPTの「Dots」で動く26人のAI社員の組織ができた",
+      "summary": "3週間ほど前にCodexを初めて触り、AI社員の育成と組織づくりを思い立った個人起業家の投稿。社長は自分ひとりで、社員は全員AIだという。",
+      "handle": "hidekixikeda",
+      "category": "事例",
+      "url": "https://x.com/hidekixikeda/status/2107595660874879021",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HT-u9OTbcAA2oC0.jpg"
+    },
+    {
+      "time": "15:18",
+      "headline": "伊藤忠、AIエージェントを安全とスピードの両立で全社展開",
+      "summary": "Google Cloud Next Tokyoのセッション。伊藤忠商事と伊藤忠テクノソリューションズ、ジーアイクラウドが、エージェントの考え方や業務への組み込み、セキュリティの実装を話す。",
+      "handle": "Google Cloud Japan",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=AsTNVF427Gg",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/AsTNVF427Gg/hqdefault.jpg"
+    },
+    {
+      "time": "17:23",
+      "headline": "Ｓｋｙ、社内のAIエージェント2万5千個の次は利益を生む使い方へ",
+      "summary": "Gemini Enterpriseで2万5千個を超える社内エージェントが定着。高度に使える人を認定する「AIマスター制度」や、最優秀賞300万円の「AIエージェント祭り」で現場を動かす。",
+      "handle": "共同通信PRワイヤー",
+      "category": "事例",
+      "url": "https://www.kyodo.co.jp/pr/2026-10-06_4040347/",
+      "source": "web",
+      "thumbnail": "https://d17gj49471obkc.cloudfront.net/kyodopress_cms/wp-content/uploads/2026/10/prw_PI6im_N9NoUKyA-430x287.jpg"
+    },
+    {
+      "time": "11:00",
+      "headline": "経理AIエージェントのTOKIUM、LINK-Jで年間約1,350時間を減らす",
+      "summary": "Excelへの手入力など、紙と手作業の経理を見直した導入事例。法人全体の仕事を効率化したとTOKIUMが紹介している。",
+      "handle": "TOKIUM1",
+      "category": "事例",
+      "url": "https://x.com/TOKIUM1/status/2107652157529100795",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HT_fB1fa0AEMGRA.jpg"
+    },
+    {
+      "time": "16:30",
+      "headline": "電子カルテのエムスリーデジカル、クリニックでのAIエージェント導入事例",
+      "summary": "ひでまるファミリークリニックでAIエージェントを入れた事例を、約8分の動画で紹介している。",
+      "handle": "M3デジカル公式チャンネル",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=MZnN5rVRu9s",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/MZnN5rVRu9s/hqdefault.jpg"
+    },
+    {
+      "time": "17:04",
+      "headline": "明石の運送会社、AI社員10人と軽貨物ニュースを毎日3本",
+      "summary": "昼と夕方のニュース動画と夜のラジオを、酒井運送がAI社員と作っている。台本づくりから公開までの社内のやりとりが見えるページも公開した。",
+      "handle": "hamburgertabeta",
+      "category": "事例",
+      "url": "https://x.com/hamburgertabeta/status/2107743918972600364",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/news_img/2107743919966679041/OBoUs4Mu?format=jpg&name=orig"
+    },
+    {
+      "time": "08:02",
+      "headline": "「AI社員」と呼ぶと、誤りを見つけにくくなる",
+      "summary": "BCGの研究では、同じ成果物でも「AI社員」が作ったと聞いた管理職は、「AIツール」が作ったと聞いたときより誤りの発見が18%少なかったという紹介。",
+      "handle": "MeThree_e",
+      "category": "事例",
+      "url": "https://x.com/MeThree_e/status/2107607335199715571",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "06:30",
+      "headline": "Claude Codeで1人目のAI社員を作るのに2時間",
+      "summary": "「AI社員を5人雇う」つもりで作り始めたら、最初の役割を決めるところで手が止まった。本を見ながら進めた実作業の記録。",
+      "handle": "nekoji_oden",
+      "category": "事例",
+      "url": "https://x.com/nekoji_oden/status/2107946571446767780",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HUCaMeoawAA_eRO.jpg"
+    },
+    {
+      "time": "19:18",
+      "headline": "エクサウィザーズ、農協向けの「エクサベース AI for 農協」を提供開始",
+      "summary": "JAの仕事に合わせたAIエージェントを30種以上そろえ、データは国内で処理する。結果はOffice製品にそのまま出せる。",
+      "handle": "ExaWizards",
+      "category": "ツール",
+      "url": "https://x.com/ExaWizards/status/2107777627016896878",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HUBUlJLaYAAOJtg.jpg"
+    },
+    {
+      "time": "12:00",
+      "headline": "OpenAIの「dots」、24時間働くAIに任せていい仕事と人が決めること",
+      "summary": "9月29日に発表された常時稼働のエージェントを、公式発表をもとに整理。止まるルールや、任せる範囲の線の引き方を話す。",
+      "handle": "伴走AIマーケティング",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=Z6ggi0l7Soo",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/Z6ggi0l7Soo/hqdefault.jpg"
+    },
+    {
+      "time": "10:10",
+      "headline": "GrowGroup、Webサイトの相談から見積までを無料で受けるAI「GROW Agent プロデューサー」",
+      "summary": "サイトのURLを入れると、顔と声のあるAIが相談に乗り、提案書や概算見積、アクセス解析レポートなど15種の資料を作る。24時間いつでも使える。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000010.000054131.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/54131/10/54131-10-3b049dd7d34de75304e1d93f3affcc20-2400x1260.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "15:01",
+      "headline": "現場Hub、建設業向けAIエージェントを提供開始",
+      "summary": "案件の進み具合から書類を作り、原価の集計まで手伝う。変更や社外への送信の前には人が確かめる仕組みにしている。",
+      "handle": "o_product",
+      "category": "ツール",
+      "url": "https://x.com/o_product/status/2107712853197423008",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HUAZq8JbMAEY8UZ.jpg"
+    },
+    {
+      "time": "15:45",
+      "headline": "ラキール、細かな仕事をまとめて引き受けるAIエージェント",
+      "summary": "データの確認や情報集め、手配、申請などの「マイクロタスク」を、社内のシステムとつないだAIエージェントに任せる、という30秒の紹介動画。",
+      "handle": "株式会社ラキール",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=Sg0iqnMQKh4",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/Sg0iqnMQKh4/hqdefault.jpg"
+    },
+    {
+      "time": "10:00",
+      "headline": "QueryPie AI、デスクトップで動くAIエージェント「Aru」を提供開始",
+      "summary": "資料整理や比較調査、データ分析、文書作成を言葉で頼むと、手元のパソコンで作業を進める。組織で整えたMCPやスキルもそのまま使える。",
+      "handle": "産経ニュース",
+      "category": "ツール",
+      "url": "https://www.sankei.com/pressrelease/prtimes/CEOKCDFRE5IWVLEZ37NTAOAIGM/",
+      "source": "web",
+      "thumbnail": "https://www.sankei.com/resizer/v2/https%3A%2F%2Fdpgdieoe6npux.cloudfront.net%2Fprtimes%2FF5LWWPFSA5PHNMGTFGWE4MX4UQ?auth=5fb56d776b1fff327f1dbc664d9fdf6b94cea9421f1d46ed7acb387045411cd6&quality=50&smart=true&width=1200&height=675"
+    },
+    {
+      "time": "16:23",
+      "headline": "パーソルBPD、Copilot StudioのAIエージェントが定着するまで伴走",
+      "summary": "PoCのあとに起きる「使われない・広がらない」に向けたヘルプデスクを提供開始。続けて使うことや品質の管理、ほかの部署への広げ方まで支える。",
+      "handle": "persol_bd_pr",
+      "category": "ツール",
+      "url": "https://x.com/persol_bd_pr/status/2107733628965072927",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HUAskKKaIAAnkTg.jpg"
+    },
+    {
+      "time": "20:00",
+      "headline": "AI社員に日報を頼んだら4分40秒で届いた、まねできる一文つき",
+      "summary": "「今日やったことを貼るので、日報にして。数字が無いものは、未確認と書いて。」と頼んだ結果を、10月6日夜の記録で見せている。",
+      "handle": "aigc367",
+      "category": "作り方",
+      "url": "https://x.com/aigc367/status/2107788178375741676",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/2107788157592973312/pu/img/C7RadwZPQVeuATUX.jpg"
+    },
+    {
+      "time": "20:00",
+      "headline": "Claude CodeのAI社員18人、担当・決まり・記憶の置き方をフォルダごと見せる",
+      "summary": "仕事を18の担当に分け、決まりと手順をファイルに置く。依頼の書き直し方や、送信・公開・お金を人が決める範囲、1つの担当から始める6つの手順も。",
+      "handle": "チエロ | AIに強い、経営者の相談役",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=A9aI2IgCxUk",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/A9aI2IgCxUk/hqdefault.jpg"
+    },
+    {
+      "time": "00:00",
+      "headline": "オンボーディングをAIエージェントに任せる、DeNAの仕組み",
+      "summary": "部のオンボーディングをGitHubのリポジトリに集め、Claude Codeを伴走させた。中途入社の人は約1か月で立ち上がり、受け入れ側はURLとコマンドを伝えるだけになった。",
+      "handle": "DeNA Engineering",
+      "category": "作り方",
+      "url": "https://engineering.dena.com/blog/2026/10/ai-agent-onboarding/",
+      "source": "web",
+      "thumbnail": "https://engineering.dena.com/blog/2026/10/ai-agent-onboarding/cover.png"
+    },
+    {
+      "time": "13:38",
+      "headline": "岡山で10月19日、経営者向けにClaude CodeとAI社員の雇い方の会",
+      "summary": "AIが自動で仕事をする仕組みや、自社のどこに使えるかを、AI社員のチームが動くところを見ながら相談できる。聞くだけの参加もできる。",
+      "handle": "hitoyane_cw",
+      "category": "作り方",
+      "url": "https://x.com/hitoyane_cw/status/2107691896307146827",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HUAGkk9acAEEdfN.jpg"
+    },
+    {
+      "time": "13:19",
+      "headline": "AIエージェントとワークフローをつないで、1つの仕事を最後まで動かす",
+      "summary": "100日で会社のAI基盤を作る開発記録のDAY77。仕事を受け取ってからタスクを判断し、結果を返して次へ渡す8つの流れを整理する。",
+      "handle": "60代独学プログラマー",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=96eJkg9af60",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/96eJkg9af60/hqdefault.jpg"
+    }
+  ]
+}

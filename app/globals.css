@@ -78,6 +78,29 @@ img {
   white-space: nowrap;
 }
 
+.logo-lockup {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.logo-mark {
+  display: inline-flex;
+  flex: 0 0 24px;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 5px;
+  background: var(--accent);
+  color: #ffffff;
+  font-family: var(--font-sans), "Noto Sans JP", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+}
+
 .disclaimer {
   color: var(--muted);
   font-size: 11px;
@@ -153,6 +176,9 @@ img {
   font-size: 22px;
   font-weight: 700;
   line-height: 1.4;
+  /* PB3: 最後の行が1文字だけにならないように（Chrome は文節で折り返す） */
+  text-wrap: pretty;
+  word-break: auto-phrase;
 }
 
 .summary {
@@ -254,6 +280,9 @@ img {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.45;
+  /* PB3: 最後の行が1文字だけにならないように（Chrome は文節で折り返す） */
+  text-wrap: pretty;
+  word-break: auto-phrase;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
@@ -291,6 +320,18 @@ img {
   .logo {
     font-size: 32px;
     letter-spacing: 0.08em;
+  }
+
+  .logo-lockup {
+    gap: 12px;
+  }
+
+  .logo-mark {
+    flex-basis: 32px;
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    font-size: 20px;
   }
 
   .masthead {

@@ -1,4 +1,5 @@
 import { headers } from "next/headers";
+import { findAdjacentDates } from "../lib/daily";
 
 export const dynamic = "force-dynamic";
 
@@ -320,8 +321,8 @@ export default async function Home({
     cat,
     items: pickThreePreferSources(items.filter((item) => item.category === cat)),
   })).filter((section) => section.items.length > 0);
-  const prevDate = shiftDate(data.date, -1);
-  const nextDate = shiftDate(data.date, 1);
+  // PB5: jump only to the nearest issue with content; never past today. null → no link.
+  const { prevDate, nextDate } = await findAdjacentDates(data.date, today);
   const indexNumbers = new Map<string, number>();
   let indexSeq = 0;
   for (const section of sections) {
@@ -349,13 +350,21 @@ export default async function Home({
           <p className="tagline">AI社員の話題を、毎朝まとめて</p>
         </header>
         <nav className="issue-nav" aria-label="号の日付">
-          <a className="issue-nav-link" href={`/?date=${prevDate}`}>
-            ← 前日
-          </a>
+          {prevDate ? (
+            <a className="issue-nav-link" href={`/?date=${prevDate}`}>
+              ← 前日
+            </a>
+          ) : (
+            <span className="issue-nav-slot" aria-hidden="true" />
+          )}
           <span className="issue-nav-current">{formatIssueDate(data.date)}</span>
-          <a className="issue-nav-link" href={`/?date=${nextDate}`}>
-            翌日 →
-          </a>
+          {nextDate ? (
+            <a className="issue-nav-link" href={`/?date=${nextDate}`}>
+              翌日 →
+            </a>
+          ) : (
+            <span className="issue-nav-slot" aria-hidden="true" />
+          )}
         </nav>
         <main>
           <Featured

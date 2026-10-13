@@ -21,10 +21,11 @@ const serif = Shippori_Mincho({
 });
 
 export const metadata: Metadata = {
-  title: "みんなのデジタル社員",
+  title: "みんなのデジタル社員｜AI秘書・AI社員の事例とツール",
   description: "AI社員の話題を、毎朝まとめて",
   openGraph: {
-    title: "みんなのデジタル社員",
+    title: "みんなのデジタル社員｜AI秘書・AI社員の事例とツール",
+    siteName: "みんなのデジタル社員",
     description: "AI社員の話題を、毎朝まとめて",
     images: [{ url: "/og.png", width: 1200, height: 630, alt: "みんなのデジタル社員" }],
   },

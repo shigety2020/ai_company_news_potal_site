@@ -337,7 +337,10 @@ export default async function Home({
         <header className="masthead">
           <div className="masthead-brand">
             <div className="masthead-title-row">
-              <h1 className="logo">みんなのデジタル社員</h1>
+              <div className="logo-lockup">
+                <span className="logo-mark" aria-hidden="true">み</span>
+                <h1 className="logo">みんなのデジタル社員</h1>
+              </div>
               <p className="vol">VOL.001</p>
             </div>
             <p className="disclaimer">※実在の人間の求人情報ではありません</p>

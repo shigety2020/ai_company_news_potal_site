@@ -78,6 +78,29 @@ img {
   white-space: nowrap;
 }
 
+.logo-lockup {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.logo-mark {
+  display: inline-flex;
+  flex: 0 0 24px;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 5px;
+  background: var(--accent);
+  color: #ffffff;
+  font-family: var(--font-sans), "Noto Sans JP", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+}
+
 .disclaimer {
   color: var(--muted);
   font-size: 11px;
@@ -297,6 +320,18 @@ img {
   .logo {
     font-size: 32px;
     letter-spacing: 0.08em;
+  }
+
+  .logo-lockup {
+    gap: 12px;
+  }
+
+  .logo-mark {
+    flex-basis: 32px;
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    font-size: 20px;
   }
 
   .masthead {

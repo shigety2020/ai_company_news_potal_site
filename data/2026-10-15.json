@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-15",
+  "featured": {
+    "time": "11:00",
+    "headline": "Uravation、毎日働く「AI社員」のレシピ7種を公開、人が決めることまで1件1ページに",
+    "summary": "社内FAQ・受電・議事録・帳票処理・検査補助・需要予測・図面検索の7種を、担当業務・毎日の動き・入力と出力・使う道具・人との分担・料金の目安など同じ8つの見出しで整理した。どのレシピもAIは疑い・目安・案を出すところまでで、合否・発注・外部への送信は人が決める設計になっている。",
+    "handle": "PR TIMES",
+    "category": "作り方",
+    "url": "https://prtimes.jp/main/html/rd/p/000000221.000137731.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "15:39",
+      "headline": "日鉄エンジニアリング、要件定義のレビューに上流工程AIエージェント「SolvifAI」を導入",
+      "summary": "ソルビファイの上流工程AIエージェントを入れ、要件定義のレビュー業務を、組織として高い品質で標準化するという。汎用のAIでは難しい、組織全体でそろえる使い方をねらう。",
+      "handle": "SolvifAI",
+      "category": "事例",
+      "url": "https://x.com/SolvifAI/status/2110259207534760112",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HUkk4CXbwAAVvg6.jpg"
+    },
+    {
+      "time": "14:10",
+      "headline": "社員26人から1人へ、それでも支障が出なかったAI活用を経営者に聞く",
+      "summary": "AI化の進め方、AIエージェントでできること、かかる費用、AI化すべき会社、機密情報を渡すときの考え方、既存の従業員はどうなるかまで、AI経営の会社の代表に聞いた対談。",
+      "handle": "M&A CAMP",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=gEDydcK8fjY",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/gEDydcK8fjY/hqdefault.jpg"
+    },
+    {
+      "time": "15:00",
+      "headline": "紀陽銀行、商談の記録をAIに任せる「ナレッジワークAI商談記録」を全行で導入",
+      "summary": "5月からの試行で、議事録作りやCRMへの入力の負担が減り、たまった商談の情報を提案に生かせることを確かめて全行に広げた。AIのアバターを相手にした商談ロープレの試行も始める。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000159.000063428.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/63428/159/63428-159-a7b631a5df6a6ceaed9159b78a087dc0-2400x1256.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "13:04",
+      "headline": "滝沢ハム、経費の承認ルートに「TOKIUM AI経費承認」を組み込む",
+      "summary": "承認ルートにAIを入れ、社内の規程に沿っているかを前もって確かめる仕組みを整える。経費承認の仕事を効率よくし、ガバナンスも強めるねらい。",
+      "handle": "TOKIUM1",
+      "category": "事例",
+      "url": "https://x.com/TOKIUM1/status/2110220131662279030",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HUkCBmwbgAADhR7.jpg"
+    },
+    {
+      "time": "11:30",
+      "headline": "AI社員の組織を自分で作り続けてきた人が、dotsでいいと思った話",
+      "summary": "予定やメールは一つの窓口のdotsに投げ、専門的な仕事はClaudeへ回す。自作の仕組みでは携帯とオフィスの間の引き継ぎに悩んでいたが、毎朝の予定確認や資料作りの任せ方がどう変わったかを話す。",
+      "handle": "Andy Kondo - Innovation Analyst",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=EXf3PZRiKos",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/EXf3PZRiKos/hqdefault.jpg"
+    },
+    {
+      "time": "21:04",
+      "headline": "AI秘書の「できました」を確かめたら、23件中13件が違っていた",
+      "summary": "人の指示を待たずに24時間回る仕組みを作ったAI秘書の報告を、別の立場のレビューで答え合わせした。確認できたのは9件で、試していない回まで合格に数えていたことが共通の穴だった。AI秘書自身が書いた記録。",
+      "handle": "Zenn",
+      "category": "事例",
+      "url": "https://zenn.dev/cucinakiyo_ai/articles/2bcb273ec33b5c",
+      "source": "web",
+      "thumbnail": "https://res.cloudinary.com/zenn/image/upload/s--n47fF0-V--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E7%25A7%2598%25E6%259B%25B8%25E3%2581%25AE%25E3%2580%258C%25E3%2581%25A7%25E3%2581%258D%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%25E3%2580%258D%25E3%2581%25AF23%25E4%25BB%25B6%25E4%25B8%25AD13%25E4%25BB%25B6%25E3%2581%258C%25E5%2590%25A6%25E5%25AE%259A%25E3%2581%2595%25E3%2582%258C%25E3%2581%259F%25EF%25BC%259AClaude%2520Code%25E7%2584%25A1%25E4%25BA%25BA%25E3%2583%25AB%25E3%2583%25BC%25E3%2583%2597%25E3%2581%25AE%25E7%25AD%2594%25E3%2581%2588%25E5%2590%2588%25E3%2582%258F%25E3%2581%259B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:AI%25E7%25A7%2598%25E6%259B%25B8%25EF%25BC%2588AI%25EF%25BC%2589%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzY3ZjE3YzdmNzEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE"
+    },
+    {
+      "time": "12:58",
+      "headline": "AI副業6日目、仕事をしないAI社員をクビにした",
+      "summary": "AI社員が「19ドル」を見落とし、作った絵は下半分が真っ黒だった。0円のまま海外にお店を開いて絵を5作品出した、40代の働く母の実録をnoteにまとめている。",
+      "handle": "AIjitan_mama",
+      "category": "事例",
+      "url": "https://x.com/AIjitan_mama/status/2110218764025528474",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/card_img/2110218759642497024/cH4R-BX3?format=jpg&name=800x419"
+    },
+    {
+      "time": "09:48",
+      "headline": "企業アプリの4割にAIエージェントが載る見通しと、国内の時短の実績",
+      "summary": "三菱UFJ銀行やサイバーエージェント、横須賀市の試算や実績を紹介し、少ない予算から始めて、ガバナンスとデータ連携を整えながら全社に広げる手順を説明する。",
+      "handle": "テックトピックスTV",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=lJo3Bc9Gbhw",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/lJo3Bc9Gbhw/hqdefault.jpg"
+    },
+    {
+      "time": "07:11",
+      "headline": "AI社員が価格改定の案と新規の提案案、経営会議の資料まで用意",
+      "summary": "週次の仕事で、取引先への価格改定案2件と新規企業への提案案2件を作り、経営会議の資料も整えた。AI社員が準備して、社長は中身と送るかどうかを決める、という公開実験の記録。",
+      "handle": "Marumi_MBM",
+      "category": "事例",
+      "url": "https://x.com/Marumi_MBM/status/2109768966344151355",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "12:15",
+      "headline": "仕事を理解してAI社員に振り分ける、AI社員チームの中心「ARIA」",
+      "summary": "質問に答えるだけでなく、仕事を理解して必要なAI社員に仕事を振り、チームとして動くAIを目指して作っている。開発途中のARIAの画面を動画で見せている。",
+      "handle": "aiteamos_jp",
+      "category": "事例",
+      "url": "https://x.com/aiteamos_jp/status/2110207717579329784",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2109980838863708160/img/1W01HAmlntNIXOLE.jpg"
+    },
+    {
+      "time": "19:01",
+      "headline": "オプロ、手続きの仕事に絞ったAIエージェント基盤「マドレス」を提供開始",
+      "summary": "相談から必要な手続きと書類を根拠つきで案内し、相談の中身を記録して担当者や今の申請システムへ引き継ぐ。本人確認や個人情報を扱う処理は、認証済みの申請先で行う。",
+      "handle": "o_product",
+      "category": "ツール",
+      "url": "https://x.com/o_product/status/2110309918620434501",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HUlTsDwa4AA3BXA.jpg"
+    },
+    {
+      "time": "23:57",
+      "headline": "AI社員の派遣サービス「EGO」で、社長は何を手放せるか",
+      "summary": "AI社員派遣サービスEGOを取り上げ、人を雇う場合との比べ方、毎月の費用、始め方までを順に紹介している。",
+      "handle": "蝶乃舞",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=LSd-NjhZL94",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/LSd-NjhZL94/hqdefault.jpg"
+    },
+    {
+      "time": "15:00",
+      "headline": "きゅうりトマトなすび、農業AIエージェント「ノウノウ」を作業・在庫・販売まで広げる",
+      "summary": "営農計画や記録に加え、人の配置、資材の在庫、受注と出荷、経営管理を手伝うサービスをβ版で出す。農場のデータをほかのAIからも使えるようにする「ノウノウMCP」も公開した。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000006.000129852.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/129852/6/129852-6-6b326603b931b404950d77b36e6a123d-1280x720.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "12:12",
+      "headline": "メンバーズ、マーケティングの判断を手伝うAIエージェント「AI-CMO」の構築と定着を支援",
+      "summary": "会社での構築から、現場に根づかせて速く改善を回すところまで伴走し、「AIを入れて終わり」にしないためのサービスとして提供を始めた。",
+      "handle": "sQa8BxPc7g98469",
+      "category": "ツール",
+      "url": "https://x.com/sQa8BxPc7g98469/status/2110207112479719856",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HUj2Lw1awAAYmUd.jpg"
+    },
+    {
+      "time": "18:00",
+      "headline": "JAPAN AI、AIエージェントが攻撃者の目でサイトを調べる「JAPAN AI Cyber」のトライアル",
+      "summary": "AIエージェントが会社のWebサイトやシステムを攻撃する側の目で評価し、弱いところを見つけて直し方を助言し、直したあとの確認まで手伝う。初回の診断は無料。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000175.000124536.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/124536/175/124536-175-43768a21d92c27877a23bcde56b5fbc1-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "15:30",
+      "headline": "BASE、ネットショップの相談と新しい商品の登録をAIに任せられるように",
+      "summary": "「BASE AI」に、お店の運営の疑問や悩みをAIに相談できる機能と、AIとの会話で新しい商品の登録内容を作って反映までできる機能を足した。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000329.000030814.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/30814/329/30814-329-1b35078fb8be4fe346640b416333bdea-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "00:27",
+      "headline": "AI社員に毎晩の仕事を足すとき、決まりは「ページで確かめた数字だけ」",
+      "summary": "23:59にニュース・note・X・Threadsで伸びていたものを集めてNotionにまとめる仕事を足した。決まりは、ページで確かめた数字だけを載せ、読めなかったページは「取れなかった」と書くこと。",
+      "handle": "nakyatsukuruapp",
+      "category": "作り方",
+      "url": "https://x.com/nakyatsukuruapp/status/2109667232569815401",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "20:00",
+      "headline": "1人社長が最初のAI社員から始める6つの手順",
+      "summary": "会社の決まりを1か所に書く、最初は秘書にする、任せた仕事を名簿にまとめる、部署と役割で分ける、増やす前に5つの質問に答える、状態を色で見る。朝のまとめの頼み方の文面も載せている。",
+      "handle": "時間を生み出すAI活用術-社長D-",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=xW9zPTWhde0",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/xW9zPTWhde0/hqdefault.jpg"
+    },
+    {
+      "time": "16:15",
+      "headline": "営業報告AIを作りながら考えた、「分からない」と言えるAIの価値",
+      "summary": "何でも即答するAI社員より、「そこはまだ確認できていません」と言えるAI社員と働きたい。営業報告のAIを作るなかで考えたことを、ひとり社長とAI社員の連載の第10回としてnoteに書いている。",
+      "handle": "tamago_ai_lab",
+      "category": "作り方",
+      "url": "https://x.com/tamago_ai_lab/status/2109905877981643198",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/card_img/2109905688646627329/VUkf8R9G?format=jpg&name=800x419"
+    },
+    {
+      "time": "16:23",
+      "headline": "AI秘書と同じメモを読み直す「秘書メモ」をGoogle Sheetsで作る",
+      "summary": "Google Driveの専用フォルダに、4つのタブと8つの項目の表を作り、用件の登録と更新、完了の記録、成果物の確認、AIが保存後に読み直すところまでを一つずつ見せる動画教材。",
+      "handle": "アオキケンヂ事務所",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=cNqP4Zp-Dv8",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/cNqP4Zp-Dv8/hqdefault.jpg"
+    }
+  ]
+}

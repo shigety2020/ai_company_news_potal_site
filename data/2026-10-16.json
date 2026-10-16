@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-16",
+  "featured": {
+    "time": "10:00",
+    "headline": "インディゴデータ、SlackやTeamsに部下として加わるAI社員「ヒトタスAI」を提供開始",
+    "summary": "いつものチャットに招待するだけで使え、メンションで社内資料を根拠に答える。専用画面を開く手間をなくし、「導入したのに使われない」を防ぐ設計。まずは1か月の無償トライアルから始められる。",
+    "handle": "PR TIMES",
+    "category": "ツール",
+    "url": "https://prtimes.jp/main/html/rd/p/000000013.000088277.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "07:00",
+      "headline": "AI社員を作って監査したら10点満点で5点、原因は設計の曖昧さだった",
+      "summary": "成果の定義、任せる範囲、人が確認する場所がぼやけていた。AIを入れるとAIの弱点より、組織の曖昧さが見えてくる、という振り返り。",
+      "handle": "datamkting",
+      "category": "事例",
+      "url": "https://x.com/datamkting/status/2110490837411123320",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "14:00",
+      "headline": "1年で1.5億を売った会社が、Claude Codeで70人のAI社員チームを実演",
+      "summary": "AI社員と働く経営者が、70人規模のAI社員チームの回し方と仕事の自動化を画面で見せる。一人起業でもチームのように動かす事例。",
+      "handle": "AI超人いち【AI社員と働く経営者】",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=zIAA5LMF7Y0",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/zIAA5LMF7Y0/hqdefault.jpg"
+    },
+    {
+      "time": "16:00",
+      "headline": "AIで価値を創出する企業は約半数、BCGが調査結果を発表",
+      "summary": "生成AIやエージェントの導入が進むなか、実際に価値創出まで届いている企業の割合や、差がつく要因をまとめた調査。使われ方の数字で現場を伝える。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000049.000145445.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/145445/49/145445-49-556d19f5d5693d2940e5de0fe4c46946-1280x720.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "07:10",
+      "headline": "eBay出品の外注費が月21.8万円だった仕事を、AI社員がAPI代0円で回す",
+      "summary": "人間の外注に払っていた出品代を、AIがeBay APIで回す形に切り替えた公開実験。使いすぎても止まるだけで請求は来ない、という記録。",
+      "handle": "cham_ebay",
+      "category": "事例",
+      "url": "https://x.com/cham_ebay/status/2110855886843564496",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "18:00",
+      "headline": "経営者事例から出した、会社員も使えるAIエージェント活用術5選",
+      "summary": "経営の現場でうまくいった使い方をもとに、会社員でも取り入れやすいAIエージェントの活用を5つに整理して紹介する。",
+      "handle": "SHIFT AI ニュース",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=hejjX_z0fUw",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/hejjX_z0fUw/hqdefault.jpg"
+    },
+    {
+      "time": "07:13",
+      "headline": "顔出しが苦手な人が、Claude CodeでYouTube編集とAIエージェント活用を試した",
+      "summary": "3〜4か月放置していたチャンネルで顔出し動画を撮るまでの葛藤と、Claude Codeでの編集、動画で話したAIエージェントの3つの使い方をnoteにまとめている。",
+      "handle": "umino_chibi",
+      "category": "事例",
+      "url": "https://x.com/umino_chibi/status/2110856710264954923",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HUtE_fzWoAADSnw.jpg"
+    },
+    {
+      "time": "12:00",
+      "headline": "ChatGPTのdotsは何が凄い？AI秘書からAI首席補佐官への変化を考察",
+      "summary": "dotsが単なる秘書ではなく、判断の補佐まで踏み込むように見える点を、いけともchが裏側の仕組みと使いどころから解説する。",
+      "handle": "いけともch",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=9HbWnA7WmEY",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/9HbWnA7WmEY/hqdefault.jpg"
+    },
+    {
+      "time": "12:36",
+      "headline": "プログラミングできない会社員が、AI社員8人の小さな投資会社を作った",
+      "summary": "AIに株の意見を聞いて約12万円を失ったあと、「聞く」のをやめて「雇う」に切り替えた。作り方と失敗と成績を記事にまとめている。",
+      "handle": "KaiKai90000",
+      "category": "事例",
+      "url": "https://x.com/KaiKai90000/status/2102240605665730747",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "09:05",
+      "headline": "62歳、AI秘書を作った翌朝にスマホだけ塩対応だった話",
+      "summary": "布団の中で開いたら「わたしは○○ではありません」と返ってきた。PCを開くと秘書はちゃんと残っていて、スマホ側が迷子だっただけ、という実践記。",
+      "handle": "web3_AIart",
+      "category": "事例",
+      "url": "https://x.com/web3_AIart/status/2101100260479361459",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HSibZXYawAABiQC.jpg"
+    },
+    {
+      "time": "07:13",
+      "headline": "Docker公式「Docker Agent」、YAML定義でAIエージェントを動かせるCLI",
+      "summary": "コンテナを立ち上げる感覚でAIエージェントを動かす。YAMLで定義して docker agent run するだけで、手元のタスクを処理できる、という紹介。",
+      "handle": "Tyr_Nippon",
+      "category": "ツール",
+      "url": "https://x.com/Tyr_Nippon/status/2110856626999845001",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HUtE5K8bAAAnHNb.jpg"
+    },
+    {
+      "time": "20:00",
+      "headline": "Orca、Claude CodeやCodexなど複数AIエージェントの管理をラクにする",
+      "summary": "セッションが増えると頭が詰まりやすい問題に対し、AIエージェントの管理ツールOrcaの使い方と、認知負荷が下がるポイントを画面で見せる。",
+      "handle": "飯塚浩也 | Obsidianでつくる最強の右腕",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=cY29z3k-zHQ",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/cY29z3k-zHQ/hqdefault.jpg"
+    },
+    {
+      "time": "00:00",
+      "headline": "GMOランシステム、150種超の業務別AIエージェントと人が組むBPO「GENBA AI byGMO」",
+      "summary": "勤怠集計や請求書、問い合わせの一次対応などをAIが処理し、例外と最終確認は人が担う。初期費用無料、月額4.9万円から。",
+      "handle": "GMOインターネットグループ",
+      "category": "ツール",
+      "url": "https://group.gmo/news/article/10240/",
+      "source": "web",
+      "thumbnail": "https://group.gmo/public/pr/ja/images/10240/1791947137172.png"
+    },
+    {
+      "time": "20:30",
+      "headline": "OrcaRouter、AIエージェント向けデータツール集「Agent Tools」を提供開始",
+      "summary": "Web検索や企業・人物データなど1,400以上のツールを、1つのAPIキーとウォレットで従量課金で使える。月額契約は不要。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000111.000138449.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/138449/111/138449-111-c6a3e5676a9904793a3ba148ad34b36d-2400x1260.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "16:40",
+      "headline": "Figma、コードとコンテキストとAIエージェントをキャンバスに集約する新機能",
+      "summary": "Config Indiaで、クリエイティブの作業画面にコード・コンテキスト・AIエージェントをまとめる新機能を発表した。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000041.000097201.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/97201/41/97201-41-b92b13d43c2a1b4c784e6bdb71a55cfc-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "09:00",
+      "headline": "Kikuvi、AIエージェント基盤「Subako」のWeb管理画面とSDKを公開",
+      "summary": "これまでCLI中心だった運用をブラウザからも行えるようにし、TypeScript・Rust向けSDKでプロダクトへの組み込みを短く書ける。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000050.000164127.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/164127/50/164127-50-99e909af5af960e534d3d878d72dee40-1920x1080.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "07:13",
+      "headline": "AI社員を作るとき決めるのは役割・やらないこと・渡す順番・人が見る所の4つ",
+      "summary": "ファイルはClaudeに作ってもらえる。先に決めるべきはこの4つだった、という短い実践メモ。",
+      "handle": "46nekoie",
+      "category": "作り方",
+      "url": "https://x.com/46nekoie/status/2110856719605919771",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "20:00",
+      "headline": "自分より頭良く働き続けるAI社員の作り方を、最新トレンド込みで公開",
+      "summary": "AI仙人が、長く働き続けるAI社員の設計と作り方を、最近の潮流を交えて解説する動画。",
+      "handle": "AI仙人 【AI歴10年・ガチADHD男】",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=NCQZiT0e59g",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/NCQZiT0e59g/hqdefault.jpg"
+    },
+    {
+      "time": "10:00",
+      "headline": "予定・天気・占いを朝のメール1通にまとめる、自分専用AI秘書の作り方",
+      "summary": "ChatGPTと相談しながら、毎朝知りたい情報を1通に届けるAI秘書を作る。設定手順とコピペ用プロンプト付き。",
+      "handle": "kinpatsu_shafu",
+      "category": "作り方",
+      "url": "https://x.com/kinpatsu_shafu/status/2109092104253395218",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/card_img/2109091775147315200/w5YBYK6h?format=jpg&name=800x419"
+    },
+    {
+      "time": "13:00",
+      "headline": "Claude OpusでJARVIS型のAI秘書を作り、業務を効率化する手順",
+      "summary": "無料配布のJARVISを使い、Claude Opus 5.5で自分用のAI秘書を組む方法を画面付きで説明する。",
+      "handle": "ひらまさ | AI Automation",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=jfkSAT6DVvM",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/jfkSAT6DVvM/hqdefault.jpg"
+    },
+    {
+      "time": "07:12",
+      "headline": "AI社員11人に最初に教えたのは「やったらあかんこと」",
+      "summary": "送らない、公開しない、勝手に決めない。線を先に引くと、その内側は安心して任せられる、という現場の教え方。",
+      "handle": "70dDa5c7TBqKRQ0",
+      "category": "作り方",
+      "url": "https://x.com/70dDa5c7TBqKRQ0/status/2110856240515453295",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2109514002128900096/img/4pGwUGM_PUedunvV.jpg"
+    }
+  ]
+}

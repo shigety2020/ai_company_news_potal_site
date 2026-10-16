@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-17",
+  "featured": {
+    "time": "18:00",
+    "headline": "JAPAN AI、Webページ上でAIが作業する「ブラウザアシスタント」の正式版を提供開始",
+    "summary": "メールや顧客管理の画面を開いたまま、サイドパネルからAIに質問や文章作成を頼め、入力や更新の操作も指示すればAIが代わりに進める。正式版では、よく使う指示をサイトごとの「ショートカット」にできる。ChromeとEdgeに対応。",
+    "handle": "PR TIMES",
+    "category": "ツール",
+    "url": "https://prtimes.jp/main/html/rd/p/000000176.000124536.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "12:20",
+      "headline": "AI社員のネタ会議がXの投稿だけを基準にしていた、伝え方の難しさ",
+      "summary": "社長はnote・X・Instagram・Threadsまで考えた会議を望んでいたのに、AI社員はXだけを前提にしていた。人に伝えるのと同じく、AI社員に伝えるのも難しいという気づき。",
+      "handle": "333kaku",
+      "category": "事例",
+      "url": "https://x.com/333kaku/status/2110933842874023962",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HUuKmNRbsAAYqER.jpg"
+    },
+    {
+      "time": "18:00",
+      "headline": "提案書2時間が実作業5分に、AI顧問の導入で社員がアプリを自作した会社",
+      "summary": "飲食店のマーケティングを支援するルート株式会社に、AI顧問（CAIO代行）を入れたあとの変化を、代表・営業・カスタマーサクセスの担当と対談で聞く。",
+      "handle": "かいちのAI大学 / Saix(サイクス)",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=_EcxdvKC1bY",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/_EcxdvKC1bY/hqdefault.jpg"
+    },
+    {
+      "time": "15:30",
+      "headline": "エクサウィザーズ「AI Innovators Forum 2026」、4,862名が申し込んだ開催レポート",
+      "summary": "三井住友FGのAI投資倍増の判断や、DeNAなどの登壇者による少人数・高速の事業づくりなど、先進企業のAI活用事例と議論の中身をまとめている。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000508.000030192.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/30192/508/30192-508-b8a45590e7905b4ae3d22a89c7b50f89-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "07:00",
+      "headline": "「値引きは任せない、と決めたのは社長です」とAI社員に返された",
+      "summary": "メールの返事を「いい感じに」と丸投げしたら、AI社員が先に決めた線引きを持ち出して止めた。社員ゼロで11年の経営者がAIを雇う日々の22日目。",
+      "handle": "oji_ai_hire",
+      "category": "事例",
+      "url": "https://x.com/oji_ai_hire/status/2110853234034139207",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "20:00",
+      "headline": "うどん屋の親父が、AI社員にオフィスを作ってから店のホームページを作り直させた",
+      "summary": "畑を耕すようにこつこつと、AIの社員に仕事場を用意し、自分の店のホームページを作り直させた記録。",
+      "handle": "JIPUSHI うどん屋の親父のAI会社",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=4MB2AcLJlAs",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/4MB2AcLJlAs/hqdefault.jpg"
+    },
+    {
+      "time": "14:35",
+      "headline": "AI社員を個人PCから自社サーバーへ引っ越したら「いつもの習慣」を忘れていた",
+      "summary": "コールセンターと結婚相談所を経営する社長が、AI社員の置き場所を移したときに起きたことをnoteにまとめている。",
+      "handle": "yu_ichi1101",
+      "category": "事例",
+      "url": "https://x.com/yu_ichi1101/status/2110605379327676572",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "00:39",
+      "headline": "AI社員が増えて誰が何をしているか分からず、仕事を見える化するダッシュボードを作った",
+      "summary": "社長の自分でも把握できなくなったので、AI社員の仕事を一覧できる画面を作ってみた、というAI会社づくりの実体験。",
+      "handle": "kosodatetomo74",
+      "category": "事例",
+      "url": "https://x.com/kosodatetomo74/status/2111119868007481663",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/card_img/2111119635076767744/DaqS8_74?format=jpg&name=800x419"
+    },
+    {
+      "time": "09:59",
+      "headline": "ミスターマックスHD、Snowflakeでデータ抽出を2時間から数分に、AIエージェント活用へ",
+      "summary": "データ基盤を刷新し、初期設定と運用の見直しで費用を40％削減。朝7時出社だった店長が8時出社になった事例を、Snowflake Japanが紹介している。",
+      "handle": "Snowflake_Japan",
+      "category": "事例",
+      "url": "https://x.com/Snowflake_Japan/status/2110536027534504319",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HUohSm_bgAAR9ql.jpg"
+    },
+    {
+      "time": "16:04",
+      "headline": "Aligned、商談の共有ルームを会話で編集できる「Seller Agent」を発表",
+      "summary": "「提案文を直して」「次の予定を更新して」と頼むと、資料を置いている場所で提案文の書き直しや、売り手と買い手の行動計画の更新が進む。",
+      "handle": "wowwowai",
+      "category": "ツール",
+      "url": "https://x.com/wowwowai/status/2110627950659842338",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HUp0763WwAAYPnI.jpg"
+    },
+    {
+      "time": "19:16",
+      "headline": "Notionのボタンからカスタムエージェントを動かす新アクションを実演",
+      "summary": "ページ内のボタンやデータベースのボタンから「エージェントにメッセージを送信」を設定し、営業の顧客管理でリード整理から提案資料づくりまで進める。",
+      "handle": "ビジネスで使えるNotion by Kazuki",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=01fHWJkhuYA",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/01fHWJkhuYA/hqdefault.jpg"
+    },
+    {
+      "time": "10:00",
+      "headline": "アセンド、電話の受付から通話後のCRM登録・通知までAIが進める「AgenFlow」",
+      "summary": "問い合わせ受付・予約・案内・ヒアリングの電話をAIが担い、聞き取った内容の記録や担当者への連絡まで一連の流れとして組み立てられる。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000097.000039866.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/39866/97/39866-97-991336ee9756e314cadacd8b700a089a-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "16:34",
+      "headline": "ChatGPTのChrome拡張がタブを見渡せるように、整理とフォーム入力まで任せてみた",
+      "summary": "10月16日に発表されたタブ機能を、架空のコーヒー豆の店の仕事で試し、開きっぱなしのタブ整理と展示会の申込フォーム入力が実務で使えるかを確かめる。",
+      "handle": "仕事に活かすAI実務検証室",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=T8Fcgw8nBco",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/T8Fcgw8nBco/hqdefault.jpg"
+    },
+    {
+      "time": "15:00",
+      "headline": "EventHub、ClaudeなどのAIエージェントからイベント情報を扱える「EventHub MCP」を公開",
+      "summary": "国内のイベントマーケティング基盤で初めての公式MCPサーバー。集客や運営の作業をAIエージェントに任せ、企画や顧客との対話に時間を回せるようにする。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000213.000031178.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/31178/213/31178-213-2816cd42387aa5029e2b750ef574f80a-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "21:40",
+      "headline": "Incerto、患者情報を院外に出さずに生成AIを使える「院内ローカルAI基盤」",
+      "summary": "院内に専用の機器を置いてAIの実行環境を作り、導入前のセキュリティ点検から保守まで担う。音声カルテAIなど院内で動く4つのAIを無料で付ける。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000023.000181058.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/181058/23/181058-23-79503a83c3ef8e7900959c50609ff448-2400x1260.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "15:00",
+      "headline": "アイネス、自治体の福祉業務を支えるAIエージェントを2027年4月から販売",
+      "summary": "160団体以上が使う行政システム「WebRings」に生成AIエージェントを組み込み、窓口の情報から必要な手続きを推論して画面へ案内する。属人化しやすい福祉業務を支える。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000009.000149785.html",
+      "source": "web",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "21:00",
+      "headline": "質問に4つ答えるだけ、毎日自分で育つAI社員の作り方を公開",
+      "summary": "「次からこうして」と何度も言わなくても済むように、AI社員が自分で成長していく仕組みの作り方をまとめている。",
+      "handle": "kouranokame7",
+      "category": "作り方",
+      "url": "https://x.com/kouranokame7/status/2111064779360264272",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HUwCOGYa4AAMKXy.jpg"
+    },
+    {
+      "time": "18:00",
+      "headline": "Claude Code完全入門、プログラミングゼロでAI社員に会社の仕事を任せるまで",
+      "summary": "営業・集客・経理・人事・経営の5人の担当と秘書を作る手順を7ステップで実演。会社情報の渡し方、仕事のマニュアル、安全に任せるルールまで画面で見せる。",
+      "handle": "福田卓馬【AI×会社経営】EXTAGE株式会社",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=tmkbazAA6l8",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/tmkbazAA6l8/hqdefault.jpg"
+    },
+    {
+      "time": "08:18",
+      "headline": "お知らせの文はAI社員に3案出してもらい、残したい行に印を付けてつなぐ",
+      "summary": "営業時間の変更や臨時休業のお知らせを、3案を並べて選び、1枚に整えるところまでAI社員に頼む手順。どの言葉で届けるかは自分で決める。",
+      "handle": "allez_design",
+      "category": "作り方",
+      "url": "https://x.com/allez_design/status/2110872850017976418",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2110529714205110272/img/zzTm_PrbzFkK9X7G.jpg"
+    },
+    {
+      "time": "20:48",
+      "headline": "自分の分身を育てる、考え方・口調・判断基準をObsidianに溜める",
+      "summary": "考え方・口調・判断基準を書いた「分身ノート」3枚を、Claude Codeにインタビューしてもらって作り、AIの出力を自分らしくする方法。",
+      "handle": "エレン【30日でAI組織を作る】",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=6qFKny4EkJQ",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/6qFKny4EkJQ/hqdefault.jpg"
+    },
+    {
+      "time": "09:02",
+      "headline": "問い合わせ対応AIの導入、成功と失敗を分けるのは範囲・体制・検証の3条件",
+      "summary": "問い合わせ対応のAIエージェントを入れるとき、失敗事例の共通点と、うまくいった企業の導入ステップを順に解説している。",
+      "handle": "hiroaki_weben",
+      "category": "作り方",
+      "url": "https://x.com/hiroaki_weben/status/2110883960737923076",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/card_img/2110883969915035648/Hrz7ef__?format=jpg&name=800x419"
+    }
+  ]
+}

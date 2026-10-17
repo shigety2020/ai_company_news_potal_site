@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-18",
+  "featured": {
+    "time": "09:30",
+    "headline": "XiNAPSE、いつものChatGPTやClaudeを仕事の経緯を覚えている秘書にする「XiNAPSE-Agent」β版",
+    "summary": "取引先や案件ごとの経緯を利用者のGoogleドライブに記録していくので、新しいチャットを開いても、AIを替えても「A社の件、続きから。」の一言で前回の続きから相談できる。ChatGPTかClaudeのどちらか一方で使え、設定の目安は約30分。",
+    "handle": "PR TIMES",
+    "category": "ツール",
+    "url": "https://prtimes.jp/main/html/rd/p/000000001.000192766.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "17:29",
+      "headline": "非エンジニアの営業マンがAI社員10人体制でアプリ7本を同時経営、第8回は実装からリリースまで",
+      "summary": "AI社員と会社を経営している営業マンの連載の第8回。アプリの実装からリリース、アプリへお客さんを送るところまでをnoteにまとめている。",
+      "handle": "7ve0le",
+      "category": "事例",
+      "url": "https://x.com/7ve0le/status/2111373936076497009",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/card_img/2111373922994405376/vugNTMsn?format=jpg&name=orig"
+    },
+    {
+      "time": "19:00",
+      "headline": "AIにクビにされた48歳が、AIエージェント12体と起業して12週で年4,500万円ペースに",
+      "summary": "元手300ドル、エンジニアも出資もゼロで仲間2人と始めた会社が、投資家からの出資を断るまで。Fortuneの記事と会社の公開情報から追っている。",
+      "handle": "Masayume AI Lab",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=1DzE1ajv7a8",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/1DzE1ajv7a8/hqdefault.jpg"
+    },
+    {
+      "time": "10:00",
+      "headline": "アテナ、Claudeを安全に使える「AIセキュリティ環境」を自社で作り全社に広げた",
+      "summary": "個人情報を扱うBPO企業が、社員のいつものアカウントでログインするだけでClaudeを使える環境をAmazon Bedrock上に構築。AIの処理を国内に限り、PCの設定までまとめて管理している。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000021.000121737.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/121737/21/121737-21-98a08f47fd86313f0d2d4d82a73e9744-2667x1500.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "16:07",
+      "headline": "AI社員の学習ログをためる仕組みを作ろうとしたら、9人分の業務規定を全部見直すことになった",
+      "summary": "当初はGoogle Driveを使う予定だったが、ChatGPTのライブラリの読み書きでも対応できた。将来のAIエージェント化に向けた組織の土台づくりで、効果はこれから。",
+      "handle": "SINGLATELIER",
+      "category": "事例",
+      "url": "https://x.com/SINGLATELIER/status/2111353452853154138",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/card_img/2111353454858014720/h2dO1fB7?format=jpg&name=orig"
+    },
+    {
+      "time": "12:27",
+      "headline": "ChatGPTの「dots」に、AIニュースの調査からXへの自動投稿まで任せてみた",
+      "summary": "OpenAIの新機能dotsをAI秘書として使い、ニュースの下調べから投稿までどこまで任せられるかを試している。",
+      "handle": "ひろエンジニア社長 / AI大全",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=DRmvVR6BorQ",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/DRmvVR6BorQ/hqdefault.jpg"
+    },
+    {
+      "time": "08:04",
+      "headline": "非エンジニアの元テレビ報道ディレクターが作ったAIエージェント、Google主催の国際ハッカソンで部門1位",
+      "summary": "AIのコーディングエージェントと約5週間で開発した「CurrentCut」が、撮影したその夜に出典確認と仮編集の下準備を進める。日本から唯一の受賞。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000010.000036510.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/36510/10/36510-10-f19b1377efd7f7bd69ce3bd9573e04e2-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "18:30",
+      "headline": "経理のAI社員からの質問15件のうち14件は、すでにあるルールで答えが出るものだった",
+      "summary": "持ち場を決めて最後の判断は人がする経理のAI社員。原因の一つは、AIが途中で自分で足した条件だった。",
+      "handle": "info_HARKsb",
+      "category": "事例",
+      "url": "https://x.com/info_HARKsb/status/2111389396381659354",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "22:02",
+      "headline": "AI社員の「投稿を作れません」という報告を、システムが完成原稿と取り違えた",
+      "summary": "396文字だからと別のAI社員に短縮までさせていた。原因は文字数ではなく、原稿があるかを確かめていなかったこと。",
+      "handle": "tobari2982",
+      "category": "事例",
+      "url": "https://x.com/tobari2982/status/2111442605116457364",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "12:30",
+      "headline": "人間1人とAI社員6体で、1週間に161件のタスクをこなしている",
+      "summary": "ひとりで動かしているAI社員6体の1週間の仕事ぶりを、動画で見せている。",
+      "handle": "mekariza_",
+      "category": "事例",
+      "url": "https://x.com/mekariza_/status/2111298750543220760",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/2111298680884224000/pu/img/P8ejtbuGqGATJOV0.jpg"
+    },
+    {
+      "time": "08:45",
+      "headline": "NVIDIA、RTX Spark搭載のWindowsノートを発売、AIエージェントを手元のPCで動かす流れに",
+      "summary": "ASUS・Dell・HP・Lenovo・Microsoft・MSIから出荷。クラウドと手元のPCをAIエージェントでどう使い分けるかが焦点になりそう。",
+      "handle": "daigomiyoshi_ai",
+      "category": "ツール",
+      "url": "https://x.com/daigomiyoshi_ai/status/2111242069687853079",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/2111242041103712256/pu/img/Bw6ZgxaxriDiDr7T.jpg"
+    },
+    {
+      "time": "19:00",
+      "headline": "中田敦彦がChatGPTの新機能「dots」を解説、業務を丸ごと任せるAI秘書の時代へ",
+      "summary": "9月29日のDevDayで発表されたdotsを、AI秘書として仕事を任せる道具として紹介し、「質問する力」から「担当する力」への変化を語る。",
+      "handle": "中田敦彦のYouTube大学 - NAKATA UNIVERSITY",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=azx8Up-cSWA",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/azx8Up-cSWA/hqdefault.jpg"
+    },
+    {
+      "time": "10:00",
+      "headline": "ゴムマリ、受注実績から「行くべき会社」の基準を言葉にする『営業リスト作成』AIエージェント",
+      "summary": "過去の受注一覧を入れると、受注できた会社に共通する条件をAIが分析し、理由つきのターゲットリストと選定基準を出す。ベテラン営業の頭の中の基準を、担当者が替わっても残る形にする。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000007.000185093.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/185093/7/185093-7-90760dd626ac79ec92fe7ceb0e4a9281-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "05:15",
+      "headline": "Figma、「Config India」でコードとAIエージェントをキャンバスに集める新機能を発表",
+      "summary": "コード、コンテキスト、AIエージェントを一つのクリエイティブキャンバスにまとめる新機能を、AIニュースアプリの公式アカウントが伝えている。",
+      "handle": "sQa8BxPc7g98469",
+      "category": "ツール",
+      "url": "https://x.com/sQa8BxPc7g98469/status/2111551715505995785",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HU29F-cbcAAUlti.jpg"
+    },
+    {
+      "time": "07:21",
+      "headline": "AI記帳のtofuがClaudeとつながり、経理の仕訳データを会話で探して集計できるように",
+      "summary": "書類の検索、取引先別の集計、監査用Excelの出力、仕訳ルールの一括登録をClaudeとの会話で行えるコネクタのベータ版を解説。",
+      "handle": "琥珀@ビジネス未来地図",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=34aAsS6pwek",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/34aAsS6pwek/hqdefault.jpg"
+    },
+    {
+      "time": "06:20",
+      "headline": "ポップコーン、Slackに常駐するAI社員「あきな」と社内AI研修を提供開始",
+      "summary": "全員がClaude Codeを使う自社の運用を公開。AI利用ポリシー、全10章の研修、理解度テスト、役職別のAI権限設計までをまとめて企業に提供する。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000130.000033900.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/33900/130/33900-130-51d32a5b5bbbc1c897b47d3efc0911d7-2400x1260.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "19:00",
+      "headline": "介護事業者向けAIメンター「MentCare」に、シフト作成を自動化するAIシフト機能",
+      "summary": "条件に合わせたシフト案の自動作成から、連勤や人数不足のチェック、人手が足りない日の応援配置までを一つのサービスで行える。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000006.000187394.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/187394/6/187394-6-516a2df4ad1b6755c0ba79094670ae13-1847x851.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "21:41",
+      "headline": "調べものをAI社員に渡すときは「1行ごとに出どころを添えて」のひと言を足す",
+      "summary": "仕入れ先の比較や制度の条件を、知りたいこと・調べる範囲・まとめる形を伝えて表にしてもらう。出どころがあれば元のページで確かめられる。",
+      "handle": "allez_design",
+      "category": "作り方",
+      "url": "https://x.com/allez_design/status/2111437319743910370",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2110773335353380867/img/YE2jqi7Tws-3t3C8.jpg"
+    },
+    {
+      "time": "20:00",
+      "headline": "社長専属のAI秘書を作る方法、毎朝の確認・依頼の整理・返事待ちをClaude Codeに任せる",
+      "summary": "情報を集める、やることを整理する、対応が必要なものを知らせる仕事をAI秘書に任せる。実際に使っている朝のまとめと、Claude Codeで朝のまとめを1つ作るところまでを見せる。",
+      "handle": "時間を生み出すAI活用術-社長D-",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=4fEQilB1qjA",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/4fEQilB1qjA/hqdefault.jpg"
+    },
+    {
+      "time": "12:15",
+      "headline": "AI社員の報告は「結論1行と、次にやること1つ」で返してもらう",
+      "summary": "報告が長すぎて読む気がなくなる問題を、返し方を決めて頼むことで解決。朝のチェックが一気にラクになった。",
+      "handle": "ramuko_3keta",
+      "category": "作り方",
+      "url": "https://x.com/ramuko_3keta/status/2111294904110546970",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "20:00",
+      "headline": "社長の確認待ちで仕事を止めない、Claude Codeに任せる準備と人が決めることの分け方",
+      "summary": "会社ルールを渡し、先に進められる準備と人の承認が要る判断を分ける。3つの架空の依頼で、判断表と返信の下書きが食い違っていないかを確かめる。",
+      "handle": "ソウタのAIインスタ大学",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=6lGo5zoaOgo",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/6lGo5zoaOgo/hqdefault.jpg"
+    }
+  ]
+}

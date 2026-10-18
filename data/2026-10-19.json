@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-19",
+  "featured": {
+    "time": "09:39",
+    "headline": "GotoAI、デスクトップAIエージェント「Kari」にCSV・Excelの分析を任せられる機能を追加",
+    "summary": "いつものClaudeやChatGPTのサブスクのまま、生データの読み込みから結合、集計、グラフ作成、示唆出しまでをAIに任せられる。処理はPythonスクリプトとして残るので、あとから確かめたりやり直したりできる。個人と100名未満の組織は引き続き無償。",
+    "handle": "PR TIMES",
+    "category": "ツール",
+    "url": "https://prtimes.jp/main/html/rd/p/000000004.000190819.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "08:59",
+      "headline": "アクセスが落ちたのでAI社員に頼んだら、2日でAI社員7人が567本を直していた",
+      "summary": "社長がしたのは「なんとかしてよ」と頼んだことだけ。サイトのアクセス低下への対応を、AI社員のチームが2日で進めた。",
+      "handle": "swamp_ailog",
+      "category": "事例",
+      "url": "https://x.com/swamp_ailog/status/2111608075358703680",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "20:42",
+      "headline": "ChatGPTの「dots」に仕事を丸投げしたら、動画817本の分析が3分36秒で終わった",
+      "summary": "AIエージェントに仕事を任せる実験と、PwCやパーソル総合研究所の調査から、AIで年収は上がるのかを検証。まねできる4つのステップも紹介している。",
+      "handle": "新時代の現実を創造するAI学校💫女神の宮殿",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=KnZsu0nYm94",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/KnZsu0nYm94/hqdefault.jpg"
+    },
+    {
+      "time": "10:00",
+      "headline": "上場3,817社の有価証券報告書をAIで読むと、人手不足をリスクに挙げた60.6%のうち対策にAIを書いたのは7.1%",
+      "summary": "ゴムマリが1年分の有報をAIで分析。人手不足を挙げた割合は300人未満の会社が66.6%と最も高い一方、対策にAIの活用を書いた割合は5,000人以上の会社が10.5%で、300人未満の約2倍だった。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000032.000185093.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/185093/32/185093-32-b37f57fb2c46535d766a0e60df372759-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "11:06",
+      "headline": "荷主向けの記事を1日で34地域ぶん作り、公開本数を68本から102本にしたAI社員",
+      "summary": "軽貨物の会社で、サイト担当のAI社員が地域ごとの記事を一気に書き足した。",
+      "handle": "keikamotsu_naka",
+      "category": "事例",
+      "url": "https://x.com/keikamotsu_naka/status/2111640141869744586",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/card_img/2111281243170201600/y0bWgVEI?format=png&name=orig"
+    },
+    {
+      "time": "12:19",
+      "headline": "ChatGPT「dots」を実際に使ってわかったこと、電話で仕事を頼むところまで試した",
+      "summary": "始め方や名前の設定から、クラウドPCでの作業、電話での依頼までを試し、良かったところと気になるところをまとめている。",
+      "handle": "じゅりん│AIビジネス活用塾",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=wBedX1v_BeM",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/wBedX1v_BeM/hqdefault.jpg"
+    },
+    {
+      "time": "02:49",
+      "headline": "AI社員に事業を選ばせるはずが、調査の準備だけで1週間以上かかった話",
+      "summary": "AI社員だけで運営する会社を開発している人の第2期の記録。自律開発が何度も止まった段階を抜けると、10月18日に初めての商品公開まで進んだ。",
+      "handle": "Naoki AI Works",
+      "category": "事例",
+      "url": "https://note.com/naoki_aiworks/n/n056370fb5483",
+      "source": "web",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/325912536/rectangle_large_type_2_0a95ed0abdd68d4f4640873bba1b84c9.png?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "06:00",
+      "headline": "SEO記事を書くAI社員と、それを査読するAI社員を分け、チェック側に「止める権限」を持たせた",
+      "summary": "人がいなくても、ルールの決め方で品質の歯止めになるかを試している途中。",
+      "handle": "axion_ai_jp",
+      "category": "事例",
+      "url": "https://x.com/axion_ai_jp/status/2111925301202796781",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "20:01",
+      "headline": "社員は全員AIの会社を始めた、AI社員6人が動画・記事・注文チェックまでスケジュールで動く",
+      "summary": "人間は社長1人だけ。売上0円から、数字も失敗もすべて公開していくという。",
+      "handle": "shain_zenin_ai",
+      "category": "事例",
+      "url": "https://x.com/shain_zenin_ai/status/2111774681498079248",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2111774260486443008/img/fDM4na4HnzMfQPlc.jpg"
+    },
+    {
+      "time": "06:33",
+      "headline": "Microsoft Copilot Studioが進化、専用アカウントを持つAIに TeamsやOutlookで仕事を頼めるように",
+      "summary": "メールをきっかけに自動で動くこともできる。AIが「デジタル社員」になる可能性と注意点をnoteで解説している。",
+      "handle": "HL_Masa",
+      "category": "ツール",
+      "url": "https://x.com/HL_Masa/status/2111933818081030523",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/card_img/2111933457157009408/GGFNI1_q?format=jpg&name=orig"
+    },
+    {
+      "time": "22:00",
+      "headline": "企業向けGeminiに、社内データで動くAIエージェントと24時間動く「Gemini Spark」",
+      "summary": "NewsPicksの番組（Google Cloud提供）。ノーコードで専門エージェントのチームを組める機能を実演し、AIを業務そのものに組み込むための組織や人事制度の見直しを話している。",
+      "handle": "NewsPicks /ニューズピックス",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=Z39qi3pEzqs",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/Z39qi3pEzqs/hqdefault.jpg"
+    },
+    {
+      "time": "14:00",
+      "headline": "クロスウイング、会社のルールを読んでから動く社内型の業務AIエージェントを販売開始",
+      "summary": "中小企業向けの「Crosswing AIコンダクター」。社内の決まりに沿って毎回動き、顧客の氏名や連絡先は伏せてAIに渡す。どの業務をどの決まりで動かし誰に届けたかは記録で確かめられる。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000004.000191073.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/191073/4/191073-4-f4cb583c84c1c23e1a5e239332fcdaee-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "16:00",
+      "headline": "Workday、人とAIエージェントのアクセス権をまとめて管理するC1.aiの買収に合意",
+      "summary": "入社・異動・退職に合わせて、人とAIエージェントの権限を付け外しする構想。仕事が終わったあとも権限が残っていないか、今できる整理も紹介している。",
+      "handle": "tactia_ai",
+      "category": "ツール",
+      "url": "https://x.com/tactia_ai/status/2111713894104486290",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/card_img/2111474141765234688/9KoMEfr9?format=jpg&name=orig"
+    },
+    {
+      "time": "11:00",
+      "headline": "スマートコンテンツ、法人向け生成AI「AI Office」でAI社員に社内業務を任せる",
+      "summary": "セキュリティ規程に沿った環境で、資料作成、リサーチ、社内ナレッジの検索をAI社員に任せる使い方を紹介している。",
+      "handle": "株式会社スマートコンテンツ",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=qhsAX4Pa468",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/qhsAX4Pa468/hqdefault.jpg"
+    },
+    {
+      "time": "10:56",
+      "headline": "KandaQuantum、AIエージェントの群れを指揮する「Fuga 5000」を開発者向けに公開",
+      "summary": "Claude Code、Codex、Gemini、Grok、Kimiのサブスクと連携し、実測で5,441体を349のタスクに自動で割り振った。macOS専用。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000158.000082094.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/82094/158/82094-158-977ad7c54bf7464ea116f2c377c0813a-1672x941.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "16:59",
+      "headline": "Claude CodeでAI社員を29人雇う手順を、プロンプトつきでまとめた",
+      "summary": "AIカンパニーを経営している教頭先生が、AI社員を雇うまでの手順を動画とプロンプトで見せている。",
+      "handle": "asahi_ai_x",
+      "category": "作り方",
+      "url": "https://x.com/asahi_ai_x/status/2111728739637756104",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2111576299659812864/img/NQcjPzfylsEPYnMq.jpg"
+    },
+    {
+      "time": "18:41",
+      "headline": "AIエージェントの教科書、仕事の任せ方と安全な運用の基本",
+      "summary": "検索やMCP・コネクタで外のサービスとつなぐしくみ、どこまで許可するかを人が決めること、役割分担と記録で仕事を任せる考え方を、4人の小人の物語で説明している。",
+      "handle": "AI実装パートナー おとは",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=-i45q6KJrr4",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/-i45q6KJrr4/hqdefault.jpg"
+    },
+    {
+      "time": "07:00",
+      "headline": "AI社員はどこから作る？まずはGeminiのGemで「下書きを作るAI広報」から",
+      "summary": "部署と役割を細かく分けてAI社員を置く考え方。Gemの作り方、指示の書き方、まだ任せないことを表にし、最後は必ず人が確認する前提で始める。",
+      "handle": "神屋伸行",
+      "category": "作り方",
+      "url": "https://note.com/nkamiya/n/n859e983ae745",
+      "source": "web",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/310256092/rectangle_large_type_2_5c25958199841dc346fef9ab5d93b6e8.png?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "16:00",
+      "headline": "AI社員組織のテンプレを無料公開、CLAUDE.mdとエージェント2体の全文",
+      "summary": "AI社員と会社を経営している非エンジニアの営業マンが、使っている指示ファイルとエージェントの中身をそのまま載せている。",
+      "handle": "7ve0le",
+      "category": "作り方",
+      "url": "https://x.com/7ve0le/status/2111714074795065642",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/card_img/2111714075042615296/rdSqsWmu?format=jpg&name=orig"
+    },
+    {
+      "time": "18:00",
+      "headline": "領収書の写真を送るだけで経費精算が終わる仕組みを実演、インボイス番号の照合まで",
+      "summary": "スマホで撮った領収書をAIが読み取り、シートに記入してインボイス番号も照合する流れを見せている。",
+      "handle": "ONECHANNEL 中小企業のAI導入・業務効率化",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=T8h8KE7xllo",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/T8h8KE7xllo/hqdefault.jpg"
+    },
+    {
+      "time": "06:13",
+      "headline": "AIエージェントに丸ごと任せるときの線引きは「取り消せるか」",
+      "summary": "ゴールを渡すと手順を自分で考えて進めるのがエージェント。送信・削除・公開の前で止まってもらう決め方を、コードを書かない人向けにnoteで解説している。",
+      "handle": "chargesince2026",
+      "category": "作り方",
+      "url": "https://x.com/chargesince2026/status/2111928630347735218",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/card_img/2111928631840874496/SDUBY9V4?format=jpg&name=orig"
+    }
+  ]
+}

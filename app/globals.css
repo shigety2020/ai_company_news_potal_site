@@ -283,11 +283,7 @@ img {
   /* PB3: 最後の行が1文字だけにならないように（Chrome は文節で折り返す） */
   text-wrap: pretty;
   word-break: auto-phrase;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
-  overflow: hidden;
+  /* PB2: 見出しは3行で切らずに全文を出す */
 }
 
 .item-summary {

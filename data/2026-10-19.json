@@ -48,7 +48,7 @@
       "category": "事例",
       "url": "https://x.com/keikamotsu_naka/status/2111640141869744586",
       "source": "x",
-      "thumbnail": "https://pbs.twimg.com/card_img/2111281243170201600/y0bWgVEI?format=png&name=orig"
+      "thumbnail": "/thumb-fallback/2.jpg"
     },
     {
       "time": "12:19",
@@ -98,7 +98,7 @@
       "category": "ツール",
       "url": "https://x.com/HL_Masa/status/2111933818081030523",
       "source": "x",
-      "thumbnail": "https://pbs.twimg.com/card_img/2111933457157009408/GGFNI1_q?format=jpg&name=orig"
+      "thumbnail": "/thumb-fallback/5.jpg"
     },
     {
       "time": "22:00",
@@ -128,7 +128,7 @@
       "category": "ツール",
       "url": "https://x.com/tactia_ai/status/2111713894104486290",
       "source": "x",
-      "thumbnail": "https://pbs.twimg.com/card_img/2111474141765234688/9KoMEfr9?format=jpg&name=orig"
+      "thumbnail": "/thumb-fallback/3.jpg"
     },
     {
       "time": "11:00",
@@ -188,7 +188,7 @@
       "category": "作り方",
       "url": "https://x.com/7ve0le/status/2111714074795065642",
       "source": "x",
-      "thumbnail": "https://pbs.twimg.com/card_img/2111714075042615296/rdSqsWmu?format=jpg&name=orig"
+      "thumbnail": "/thumb-fallback/4.jpg"
     },
     {
       "time": "18:00",
@@ -208,7 +208,7 @@
       "category": "作り方",
       "url": "https://x.com/chargesince2026/status/2111928630347735218",
       "source": "x",
-      "thumbnail": "https://pbs.twimg.com/card_img/2111928631840874496/SDUBY9V4?format=jpg&name=orig"
+      "thumbnail": "/thumb-fallback/2.jpg"
     }
   ]
 }

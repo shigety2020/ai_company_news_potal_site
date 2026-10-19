@@ -475,6 +475,20 @@ img {
   font-variant-numeric: tabular-nums;
 }
 
+/* PB3: スマホでは前日・翌日のタップ範囲を高さ44px以上に（ユイの指定） */
+@media (max-width: 1023px) {
+  .issue-nav {
+    column-gap: 8px;
+  }
+
+  .issue-nav-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 0 12px;
+  }
+}
+
 /* Empty issue (PB1): link to the latest issue with content. */
 .latest-link {
   display: inline-block;

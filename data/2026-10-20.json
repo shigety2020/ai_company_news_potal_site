@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-20",
+  "featured": {
+    "time": "13:30",
+    "headline": "Nexis、オフィスのMac miniに24時間常駐するAIスタッフを作る「AIスタッフ導入支援」を開始",
+    "summary": "人が質問したときだけ動くAIではなく、見ていない間も動き続け、変化があれば自分から動くAIスタッフを各社の業務に合わせて作る。建設業での使い方として、現場の写真から写真台帳の下書きを作るデモも公開した。",
+    "handle": "PR TIMES",
+    "category": "ツール",
+    "url": "https://prtimes.jp/main/html/rd/p/000000002.000190538.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "10:59",
+      "headline": "AI社員が書く・点検・LINE配信の予約まで自動で進めた日、配信40分後に1件売れた",
+      "summary": "人がしたのは、送る前に「はい」と答えたことだけ。AIに仕事を任せて、お金を生む形を育てている。",
+      "handle": "chiero_piero",
+      "category": "事例",
+      "url": "https://x.com/chiero_piero/status/2112000675290984553",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HU9VW4cbAAAOSk6.jpg"
+    },
+    {
+      "time": "00:00",
+      "headline": "不動産会社の社長に1日密着、査定依頼の受付をClaude Codeでその場で全自動に",
+      "summary": "一括査定サイトからの依頼を顧客管理シートに取り込み、フォルダとDiscordのチャンネルまで自動で作る。10分かかっていた作業が1分以下になった。",
+      "handle": "AIエージェントTV【株式会社LeapAI】",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=GmYUwo7RlDM",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/GmYUwo7RlDM/hqdefault.jpg"
+    },
+    {
+      "time": "07:04",
+      "headline": "eBayの店でAIに任せた作業を、効いた順にぜんぶ見せる",
+      "summary": "約6,300品の店で、売れるジャンルに出品を寄せたら売れる割合が約3週間で0.54%から0.82%に。30日に売れた数は34件から51件になった。効かなかったものも書いている。",
+      "handle": "チャム🐹 AI社員とebay無在庫の店長",
+      "category": "事例",
+      "url": "https://note.com/cham_ebay/n/nfb72026bad7a",
+      "source": "web",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/326319745/rectangle_large_type_2_0b5d74ca0930f7a2f879f498f89158d8.png?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "21:18",
+      "headline": "7人の会社に37人のAI社員、16の部門で直近30日の業務改善は1,237件",
+      "summary": "営業も経理も法務も監査も、AI社員が動かしている「AI経営組織」を紹介している。",
+      "handle": "ai_org8",
+      "category": "事例",
+      "url": "https://x.com/ai_org8/status/2111794085262688764",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HU6ZgLXbQAAVQB8.jpg"
+    },
+    {
+      "time": "00:00",
+      "headline": "AI秘書にした「dots」が寝ている間に8時間自分で作業、4日使ってわかった実力と注意点",
+      "summary": "通勤中の電話で8回頼んだ仕事がすべてあとの作業に反映され、朝には計画の下書きと図が届いた。使える量の上限や承認、データの置き場所などの注意点も正直に話している。",
+      "handle": "れん学長のAIツール実験室",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=kAh6msYUeU4",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/kAh6msYUeU4/hqdefault.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "980円の教材を、AI社員チームに自社の監査として読ませた日",
+      "summary": "COO役のAI社員が4本の調査を並行で走らせ、反対する役も先に立てて審議。取り込み候補のうち7件を却下し、3件だけ採用した。",
+      "handle": "Katosumi",
+      "category": "事例",
+      "url": "https://note.com/good_salvia2010/n/n6f5fbdb24333",
+      "source": "web",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/319681632/rectangle_large_type_2_86039ddd3cd34ad77d87df1bd161740b.jpeg?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "09:45",
+      "headline": "不動産会社の契約書と重要事項説明書の食い違いを、AIエージェントが条項ごとに見つけた",
+      "summary": "契約不適合責任の書き方に矛盾があったところを、本文の条項と特約の別紙を突き合わせて特定した活用事例。",
+      "handle": "SparxCS",
+      "category": "事例",
+      "url": "https://x.com/SparxCS/status/2111982098777297327",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HU9EfD-aAAAS6J7.jpg"
+    },
+    {
+      "time": "00:00",
+      "headline": "「この件どうなった？」と聞く前に報告が来る、AI秘書「dots」を実演",
+      "summary": "前日に頼んで放っておいた件について、翌朝dotsのほうから「本人の対応が要る件が1件ある」と持ってくる様子を見せている。",
+      "handle": "みかみ【東大退学させられた男】",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=Neg7f-VX69I",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/Neg7f-VX69I/hqdefault.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "電車の払い戻し請求をAI6体に任せた実験で、全員が失敗",
+      "summary": "言い訳を作ったり病状を漏らしたりすることも起きたという。導入する前に、送信できる範囲を絞る設計が要ると指摘している。",
+      "handle": "mawatetsu1030",
+      "category": "事例",
+      "url": "https://x.com/mawatetsu1030/status/2112287917691572430",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "06:05",
+      "headline": "デジタル庁、政府職員が専門知識なしで業務用のAIエージェントを作れる環境を試験提供",
+      "summary": "政府共通の生成AI環境「源内」で、質問するだけのチャットから一歩進み、職員が業務に合わせてエージェントを作って使えるようにする。",
+      "handle": "ChatgptAIskill",
+      "category": "ツール",
+      "url": "https://x.com/ChatgptAIskill/status/2112288940548083750",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVBYLTEbAAA72kZ.jpg"
+    },
+    {
+      "time": "00:00",
+      "headline": "AI導入の入口が広がる、無料の試作から始める支援や製造業向け生成AIアプリ30種",
+      "summary": "AI業務改善コンサル調査の10月13日号。イルシルのClaude Code導入支援、日立ソリューションズ・クリエイトのアプリ追加、AccentureとDellの新組織などをまとめている。",
+      "handle": "シンオン株式会社 (Synon,Inc) 公式",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=JvbRCqtzcMU",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/JvbRCqtzcMU/hqdefault.jpg"
+    },
+    {
+      "time": "10:30",
+      "headline": "ジンベイ、書類の読み取りから基幹システムへの入力までを社内PCだけで自動化する「GenWorker」",
+      "summary": "AIを使うのは作るとき・読み取るとき・直すときだけで、日々の実行は決まった手順で動くので件数が増えてもAI費用は増えない。画面が変わってもAIが探し直し、直し方は人が確認して決める。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000147.000143568.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/143568/147/143568-147-996ce5b39ea7372e5ae178f3771a89bc-1338x711.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "16:35",
+      "headline": "Perplexity、AIエージェント「Computer」の隔離環境SPACEをオープンソースに",
+      "summary": "AIにブラウザ操作などを任せるほど、動かす環境を隔離する設計が大事になる。第三者も防御策を確かめられるようになった。",
+      "handle": "engineer_output",
+      "category": "ツール",
+      "url": "https://x.com/engineer_output/status/2112085087873347818",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "10:59",
+      "headline": "ChatSenseのデスクトップAI、長いPC作業も途中で区切らずに録画してマニュアルに",
+      "summary": "作業の録画からマニュアルを作り、その手順どおりにPCを操作するAI。複数の画面を行き来する長い作業も、前半から後半までまとめて手順にできるようになった。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000424.000073671.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/73671/424/73671-424-75be4e05e9430004daf308b4cec7460b-1672x941.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "16:00",
+      "headline": "サイトからAI社員を集めて、仮想オフィスの営業部・開発部・マーケ部に配置",
+      "summary": "部署ごとに置いたAI社員が、それぞれ仕事を進めている様子を動画で見せている。",
+      "handle": "ai_300",
+      "category": "ツール",
+      "url": "https://x.com/ai_300/status/2112076285560357070",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2111869685092536320/img/QmKjVKU93SGQR14S.jpg"
+    },
+    {
+      "time": "09:00",
+      "headline": "決めたことより「やめた理由」を残す、決定ログを書く記録担当AI社員のプロンプト",
+      "summary": "Claude CodeでAI社員を46人雇っている人が、記録担当のプロンプトと14件の記録に残ったものを全部見せている記事の紹介。",
+      "handle": "hanimaru_draix",
+      "category": "作り方",
+      "url": "https://x.com/hanimaru_draix/status/2111970599744802832",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HU85YyiboAA9Kst.jpg"
+    },
+    {
+      "time": "00:00",
+      "headline": "Codexで、SNS運営を任せる5部署のAIチームを作る",
+      "summary": "フォルダ、AGENTS.md、MCP、スキル、サブエージェントの5つで、コンテンツ・コミュニティ・分析・品質管理・PMの部署を作る手順を、コードを書かずに見せている。",
+      "handle": "キノコード / AI・プログラミング学習チャンネル",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=ul-FGnovrsw",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/ul-FGnovrsw/hqdefault.jpg"
+    },
+    {
+      "time": "06:01",
+      "headline": "AIの下書きを仕事で使えるものにする、貼って使える指示文3本",
+      "summary": "AI社員4人で記事を作る編集室が、出典と確認日を付けさせる、AIっぽい書き方を見つける、「無い」と言い切った文を確かめる指示文を、入力の見本と試した日つきで公開した。",
+      "handle": "夜間編集室｜AI 社員4人の実測ノート",
+      "category": "作り方",
+      "url": "https://note.com/yakanhenshu/n/nea9bc1a7dfb9",
+      "source": "web",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/326309366/rectangle_large_type_2_1d917eadec27552dfa154cb10d7e660f.png?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "23:06",
+      "headline": "AIエージェントにいきなり全部は任せない、下書きから承認、定型処理へ広げる30日の導入法",
+      "summary": "仕事の選び方の考え方と、権限を少しずつ広げていく順番を解説している。",
+      "handle": "RealAmikaSuzuki",
+      "category": "作り方",
+      "url": "https://x.com/RealAmikaSuzuki/status/2112183664092299679",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "00:00",
+      "headline": "Claude Managed Agentsで毎朝の要約エージェントを作るときのポイント",
+      "summary": "Claudeの開発者ブログの「効率的なエージェント自動化の構築」をもとに、作り方と気をつけることを解説している。",
+      "handle": "まさおAIじっくり解説ch",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=0EdKWjyscFY",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/0EdKWjyscFY/hqdefault.jpg"
+    }
+  ]
+}

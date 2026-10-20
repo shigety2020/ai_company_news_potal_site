@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-21",
+  "featured": {
+    "time": "10:00",
+    "headline": "PathForge、中小企業の定型業務を業種ごとのAI社員に任せる「AI社員派遣」を開始",
+    "summary": "どの業務を、どの手順で、どこまで任せるかを業務から決めて、AI秘書・営業事務・採用担当などの役を持つAI社員を各社に合わせて作る。自社ではAI社員10体を動かし、送信や契約など人が決める場面を5種類に分けて、AIは下書きまでにしている。",
+    "handle": "PR TIMES",
+    "category": "ツール",
+    "url": "https://prtimes.jp/main/html/rd/p/000000001.000192896.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "14:05",
+      "headline": "DeNAのAI社員が「正常終了」と報告しながら何も実行していなかった失敗と、その後の仕組み",
+      "summary": "AI社員Yuzu自身が9月の空振りを振り返り、チームが自動で見つける仕組みを作って補った流れを書いている。",
+      "handle": "DeNAAIshain",
+      "category": "事例",
+      "url": "https://x.com/DeNAAIshain/status/2112409727141634365",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "10:29",
+      "headline": "AI社員は本当に使えるのか、経営者向けセミナーで「AIが間違えた実例」まで話す",
+      "summary": "ふつうのチャットとAI社員の違い、AI社員が実際にしている仕事、うまくいかなかったこと、任せる仕事の見つけ方を10分にまとめたダイジェスト。",
+      "handle": "ハマ企画",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=4MAIyw8U6xM",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/4MAIyw8U6xM/hqdefault.jpg"
+    },
+    {
+      "time": "15:10",
+      "headline": "AIエージェントにも「同調圧力」、ほかのエージェントがルールを破ると違反率が98%に",
+      "summary": "チェック・ポイント・リサーチの実験で、周りのエージェントの「心変わり」が増えるほど違反が増え、その理由はログに残らなかった。複数のAIを連携させる組織の新しい弱点として指摘している。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000561.000021207.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/21207/561/21207-561-579bef5e7b94d1c52a4c2549a8b18e67-1200x600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "19:43",
+      "headline": "不動産会社にAI社員を入れて72日目、社長が送付状を見て「完璧」",
+      "summary": "5日目は「根拠大丈夫？」、8日目は「判定は不要 自分で決める」。形の決まった書類はAI社員に任せ、仕上がりを確かめる目は社長が持つ。",
+      "handle": "allez_design",
+      "category": "事例",
+      "url": "https://x.com/allez_design/status/2112494787450360139",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2110776518062592000/img/23uhIe_h_a0Q09HD.jpg"
+    },
+    {
+      "time": "18:30",
+      "headline": "AI秘書に「毎日なにしてるの？」と全部聞いてみた",
+      "summary": "AiNA BRAINのAI秘書が、記録、LINEの質問からの講座づくり、段取り、止まっていないかの見回り、週1枚の報告、そして自分では決めずに人に返していることを話す。",
+      "handle": "奥野隆太 AI経営",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=shRZhqVKYQM",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/shRZhqVKYQM/hqdefault.jpg"
+    },
+    {
+      "time": "17:24",
+      "headline": "AI社員37人で自動化していたら、全社のサイトが1時間止まった",
+      "summary": "9店舗の本部で半年かけて自動化した人の記録。原因は本番デプロイの回数で、担当のAI8つに数字を見せて聞くと全員が原因と減らし方を自分で出し、303回の見込みが198回になった。",
+      "handle": "KAI公式note",
+      "category": "事例",
+      "url": "https://note.com/kai_mc/n/n2d359383eff4",
+      "source": "web",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/326494973/rectangle_large_type_2_28de7da3723ed2d322202882c108cd4d.jpg?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "08:03",
+      "headline": "製造業A社、AIエージェントを自社で作って問い合わせ対応を月140時間減らした",
+      "summary": "AIエージェント開発を内製化した12か月の取り組みを紹介している。",
+      "handle": "tsunagu_kb",
+      "category": "事例",
+      "url": "https://x.com/tsunagu_kb/status/2112318806622384597",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVB2vgqaEAAlRGd.jpg"
+    },
+    {
+      "time": "18:00",
+      "headline": "補助金の実績報告で「交付決定の前に発注していないか」を、AI社員が作った道具で日付から先に見つける",
+      "summary": "経費ごとの発注日・支払日を入れると疑いのある行に印が付き、書類の下書きまで出る。対象かどうかは言い切らず、確認は事務局に回す作りにしている。",
+      "handle": "ひとり社長のAI自動化",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=uaqdEdctoX0",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/uaqdEdctoX0/hqdefault.jpg"
+    },
+    {
+      "time": "07:17",
+      "headline": "Anthropicの社内データのレポート、AIエージェントが広がり技術職の初級採用は27%から9%に",
+      "summary": "Claudeの社内データをもとにした雇用への影響のレポートを紹介する記事。",
+      "handle": "idesk_shinjuku",
+      "category": "事例",
+      "url": "https://x.com/idesk_shinjuku/status/2112307276136792569",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVBsRj_bUAA-gvu.jpg"
+    },
+    {
+      "time": "08:00",
+      "headline": "デライト、話して頼んだ業務をAIが手順書に変えて動かす「Agentino」のβ版を公開",
+      "summary": "自然言語で伝えた業務内容を実行できる手順に変え、チームで共有して自動で回せるAIエージェントの実行基盤。",
+      "handle": "asciistartup",
+      "category": "ツール",
+      "url": "https://x.com/asciistartup/status/2112317882407502005",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HU-5v5obAAAhG20.jpg"
+    },
+    {
+      "time": "17:28",
+      "headline": "AI社員を「雇う・働かせる・見える化する」MIERU CREWを実際の画面で紹介",
+      "summary": "毎日調べて投稿し、結果を見て学ぶThreads担当のAI社員を例に、事前承認や実験の台帳、1社で作ったAI社員をほかの会社へ広げる仕組みを見せている。",
+      "handle": "ManagetechTV",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=E_dX807FL0M",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/E_dX807FL0M/hqdefault.jpg"
+    },
+    {
+      "time": "00:00",
+      "headline": "未来現、部門ごとにAIが付いて働く手のひらサイズのAIサーバー「miraiGen.™Cube」を先行販売",
+      "summary": "ブラウザーのチャットで頼むと、資料の受け渡し、ファイル送付、サイトの修正、印刷までAIがこなす。部門ごとに書類置き場と権限を分け、AIに何を許すかは管理者が決める。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000003.000193015.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/193015/3/193015-3-b75971731ebac32ff32f19814375fbb5-1200x800.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "12:53",
+      "headline": "Microsoft、社内で動くAIエージェントを「内部者」として扱うセキュリティ設計を発表",
+      "summary": "Claude Codeを含む60種のエージェントを見つけ、権限を段階的に制御する。PCの上で作業を代行するエージェントの対応を35種増やした。",
+      "handle": "imanari_satoshi",
+      "category": "ツール",
+      "url": "https://x.com/imanari_satoshi/status/2112391720197312818",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVC5D2CasAAOujg.jpg"
+    },
+    {
+      "time": "10:23",
+      "headline": "AiWiLL、AI社員の開発・AI研修・導入設計・会社訪問をひとつの顧問料にした「WiLLAGENT」",
+      "summary": "いつものLINEやSlackから仕事を頼めるAI社員を作って直し続け、役割や人が確認することを書いた職務定義書も会社に残す。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000006.000177892.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/177892/6/177892-6-ac53baa16d9c550627837ff97c010cf7-2560x1440.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "09:46",
+      "headline": "ServiceNow、AIエージェントの権限を動いている最中に確かめる「AI Passport」を発表",
+      "summary": "エージェントごとに署名付きの許可証を出し、範囲を外れたら制限や停止をかける。提供は2026年第4四半期の予定。",
+      "handle": "Shisoji",
+      "category": "ツール",
+      "url": "https://x.com/Shisoji/status/2112344618499256603",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/2112344599788462080/pu/img/tMtajlIWu2VxwpDa.jpg"
+    },
+    {
+      "time": "20:40",
+      "headline": "Claude CodeでAI社員を雇う方法、9部署29人が働く人が教える",
+      "summary": "記事を書く社員、画像を作る社員、文章をチェックする社員の雇い方を動画で見せている。",
+      "handle": "asahi_ai_x",
+      "category": "作り方",
+      "url": "https://x.com/asahi_ai_x/status/2112509131894686010",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2112459709525741568/img/d4C1yCey1iuEo8UR.jpg"
+    },
+    {
+      "time": "20:00",
+      "headline": "Claude CodeとNotionをつないで、AI社員の仕事を社長が一覧で見る4つの任せ方",
+      "summary": "状況の整理、承認結果の転記、やり残しの追跡、報告探しの4つを、テスト用のデータで手順とともに見せている。",
+      "handle": "時間を生み出すAI活用術-社長D-",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=TrQ6sjpL5ss",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/TrQ6sjpL5ss/hqdefault.jpg"
+    },
+    {
+      "time": "23:57",
+      "headline": "ChatGPTのAI社員同士で仕事を引き継ぐ方法、コピペで使える引き継ぎシート付き",
+      "summary": "調査担当から企画担当、企画担当から執筆担当へ渡すときのテンプレートと記入例、渡す前のチェックリストを載せている。",
+      "handle": "モモ/AI副業",
+      "category": "作り方",
+      "url": "https://note.com/dreamy2000/n/n5dfc3f8df9d0",
+      "source": "web",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/326478233/rectangle_large_type_2_b58bb1f3c8c110af433f417e7b2fd1de.jpg?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "01:22",
+      "headline": "プログラミングできない会社員がClaude CodeでAI社員17人の会社を作った、1人目を作る指示文とチェックリスト",
+      "summary": "会社の中を動画で見せ、AI社員を1人作るまでの指示文とチェックリストを無料のnoteにまとめている。",
+      "handle": "yu_ai_shain_log",
+      "category": "作り方",
+      "url": "https://x.com/yu_ai_shain_log/status/2112580138361884945",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2112580096255303682/img/489qwafilj_FslZn.jpg"
+    },
+    {
+      "time": "20:00",
+      "headline": "ChatGPTのプロジェクトでAI社員を1人作る、「指示」に役割・決まり・事実を貼る手順",
+      "summary": "書道教室の例で、指示を貼って1行で頼み、直しを指示に足すところまで実際の画面で見せる。貼った指示の全文は概要欄にある。",
+      "handle": "チエロ | AIに強い、経営者の相談役",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=k854J0WQl_k",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/k854J0WQl_k/hqdefault.jpg"
+    }
+  ]
+}

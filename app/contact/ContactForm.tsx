@@ -33,7 +33,8 @@ function validate(v: Values): Errors {
   const e: Errors = {};
   if (!TYPES.some((t) => t.value === v.type)) e.type = MESSAGES.type;
   if (!v.name.trim()) e.name = MESSAGES.name;
-  if (!EMAIL_RE.test(v.email.trim())) e.email = MESSAGES.email;
+  if (!v.email.trim()) e.email = "メールアドレスを入力してください";
+  else if (!EMAIL_RE.test(v.email.trim())) e.email = MESSAGES.email;
   if (!v.message.trim()) e.message = MESSAGES.message;
   return e;
 }

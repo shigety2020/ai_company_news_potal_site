@@ -283,11 +283,7 @@ img {
   /* PB3: 最後の行が1文字だけにならないように（Chrome は文節で折り返す） */
   text-wrap: pretty;
   word-break: auto-phrase;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
-  overflow: hidden;
+  /* PB2: 見出しは3行で切らずに全文を出す */
 }
 
 .item-summary {
@@ -473,6 +469,20 @@ img {
 .issue-nav-current {
   color: var(--heading);
   font-variant-numeric: tabular-nums;
+}
+
+/* PB3: スマホでは前日・翌日のタップ範囲を高さ44px以上に（ユイの指定） */
+@media (max-width: 1023px) {
+  .issue-nav {
+    column-gap: 8px;
+  }
+
+  .issue-nav-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 0 12px;
+  }
 }
 
 /* Empty issue (PB1): link to the latest issue with content. */

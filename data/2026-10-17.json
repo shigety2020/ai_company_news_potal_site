@@ -78,7 +78,7 @@
       "category": "事例",
       "url": "https://x.com/kosodatetomo74/status/2111119868007481663",
       "source": "x",
-      "thumbnail": "https://pbs.twimg.com/card_img/2111119635076767744/DaqS8_74?format=jpg&name=800x419"
+      "thumbnail": "/thumb-fallback/4.jpg"
     },
     {
       "time": "09:59",
@@ -208,7 +208,7 @@
       "category": "作り方",
       "url": "https://x.com/hiroaki_weben/status/2110883960737923076",
       "source": "x",
-      "thumbnail": "https://pbs.twimg.com/card_img/2110883969915035648/Hrz7ef__?format=jpg&name=800x419"
+      "thumbnail": "/thumb-fallback/4.jpg"
     }
   ]
 }

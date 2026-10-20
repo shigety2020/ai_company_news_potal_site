@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Noto_Sans_JP, Shippori_Mincho } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
+import SiteFooter from "./components/SiteFooter";
 
 const sans = Noto_Sans_JP({
   subsets: ["latin"],
@@ -42,6 +43,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="ja" className={`${sans.variable} ${serif.variable}`}>
       <body>
         {children}
+        <SiteFooter />
         <Analytics />
       </body>
     </html>

@@ -1,0 +1,77 @@
+name: daily-collect
+
+# PB1: 毎朝 7:00 JST に号を作り、data/YYYY-MM-DD.json の1ファイルだけを main に push する
+on:
+  schedule:
+    - cron: '0 22 * * *'   # UTC 22:00 = JST 7:00
+  workflow_dispatch:
+    inputs:
+      date:
+        description: '号の日付 YYYY-MM-DD（空なら今日 JST）'
+        required: false
+      dry_run:
+        description: 'true なら作るだけで commit・push しない'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4o-mini' }}
+      TZ: Asia/Tokyo
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Test (no keys)
+        run: python3 -m unittest scripts/daily/test_collect.py
+
+      - name: Collect
+        id: collect
+        run: |
+          DATE="${{ inputs.date }}"
+          [ -z "$DATE" ] && DATE="$(date +%F)"
+          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python3 scripts/daily/collect.py --date "$DATE" --dry-run > "$RUNNER_TEMP/issue.json"
+            head -c 4000 "$RUNNER_TEMP/issue.json"
+          else
+            python3 scripts/daily/collect.py --date "$DATE"
+          fi
+
+      - name: Upload preview (dry run)
+        if: ${{ inputs.dry_run }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: issue-${{ steps.collect.outputs.date }}
+          path: ${{ runner.temp }}/issue.json
+
+      - name: Commit data file only
+        if: ${{ !inputs.dry_run }}
+        run: |
+          F="data/${{ steps.collect.outputs.date }}.json"
+          [ -f "$F" ] || { echo "no new file"; exit 0; }
+          git config user.name "github-actions[bot]"
+          git config user.email "41898+github-actions[bot]@users.noreply.github.com"
+          git add -- "$F"
+          # data の1ファイル以外が入っていないことを確かめる
+          [ "$(git diff --cached --name-only)" = "$F" ] || { git diff --cached --name-only; exit 1; }
+          git commit -m "data: ${{ steps.collect.outputs.date }} 号を追加（毎朝自動収集）"
+          git push origin HEAD:main

@@ -44,6 +44,8 @@ def fallback_thumb(url):
 
 def http(url, headers=None, data=None, timeout=30):
     h = {"User-Agent": UA, "Accept-Language": "ja-JP,ja;q=0.9"}
+    if "youtube.com" in url:
+        h["Cookie"] = "SOCS=CAI; CONSENT=YES+cb"  # 同意画面（EU/データセンター向け）を飛ばす
     h.update(headers or {})
     req = urllib.request.Request(url, headers=h, data=data)
     with urllib.request.urlopen(req, timeout=timeout) as r:
@@ -114,8 +116,9 @@ def _walk(o, key):
 
 def yt_published(vid):
     try:
-        h = http(f"https://www.youtube.com/watch?v={vid}")
-    except Exception:
+        h = http(f"https://www.youtube.com/watch?v={vid}&hl=ja&gl=JP")
+    except Exception as e:
+        log("YouTube watch failed:", vid, e)
         return None, ""
     m = re.search(r'"(?:publishDate|uploadDate)":"([^"]+)"', h)
     desc = re.search(r'<meta name="description" content="([^"]*)"', h)
@@ -133,16 +136,64 @@ def yt_published(vid):
     return t, html.unescape(desc.group(1)) if desc else ""
 
 
+_FEEDS = {}
+
+
+def yt_feed_published(channel_id, vid):
+    """チャンネルの RSS から公開日時を取る（watch ページが読めないときの代わり）。"""
+    if not channel_id:
+        return None
+    if channel_id not in _FEEDS:
+        try:
+            _FEEDS[channel_id] = http(f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}")
+        except Exception as e:
+            log("YouTube feed failed:", channel_id, e)
+            _FEEDS[channel_id] = ""
+    m = re.search(r"<yt:videoId>" + re.escape(vid) + r"</yt:videoId>.*?<published>([^<]+)</published>", _FEEDS[channel_id], re.S)
+    if not m:
+        return None
+    try:
+        return dt.datetime.fromisoformat(m.group(1))
+    except ValueError:
+        return None
+
+
+def yt_relative(text, now=None):
+    """検索結果の「3日前」「2 weeks ago」などから公開日時のめやすを出す（ほかで取れないときだけ）。"""
+    now = now or dt.datetime.now(JST)
+    m = re.search(r"(\d+)\s*(分|時間|日|週間|か月|ヶ月|年|minute|hour|day|week|month|year)", text or "")
+    if not m:
+        return None
+    n, u = int(m.group(1)), m.group(2)
+    if u in ("分", "minute"):
+        return now - dt.timedelta(minutes=n)
+    if u in ("時間", "hour"):
+        return now - dt.timedelta(hours=n)
+    days = {"日": 1, "day": 1, "週間": 7, "week": 7, "か月": 30, "ヶ月": 30, "month": 30, "年": 365, "year": 365}[u] * n
+    d = (now - dt.timedelta(days=days)).date()
+    return dt.datetime(d.year, d.month, d.day, tzinfo=JST)  # 時刻なし -> 00:00（既存どおり）
+
+
 def collect_youtube():
     out, seen = [], set()
     for q in YT_QUERIES:
+        h = ""
+        for _ in range(2):  # ytInitialData が無い応答（ボット確認など）はもう1回だけ
+            try:
+                h = http("https://www.youtube.com/results?search_query=" + urllib.parse.quote(q) + "&sp=CAI%3D&hl=ja&gl=JP")
+            except Exception as e:
+                log("YouTube search failed:", q, e)
+            if "ytInitialData" in h:
+                break
         try:
-            h = http("https://www.youtube.com/results?search_query=" + urllib.parse.quote(q) + "&sp=CAI%3D")
+            log("YT search", q, "bytes", len(h), "consent" if "consent." in h[:5000] else "", "has_data", "ytInitialData" in h)
             d = json.loads(re.search(r"var ytInitialData = (\{.*?\});</script>", h).group(1))
         except Exception as e:
             log("YouTube search failed:", q, e)
             continue
-        for v in list(_walk(d, "videoRenderer"))[:15]:
+        vr = list(_walk(d, "videoRenderer"))
+        log("YT renderers", q, len(vr), "lockups", len(list(_walk(d, "lockupViewModel"))))
+        for v in vr[:15]:
             vid = v.get("videoId")
             if not vid or vid in seen:
                 continue
@@ -150,8 +201,16 @@ def collect_youtube():
             ch = (v.get("ownerText", {}).get("runs") or [{}])[0].get("text", "")
             title = "".join(r.get("text", "") for r in v.get("title", {}).get("runs", []))
             pub, desc = yt_published(vid)
+            if not desc:
+                desc = "".join(r.get("text", "") for r in (v.get("detailedMetadataSnippets") or [{}])[0].get("snippetText", {}).get("runs", []))
+            if pub is None:
+                cid = (v.get("ownerText", {}).get("runs") or [{}])[0].get("navigationEndpoint", {}).get("browseEndpoint", {}).get("browseId", "")
+                pub = yt_feed_published(cid, vid)
+            if pub is None:
+                pub = yt_relative(v.get("publishedTimeText", {}).get("simpleText", ""))
             out.append({"source": "youtube", "url": f"https://www.youtube.com/watch?v={vid}", "handle": ch, "published": pub,
                         "title": title, "text": desc[:800], "thumbnail": f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"})
+    log("YouTube candidates:", len(out), "with date:", sum(1 for c in out if c["published"]))
     return out
 
 

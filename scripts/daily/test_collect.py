@@ -20,6 +20,18 @@ class T(unittest.TestCase):
             e = [x for x in C.validate(d, C.seen_urls(exclude_date=d["date"])) if not x.startswith("items ")]
             self.assertEqual(e, [], f)
 
+    def test_yt_relative(self):
+        now = dt.datetime(2026, 10, 23, 7, 0, tzinfo=C.JST)
+        self.assertEqual(C.yt_relative("3日前", now), dt.datetime(2026, 10, 20, tzinfo=C.JST))
+        self.assertEqual(C.yt_relative("2 時間前", now), dt.datetime(2026, 10, 23, 5, 0, tzinfo=C.JST))
+        self.assertEqual(C.yt_relative("ストリーム配信: 1 週間前", now).date(), dt.date(2026, 10, 16))
+        self.assertIsNone(C.yt_relative("", now))
+
+    def test_yt_feed(self):
+        C._FEEDS["UCx"] = "<entry><yt:videoId>abc</yt:videoId><published>2026-10-20T09:00:00+00:00</published></entry>"
+        self.assertEqual(C.yt_feed_published("UCx", "abc").astimezone(C.JST).hour, 18)
+        self.assertIsNone(C.yt_feed_published("UCx", "zzz"))
+
     def test_fallback(self):
         u = "https://x.com/DeNAAIshain/status/2112409727141634365"
         self.assertEqual(C.fallback_thumb(u), "/thumb-fallback/0.jpg")

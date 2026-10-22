@@ -163,11 +163,14 @@ def collect_youtube():
     for q in YT_QUERIES:
         try:
             h = http("https://www.youtube.com/results?search_query=" + urllib.parse.quote(q) + "&sp=CAI%3D&hl=ja&gl=JP")
+            log("YT search", q, "bytes", len(h), "consent" if "consent." in h[:5000] else "", "has_data", "ytInitialData" in h)
             d = json.loads(re.search(r"var ytInitialData = (\{.*?\});</script>", h).group(1))
         except Exception as e:
             log("YouTube search failed:", q, e)
             continue
-        for v in list(_walk(d, "videoRenderer"))[:15]:
+        vr = list(_walk(d, "videoRenderer"))
+        log("YT renderers", q, len(vr), "lockups", len(list(_walk(d, "lockupViewModel"))))
+        for v in vr[:15]:
             vid = v.get("videoId")
             if not vid or vid in seen:
                 continue

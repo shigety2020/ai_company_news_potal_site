@@ -44,6 +44,8 @@ def fallback_thumb(url):
 
 def http(url, headers=None, data=None, timeout=30):
     h = {"User-Agent": UA, "Accept-Language": "ja-JP,ja;q=0.9"}
+    if "youtube.com" in url:
+        h["Cookie"] = "SOCS=CAI; CONSENT=YES+cb"  # 同意画面（EU/データセンター向け）を飛ばす
     h.update(headers or {})
     req = urllib.request.Request(url, headers=h, data=data)
     with urllib.request.urlopen(req, timeout=timeout) as r:
@@ -114,8 +116,9 @@ def _walk(o, key):
 
 def yt_published(vid):
     try:
-        h = http(f"https://www.youtube.com/watch?v={vid}")
-    except Exception:
+        h = http(f"https://www.youtube.com/watch?v={vid}&hl=ja&gl=JP")
+    except Exception as e:
+        log("YouTube watch failed:", vid, e)
         return None, ""
     m = re.search(r'"(?:publishDate|uploadDate)":"([^"]+)"', h)
     desc = re.search(r'<meta name="description" content="([^"]*)"', h)
@@ -133,11 +136,33 @@ def yt_published(vid):
     return t, html.unescape(desc.group(1)) if desc else ""
 
 
+_FEEDS = {}
+
+
+def yt_feed_published(channel_id, vid):
+    """チャンネルの RSS から公開日時を取る（watch ページが読めないときの代わり）。"""
+    if not channel_id:
+        return None
+    if channel_id not in _FEEDS:
+        try:
+            _FEEDS[channel_id] = http(f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}")
+        except Exception as e:
+            log("YouTube feed failed:", channel_id, e)
+            _FEEDS[channel_id] = ""
+    m = re.search(r"<yt:videoId>" + re.escape(vid) + r"</yt:videoId>.*?<published>([^<]+)</published>", _FEEDS[channel_id], re.S)
+    if not m:
+        return None
+    try:
+        return dt.datetime.fromisoformat(m.group(1))
+    except ValueError:
+        return None
+
+
 def collect_youtube():
     out, seen = [], set()
     for q in YT_QUERIES:
         try:
-            h = http("https://www.youtube.com/results?search_query=" + urllib.parse.quote(q) + "&sp=CAI%3D")
+            h = http("https://www.youtube.com/results?search_query=" + urllib.parse.quote(q) + "&sp=CAI%3D&hl=ja&gl=JP")
             d = json.loads(re.search(r"var ytInitialData = (\{.*?\});</script>", h).group(1))
         except Exception as e:
             log("YouTube search failed:", q, e)
@@ -150,8 +175,12 @@ def collect_youtube():
             ch = (v.get("ownerText", {}).get("runs") or [{}])[0].get("text", "")
             title = "".join(r.get("text", "") for r in v.get("title", {}).get("runs", []))
             pub, desc = yt_published(vid)
+            if pub is None:
+                cid = (v.get("ownerText", {}).get("runs") or [{}])[0].get("navigationEndpoint", {}).get("browseEndpoint", {}).get("browseId", "")
+                pub = yt_feed_published(cid, vid)
             out.append({"source": "youtube", "url": f"https://www.youtube.com/watch?v={vid}", "handle": ch, "published": pub,
                         "title": title, "text": desc[:800], "thumbnail": f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"})
+    log("YouTube candidates:", len(out), "with date:", sum(1 for c in out if c["published"]))
     return out
 
 

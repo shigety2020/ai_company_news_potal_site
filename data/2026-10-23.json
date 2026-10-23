@@ -1,109 +1,139 @@
 {
   "date": "2026-10-23",
   "featured": {
-    "time": "16:14",
-    "headline": "Anthropic、席を離れていても仕事を進め、先に声をかけてくるAI「Claude Duet」を発表",
-    "summary": "毎朝つないだアプリの大事なことをまとめて知らせ、会議の日程調整や売上の見通しづくりなどをクラウド上のパソコンで進める。メールの送信・支払い・署名・削除の前には必ず確認をとり、パスワードはAIが直接見ない作り。まずは米国のPro・Maxプランの人から順番待ちで試せる。",
-    "handle": "PC Watch",
-    "category": "ツール",
-    "url": "https://pc.watch.impress.co.jp/docs/news/2150390.html",
+    "time": "09:00",
+    "headline": "HELP YOUが経理業務の危機を乗り越えた実体験を共有",
+    "summary": "株式会社ニットが主催したランチタイム座談会で、HELP YOUを利用する企業が経理業務の危機をどう克服したかを共有した。",
+    "handle": "PR TIMES",
+    "category": "事例",
+    "url": "https://prtimes.jp/main/html/rd/p/000000807.000059127.html",
     "source": "web"
   },
   "items": [
     {
-      "time": "14:35",
-      "headline": "CEOも社員もAIの会社の1週間、配信が届いて40分後に売上が立った",
-      "summary": "人がしたのは目標を伝えることと、出す前に「はい」と答えることだけ。案内の文章づくり、点検、配信の予約まではAI社員が進めた。",
-      "handle": "chiero_piero",
+      "time": "09:19",
+      "headline": "ゲーム開発におけるAI社員の役割が明確に",
+      "summary": "ゲーム開発の進展に伴い、AI社員の存在意義が理解され始めているという意見が示された。",
+      "handle": "asuka__create",
       "category": "事例",
-      "url": "https://x.com/chiero_piero/status/2113142276889497806",
+      "url": "https://x.com/asuka__create/status/2113424925239529929",
       "source": "x",
-      "thumbnail": "https://pbs.twimg.com/media/HVNjrJoaYAAkrQS.jpg"
+      "thumbnail": "/thumb-fallback/1.jpg"
     },
     {
-      "time": "07:00",
-      "headline": "社員0人でジム38店舗を経営、お客さん集めから本部の仕事までAI社員に任せた",
-      "summary": "プリッツジムの代表に密着。本部の仕事を受け持つAI社員と広告運用を受け持つAI社員を見せ、うまく任せるかぎは仕事を言葉にしておくことだと話している。",
-      "handle": "株式会社AX",
+      "time": "00:00",
+      "headline": "1人社長がCodexのAI社員を活用し億超えの成果を達成",
+      "summary": "1人社長がCodexを利用してAI社員を導入し、億超えの収益を上げた事例について語る対談動画です。",
+      "handle": "おさるマーケ講座受講生対談",
       "category": "事例",
-      "url": "https://www.youtube.com/watch?v=fjj5sjhQRbA",
+      "url": "https://www.youtube.com/watch?v=L8R_tDswA_8",
       "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/fjj5sjhQRbA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/L8R_tDswA_8/hqdefault.jpg"
     },
     {
-      "time": "07:00",
-      "headline": "AI社員が止まっていたのに8日気づかなかった、毎朝5時の点検を1行ずつ育てた",
-      "summary": "福岡のセレクトショップの店主の話。困った日に点検の項目を1行足していき、今はAI社員が毎朝パソコンを確かめる。足してからは停止を3回、その朝のうちに見つけた。",
-      "handle": "BuyerHero｜岩本大興",
+      "time": "09:00",
+      "headline": "ベネッセがAI申請レビュー「バクラク」を導入し経費精算負荷を軽減",
+      "summary": "株式会社ベネッセコーポレーションがAI申請レビュー「バクラク」を導入し、経費立替精算の確認負荷を軽減する取り組みを開始した。継続的な改善も支援する。",
+      "handle": "PR TIMES",
       "category": "事例",
-      "url": "https://note.com/buyerhero/n/n8126c6fbb755",
+      "url": "https://prtimes.jp/main/html/rd/p/000000658.000036528.html",
       "source": "web",
-      "thumbnail": "https://assets.st-note.com/production/uploads/images/327379262/rectangle_large_type_2_2a75ff5d50b06d7129d913d9697ee0e4.png?fit=bounds&quality=85&width=1280"
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/36528/658/36528-658-4d52b328437a3bbeee8147686b031968-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     },
     {
-      "time": "13:00",
-      "headline": "8人のAI社員チームを点検したら、「直したはず」の問題が2つとも戻っていた",
-      "summary": "権限の渡し忘れや、関係ない投稿がまざる問題が静かに戻っていた。AIに渡す情報がふくらむと精度が落ちる話をきっかけに調べ直し、自分で使える点検リストにまとめた。",
-      "handle": "waDm2k6bL139021",
+      "time": "09:15",
+      "headline": "ミスミグループ本社が九つのAIエージェントを導入し実業務へ",
+      "summary": "ミスミグループ本社は、商品情報管理に九つのAIエージェントを導入し、2.5カ月で実業務に活用を開始した。",
+      "handle": "CaseHUBNews",
       "category": "事例",
-      "url": "https://x.com/waDm2k6bL139021/status/2113118147251503614",
-      "source": "x",
-      "thumbnail": "https://assets.st-note.com/production/uploads/images/326518061/rectangle_large_type_2_3aba1795bb7242797085295fa332f0fe.jpeg?fit=bounds&quality=85&width=1280"
-    },
-    {
-      "time": "06:55",
-      "headline": "Web制作会社を回すために、5人のAI社員を作ってみた",
-      "summary": "海外のWeb制作会社の社長が、AI社員の組織図、1人ずつの役目、AI社員どうしのやりとりの仕方を紹介。AIに任せられないことにも触れている（英語の動画）。",
-      "handle": "Cameron Jeanes",
-      "category": "事例",
-      "url": "https://www.youtube.com/watch?v=hoWFC10OShg",
-      "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/hoWFC10OShg/hqdefault.jpg"
-    },
-    {
-      "time": "06:39",
-      "headline": "スタッフを雇わない小さな治療院が、AIに「社員」をやってもらった",
-      "summary": "熊本の整体・鍼灸院で、SNS部・経営戦略部のように部署ごとにAIへ仕事を分けた。施術のあとの夜にやっていた投稿や数字の管理を任せている。",
-      "handle": "熊本の鍼灸師　ささき。",
-      "category": "事例",
-      "url": "https://note.com/sasaki_hari/n/ne7fb5710a084",
-      "source": "web",
-      "thumbnail": "https://assets.st-note.com/production/uploads/images/327378324/rectangle_large_type_2_a546ffadc4019138c59d236e97aaa0e0.jpg?fit=bounds&quality=85&width=1280"
-    },
-    {
-      "time": "23:51",
-      "headline": "AI秘書の朝のまとめが届かなかった、原因は前の日に止まった確認画面",
-      "summary": "前の日の仕事が終わっていない扱いになり、次の朝の仕事まで止まっていた。直すだけでなく「止まった分を終わらせる」を決まりにした。",
-      "handle": "humble_whale358",
-      "category": "事例",
-      "url": "https://x.com/humble_whale358/status/2113282011960152137",
-      "source": "x",
-      "thumbnail": "https://pbs.twimg.com/media/HVPiyWnbEAAHOWG.jpg"
-    },
-    {
-      "time": "20:49",
-      "headline": "不動産会社のAI社員を、AIに点検させた",
-      "summary": "指示書と決まりの食い違いが4件、役割の一覧が3か所でばらばらだった。決まりの置き場を1つにまとめ、点検は3か月ごとに。AI社員は9月時点で11人になった。",
-      "handle": "allez_design",
-      "category": "事例",
-      "url": "https://x.com/allez_design/status/2113236172529082441",
+      "url": "https://x.com/CaseHUBNews/status/2113424076056260854",
       "source": "x",
       "thumbnail": "/thumb-fallback/3.jpg"
     },
     {
-      "time": "12:01",
-      "headline": "常に動くAIエージェント4つを比べた表、Claude Duet・dots・Muse・Grok Bot",
-      "summary": "「任せられる仕事」「人が承認する操作」「使える地域とプラン」を軸に、目的別の選び方までまとめている。",
-      "handle": "shota7180",
-      "category": "ツール",
-      "url": "https://x.com/shota7180/status/2113103326959354014",
-      "source": "x",
-      "thumbnail": "https://pbs.twimg.com/media/HVM-2-Va8AAWrRD.jpg"
+      "time": "09:00",
+      "headline": "AIエージェントと働くコンサルの仕事を紹介するイベント開催",
+      "summary": "株式会社Carnotが「AI Native コンサルティングイベント」を開催し、AIエージェントと共に働くコンサルタントの実例を紹介する。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000008.000117318.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/117318/8/117318-8-bf2ac58c9e5405de81999605d008894e-1734x907.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     },
     {
-      "time": "19:34",
-      "headline": "いま話題のAI秘書「Hermes Agent」の使い方と、dots・Grok Botとのちがい",
-      "summary": "チャットアプリで話せて自分で育つAIとして、Discordでの会話、健康管理、AIの作業の進み具合の通知などの使い方を紹介。AIにどこまで権限を渡すかの話もある。",
+      "time": "09:15",
+      "headline": "AI社員が日報を公開、運用状況を透明化した取り組み",
+      "summary": "AI社員が行った業務内容や成果を日報形式で公開し、運用状況を透明化する取り組みを報告。登録者数や収益などの数字も公開されている。",
+      "handle": "ai_mile_strateg",
+      "category": "事例",
+      "url": "https://x.com/ai_mile_strateg/status/2113423938265153889",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVRj3sAbQAArZyZ.jpg"
+    },
+    {
+      "time": "08:00",
+      "headline": "助太刀、Flutterリプレイスで99%をAIに任せた知見を共有",
+      "summary": "助太刀は「FlutterKaigi 2026」にゴールドスポンサーとして協賛し、実装の99%をAIに任せたFlutterリプレイスの知見をセッションで共有する。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000288.000027771.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/27771/288/27771-288-b96c5af8a23eafd81900ad754daa38b5-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "09:14",
+      "headline": "Uber、全社員にChatGPT Workを導入し業務効率化を図る",
+      "summary": "Uberは全社員約3万人にChatGPT Workを導入し、調査やデータ分析、資料作成に活用する。試験導入では約8割がエンジニア以外の社員だった。",
+      "handle": "akirame558746",
+      "category": "事例",
+      "url": "https://x.com/akirame558746/status/2113423806765379795",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "09:13",
+      "headline": "AIのチラシ作成における成功の要因を分析",
+      "summary": "AIによるチラシ作成の成功には、事前の決まりごとと事後の確認が重要であることが明らかになりました。",
+      "handle": "Bibi07519",
+      "category": "事例",
+      "url": "https://x.com/Bibi07519/status/2113423482755379707",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "09:12",
+      "headline": "AI社員の画像担当が投稿失敗を受けて業務改善を実施",
+      "summary": "AI社員の画像担当が原因でX投稿が3日連続で失敗したため、業務設計を見直し、最適な画像提案を行うことにした。",
+      "handle": "tobari2982",
+      "category": "事例",
+      "url": "https://x.com/tobari2982/status/2113423154681204964",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "09:10",
+      "headline": "AI社員が業務効率化を実現、評価に反映されず",
+      "summary": "AI社員が業務を50%効率化したものの、減少した時間が評価に反映されていないことが指摘された。",
+      "handle": "migiude_ai",
+      "category": "事例",
+      "url": "https://x.com/migiude_ai/status/2113422791978754287",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "09:22",
+      "headline": "AIエージェントDXPO福岡’26が開催、業務効率化のAIソリューションが集結",
+      "summary": "AIエージェントDXPO福岡’26が開催され、業務効率化を推進するAIソリューションやサービスが一堂に集まりました。最終日は16時30分までの開催です。",
+      "handle": "fox_box_dxpo",
+      "category": "ツール",
+      "url": "https://x.com/fox_box_dxpo/status/2113425698388075003",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "00:00",
+      "headline": "AI秘書「Hermes Agent」の活用法と他ツールとの違いを解説",
+      "summary": "AI秘書「Hermes Agent」の使い方や、Dots・Grok Botとの違いについて紹介する動画です。",
       "handle": "Rei丨暮らしとNotion。",
       "category": "ツール",
       "url": "https://www.youtube.com/watch?v=rq6DY_PEa-M",
@@ -111,59 +141,39 @@
       "thumbnail": "https://i.ytimg.com/vi/rq6DY_PEa-M/hqdefault.jpg"
     },
     {
-      "time": "10:00",
-      "headline": "Polyscape、業界ごとの知識を覚えて育つ自律型AI社員「IROHA OS」の提供を始める",
-      "summary": "社員と同じチャットで働き、会社のやり方を覚えて仕事を引き取る。ゲームのテストの人件費75%減、社内で月約263時間減の実績があり、香水ブランドの受発注の仕事にも入る。",
+      "time": "08:30",
+      "headline": "エクサウィザーズとスタジアムが営業支援のAI活用サービスを開始",
+      "summary": "エクサウィザーズとスタジアムが営業組織の型化やAI活用を支援する伴走サービスを開始しました。効果測定まで一貫してサポートします。",
       "handle": "PR TIMES",
       "category": "ツール",
-      "url": "https://prtimes.jp/main/html/rd/p/000000036.000098447.html",
+      "url": "https://prtimes.jp/main/html/rd/p/000000511.000030192.html",
       "source": "web",
-      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/98447/36/98447-36-7565ca773f9780cb2a18ad3170a92813-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/30192/511/30192-511-16fa1b049aee76496ea64d0401a29aab-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     },
     {
-      "time": "06:58",
-      "headline": "ソフトバンク、AIエージェント基盤の導入を手伝うパートナー4社を発表",
-      "summary": "法人向けの基盤「AGENTIC STAR」で、要件づくりから運用まで任せられる体制を作る。パートナーはACSHU、セラク、FPTソフトウェアジャパン、ヘッドウォータース。",
-      "handle": "ChatgptAIskill",
+      "time": "09:14",
+      "headline": "シフトプラスが自治体向けAIシステムをデモ公開",
+      "summary": "シフトプラスが「地方自治情報化推進フェア2026」に出展し、自治体AI zevoの新機能「iJAMP RAG」と「AIエージェント」を紹介します。業務効率化を目指したシステム群がデモされます。",
+      "handle": "GENICPRESSAPP",
       "category": "ツール",
-      "url": "https://x.com/ChatgptAIskill/status/2113027053528453358",
+      "url": "https://x.com/GENICPRESSAPP/status/2113423691342319878",
       "source": "x",
-      "thumbnail": "https://pbs.twimg.com/media/HVL3fJrbkAALWqp.png"
+      "thumbnail": "https://pbs.twimg.com/media/HVRje8MaMAAxn4P.jpg"
     },
     {
-      "time": "18:00",
-      "headline": "24時間働くAIエージェント「dots」を使ってみて、お金を払う価値があるか話す",
-      "summary": "OpenAIの新しい機能dotsを実際に使った感想と、どんな人なら課金したほうがよいかを解説している。",
-      "handle": "にゃんたのAIチャンネル",
-      "category": "ツール",
-      "url": "https://www.youtube.com/watch?v=nTNCwOYrww0",
-      "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/nTNCwOYrww0/hqdefault.jpg"
-    },
-    {
-      "time": "11:10",
-      "headline": "EvoMate、営業AI社員「EvoMate Sales」のスマホアプリをストアで公開",
-      "summary": "商談のあと、議事録・営業日報・お礼メールの下書きと次にやることの一覧をAI社員が作る。事務所に戻らなくても、外出先のスマホで確かめられる。",
+      "time": "08:30",
+      "headline": "エクサウィザーズとスタジアムがAI活用の伴走サービスを開始",
+      "summary": "エクサウィザーズとスタジアムが共同で営業組織の型化やAI活用を支援する新たな伴走サービスを開始した。効果測定まで一貫してサポートする。",
       "handle": "PR TIMES",
       "category": "ツール",
-      "url": "https://prtimes.jp/main/html/rd/p/000000002.000189654.html",
+      "url": "https://prtimes.jp/main/html/rd/p/000000125.000015527.html",
       "source": "web",
-      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/189654/2/189654-2-3bab9f42ea2819146c99ce6f008f0ceb-2400x1260.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/15527/125/15527-125-95ccbd6d24311d7fc5db91f9aab0bcff-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     },
     {
-      "time": "22:56",
-      "headline": "Claude Codeで、議事録から週次報告まで作るAIエージェントを作る",
-      "summary": "会議の文字起こしを読んで、決まったこと・根拠の表・週次報告の下書き・品質の点検の4つを作るまでを、画面78枚で順に説明。プログラミングをしない人向け。",
-      "handle": "aki_jpgf",
-      "category": "作り方",
-      "url": "https://x.com/aki_jpgf/status/2112905765556265138",
-      "source": "x",
-      "thumbnail": "https://assets.st-note.com/production/uploads/images/317077494/rectangle_large_type_2_9b0a1e8d1c5a14c764a697de9e29f2d8.png?fit=bounds&quality=85&width=1280"
-    },
-    {
-      "time": "21:00",
-      "headline": "Claude CodeとGemini Notebookを組み合わせて、AI社員を作る",
-      "summary": "Gemini Notebook（旧NotebookLM）とClaude Codeをつないで、仕事をすばやく片づけるAI社員を生み出す方法を解説している。",
+      "time": "00:00",
+      "headline": "Claude CodeとGemini Notebookを活用したAI社員の活用法",
+      "summary": "Claude CodeとGemini Notebookを連携させることで、AI社員が業務を迅速にこなす方法を紹介する動画です。具体的な手順や活用例が解説されています。",
       "handle": "【さき】のAIでええやん。",
       "category": "作り方",
       "url": "https://www.youtube.com/watch?v=TuO-D9oFQLo",
@@ -172,43 +182,33 @@
     },
     {
       "time": "00:00",
-      "headline": "AI社員の「部署」を1つ立ち上げる5ステップ",
-      "summary": "昨日の話を覚えていない、案が多すぎて決められない、社長の確認待ちで止まる。前回の3つのつまずきを最初から起こさない部署の作り方を、最初の仕事を頼むところまで書いている。",
-      "handle": "とも",
+      "headline": "AIエージェントの機能とおすすめアプリを詳しく解説",
+      "summary": "AIエージェントの基本的な機能やおすすめのアプリ、料金について詳しく解説し、実際に作成したアプリも紹介しています。",
+      "handle": "独学クソリーマンの逆襲",
       "category": "作り方",
-      "url": "https://note.com/tomo_2645/n/n42f719daf341",
-      "source": "web",
-      "thumbnail": "https://assets.st-note.com/production/uploads/images/327061099/rectangle_large_type_2_d12bdb0d88be22dde9d9865f723c7297.png?fit=bounds&quality=85&width=1280"
-    },
-    {
-      "time": "23:57",
-      "headline": "AIエージェントに出した仕事の進み具合を、スマホで1画面で確かめるボード",
-      "summary": "自分のTODOと同じ画面で、作業の進み具合と作ったファイルの置き場所がわかる。作り方は自分のエージェントにそのまま渡せる手順書として公開されている。",
-      "handle": "kensumi_ai",
-      "category": "作り方",
-      "url": "https://x.com/kensumi_ai/status/2112921285064024380",
-      "source": "x",
-      "thumbnail": "/thumb-fallback/0.jpg"
-    },
-    {
-      "time": "18:00",
-      "headline": "Claude Codeで、メールも予定も日報もまとめて受け持つAI秘書を作る",
-      "summary": "仕事を1つずつバラバラに頼むと毎回やり方がぶれる。ルールのファイル、つなぐ先、仕事ごとの手順書の3つで1人の秘書にまとめ、送る・消す・お金の前に止まる仕組みも入れる。",
-      "handle": "【りょう】のClaude仕事術ラボ",
-      "category": "作り方",
-      "url": "https://www.youtube.com/watch?v=WVFsWkBB0Fg",
+      "url": "https://www.youtube.com/watch?v=iJmjEaVbbIc",
       "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/WVFsWkBB0Fg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/iJmjEaVbbIc/hqdefault.jpg"
     },
     {
-      "time": "10:47",
-      "headline": "AIエージェントとは何か、できることと作り方、安全に使い始める3つのポイント",
-      "summary": "チャットボットとのちがい、業務で使えるAIエージェントの作り方、会社で安全に動かし始めるための注意点をまとめた解説記事。",
-      "handle": "optim_jpn",
+      "time": "00:00",
+      "headline": "初心者向け！Claudeを使ったAI秘書の作成方法を解説",
+      "summary": "動画では、Claudeを利用してAI秘書を作成し、会社経営に活用する方法を初心者向けに説明しています。",
+      "handle": "スタートAI学長クリスのAI教室",
       "category": "作り方",
-      "url": "https://x.com/optim_jpn/status/2113084904733053190",
-      "source": "x",
-      "thumbnail": "https://www.optim.co.jp/wp-content/uploads/mv_baa-ai_2610-01.png"
+      "url": "https://www.youtube.com/watch?v=WLwcOTSj7nA",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/WLwcOTSj7nA/hqdefault.jpg"
+    },
+    {
+      "time": "00:00",
+      "headline": "NotionとChatGPTを活用したAI秘書によるタスク管理法",
+      "summary": "この動画では、NotionとChatGPTを組み合わせてAI秘書と共にタスク管理を行う方法を紹介しています。具体的な手順や活用法が解説されています。",
+      "handle": "Yuta | AIと暮らす",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=iIOv8r9ANxU",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/iIOv8r9ANxU/hqdefault.jpg"
     }
   ]
 }

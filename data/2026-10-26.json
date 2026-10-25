@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-26",
+  "featured": {
+    "time": "14:26",
+    "headline": "Uber、3万人を超える全社員に業務AIエージェント「ChatGPT Work」を広げる",
+    "summary": "1000人で試したあと、世界の全社員に対象を広げた。目標を小さな作業に分け、Gmail・Googleドライブ・カレンダー・Slackをまたいで調べもの、会議の資料、表やプレゼンまで作る。試した人の約8割はエンジニアではなかった。社内のスキル集と研修を組み合わせ、重要な操作の前には中身を審査するしくみもある。",
+    "handle": "財経新聞",
+    "category": "事例",
+    "url": "https://www.zaikei.co.jp/article/20261024/874786.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "19:59",
+      "headline": "動画は毎日1本、予約はいつも6日先まで、作っているのはAI社員",
+      "summary": "社員が全員AIという会社のアカウント。社長の指示で動画づくりを毎日1本に決め、この動画も10月18日の夜にAI社員が4本まとめて作ったうちの1本だという。",
+      "handle": "shain_zenin_ai",
+      "category": "事例",
+      "url": "https://x.com/shain_zenin_ai/status/2113948514912968821",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2113948206333923328/img/TB5v8RqT6G1mRhvD.jpg"
+    },
+    {
+      "time": "19:00",
+      "headline": "「AI社員」は本当に使えるのか、AI導入を手伝う会社が現場の話をする",
+      "summary": "AIの導入と仕事の見直しを手伝っているSalesDockの人が、AI社員を入れてみて実際どうなのかを、良いところも難しいところも含めて話している。",
+      "handle": "AI実装ちゃんねる【SalesDock】",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=zjuEHv-ZWsM",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/zjuEHv-ZWsM/hqdefault.jpg"
+    },
+    {
+      "time": "06:58",
+      "headline": "ネットショップの店長、AI社員を3人増やしてサンプルが届く前に商品ページの下地を作った",
+      "summary": "商品リサーチ担当が楽天の売れ筋と値段を調べ、商品ページ担当が見せ方を考え、Codex担当は画像をCodexに作らせてClaudeで確かめる。作る役と確かめる役を分けた話。",
+      "handle": "カヤギ｜AI試行錯誤ラジオ",
+      "category": "事例",
+      "url": "https://note.com/kyagi2022/n/nf5b92ebf06c6",
+      "source": "web",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/328245867/rectangle_large_type_2_3e22e0705e0a3ff6fca019c43e11e8c0.png?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "15:15",
+      "headline": "頼みごとが増えたAI秘書を分けて、経理用のAI秘書を作った",
+      "summary": "いまのAI秘書にいろいろ任せすぎたので、経理の仕事だけを受け持つAI秘書を別に作ったという投稿。",
+      "handle": "ch1n_tomo",
+      "category": "事例",
+      "url": "https://x.com/ch1n_tomo/status/2113877065993003445",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVX8Td0bQAAC7iq.png"
+    },
+    {
+      "time": "18:00",
+      "headline": "NECが作った「AIだけの部署」をエンジニアの目で読み解く",
+      "summary": "AI部門長・AIマネージャー・AI社員という階層で、仕事が来るとAI社員をその都度作る。経営分析担当は仕事の時間を7分の1にし、AI社員にも社員サーベイをしているという。",
+      "handle": "ギリギリ開発会議 by ボイスアップラボ",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=aNfRPRCbqW8",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/aNfRPRCbqW8/hqdefault.jpg"
+    },
+    {
+      "time": "12:05",
+      "headline": "配送先の変更の81%をAIエージェントだけで終わらせた通販など、10月23日の国内の動き",
+      "summary": "サムザップの通販は配送先変更の問い合わせの81%を人なしで終え、残りは人に渡している。不動産会社が8つの仕事を2日で自動にした例などもまとめている。",
+      "handle": "Yasuhito Morimoto",
+      "category": "事例",
+      "url": "https://note.com/yasuhitoo/n/nab72f332429b",
+      "source": "web",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/327548133/rectangle_large_type_2_fd9414b297fda01510591612e518a6b9.png?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "10:21",
+      "headline": "古いファイルを消す前に、AI秘書に仕事への影響を確かめさせた",
+      "summary": "参照やリンク、使用中かどうかをAI秘書に調べさせ、本人がOKを出した。AI秘書が動かすのはゴミ箱まで、ゴミ箱を空にする操作は自分で打ったという線引き。",
+      "handle": "YuuFilmsx",
+      "category": "事例",
+      "url": "https://x.com/YuuFilmsx/status/2114165305371185197",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "19:00",
+      "headline": "AI秘書つきの手帳「クローバー」が出た、いまのAI秘書はそのまま使える",
+      "summary": "開けば今日やることがわかる手帳で、すでに育てたAI秘書と競合しない。Claude Code・Codex・Antigravityで動き、お試しの値段は1,980円。",
+      "handle": "ritsuto_NFT_Vt",
+      "category": "ツール",
+      "url": "https://x.com/ritsuto_NFT_Vt/status/2113933543168721076",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVYzWo-aAAAwc3e.jpg"
+    },
+    {
+      "time": "21:00",
+      "headline": "MetaのAI秘書「Muse」が日本で使えるように、できること・料金・始め方",
+      "summary": "10月23日に日本で始まったMuseを、Metaの公式の発表とヘルプで確かめて約11分で紹介。GmailやGoogleカレンダーとのつなぎ方、承認のしくみ、実際の画面も見せている。",
+      "handle": "AIツールの達人【AI・Web・ChatGPT最新情報】",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=2B4jptxYRl4",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/2B4jptxYRl4/hqdefault.jpg"
+    },
+    {
+      "time": "18:20",
+      "headline": "社員ひとりずつの「代理ボット」が同僚の質問に下書きで答える、Samurai Appの新しい機能",
+      "summary": "代理ボットは本人の資料と記憶から答えを下書きし、本人が直して承認したものだけが相手に届く。答えてよい範囲も使わせる機能も本人が決め、72時間決まらなければ期限切れ。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000197.000085052.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/85052/197/85052-197-054fe93c7a8a97da4946dd7c9b6f7f3a-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "02:43",
+      "headline": "IBM「Sterling Agent Hub」、会社間のファイル転送が止まった原因をAIエージェントが探す",
+      "summary": "失敗したり遅れたりした転送のログや設定を調べ、原因の候補と直し方を出す。人がログを掘っていた仕事にAIエージェントが入ってくる。",
+      "handle": "wowwowai",
+      "category": "ツール",
+      "url": "https://x.com/wowwowai/status/2114050269939941436",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVadgspWgAAxwq_.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "頼まなくても動くAI秘書「Claude Duet」、できることと安全のしくみ、日本で使えるか",
+      "summary": "公式の動画と記事をもとに、毎朝のまとめや見回り、メールの送信や支払いの前に必ず確認するしくみ、使える人と注意点までまとめている。",
+      "handle": "AI market",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=4y8ruOWGa2U",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/4y8ruOWGa2U/hqdefault.jpg"
+    },
+    {
+      "time": "18:28",
+      "headline": "Bocek、社内の資料を横断して原本つきで答えるAIエージェント「NAYUTA」",
+      "summary": "SharePoint・Box・Googleドライブの資料を読み込み、根拠の原本を見せて答える。会社独自の30問の評価で96%台の正しさだったという。データの整備から精度の確かめまで手伝う。",
+      "handle": "O!Product AI",
+      "category": "ツール",
+      "url": "https://oproduct.ai/articles/6048914",
+      "source": "web",
+      "thumbnail": "https://storage.googleapis.com/oproduct-bucket/articles/article/image/9356_1792825359.webp"
+    },
+    {
+      "time": "05:19",
+      "headline": "総務から技術まで専門のAI社員を作ってつなぎ、自社だけのAI組織にする「SHIKOU AI」",
+      "summary": "総務・人事・経理・営業・マーケティング・技術の知識を持つAI社員を作って自由につなげる。秘書AIがメールやタスク、チャットをまとめて見る。",
+      "handle": "Marketer_kazuf",
+      "category": "ツール",
+      "url": "https://x.com/Marketer_kazuf/status/2114089474707832970",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVbBK6ybAAEZv1g.jpg"
+    },
+    {
+      "time": "11:04",
+      "headline": "AI社員は「どれだけ賢いか」より「どれだけ直されなくなったか」で見る",
+      "summary": "直す回数、確かめる時間、ミスが減り、正しく止まれるようになったなら仕事は良くなっている。AIの性能の評価と、AI社員の仕事の評価は別だという考え方。",
+      "handle": "kurum_aio",
+      "category": "作り方",
+      "url": "https://x.com/kurum_aio/status/2113813969899319524",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "18:00",
+      "headline": "Claude CodeとDiscordだけで作るAI社員、寝ている間にも仕事をさせる手順",
+      "summary": "会社の情報を棚おろしし、Gmailの確認と返信案づくりをスキルにして、決まった時間に動かす。話しかけられる人を自分だけにし、権限は読むだけにするという注意点も話している。",
+      "handle": "AIマーケちゃんねる - 星川ユウヤ",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=VsQp0hnHaDU",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/VsQp0hnHaDU/hqdefault.jpg"
+    },
+    {
+      "time": "06:59",
+      "headline": "noteを「毎朝7時・確認なし」で自動公開にした手順と頼み方",
+      "summary": "最初は下書きまでにしていたが、書いてよいこと・いけないことを言葉にできたテーマだけ確認を外した。過去記事の一覧を読んで重ならないテーマを選び、体験していないことは断定させない。",
+      "handle": "石神大輔 | Human Capital AI Lead",
+      "category": "作り方",
+      "url": "https://note.com/gamisuke0507/n/nca98123071fc",
+      "source": "web",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/328146842/rectangle_large_type_2_4403422a6e27737d2a3278b7dd417fee.jpeg?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "20:55",
+      "headline": "AI秘書と長く話すと返事が英語になる、最初の約束を忘れる理由と備え方",
+      "summary": "夜中までAI秘書と作業していたら急に英語で返ってきた。会話が長くなると最初の約束から忘れていく、そのしくみと備え方をまとめている。",
+      "handle": "kazemachi_lab",
+      "category": "作り方",
+      "url": "https://x.com/kazemachi_lab/status/2114324864425488728",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVeXMRFaUAAXjKz.jpg"
+    },
+    {
+      "time": "20:00",
+      "headline": "Metaの「Muse」を実際に動かして解説、画像や動画づくりからインスタ投稿まで",
+      "summary": "無料のままでほとんどの機能が使えるMuseを、画像・動画の生成やインスタへの投稿まで実際に使って見せている。",
+      "handle": "じゅりん│AIビジネス活用塾",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=Kas922ggP3U",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/Kas922ggP3U/hqdefault.jpg"
+    },
+    {
+      "time": "17:04",
+      "headline": "提案書・企画書をClaude Codeと壁打ちで作る9つの工程",
+      "summary": "ひとり社長がAI従業員と働く方法を配るメールマガジンの14号。提案書・企画書を作るスキルを配り、9つの工程をClaude Codeと話しながら進める。",
+      "handle": "kojiroo_o",
+      "category": "作り方",
+      "url": "https://x.com/kojiroo_o/status/2114266920908447796",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVdijyCbkAAT9oD.jpg"
+    }
+  ]
+}

@@ -203,11 +203,15 @@ def collect_youtube():
             pub, desc = yt_published(vid)
             if not desc:
                 desc = "".join(r.get("text", "") for r in (v.get("detailedMetadataSnippets") or [{}])[0].get("snippetText", {}).get("runs", []))
+            if pub is not None and pub.tzinfo is JST and (pub.hour, pub.minute) == (0, 0):
+                pub = None  # 日付だけで時刻が無い -> RSS で本当の時刻を探す
             if pub is None:
                 cid = (v.get("ownerText", {}).get("runs") or [{}])[0].get("navigationEndpoint", {}).get("browseEndpoint", {}).get("browseId", "")
                 pub = yt_feed_published(cid, vid)
             if pub is None:
                 pub = yt_relative(v.get("publishedTimeText", {}).get("simpleText", ""))
+                if pub is not None and (pub.hour, pub.minute) == (0, 0):
+                    pub = None  # 時刻が分からない動画は載せない（00:00 を出さない）
             out.append({"source": "youtube", "url": f"https://www.youtube.com/watch?v={vid}", "handle": ch, "published": pub,
                         "title": title, "text": desc[:800], "thumbnail": f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"})
     log("YouTube candidates:", len(out), "with date:", sum(1 for c in out if c["published"]))
@@ -375,6 +379,8 @@ def validate(d, seen, pub=None, today=None):
             errs.append(f"item keys {list(i)} {i.get('url')}")
         if i.get("category") not in CATS or i.get("source") not in SRCS:
             errs.append(f"bad category/source {i.get('url')}")
+        if i.get("time") == "00:00":
+            errs.append(f"time 00:00 {i.get('url')}")
         if not re.fullmatch(r"\d\d:\d\d", i.get("time", "")):
             errs.append(f"bad time {i.get('url')}")
         t = i.get("thumbnail", "")

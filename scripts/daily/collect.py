@@ -379,8 +379,6 @@ def validate(d, seen, pub=None, today=None):
             errs.append(f"item keys {list(i)} {i.get('url')}")
         if i.get("category") not in CATS or i.get("source") not in SRCS:
             errs.append(f"bad category/source {i.get('url')}")
-        if i.get("time") == "00:00":
-            errs.append(f"time 00:00 {i.get('url')}")
         if not re.fullmatch(r"\d\d:\d\d", i.get("time", "")):
             errs.append(f"bad time {i.get('url')}")
         t = i.get("thumbnail", "")
@@ -446,6 +444,8 @@ def main():
     for c in raw:
         if c["url"] in seen or not c["published"]:
             continue
+        if hhmm(c["published"]) == "00:00":
+            continue  # 時刻が分からないものは載せない（PB1 QA「00:00 が無い」）
         p = c["published"].astimezone(JST).date()
         if not (cut <= p <= today):
             continue

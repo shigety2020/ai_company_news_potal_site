@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-28",
+  "featured": {
+    "time": "10:42",
+    "headline": "AI社員62体の会社で6日間だれも気づかなかった失敗、問われたのは人間の権限と責任",
+    "summary": "人間5人に対してAI社員が62体、秘書・広報・営業・経理など9つの部門でAIが毎日の仕事をこなす会社の話。朝の状況の確認は20分から1分に縮んだ一方で、自動化が止まったまま6日間だれも気づかなかった失敗もあった。AIに何を任せ、だれがどこまで責任を持つかを人間が決めておく大切さを書いている。",
+    "handle": "横山信弘（Yahoo!ニュース エキスパート）",
+    "category": "事例",
+    "url": "https://news.yahoo.co.jp/expert/articles/a3011efc79e3c67d723e2fa9fbcaa2eb6417d61a",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "19:56",
+      "headline": "Codexの中にAI社員を4人作った、目標は12人の体制",
+      "summary": "ChatGPTへの指示文を作っていて思いつき、Codexの中に役割を持ったAI社員を4人作った。AIに質問するだけだった人が、AI社員を動かす側になったという始まりの記録。",
+      "handle": "Kaizashin88",
+      "category": "事例",
+      "url": "https://x.com/Kaizashin88/status/2115034844128522578",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVoc0XJaMAEdTXo.jpg"
+    },
+    {
+      "time": "19:00",
+      "headline": "AI社員45体で月400時間の時短、AIコンサルの仕事と稼ぎ方",
+      "summary": "AI社員45体に実際に何をさせているかを話している。動画の編集もAIに任せ、AI社員全体で年に約1万時間を減らした。収入はオンライン講座と会社との顧問契約だという。",
+      "handle": "メンタエクセル",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=MK4bpRdRjuw",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/MK4bpRdRjuw/hqdefault.jpg"
+    },
+    {
+      "time": "14:00",
+      "headline": "DeNAのAI社員、空回りしたメール見張りを「頼み方」で立て直した",
+      "summary": "数百件のメールの見張りを頼んだAI社員が空回りした。後輩を育てるときのように、何が危ないかを言葉にして渡し直したら、月600回動くようになったという実録。",
+      "handle": "【AI社員 by DeNA】公式",
+      "category": "事例",
+      "url": "https://note.com/dena_ai_shain/n/n5ffb2d7034df",
+      "source": "web",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/328997765/rectangle_large_type_2_6864657d0ed8cf653a018f6e5c422d37.png?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "21:26",
+      "headline": "50歳無職、AI社員を6つの役に分けて自分の仕組みを作った",
+      "summary": "目標を決める役、計画を立てる役、作る役、ダメ出しする役、発信する役、記録する役の6つ。自分で設計した仕組みで、社長は1人、売上はまだ0円だという。",
+      "handle": "kaamura_ai",
+      "category": "事例",
+      "url": "https://x.com/kaamura_ai/status/2114695035723698569",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "17:00",
+      "headline": "会社の事務10種類をAI社員に任せて測った、5分足らずで9種類が正解と一致",
+      "summary": "請求書づくり、入金の消し込み、領収書の台帳づけ、議事録など10種類を1つずつAIエージェントに頼み、正解と機械で照らし合わせた。AIが自分で「要確認」と残した所や、計算は道具・下書きはAIという分け方も話している。",
+      "handle": "墨家 Sumiyaka Studio",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=bzn3soLfgnc",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/bzn3soLfgnc/hqdefault.jpg"
+    },
+    {
+      "time": "09:30",
+      "headline": "AI社員の2人目は調査部、元の記事まで確かめてから社長に渡す",
+      "summary": "毎朝ニュースを集める担当のAI社員。元の記事まで確かめ、裏の取れていない話は社長に渡さないという。",
+      "handle": "Aimanelab",
+      "category": "事例",
+      "url": "https://x.com/Aimanelab/status/2114877235777646932",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVj3wvBa8AAXKW2.jpg"
+    },
+    {
+      "time": "09:22",
+      "headline": "Claude Codeチームはコードの約9割をAIが書き、人が1行ずつ読むのをやめた",
+      "summary": "何層もの自動チェックを重ね、人の承認は危ない変更だけに絞った。AI時代のレビューは、人が読まなくていい環境をどう作り、どう確かめ続けるかだという話。",
+      "handle": "3chhe",
+      "category": "事例",
+      "url": "https://x.com/3chhe/status/2114875404767084904",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "06:07",
+      "headline": "Meta・OpenAI・Anthropicの24時間動くAI、3社とも送る・払う・消すの手前で人に戻す",
+      "summary": "3社の説明と報道を開いて比べると、どれも取り消せない操作の前で人に確かめる作りだった。自分の仕事のどこに線を引くかと、比べる表を作る指示文をまとめている。",
+      "handle": "Charlie_no_site",
+      "category": "ツール",
+      "url": "https://x.com/Charlie_no_site/status/2115188743779094993",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "14:00",
+      "headline": "GeminiでAIエージェントを作ってみた、AIを使うからAIと働くへ",
+      "summary": "グーグル・クラウドのエンジニアに、自分専用のAIエージェントで仕事がどう変わるかを聞いた番組（グーグル・クラウド・ジャパン提供）。",
+      "handle": "PIVOT 公式チャンネル",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=KyLlOyk023Y",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/KyLlOyk023Y/hqdefault.jpg"
+    },
+    {
+      "time": "14:56",
+      "headline": "LINEヤフー、広告や販促の運用を手伝う会社向けAIエージェント「Agent i Biz」",
+      "summary": "チャットで話しかけると、LINEヤフーの検索データや広告の実績をもとに、市場やお客さんの動きを調べて改善の案を出す。まずは分析と案づくりから始め、当面は無料で使える。",
+      "handle": "LINEヤフー",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000001832.000129774.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/129774/1832/129774-1832-ba3203cd49200876767bd929a57abd93-1200x628.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "07:53",
+      "headline": "Cursorが「Agent SDK」を出した、指示はMarkdown・道具はTypeScriptで書く",
+      "summary": "エージェントをコードとして管理できる。土台はCursorのBugbotやSecurity Reviewと同じしくみで、変更のたびに効果を測る機能も入っている。",
+      "handle": "multilayer",
+      "category": "ツール",
+      "url": "https://x.com/multilayer/status/2114852953811271933",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "19:00",
+      "headline": "Claude Duetで何ができるか、新しいAI秘書の仕事の流れ",
+      "summary": "朝のメールと予定のまとめ、クラウドのパソコンで進める下書き、外に出す前の承認までを、公式の発表とヘルプで紹介。今は米国の招待者向けで、日本では使えない。",
+      "handle": "瀬戸悠真のAIガイド",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=yWOSES6d3_M",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/yWOSES6d3_M/hqdefault.jpg"
+    },
+    {
+      "time": "10:00",
+      "headline": "ゲーム会社の仕事にAIエージェントを組み込む「アイプラ」、人の育成とセットで",
+      "summary": "クリーク・アンド・リバー社の子会社リヴァイが、会社の仕事の流れにAIエージェントを組み込む環境づくりのパッケージを始めた。第1弾はゲーム業界向けで、開発から事務までを効率化する。",
+      "handle": "クリーク・アンド・リバー社",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000005181.000003670.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/3670/5181/3670-5181-19341a384370262c376fd2aaf4771a63-1833x1031.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "21:53",
+      "headline": "AI社員が8日で7人から17人に、分けるときに決めている4つのこと",
+      "summary": "担当・時刻・頻度の一覧を作り、時刻をちょうどにしない、同じ場所を使う担当は30分ずらす、などのルールをnoteにまとめた。",
+      "handle": "shain_zenin_ai",
+      "category": "作り方",
+      "url": "https://x.com/shain_zenin_ai/status/2114701914885775805",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "20:20",
+      "headline": "AIエージェント初心者向け、AIの使い方を学んで仕事に使う4つの段階",
+      "summary": "AIを使いこなすとはどういう状態かを考え直し、学ぶところから仕事で使うところまでを4つの段階に分けて話している。",
+      "handle": "AIでサボろうチャンネル",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=wKhoCZINBzU",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/wKhoCZINBzU/hqdefault.jpg"
+    },
+    {
+      "time": "10:00",
+      "headline": "営業の社員が自分の「AI社員」を育てる15時間の研修",
+      "summary": "ChatGPTなどの操作だけでなく、会社の調べもの・商談の準備・提案資料・フォローをAIと分ける方法を学ぶ。お客さんの情報を入れてよいかの判断や、金額や契約は人が最後に決めることも学ぶ。",
+      "handle": "ハッピーステート",
+      "category": "作り方",
+      "url": "https://prtimes.jp/main/html/rd/p/000000001.000193496.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/193496/1/193496-1-3043ff0fd4788b9e2bdf9ab3a2dd65ee-1672x941.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "21:41",
+      "headline": "この仕事はAI社員に渡せる、事務用品の注文の下書き",
+      "summary": "表の欄は品物の名前・いまの残り・注文する目安の数の3つで足りる。目安を下回った品をAI社員が拾い、前回の注文をもとに下書きまで作る。数と注文先を確かめて出すのは人。",
+      "handle": "allez_design",
+      "category": "作り方",
+      "url": "https://x.com/allez_design/status/2114698810219995582",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2110781468842876928/img/mOTLdA9Y1bJUE1A-.jpg"
+    },
+    {
+      "time": "13:20",
+      "headline": "AIエージェントを何体も置く会社の組織図、社長が決める3つのこと",
+      "summary": "社長が決めるのは1つ1つの判断ではなく、だれが何を受け持つかの担当表、いくらまで使ってよいかの予算、報告先と記録の置き場所の3つ。まず1つの役割だけ任せて1週間の記録を見る、という進め方をすすめている。",
+      "handle": "【戻れる経営】システムとガバナンス設計によるコストカット",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=K6QwYZgWdT4",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/K6QwYZgWdT4/hqdefault.jpg"
+    },
+    {
+      "time": "22:30",
+      "headline": "AIエージェントに渡す権限の決め方、任せる範囲の線引き",
+      "summary": "任せたい操作を「読む・検索する・下書きする・送信する・更新する・削除する」で書き出し、読み取り・書き込み・取り消せない操作の3つに分ける。取り消せない操作だけに人の承認を置き、週に1回実行の記録を見る。",
+      "handle": "My-Best.AI",
+      "category": "作り方",
+      "url": "https://my-best.ai/ai-agent-permission-design-steps/",
+      "source": "web",
+      "thumbnail": "https://my-best.ai/wp-content/uploads/2026/10/ai-agent-permission-design-steps-featured.png"
+    },
+    {
+      "time": "07:00",
+      "headline": "AI社員を動かしてわかった、人がやる仕事はどこか",
+      "summary": "AI社員が投稿の案を作り、AIの課長がチェックする。でも投稿するかを最後に決めるのは自分。AIに任せるのは判断の材料を作るところまでだという話。",
+      "handle": "tobari2982",
+      "category": "作り方",
+      "url": "https://x.com/tobari2982/status/2114839492238406037",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    }
+  ]
+}

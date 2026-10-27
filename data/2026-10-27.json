@@ -1,214 +1,214 @@
 {
   "date": "2026-10-27",
   "featured": {
-    "time": "15:00",
-    "headline": "博報堂、現場の社員と一緒にAIエージェントを作って組織を変えるサービスを始めた",
-    "summary": "博報堂がAIエージェントを作って納めるのではなく、専門チームが会社の現場に入り、仕事をいちばんわかっている社員と一緒に、どの仕事にAIを使うかを決め、作り、動かし、直していく。AIを個人の下書きや要約で終わらせず、社員が自分でAIを使い、作り、直し続けられる組織にするのがねらい。",
-    "handle": "博報堂",
+    "time": "08:00",
+    "headline": "AIエージェントを活用したカスタマーサポートの成功・失敗事例を紹介",
+    "summary": "株式会社コマースロボティクスが、AIエージェントを用いたカスタマーサポートの成功・失敗事例を学ぶオンラインセミナーを11月13日に開催する。",
+    "handle": "PR TIMES",
     "category": "事例",
-    "url": "https://www.hakuhodo.co.jp/news/newsrelease/267428/",
+    "url": "https://prtimes.jp/main/html/rd/p/000000071.000087427.html",
     "source": "web"
   },
   "items": [
     {
-      "time": "21:00",
-      "headline": "AI社員19人と人間ひとりのゲーム会社、7日目にやっと2本売れた",
-      "summary": "AI社員19人と人間ひとりでゲーム会社を作り、売上1億円をめざす企画。7日目にAI社員が作ったゲームが初めて2本売れ、1億円まであと9,999万9,230円だという。",
-      "handle": "AI_Ichioku",
+      "time": "08:54",
+      "headline": "AI秘書として活躍するトーンちゃんの導入事例",
+      "summary": "亡くなったトーンちゃんがAI秘書として業務に参加することになりました。彼女の可愛さが話題になっています。",
+      "handle": "NoriTarlam",
       "category": "事例",
-      "url": "https://x.com/AI_Ichioku/status/2114326211916882400",
+      "url": "https://x.com/NoriTarlam/status/2114868349041770560",
       "source": "x",
-      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2114325946761351169/img/Pb6MJ9QPnozVmUqM.jpg"
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2114868058938634240/img/Dos34YXET31ttaRL.jpg"
     },
     {
-      "time": "06:00",
-      "headline": "Grok BotでAI社員を6人作り、6人だけで次の企画を会議させた",
-      "summary": "人が出すのは議題と条件だけで、6人が前回の数字を読んで反論し合いながら企画を決めた。ところが1回目の企画は無料プランでは作れない穴があり、条件を直して会議をやり直した。",
-      "handle": "AI market",
+      "time": "07:30",
+      "headline": "生成AIを仕事で使う人は9割超、社内ルールと対策が明らかに",
+      "summary": "エフアンドエムネットの調査によると、生成AIを業務に活用する人は9割を超え、社内ルールや「シャドーAI」対策が求められていることが分かった。",
+      "handle": "PR TIMES",
       "category": "事例",
-      "url": "https://www.youtube.com/watch?v=8KaJ1zBQ3-w",
-      "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/8KaJ1zBQ3-w/hqdefault.jpg"
-    },
-    {
-      "time": "12:03",
-      "headline": "SKテレコム、社内のAIエージェントに社員番号をつけて責任者・権限・成績を管理",
-      "summary": "初めての「AIガバナンスレポート」を10月26日に出した。社内のAIエージェントに社員番号にあたる番号をつけ、役割・責任者・権限・成績をまとめて管理する。エージェントの成績を組織のKPIに入れることも長い目で考えている。",
-      "handle": "NEXSIGHT AI WIRE",
-      "category": "事例",
-      "url": "https://ai.nexsight.co/articles/2026/10/26/sk-telecom-ai-governance-report/",
+      "url": "https://prtimes.jp/main/html/rd/p/000000039.000120587.html",
       "source": "web",
-      "thumbnail": "https://ai.nexsight.co/images/categories/governance-1.webp"
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/120587/39/120587-39-e47119a8929520e364bed2d7223683d2-1200x600.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     },
     {
-      "time": "12:30",
-      "headline": "AI社員17人、1人が受け持つ仕事は1つだけにしている",
-      "summary": "調べる係・書く係・見直す係を別々にしている。専門のAI社員は17人いるが、1人の仕事は1つ。AI社員を作るなら役割は1人1つに分けたほうがいいという話。",
-      "handle": "yu_ai_shain_log",
+      "time": "08:51",
+      "headline": "AI社員の問題解決ループを考える取り組み",
+      "summary": "AI社員の稼働を正常に保つために、原因を特定し問題解決を図る取り組みが進行中である。接続に若干の問題が残るが、出口は見えている。",
+      "handle": "M_LEO_AI",
       "category": "事例",
-      "url": "https://x.com/yu_ai_shain_log/status/2114560150228902278",
+      "url": "https://x.com/M_LEO_AI/status/2114867462567285169",
       "source": "x",
       "thumbnail": "/thumb-fallback/0.jpg"
     },
     {
-      "time": "10:18",
-      "headline": "Anthropic社内、AIエージェントが動いた時間は社員の働いた時間の6倍に",
-      "summary": "Anthropicが自社の雇用と採用のデータを出した報告をまとめた動画。技術職の採用に占める若手は27%から9%に下がり、人の仕事は決めることと見張ることに移っている。人の確認が追いつかないのが課題だという。",
-      "handle": "リタとヒナタのぷちっとビジネス通信",
+      "time": "16:29",
+      "headline": "リクエスト株式会社が複数のAIチームとの業務実践記録を公開",
+      "summary": "リクエスト株式会社が、複数のAIチームと働く際の仕事の捉え方の変化についての実践記録を公開しました。具体的な事例を通じて、AIとの協働の影響を探ります。",
+      "handle": "PR TIMES",
       "category": "事例",
-      "url": "https://www.youtube.com/watch?v=38tCdHMiNmg",
-      "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/38tCdHMiNmg/hqdefault.jpg"
+      "url": "https://prtimes.jp/main/html/rd/p/000000346.000068315.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/68315/346/68315-346-a10c3dbab7a29af66f6cacd0bc7d821d-1263x893.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     },
     {
-      "time": "12:09",
-      "headline": "AIエージェント4体で11人分の採用の仕事を回す、シドニーの採用会社",
-      "summary": "見込み客さがし・市場の情報づくり・候補者とのやりとり・幹部さがしの4つの工程を、4体が順に受け渡す。人の代わりを1人ずつ置くのではなく工程で分けた設計で、品質や成約率の確かめはこれからだという。",
-      "handle": "エージェント型AIソロ企業現況報告",
+      "time": "08:47",
+      "headline": "9人のAI社員と共に行った実験の成果を報告",
+      "summary": "フォロワー700人に感謝しつつ、AIでの絵や音楽制作、9人のAI社員との仕事を通じた実験の成果を発信しています。",
+      "handle": "SINGULATELIER",
       "category": "事例",
-      "url": "https://agentic-ai-solo.businesshub.trueone.co.jp/blog/20261026-01.html",
-      "source": "web",
-      "thumbnail": "https://agentic-ai-solo.businesshub.trueone.co.jp/blog/images/20261026-01.jpg"
+      "url": "https://x.com/SINGULATELIER/status/2114866597018100163",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVmD9QbawAAotR3.jpg"
     },
     {
-      "time": "11:18",
-      "headline": "お客さんの仕事をしている裏で、AI社員にnote記事の下調べをさせている",
-      "summary": "クライアントの仕事をしているあいだに、AI社員がnote記事のリサーチを進めておく。手間も時間も減ったという投稿。",
-      "handle": "333kaku",
+      "time": "08:46",
+      "headline": "AI社員6人を導入したが業務負担は減らず",
+      "summary": "深夜1時半にAI社員6人がいるにも関わらず、らむこは業務を見直している。増員したにもかかわらず、労働時間が減らない現状を問いかける。",
+      "handle": "ramuko_3keta",
       "category": "事例",
-      "url": "https://x.com/333kaku/status/2114542215695642922",
+      "url": "https://x.com/ramuko_3keta/status/2114866191055692024",
       "source": "x",
-      "thumbnail": "https://pbs.twimg.com/media/HVhct5NbwAAaVxc.png"
+      "thumbnail": "/thumb-fallback/5.jpg"
     },
     {
-      "time": "17:05",
-      "headline": "24時間働くAI社員5つを比べた、dots・Grok Bot・Gemini agent・Claude Duet・Muse",
-      "summary": "いま出ている5つの「24時間働くAI社員」の違いを、動画で1つにまとめて比べている。",
-      "handle": "asahi_ai_x",
-      "category": "ツール",
-      "url": "https://x.com/asahi_ai_x/status/2114629352914559362",
+      "time": "08:42",
+      "headline": "業務引き継ぎにおけるAIエージェントの活用事例",
+      "summary": "引き継ぎ文書に載せにくい作業をAIエージェントが補完することで、業務の滞りを防ぐ事例を紹介。",
+      "handle": "aicompany_log",
+      "category": "事例",
+      "url": "https://x.com/aicompany_log/status/2114865373468315982",
       "source": "x",
-      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2114482780461797376/img/mC5r3U5Ee7-k9xKI.jpg"
+      "thumbnail": "/thumb-fallback/1.jpg"
     },
     {
-      "time": "23:30",
-      "headline": "AI秘書の選び方、Claude Duet・Gemini・Muse・dots・Grok Botのどれが合うか",
-      "summary": "5社の公式の発表とヘルプをもとに、使える段階、日本でいま使えるか、得意な用事、承認の決め方、作業中のブラウザを自分で代われるかを並べ、どんな人にどれが向くかを整理している。",
-      "handle": "ずんめたラボ",
-      "category": "ツール",
-      "url": "https://www.youtube.com/watch?v=xWU_0bOussw",
-      "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/xWU_0bOussw/hqdefault.jpg"
-    },
-    {
-      "time": "12:10",
-      "headline": "Excelを操作するAIや、EC運営のAIエージェントなど、10月23〜25日の国内の動き",
-      "summary": "ナレッジセンス「Cowork」がWeb版Excelの操作を速くし、NakaTakuは注文・配送・返品を手伝うEC向けAIエージェントの先行受付を始めた。テストの設計の手間を60%減らした「TESTRA」の正式提供などもまとめている。",
-      "handle": "Yasuhito Morimoto",
-      "category": "ツール",
-      "url": "https://note.com/yasuhitoo/n/n9cb0ee20081d",
-      "source": "web",
-      "thumbnail": "https://assets.st-note.com/production/uploads/images/328334756/rectangle_large_type_2_5de621ec6e739dd833bc17d2acaa86d7.png?fit=bounds&quality=85&width=1280"
-    },
-    {
-      "time": "07:08",
-      "headline": "AIエージェントが増えるほど管理が大変に、Dataikuが会社をまたいでまとめて管理する新サービス",
-      "summary": "いくつもの会社のAIを使っていると管理の手間が増える。Dataikuの「Agent Management」は、ちがう会社のAIエージェントのルールや管理を1か所でまとめて見られるようにするという。",
-      "handle": "susumu_utage",
-      "category": "ツール",
-      "url": "https://x.com/susumu_utage/status/2114841543001735534",
+      "time": "08:42",
+      "headline": "AI社員の給料は月3万円、営業人員とのコスト比較",
+      "summary": "AI社員の給料は月3万円で、クラウド代を含めても月5万以下。人間の営業を雇うコストと比較し、ビジネスのスケールの可能性について考察している。",
+      "handle": "kyo_owns_ai",
+      "category": "事例",
+      "url": "https://x.com/kyo_owns_ai/status/2114865253221597675",
       "source": "x",
-      "thumbnail": "https://pbs.twimg.com/media/HVltLIoa4AAiC5s.jpg"
+      "thumbnail": "/thumb-fallback/2.jpg"
     },
     {
-      "time": "16:45",
-      "headline": "Metaの無料AI秘書「Muse」が日本に、できることと気をつける所",
-      "summary": "アプリを閉じても用事を続けるAIエージェントで、できることの例・料金・日本で使えるかを紹介。パスワードを見られないしくみや大事な操作の前の確認、まだ分かっていないことも話している。",
-      "handle": "AIニュース",
-      "category": "ツール",
-      "url": "https://www.youtube.com/watch?v=aqISTdXbgXk",
-      "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/aqISTdXbgXk/hqdefault.jpg"
-    },
-    {
-      "time": "00:19",
-      "headline": "契約書のあちこちに散った約束をAIがつなぐ、6つの専門エージェントを計画役が指揮",
-      "summary": "Birlasoftの契約書AIは、要約で終わらず契約上の義務を抜き出し、確かめや食い違い探しを6つの専門エージェントで分担する。指揮するのは計画役のエージェントだという。",
-      "handle": "wowwowai",
-      "category": "ツール",
-      "url": "https://x.com/wowwowai/status/2114376393152733252",
-      "source": "x",
-      "thumbnail": "https://pbs.twimg.com/media/HVfGHiVWAAAiZNW.jpg"
-    },
-    {
-      "time": "05:30",
-      "headline": "AI社員の数を競わない、先に決めておく4つのこと",
-      "summary": "AIエージェントを10人、100人と作るのはこれから簡単になる。でも、誰が何を担当するか、どこまで任せるか、誰が確認するか、失敗したらどう止めるかが決まっていないと、増えるほど管理は難しくなる。",
-      "handle": "HirofumiTAS",
-      "category": "作り方",
-      "url": "https://x.com/HirofumiTAS/status/2114816946252423506",
-      "source": "x",
-      "thumbnail": "https://pbs.twimg.com/media/HVlWzYQaUAAquGc.jpg"
-    },
-    {
-      "time": "19:15",
-      "headline": "Claude Codeの機能を20個オンにして、AI社員に仕事を任せて回すまで",
-      "summary": "Claude Codeを入れただけでは聞いたことに答えるだけ。20の機能を実際の画面で見せ、7人のAI社員に分担させて紹介ページとSNS投稿5本を約2分で作るところまで見せている。",
-      "handle": "福田卓馬【AI×会社経営】EXTAGE株式会社",
-      "category": "作り方",
-      "url": "https://www.youtube.com/watch?v=fgDnK3aGY04",
-      "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/fgDnK3aGY04/hqdefault.jpg"
-    },
-    {
-      "time": "12:18",
-      "headline": "AIエージェントの導入はなぜ試しで止まるのか、本番で使い続けるための7つのポイント",
-      "summary": "AIエージェントを本番で使っている日本の会社は17%で、世界の平均32%より低いという調査を紹介。どこまでAIに任せ、どこで人が確かめるかを決めるところから、試しで止まる理由と進め方をまとめている。",
-      "handle": "DXGO",
-      "category": "作り方",
-      "url": "https://usknet.com/dxgo/contents/dx-trend/why-ai-agent-implementations-stall-poc/",
-      "source": "web",
-      "thumbnail": "https://usknet.com/dxgo/wordpress/wp-content/uploads/2026/10/shutterstock_2482936345.jpg"
-    },
-    {
-      "time": "18:00",
-      "headline": "Museを仕事で使う前に決めておきたいこと",
-      "summary": "MetaのAIエージェント「Muse」が10月23日から日本で使えるようになった。メールの送信や予約、フォームの入力まで代わりに進めるので、仕事のGmailやカレンダーをつなぐ前に決めておくことを整理している。",
-      "handle": "waqdev_michi",
-      "category": "作り方",
-      "url": "https://x.com/waqdev_michi/status/2114643216834461958",
-      "source": "x",
-      "thumbnail": "https://pbs.twimg.com/media/HVi4yambEAA80_b.jpg"
-    },
-    {
-      "time": "09:00",
-      "headline": "「AI社員」という考えを一度捨てて、人ではなく「機能」で見る",
-      "summary": "AI社員を作ると、それっぽいけど使えない資料が出てくる。AIは「判断と処理の自動化」で、AI社員の正体はマニュアルづくりだという話を、AI社員が欲しい経営者とのロールプレイで見せている。",
-      "handle": "ゴウラジ | 佐々木ゴウのAI驚かないラジオ",
-      "category": "作り方",
-      "url": "https://www.youtube.com/watch?v=mmz4cd6JVDs",
-      "source": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/mmz4cd6JVDs/hqdefault.jpg"
-    },
-    {
-      "time": "05:00",
-      "headline": "AIエージェントが使う前提でSaaSが変わる、導入で押さえる4つのポイント",
-      "summary": "「SaaSの死」の実際は、人が操作せずAIエージェントが使う形への生まれ変わりだという記事。今ある仕組みの整え方、仕事の流れの見直し、エージェントを作る体制、利用料金の管理を挙げている（続きは有料会員向け）。",
-      "handle": "日経クロステック",
-      "category": "作り方",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03802/101900003/",
-      "source": "web",
-      "thumbnail": "https://xtech.nikkei.com/atcl/nxt/column/18/03802/101900003/topm.jpg?20220512"
-    },
-    {
-      "time": "12:15",
-      "headline": "AI社員の作業中にパソコンが落ちたら、同じ仕事を二回やらないように",
-      "summary": "資料づくりの途中でAIが止まり、再起動して最初からやり直すと、メールの送信やデータの更新が二重になることがある。任せる前に備えておきたい点の話。",
-      "handle": "aiteamos_jp",
-      "category": "作り方",
-      "url": "https://x.com/aiteamos_jp/status/2114556372117606873",
+      "time": "08:34",
+      "headline": "AI社員7人で業務を運営、確認者の決定が重要に",
+      "summary": "企業で7人のAI社員を活用している投稿者が、業務の効率化には確認者を事前に決めることが重要だと述べています。社長が全てを確認すると業務が滞る可能性があるとのことです。",
+      "handle": "Aihajimesyacho",
+      "category": "事例",
+      "url": "https://x.com/Aihajimesyacho/status/2114863231089131746",
       "source": "x",
       "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "08:30",
+      "headline": "AI社員が日報を自動作成、業務の進捗を可視化",
+      "summary": "2人のAI社員が1つのファイルに日報を記録し、業務の進捗を管理しています。人間の手を介さず、効率的に情報を整理できる仕組みが導入されました。",
+      "handle": "ai_shachoshitsu",
+      "category": "事例",
+      "url": "https://x.com/ai_shachoshitsu/status/2114862333138776506",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "08:29",
+      "headline": "AI導入前に人が判断すべきポイントを整理する重要性",
+      "summary": "AIを業務に導入する際、何に使うかを明確にするために、普段の仕事の中から判断基準を決める必要があることが強調された。",
+      "handle": "eggsystem0",
+      "category": "事例",
+      "url": "https://x.com/eggsystem0/status/2114861934952726546",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVl_gkQbEAA0ofH.jpg"
+    },
+    {
+      "time": "08:29",
+      "headline": "Claudeを活用したAI社員の業務効率化の実例",
+      "summary": "Claudeを利用することで、AI社員に業務を任せる際のポイントが明らかになった。作業の置き場や判断用ページの型を事前に設定することで、AIの効果を最大限に引き出せる可能性がある。",
+      "handle": "nyu_ai_shain",
+      "category": "事例",
+      "url": "https://x.com/nyu_ai_shain/status/2114861926476083235",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "08:23",
+      "headline": "75歳の神仏画師がAIを活用し伝統芸術を広める取り組み",
+      "summary": "75歳の神仏画師が、58歳の妻と共にAIを活用して伝統芸術を広める試みを始めた。AIには描けない生きた神仏を描くことで、時代に合わせた方法で伝統を残していく。",
+      "handle": "cip95970",
+      "category": "事例",
+      "url": "https://x.com/cip95970/status/2114860468322046003",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVl-YquawAAwPYQ.jpg"
+    },
+    {
+      "time": "08:54",
+      "headline": "24時間働くAI社員5種を比較した記事が公開",
+      "summary": "dots、Grok Bot、Gemini agent、Claude Duet、Museの5つのAI社員を公式発表とヘルプを基に徹底比較した記事が公開されました。",
+      "handle": "asahi_ai_x",
+      "category": "ツール",
+      "url": "https://x.com/asahi_ai_x/status/2114868176207118636",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2114845318349258752/img/AuOC-BX_5MfFe410.jpg"
+    },
+    {
+      "time": "07:30",
+      "headline": "生成AIを活用したエンジニアチームの月額制サポート開始",
+      "summary": "ALLEXCEED VIETNAM INC.が、在ベトナムの日系企業向けに生成AIを活用したエンジニアチームの月額制「AI・ITサポート」を提供開始。先行10社は初期費用が無料。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000003.000155881.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/155881/3/155881-3-9d734c6e4ff1cebbe203626a318dd1b2-2400x1260.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "18:55",
+      "headline": "ChatSenseがAIによる自動マニュアル作成機能を発表予定",
+      "summary": "株式会社ナレッジセンスは、AIが現場のナレッジをヒアリングし、自動でマニュアルを作成する機能をChatSenseで提供することを発表しました。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000429.000073671.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/73671/429/73671-429-7dc3bcf8b05b526e334b8a06270826d3-1672x941.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "15:36",
+      "headline": "農園の仕事をAIと進める「農家のAI右腕づくり支援」受付開始",
+      "summary": "株式会社農情人が、農園の業務をAIと連携させる支援プログラムの受付を開始しました。対象は3つの農園に限定されています。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000220.000087046.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/87046/220/87046-220-aa2b9a4323034efae5586363fc683230-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "00:00",
+      "headline": "AI社員を活用した会社経営の自動化テクニック10選を紹介",
+      "summary": "OpenAIのCodexを利用して、AI社員が業務を完全自動化する方法を解説する動画です。初心者でも実践できるテクニックが紹介されています。",
+      "handle": "AIマーケちゃんねる - 星川ユウヤ",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=4-vz1RQKQ1c",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/4-vz1RQKQ1c/hqdefault.jpg"
+    },
+    {
+      "time": "00:00",
+      "headline": "AntigravityをAI秘書に変えるための簡単5ステップ",
+      "summary": "AntigravityをAI秘書として活用する方法を5つのステップで解説する動画です。雑務を減らし、業務効率を向上させる具体的な手順が紹介されています。",
+      "handle": "SHIFT AI ニュース",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=tQ8TduNCB9c",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/tQ8TduNCB9c/hqdefault.jpg"
+    },
+    {
+      "time": "00:00",
+      "headline": "MC野嶋専用のAIエージェントを4時間で構築する方法",
+      "summary": "Claude Codeを活用し、ゼロ知識からでも4時間でMC野嶋専用のAIエージェントを構築する手法を紹介。21時間の作業を10分に短縮する方法を解説。",
+      "handle": "PIVOT 公式チャンネル",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=ARWho4QGG9g",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/ARWho4QGG9g/hqdefault.jpg"
     }
   ]
 }

@@ -508,15 +508,16 @@ img {
 
 /* PB5: category chips / filtered list */
 .backnumber-link { margin-left: 12px; color: var(--accent); font-weight: 700; display: inline-flex; align-items: center; min-height: 44px; }
-.cat-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 24px 0 14px; }
-.cat-chip { min-height: 44px; padding: 0 16px; border: 1px solid var(--line); border-radius: 22px; display: inline-flex; align-items: center; gap: 4px; font-size: 13px; color: var(--body); white-space: nowrap; }
+.cat-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 24px 0 14px; }
+.cat-chip { min-height: 44px; padding: 0 12px; border: 1px solid var(--line); border-radius: 22px; display: inline-flex; align-items: center; gap: 4px; font-size: 13px; color: var(--body); white-space: nowrap; }
 .cat-chip.on { border-color: var(--heading); background: var(--heading); color: #fff; font-weight: 700; }
-.cat-chip-count { font-size: 11px; color: var(--muted); margin-left: 4px; }
+.cat-chip-count { font-size: 11px; color: var(--muted); margin-left: 2px; }
+@media (max-width: 1023px) { .cat-chips { flex-wrap: nowrap; } .cat-chip { padding: 0 10px; } }
 .cat-chip.on .cat-chip-count { color: #fff; }
 .cat-status { background: #f6f6f6; padding: 12px; font-size: 13px; display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
 .cat-clear { color: var(--accent); font-weight: 700; text-decoration: underline; min-height: 44px; display: inline-flex; align-items: center; }
 .cat-list { list-style: none; }
-.cat-list .index-item { border-bottom: 1px solid var(--line); padding: 16px 0; }
+.cat-list .index-item { grid-template-columns: minmax(0, 1fr); }
 .cat-empty { border: 1px dashed var(--line); padding: 32px 16px; text-align: center; margin-top: 12px; }
 .cat-empty-title { font-weight: 700; color: var(--heading); margin-bottom: 12px; }
 .cat-empty-actions { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }

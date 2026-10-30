@@ -29,6 +29,8 @@ type DailyResponse = {
 
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const CATEGORIES: Category[] = ["作り方", "ツール", "事例"];
+/** PB5 chips: fixed order (not sorted). */
+const CHIP_ORDER: Category[] = ["事例", "ツール", "作り方"];
 
 function jstDate(d = new Date()): string {
   return new Intl.DateTimeFormat("en-CA", {
@@ -312,7 +314,7 @@ function CategoryChips({
   const base = `/?date=${date}`;
   const chips: { label: string; href: string; on: boolean; count: number }[] = [
     { label: "すべて", href: base, on: selected === null, count: total },
-    ...CATEGORIES.map((c) => ({
+    ...CHIP_ORDER.map((c) => ({
       label: c,
       href: `${base}&category=${encodeURIComponent(c)}`,
       on: selected === c,

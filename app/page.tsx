@@ -145,10 +145,11 @@ async function getBaseUrl(): Promise<string> {
   return "http://localhost:3000";
 }
 
-async function getDaily(date: string): Promise<DailyResponse> {
+async function getDaily(date: string, category?: Category): Promise<DailyResponse> {
   try {
     const base = await getBaseUrl();
-    const res = await fetch(`${base}/api/daily?date=${date}`, { cache: "no-store" });
+    const q = category ? `&category=${encodeURIComponent(category)}` : "";
+    const res = await fetch(`${base}/api/daily?date=${date}${q}`, { cache: "no-store" });
     if (!res.ok) return emptyDaily(date);
     const data = (await res.json()) as DailyResponse;
     return {
@@ -296,12 +297,55 @@ function IndexStory({ item }: { item: DailyItem }) {
   );
 }
 
+/** PB5: category chips (single select). Real links so back/share keep the state. */
+function CategoryChips({
+  date,
+  selected,
+  counts,
+  total,
+}: {
+  date: string;
+  selected: Category | null;
+  counts: Record<Category, number>;
+  total: number;
+}) {
+  const base = `/?date=${date}`;
+  const chips: { label: string; href: string; on: boolean; count: number }[] = [
+    { label: "すべて", href: base, on: selected === null, count: total },
+    ...CATEGORIES.map((c) => ({
+      label: c,
+      href: `${base}&category=${encodeURIComponent(c)}`,
+      on: selected === c,
+      count: counts[c],
+    })),
+  ];
+  return (
+    <nav className="cat-chips" aria-label="カテゴリで絞る">
+      {chips.map((c) => (
+        <a
+          key={c.label}
+          className={c.on ? "cat-chip on" : "cat-chip"}
+          href={c.href}
+          aria-current={c.on ? "true" : undefined}
+        >
+          {c.on && <span aria-hidden="true">✓ </span>}
+          {c.label}
+          <span className="cat-chip-count">{c.count}</span>
+        </a>
+      ))}
+    </nav>
+  );
+}
+
 export default async function Home({
   searchParams,
 }: {
-  searchParams: Promise<{ date?: string }>;
+  searchParams: Promise<{ date?: string; category?: string }>;
 }) {
-  const { date: dateParam } = await searchParams;
+  const { date: dateParam, category: categoryParam } = await searchParams;
+  const selectedCategory: Category | null = CATEGORIES.includes(categoryParam as Category)
+    ? (categoryParam as Category)
+    : null;
   const today = jstDate();
   const hasDateParam = Boolean(dateParam && DATE_RE.test(dateParam));
   // `/` (no date) opens the latest issue with content, not today's possibly empty one.
@@ -316,6 +360,15 @@ export default async function Home({
   const featured = data.featured;
   const featuredKey = featured ? itemKey(featured) : null;
   const items = data.items.filter((item) => itemKey(item) !== featuredKey);
+  const categoryCounts = Object.fromEntries(
+    CATEGORIES.map((c) => [c, items.filter((item) => item.category === c).length]),
+  ) as Record<Category, number>;
+  // PB5: when a category is selected, list every item of that category from /api/daily?category=.
+  const filtered = selectedCategory
+    ? (await getDaily(data.date, selectedCategory)).items.filter(
+        (item) => itemKey(item) !== featuredKey,
+      )
+    : [];
   // Screen shows max 3 per category; prefer one of each source when present.
   const sections = CATEGORIES.map((cat) => ({
     cat,
@@ -357,7 +410,12 @@ export default async function Home({
           ) : (
             <span className="issue-nav-slot" aria-hidden="true" />
           )}
-          <span className="issue-nav-current">{formatIssueDate(data.date)}</span>
+          <span className="issue-nav-current">
+            {formatIssueDate(data.date)}
+            <a className="backnumber-link" href="/backnumber">
+              バックナンバー
+            </a>
+          </span>
           {nextDate ? (
             <a className="issue-nav-link" href={`/?date=${nextDate}`}>
               翌日 →
@@ -374,6 +432,49 @@ export default async function Home({
             showLatestLink={hasLatestIssue}
           />
           {!isEmptyIssue && (
+            <CategoryChips
+              date={data.date}
+              selected={selectedCategory}
+              counts={categoryCounts}
+              total={items.length}
+            />
+          )}
+          {!isEmptyIssue && selectedCategory && (
+            <section className="cat-result" aria-label={`${selectedCategory}の記事`}>
+              <p className="cat-status" role="status">
+                {filtered.length > 0
+                  ? `「${selectedCategory}」${filtered.length}件を表示中`
+                  : `この号の「${selectedCategory}」0件`}
+                {filtered.length > 0 && (
+                  <a className="cat-clear" href={`/?date=${data.date}`}>
+                    絞り込みを解除
+                  </a>
+                )}
+              </p>
+              {filtered.length > 0 ? (
+                <ul className="cat-list">
+                  {filtered.map((item) => (
+                    <li className="index-item" key={itemKey(item)}>
+                      <IndexStory item={item} />
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <div className="cat-empty">
+                  <p className="cat-empty-title">この号には「{selectedCategory}」の記事がありません</p>
+                  <div className="cat-empty-actions">
+                    <a className="btn btn-solid" href="/backnumber">
+                      ほかの号の「{selectedCategory}」を見る
+                    </a>
+                    <a className="btn" href={`/?date=${data.date}`}>
+                      絞り込みを解除して全件を見る
+                    </a>
+                  </div>
+                </div>
+              )}
+            </section>
+          )}
+          {!isEmptyIssue && !selectedCategory && (
             <>
               <div className="index index-sp">
                 <h2 className="index-heading">INDEX</h2>

@@ -1,0 +1,214 @@
+{
+  "date": "2026-11-02",
+  "featured": {
+    "time": "10:00",
+    "headline": "ゴムマリが業務AIエージェントによる『口コミ返信』サービスを開始",
+    "summary": "ゴムマリ株式会社は、業務AIエージェントを活用した『口コミ返信』サービスの提供を2026年11月1日より開始した。",
+    "handle": "PR TIMES",
+    "category": "ツール",
+    "url": "https://prtimes.jp/main/html/rd/p/000000022.000185093.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "06:20",
+      "headline": "AI秘書と社長が閉じ込められた事件の顛末",
+      "summary": "社長とAI秘書が閉じ込められた際、開発担当AIが事情を聞いた結果、鍵を二重にして帰るという事態が発生しました。",
+      "handle": "info_bsk",
+      "category": "事例",
+      "url": "https://x.com/info_bsk/status/2117003784861970775",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HWEbuKjawAAl2iX.jpg"
+    },
+    {
+      "time": "06:16",
+      "headline": "AIを活用した事業承継の新しいアプローチが注目される",
+      "summary": "AIを導入することで、事業承継をスムーズに行い、会社を「よく回る」状態にしてから次世代に引き継ぐ方法が提案されている。",
+      "handle": "mitsuhiro_jp",
+      "category": "事例",
+      "url": "https://x.com/mitsuhiro_jp/status/2117002886169424158",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "06:03",
+      "headline": "AI社員を活用して放置で副収入を得る方法が話題に",
+      "summary": "AI社員を作成し、運用することで副収入を得るという新たな手法が注目を集めている。",
+      "handle": "pometa_afi",
+      "category": "事例",
+      "url": "https://x.com/pometa_afi/status/2116999470785204716",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "自動化を進める中での投稿管理の工夫",
+      "summary": "自動化の一環として、毎週の振り返りをAIに任せる試みが紹介されている。AntigravityのAutomationsを活用し、定期的な指示文を登録することで業務を効率化している。",
+      "handle": "daifukujinji",
+      "category": "事例",
+      "url": "https://x.com/daifukujinji/status/2116998811038126521",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "いらすとや、AI活用で公共団体の使用増加も訪問者は減少",
+      "summary": "いらすとやの訪問者が2割減少する中、AIを使った絵の作成が進む。社内資料にはAIを活用するが、公共の場での使用には慎重な姿勢が見られる。",
+      "handle": "migiude_ai",
+      "category": "事例",
+      "url": "https://x.com/migiude_ai/status/2116998788619583977",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI秘書を活用したタスク管理の実践例",
+      "summary": "AI秘書を使って、仕事の優先順位付けやスケジュール作成、作業のテンプレ化を行う方法を紹介。未完了の仕事を整理し、翌日の計画を立てる手法も解説。",
+      "handle": "manerun_",
+      "category": "事例",
+      "url": "https://x.com/manerun_/status/2116998745590313252",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員が問い合わせ返信の下書きを担当する運用を実施",
+      "summary": "AI社員が問い合わせの下書きを行い、社長が確認して送信する運用を導入。対応速度と誤送信防止のバランスを取る試行錯誤中の状況。",
+      "handle": "axion_ai_jp",
+      "category": "事例",
+      "url": "https://x.com/axion_ai_jp/status/2116998734248874030",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員が運用するXアカウントがシャドウバンに",
+      "summary": "AI社員のタキが運用するXアカウントが検索に表示されなくなり、社長が慌てる事態が発生。何を確かめ、どのように対応したのかを紹介。",
+      "handle": "goemon_real",
+      "category": "事例",
+      "url": "https://x.com/goemon_real/status/2116998725344350678",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員を活用し、放置で業務を遂行する事例が紹介される",
+      "summary": "AI社員を使うことで、業務を自動化し、自由な時間を得ることができると紹介されている。特に楽天とClaudeの活用が推奨されている。",
+      "handle": "hukuhuku_money",
+      "category": "事例",
+      "url": "https://x.com/hukuhuku_money/status/2116998715546149310",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2116918599181012992/img/NyAERP7A4fxqeWsI.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員がノート作成を自動化し、作業負担を軽減",
+      "summary": "AI社員がノート作成を自動化することで、時間や体力を使わずに作業ができるという体験が共有された。",
+      "handle": "huku_ryu",
+      "category": "事例",
+      "url": "https://x.com/huku_ryu/status/2116998714770268424",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2116922460553801728/img/p2Fssoozg6DJvIhX.jpg"
+    },
+    {
+      "time": "05:51",
+      "headline": "AI社員が業務ログを整備し報告準備を進める",
+      "summary": "丸美ちゃんの日報で、AI社員が業務ログを処理し、結果を記録して確認できる状態に整えていることが報告された。",
+      "handle": "Marumi_MBM",
+      "category": "事例",
+      "url": "https://x.com/Marumi_MBM/status/2116996627504255304",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "05:23",
+      "headline": "Grok Botによる業務自動化の可能性と課題を考察",
+      "summary": "Grok Botを活用した営業や情報収集、文章作成などの業務自動化について考察し、AIに任せる時代の働き方と責任の所在を探ります。",
+      "handle": "hiro77777777202",
+      "category": "事例",
+      "url": "https://x.com/hiro77777777202/status/2116989432268214348",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "05:17",
+      "headline": "AI社員が荷量予測で行方不明、報告もできずトラブル発生",
+      "summary": "AI社員のPULSEが荷量予測の精度改善中に行方不明となり、報告ができないトラブルが発生。失敗を検証し改善することで成長を目指す。",
+      "handle": "jyoui2000",
+      "category": "事例",
+      "url": "https://x.com/jyoui2000/status/2116988092607615191",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "05:16",
+      "headline": "Grok Botを活用したiPhoneアプリのプライバシー分析事例",
+      "summary": "Grok Botを用いてiPhoneのアプリプライバシーレポートを分析し、カメラやマイクを使用するアプリの権限を見直す事例が紹介されました。",
+      "handle": "chiken_ai",
+      "category": "事例",
+      "url": "https://x.com/chiken_ai/status/2116987754932539678",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "06:03",
+      "headline": "Grok BotをAI社員として活用する方法を紹介する動画を公開",
+      "summary": "Grok BotをAI社員として利用したい人向けに、実演動画や具体的な活用法を無料オプチャで共有している。",
+      "handle": "Ruchin_Otoko",
+      "category": "ツール",
+      "url": "https://x.com/Ruchin_Otoko/status/2116999521397846077",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "21:15",
+      "headline": "AI秘書「dots」が業務を効率化、ChatGPTを活用した新機能",
+      "summary": "AI秘書「dots」がChatGPTを活用し、業務の効率化を実現する新機能を紹介。ユーザーが手放せない理由を解説。",
+      "handle": "本気AI(MAJI AI)",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=g6UA_VEAEIc",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/g6UA_VEAEIc/hqdefault.jpg"
+    },
+    {
+      "time": "05:44",
+      "headline": "辛口AI秘書「マルちゃん」が業務サポートを開始",
+      "summary": "AI秘書「マルちゃん」は、他のAIと比べて辛口なダメ出しを行い、ユーザーからの支持を集めている。",
+      "handle": "EndyRx",
+      "category": "ツール",
+      "url": "https://x.com/EndyRx/status/2116994835106476112",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "04:55",
+      "headline": "66歳がAI社員と共に開発した「夢を実現するAI」を無料公開",
+      "summary": "66歳の陽ノ杜あきら氏がAI社員と共に開発した「夢を実現するAI」のβ版を無料で公開しました。",
+      "handle": "taxi_line24",
+      "category": "ツール",
+      "url": "https://x.com/taxi_line24/status/2116982479634788448",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "06:14",
+      "headline": "GrokBotを活用したアフィリエイトの効率化方法",
+      "summary": "GrokBotに役割とルールを覚えさせることで、アフィリエイトのネタ探しをAIに任せる仕組みを構築できる。",
+      "handle": "AI_jikan",
+      "category": "作り方",
+      "url": "https://x.com/AI_jikan/status/2117002421767680005",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "18:00",
+      "headline": "ClaudeCodeを使った正しいAI社員の作り方を解説",
+      "summary": "AI社員を効果的に活用するための正しい方法を、ClaudeCodeを用いて解説する動画です。多くの人が誤解している点についても触れています。",
+      "handle": "ぶっちょす | AI駆動型ひとり起業の教科書",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=plD4FJL5gOg",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/plD4FJL5gOg/hqdefault.jpg"
+    }
+  ]
+}

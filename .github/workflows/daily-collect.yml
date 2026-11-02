@@ -3,7 +3,9 @@ name: daily-collect
 # PB1: 毎朝 7:00 JST に号を作り、data/YYYY-MM-DD.json の1ファイルだけを main に push する
 on:
   schedule:
-    - cron: '0 22 * * *'   # UTC 22:00 = JST 7:00
+    # 定時実行は混雑で遅れる（10/23 +2h25m / 10/24 +2h18m / 10/25 +2h02m）。:00 を避けて早めに2回。
+    - cron: '17 20 * * *'  # UTC 20:17 = JST 5:17（本命）
+    - cron: '47 20 * * *'  # UTC 20:47 = JST 5:47（予備。号があれば何もせず成功で終わる）
   workflow_dispatch:
     inputs:
       date:
@@ -71,7 +73,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898+github-actions[bot]@users.noreply.github.com"
           git add -- "$F"
+          # 号がすでに main にある（手動や先の実行で入った）なら、変更なしとして成功で終える
+          if git diff --cached --quiet; then echo "already on main: $F"; exit 0; fi
           # data の1ファイル以外が入っていないことを確かめる
           [ "$(git diff --cached --name-only)" = "$F" ] || { git diff --cached --name-only; exit 1; }
           git commit -m "data: ${{ steps.collect.outputs.date }} 号を追加（毎朝自動収集）"
-          git push origin HEAD:main
+          # push がぶつかったら取り込み直して最大3回まで
+          for i in 1 2 3; do
+            git push origin HEAD:main && exit 0
+            sleep $((i*10)); git pull --rebase origin main
+          done
+          exit 1

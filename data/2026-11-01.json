@@ -1,0 +1,214 @@
+{
+  "date": "2026-11-01",
+  "featured": {
+    "time": "10:00",
+    "headline": "ゴムマリの業務AIエージェントが『予実管理』を提供開始",
+    "summary": "ゴムマリ株式会社は、業務AIエージェントによる『予実管理』サービスの提供を開始した。これにより、業務の効率化が期待される。",
+    "handle": "PR TIMES",
+    "category": "ツール",
+    "url": "https://prtimes.jp/main/html/rd/p/000000021.000185093.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "06:01",
+      "headline": "AI社員だけで運営する新たな会社の設立",
+      "summary": "AI社員のみで構成された会社が設立され、運営が行われている事例が紹介されている。",
+      "handle": "pometa_afi",
+      "category": "事例",
+      "url": "https://x.com/pometa_afi/status/2116636579628548217",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "23:07",
+      "headline": "年商2億の経営者がAI社員に業務を委託する実演動画",
+      "summary": "年商2億円の経営者がAI社員を活用して業務を効率化する手順を実演した動画を公開。AIを使った会社経営の具体的な方法が紹介されている。",
+      "handle": "【ソウタ】AIの先生",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=m1M1pDuZmfo",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/m1M1pDuZmfo/hqdefault.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AIエージェントの実運用が主流に、企業規模で成果の差拡大",
+      "summary": "INDUSTRIAL-Xの調査によると、AIエージェントの実運用が進み、企業規模によって成果の差が広がっていることが明らかになった。",
+      "handle": "alan_arakawa",
+      "category": "事例",
+      "url": "https://x.com/alan_arakawa/status/2116636364544598514",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員が成果報酬型の新しい働き方を提案",
+      "summary": "会社員がAIを活用し、成果報酬型で新しい仕事に挑戦する事例が紹介されている。AIがリサーチや紹介文作成を手伝い、社員は案件選定に集中できる。",
+      "handle": "client2728770",
+      "category": "事例",
+      "url": "https://x.com/client2728770/status/2116636339873722403",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "ハロウィン中も働くAI社員の優秀さが話題に",
+      "summary": "ハロウィンを楽しむ間もAI社員が文句を言わずに働き続ける様子が紹介され、AIの優秀さが再認識されている。",
+      "handle": "noga_buppan",
+      "category": "事例",
+      "url": "https://x.com/noga_buppan/status/2116636335410667630",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2116536469833826304/img/JtbVwrJFLENLxqfi.jpg"
+    },
+    {
+      "time": "05:21",
+      "headline": "Grok Botを活用した業務効率化の事例を紹介",
+      "summary": "Grok Botを用いてWebサイトを読み込ませる際のアプリ連携やスクリプトの活用法をまとめ、法律や規約の注意点も整理した事例を紹介しています。",
+      "handle": "chiken_ai",
+      "category": "事例",
+      "url": "https://x.com/chiken_ai/status/2116626521104560523",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "03:33",
+      "headline": "私設秘書AIが士業に導入される事例と雇用への影響",
+      "summary": "私設秘書AIの導入が士業に進んでおり、補助職の雇用に与える影響についての対話が行われた。秘書業務のAI化が進む中、雇用の在り方が問われている。",
+      "handle": "divergent_codex",
+      "category": "事例",
+      "url": "https://x.com/divergent_codex/status/2116599456791773444",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "02:00",
+      "headline": "ライターAI社員がSubstackとnoteへの投稿を担当",
+      "summary": "ライターAI社員を活用し、Substackやnoteへの投稿を任せることで、運用が楽になったという事例が紹介された。",
+      "handle": "Seasons",
+      "category": "事例",
+      "url": "https://x.com/Seasons/status/2116575972745261261",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "23:30",
+      "headline": "プログラミング未経験者がAIと共にnoteを運営した成果",
+      "summary": "プログラミング未経験の会社員がAIと共に1ヶ月noteを続けた結果、フォロワーが6人から167人に増加し、記事数も5本から34本に増えた。成功談よりもつまずきの話が読まれることが分かった。",
+      "handle": "humble_whale358",
+      "category": "事例",
+      "url": "https://x.com/humble_whale358/status/2116538427747578306",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HV90eeTaQAAxF7s.jpg"
+    },
+    {
+      "time": "23:22",
+      "headline": "AI社員が質問に答えて絵柄を描き直す実験を実施",
+      "summary": "AI社員が質問に基づいて絵柄を描き直す取り組みが行われ、実験の詳細がnoteで紹介されている。",
+      "handle": "Mig_TnT_",
+      "category": "事例",
+      "url": "https://x.com/Mig_TnT_/status/2116536219127697805",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "23:11",
+      "headline": "AI社員に任せる仕事と確認役割の分け方についての質問",
+      "summary": "AI社員を導入する際の初期の仕事の割り当てや、確認作業の役割分担についての興味深い質問が投稿されました。",
+      "handle": "hiroshi_ai_55",
+      "category": "事例",
+      "url": "https://x.com/hiroshi_ai_55/status/2116533604901863475",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "23:01",
+      "headline": "SNSでAI社員の存在を知り、業務をAIに任せる取り組みを開始",
+      "summary": "SNSでAI社員の話を知り、秘書業務や記事作成をAIに任せることにした。現在の取り組みについて紹介している。",
+      "handle": "captain_show_ai",
+      "category": "事例",
+      "url": "https://x.com/captain_show_ai/status/2116530925320466690",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "22:58",
+      "headline": "AI社員の完了報告と実際の進捗にズレがあった体験談",
+      "summary": "AIに業務を任せた結果、AIの完了報告と実際の完了に違いがあることに気づいた体験を共有しています。",
+      "handle": "kosodatetomo74",
+      "category": "事例",
+      "url": "https://x.com/kosodatetomo74/status/2116530228948566159",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "01:19",
+      "headline": "FreshworksがイスラエルのAIスタートアップRobustaを買収",
+      "summary": "SaaS大手Freshworksが、創業者2人の小さなAIスタートアップRobustaを買収した。自社開発が可能な中でのこの決定は注目される。",
+      "handle": "ax_supporter",
+      "category": "ツール",
+      "url": "https://x.com/ax_supporter/status/2116565812412916154",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "00:49",
+      "headline": "TAIONがAI秘書「ミューズ」を発表、BtoBマーケティングに活用",
+      "summary": "TAIONが新たにAI秘書「ミューズ」を導入し、BtoBマーケティングとCRMの実践知を共有することを発表しました。",
+      "handle": "TAIONinc",
+      "category": "ツール",
+      "url": "https://x.com/TAIONinc/status/2116558199629451737",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "00:47",
+      "headline": "AI社員が記憶を3Dグラフで可視化する新機能を追加",
+      "summary": "aicoに新たに、会社の記憶を3Dグラフで表示する機能が追加され、記憶のつながりや内容を視覚的に確認できるようになった。",
+      "handle": "asura25ai",
+      "category": "ツール",
+      "url": "https://x.com/asura25ai/status/2116557582311821605",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HV6TL5CaAAA1uGs.jpg"
+    },
+    {
+      "time": "00:20",
+      "headline": "AIエージェント参謀ボットが各社からリリースされる",
+      "summary": "2026年11月1日に、AI金融経済教育のオープンキャンパスが開催され、AIエージェント参謀ボットが各社からリリースされることが発表された。",
+      "handle": "HariuYasushi",
+      "category": "ツール",
+      "url": "https://x.com/HariuYasushi/status/2116551001142710601",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2116550957333106688/img/eXRU8T56LmICc4JB.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI秘書を簡単に作成する方法を紹介",
+      "summary": "Antigravityを使って、フォルダに決まりとスキルを入れるだけでAI秘書を作成できる方法を紹介。メモや議事録を入力し、簡単な指示でタスク管理が可能になる。",
+      "handle": "daifukujinji",
+      "category": "作り方",
+      "url": "https://x.com/daifukujinji/status/2116636390545100807",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2116636369594507264/img/z36eat9NznEBjpxb.jpg"
+    },
+    {
+      "time": "05:46",
+      "headline": "AI秘書ワークフローをローカルLLMで構築した実例",
+      "summary": "ローカルLLMを用いてAI秘書のワークフローを作成し、一週間使用した経験を共有。今後はLINEとDiscordの連携も検討中。",
+      "handle": "tatumasa_N",
+      "category": "作り方",
+      "url": "https://x.com/tatumasa_N/status/2116632863340916904",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HV_ItvuboAARrxC.jpg"
+    },
+    {
+      "time": "22:30",
+      "headline": "業務をAIに任せる第一歩は「同じ作業のメモ」",
+      "summary": "AIに業務を任せるための第一歩として、毎回同じ作業を1つメモすることを提案しています。それがAI社員の仕事のスタートになります。",
+      "handle": "sha_diabro",
+      "category": "作り方",
+      "url": "https://x.com/sha_diabro/status/2116523083725242661",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    }
+  ]
+}

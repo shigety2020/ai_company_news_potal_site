@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-25",
+  "featured": {
+    "time": "10:00",
+    "headline": "Polyscape、業界ごとに育つ自律型AI社員の基盤「IROHA OS」、ゲームQAの人件費を75%減らした",
+    "summary": "SlackやTeamsで社員と同じ場所で働き、「田中さんに契約書を送って」と頼むと文面を作って確認を取ってから送る。返信が来れば自分から知らせ、言われたやり方を覚えて次から変える。社内では1か月で約263時間の仕事を減らし、香水ブランドのピノーレも受発注などに使い始める。",
+    "handle": "PR TIMES",
+    "category": "ツール",
+    "url": "https://prtimes.jp/main/html/rd/p/000000036.000098447.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "11:00",
+      "headline": "ウェビナーで配ったAI社員5体、誰が何を何%進めたかを1画面で見えるように",
+      "summary": "アナログな営業会社をAIで変えている人が、AI社員5体の仕事を並べたダッシュボードを動画で見せている。5体がまるで会社のチームのように動いている。",
+      "handle": "ai_300",
+      "category": "事例",
+      "url": "https://x.com/ai_300/status/2113812728284614761",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2113662145141604352/img/FDx7uQwgLuwOlWD-.jpg"
+    },
+    {
+      "time": "18:34",
+      "headline": "600社超を手伝ったAI企業が自社で回す、AIが仕事を回し続ける「ループ型」の経営",
+      "summary": "幕張メッセでの講演の前編。AI活用の5段階（チャット、ボット、仕事の流れ化、自社アプリ、全社）を社内の実例で話す。商談まわりの6つの仕事のうち打ち合わせ以外を自動にした仕組みも見せている。",
+      "handle": "チャエン【AI研究所】〜仕事で使える最新のAI情報を発信〜 Byデジライズ",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=wZOCJUaiqEA",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/wZOCJUaiqEA/hqdefault.jpg"
+    },
+    {
+      "time": "06:21",
+      "headline": "AI社員4人にnoteを任せて2週目、スキをくれた人は15人から24人に",
+      "summary": "毎週日曜に1週間の数字を並べる実録。人数のほか、毎朝下書きを確かめるオーナーの確認時間と、AIにかかった費用も出している。",
+      "handle": "夜間編集室｜AI 社員4人の実測ノート",
+      "category": "事例",
+      "url": "https://note.com/yakanhenshu/n/n4b254c8ce85f",
+      "source": "web",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/328140629/rectangle_large_type_2_dd9456731b13daac27ec431a4843c3e1.png?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "15:41",
+      "headline": "非エンジニアの営業マン、公開中のアプリ5本のコードをAI社員に総点検させた",
+      "summary": "見つかった問題を直して10月18日に審査へ出し、翌日5本とも通った。AI社員と会社を回しながらアプリを出している連載の9回目。",
+      "handle": "7ve0le",
+      "category": "事例",
+      "url": "https://x.com/7ve0le/status/2113883661720604703",
+      "source": "x",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/327882145/rectangle_large_type_2_8ada3e94bd97e5ca21b33ff918f2b905.png?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "07:00",
+      "headline": "月3万円のAI社員「あいこ」は、経理から採用、記事づくりまでどこまで働くか",
+      "summary": "AXで実際に動いているAI社員の仕事を公開。経理・採用・人事・お客さん対応・営業・制作での使い方と、AIの働きぶりを見える化するしくみを話している。",
+      "handle": "株式会社AX",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=7DzIoArs-pE",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/7DzIoArs-pE/hqdefault.jpg"
+    },
+    {
+      "time": "05:13",
+      "headline": "不動産屋がAIに仕事を任せるほど、「勝手に進めさせない」場所を決めるようになった",
+      "summary": "最初はできるだけ自由に動いてもらう方が楽だと思っていた。会社の仕事で使ううちに、速く動くことと正しく動くことは別だと考えが変わった話。",
+      "handle": "畑とキッチンカーの人/不動産屋がAIで会社を変える",
+      "category": "事例",
+      "url": "https://note.com/lush_lily5852/n/ncc23b9b27c01",
+      "source": "web",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/328130266/rectangle_large_type_2_21f8d5ffe1542109ab30bfb513036e1a.png?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "08:00",
+      "headline": "日立社会情報サービス、ServiceNowとAIエージェントで社内の問い合わせ対応を変える",
+      "summary": "バックオフィスの仕事を変える取り組みとして、社内からの問い合わせにAIエージェントが答えるしくみを進めている。World Forum Tokyo 2026の事例セッションで話す。",
+      "handle": "ServiceNowJapan",
+      "category": "事例",
+      "url": "https://x.com/ServiceNowJapan/status/2113767462747464157",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVWcTbBXoAAM_Sp.jpg"
+    },
+    {
+      "time": "12:59",
+      "headline": "「AIに質問する」から「AI社員に仕事を任せる」へ、Grok Botに任せられる仕事",
+      "summary": "メール担当は大事なメールを整理して返信案を作る、経理担当は請求書を確かめて管理表を直す、調査担当は競合を調べて比べる資料を作る、という分け方を紹介している。",
+      "handle": "ai_talent_dev",
+      "category": "ツール",
+      "url": "https://x.com/ai_talent_dev/status/2113842769882177964",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVXgyrBbkAAm9gV.jpg"
+    },
+    {
+      "time": "19:20",
+      "headline": "AI秘書「Muse」が日本で使えるように、アプリ作りもホテル探しも任せてみた",
+      "summary": "Museにアプリを作らせ、ブラウザを動かしてホテルを探させ、メールの整理や決まった時間の仕事まで、AI秘書としてどこまで使えるかを試している。",
+      "handle": "AIで創作効率化とマネタイズby嗚呼蛙",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=Xco1Y8WU7T8",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/Xco1Y8WU7T8/hqdefault.jpg"
+    },
+    {
+      "time": "14:13",
+      "headline": "チャットで頼むとAIエージェントが動くネットショップ運営サービス「NAKATAKU」",
+      "summary": "「配送が遅れている注文を確かめて、お客さんへの案内を準備して」と頼むと、注文と配送を照らし合わせて案内文を作る。返金やお客さんへの送信は、人が承認してから行う。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000006.000137796.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/137796/6/137796-6-b968af25d5dc7378abc7935f469b8021-2400x1350.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "22:47",
+      "headline": "OpenAIのAgents APIに、AIエージェントを決まった時刻に動かす機能",
+      "summary": "毎朝・毎月・2時間ごとなど、cronの書き方や一度きりの日時でAIエージェントを動かせる。開発者向けのお試し版で、ChatGPTの予約タスクとは別もの。",
+      "handle": "ai_science_lab",
+      "category": "ツール",
+      "url": "https://x.com/ai_science_lab/status/2113990855942144109",
+      "source": "x",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/328061951/rectangle_large_type_2_310ccb2617cd358a578c63c0831558c4.png?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "18:00",
+      "headline": "Claude Duetの速報、PCを閉じても24時間働く「AI社員」、ただし日本はまだ",
+      "summary": "給料の計算や代金の催促を頼まなくても先に進めるAI秘書が出た。ChatGPTのAI秘書との値段と力の差、任せるときの注意、日本の社長が今日からできる3つの準備を話している。",
+      "handle": "Claude Code業務自動化の教科書",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=IxMpD2sE8bQ",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/IxMpD2sE8bQ/hqdefault.jpg"
+    },
+    {
+      "time": "18:03",
+      "headline": "ナレッジセンスのRPAエージェント「Cowork」、Excelへの転記や表の更新が速くなった",
+      "summary": "法人向けAIエージェント「ChatSense」の、ブラウザを動かす機能。Web版のExcelなどMicrosoft 365のアプリに合わせて手順を直し、件数の多い転記や一覧づくりを短くした。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000428.000073671.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/73671/428/73671-428-bfac75d0b183bdff2995b8658d628fa5-1672x941.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "23:52",
+      "headline": "Claude CodeもCodexも1つの管制塔で、HumanLayerが中身を公開",
+      "summary": "複数のAIエージェントの仕事、動いている様子、設計、レビューをまとめて見るしくみをオープンソースにした。画面だけでなく、動かす部分やAPI、データの同期のしくみまで出している。",
+      "handle": "superdoccimo",
+      "category": "ツール",
+      "url": "https://x.com/superdoccimo/status/2114007132941271419",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "12:00",
+      "headline": "Museを入社させたら、まず勤務ルールを教えこむ",
+      "summary": "毎朝7時に出勤、変化があれば報告、30日の目標を追いかけ、金曜17時に週報を出す。AI社員の育て方をまとめている。",
+      "handle": "lucky_note_lab",
+      "category": "作り方",
+      "url": "https://x.com/lucky_note_lab/status/2113827836125761850",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVXFjoHbgAAP0Fl.jpg"
+    },
+    {
+      "time": "19:56",
+      "headline": "Meta MuseをAI秘書として育てる使い方を画面で解説、Dots・Duet・Grok Botとも比べた",
+      "summary": "設定と記憶に何を伝えるか、フィードやアイデア、目標、定期実行まで触りながら、自分を分かって必要なときに動くAIの育て方を見せている。",
+      "handle": "AI共創イノベーション",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=sasO_6yPlRs",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/sasO_6yPlRs/hqdefault.jpg"
+    },
+    {
+      "time": "07:00",
+      "headline": "毎日15本の記事を人が読まずに出す会社の5ステップ、人の目の代わりに「止める検査」",
+      "summary": "記事を書き、画像を作り、予約まで入れる仕組みを2か月半で作った。速く書く方法ではなく、読まずに出しても事故にならない方法を書いている。",
+      "handle": "いち｜AI社員と働く経営者",
+      "category": "作り方",
+      "url": "https://note.com/ripe_peony6219/n/nef55a8e920c6",
+      "source": "web",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/327717950/rectangle_large_type_2_82fd5ff1cfa6e08b081885ded1229498.png?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "18:39",
+      "headline": "AIカンパニーやAI社員を作るなら、必ず入れたい6つの項目",
+      "summary": "これを基準にして作れば、AI社員が代わりにどんどん働いてくれる、という6項目を1枚にまとめている。",
+      "handle": "333kaku",
+      "category": "作り方",
+      "url": "https://x.com/333kaku/status/2113565853149176071",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVTkm6da4AE8Q0o.jpg"
+    },
+    {
+      "time": "20:00",
+      "headline": "ChatGPTの「Dots」を自分専用のAI秘書として使う方法を実際に見せる",
+      "summary": "アップデートで何が変わったかと、自分用のAI秘書として仕事に使う手順を、実際の画面で説明している。",
+      "handle": "ダイさん・AI活用の専門家",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=uIUoVUCdrbU",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/uIUoVUCdrbU/hqdefault.jpg"
+    },
+    {
+      "time": "07:00",
+      "headline": "AI社員に自由を与えたら、どう人事評価する？",
+      "summary": "自分で問題を見つけ、案を考え、承認された範囲で進めるAI社員たち。SNS担当はフォロワー、経理は計算の正しさ、では監査担当は何で評価するのかを考えている。",
+      "handle": "jyoui2000",
+      "category": "作り方",
+      "url": "https://x.com/jyoui2000/status/2114114946896478484",
+      "source": "x",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/328145091/rectangle_large_type_2_346a4c4c319735313afc22a1b0db32f2.png?fit=bounds&quality=85&width=1280"
+    }
+  ]
+}

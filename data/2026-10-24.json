@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-24",
+  "featured": {
+    "time": "09:00",
+    "headline": "NEC、AI社員だけの部署に人事のしくみ、1on1やストレスチェックで困りごとを拾う",
+    "summary": "8月に作った「コーポレートAI・Workforce部門」は、AI部門長・AIボード・AIマネージャー・AI社員の4段で動く。AI社員から上がる困りごとは「指示があいまい」「権限が足りない」「人の承認待ち」など人の職場とそっくりで、それを人が直していく。経営分析などの時間は約7分の1になった。",
+    "handle": "Ubergizmo JAPAN",
+    "category": "事例",
+    "url": "https://jp.ubergizmo.com/2026/10/22/27126/",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "21:49",
+      "headline": "社員は全員AIの1人会社、1週間で記事5本、止まった日は2日",
+      "summary": "金曜はAI社員日報の日。今週はブラウザにつながらず止まった日があり、今日はAI社員が引き継ぎメモを読めないまま仕事を始めた。そのときどうしたかと、学びを3つ書いている。",
+      "handle": "shain_zenin_ai",
+      "category": "事例",
+      "url": "https://x.com/shain_zenin_ai/status/2113613757910057139",
+      "source": "x",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/327637870/rectangle_large_type_2_36d0b8d016e247aac81ce817cedbe316.png?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "18:00",
+      "headline": "24時間働くAI社員に、仕事11本を任せている会社の本物の記録",
+      "summary": "1人社長の会社で、毎日9本・毎週2本の仕事が時刻どおりに動いている。AIに仕事を任せる6つの手順、実際に起きた失敗4つ、AIに任せていない仕事まで見せている。",
+      "handle": "伴走AIマーケティング",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=jNwVzNJOGiA",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/jNwVzNJOGiA/hqdefault.jpg"
+    },
+    {
+      "time": "06:54",
+      "headline": "eBayのお店をAI社員に任せて3か月、最終利益は10.4万円から15.8万円に",
+      "summary": "AIに「聞く」だけでは店は回らない。仕事を1つずつ「任せる」に変えていき、仕入れ・手数料・送料を引いたあとの利益が毎月のびた記録。",
+      "handle": "チャム🐹 AI社員とebay無在庫の店長",
+      "category": "事例",
+      "url": "https://note.com/cham_ebay/n/nc79993cc2bb5",
+      "source": "web",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/327727228/rectangle_large_type_2_1162b080bcb2750d63d08ac89fd4053f.png?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "12:30",
+      "headline": "AI社員が書いた下書きは、そのまま外に出さない研修会社",
+      "summary": "宮崎の研修会社GRANDIRでは、品質確認の役のAI社員が点検し、承認の番号をつけて台帳に「代表確認待ち」と書く。そのあと秘書役から代表へ承認を頼む流れにしている。",
+      "handle": "nagaoki_grandir",
+      "category": "事例",
+      "url": "https://x.com/nagaoki_grandir/status/2113472984124121322",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "12:00",
+      "headline": "AI社員10人のバーチャルオフィス、AIは下書き・点検・申請まで、決めるのは人",
+      "summary": "進み具合や最終確認の担当が見えにくくなる悩みから、案件の4つの状態と役割分担を決めた。マネージャー役の計画づくり、セキュリティ担当の点検、メルマガの下書きを見せている。",
+      "handle": "S.Hiroyuki@Quadcom",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=qXjuws7vz8k",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/qXjuws7vz8k/hqdefault.jpg"
+    },
+    {
+      "time": "07:00",
+      "headline": "AI社員30体をMac1台で回す会社が、クラウドの定期実行をやめた理由",
+      "summary": "朝5時にMacが起きて、AIが記事を書き、点検し、予約し、台帳に書く。クラウドで動かしていた仕事は点検したら一度も成功していなかった。手元に寄せた理由を3つ書いている。",
+      "handle": "いち｜AI社員と働く経営者",
+      "category": "事例",
+      "url": "https://note.com/ripe_peony6219/n/nff5ea7b4229b",
+      "source": "web",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/327372551/rectangle_large_type_2_fad41dcc768f347e2ebc23c321e37a00.png?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "08:53",
+      "headline": "PHPの重大な穴が見つかった夜、AI社員が点検から入れ替えまで一晩で進めた",
+      "summary": "総理が「大至急」と呼びかけた脆弱性に、AI社員が夜通し対応し、朝4時40分にサービスが動き出した。会社が今日やることを5つにまとめた動画も出している。",
+      "handle": "ryutaokuno",
+      "category": "事例",
+      "url": "https://x.com/ryutaokuno/status/2113418478036381783",
+      "source": "x",
+      "thumbnail": "https://i.ytimg.com/vi/CPyVeeGwBzE/hqdefault.jpg"
+    },
+    {
+      "time": "09:30",
+      "headline": "不動産会社のAIエージェント、申込書をほかの会社でも使えるひな形に直した",
+      "summary": "書類から自社の情報を消して使い回せる形にし、書類づくりが早くなった。あわせて、物件が古い耐震基準にあたるかどうかも調べて知らせた。",
+      "handle": "SparxCS",
+      "category": "事例",
+      "url": "https://x.com/SparxCS/status/2113427921323143309",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVRndBdbkAAI_nl.jpg"
+    },
+    {
+      "time": "12:43",
+      "headline": "AI秘書は仕事ごとに向き不向きがある、Claude Duet・dots・Grok Bot・Museの使い分け",
+      "summary": "朝のメール整理、資料作り、請求書、買い物で、向いているAIがまるで違った。どれから試すかを1枚にまとめている。",
+      "handle": "lucky_note_lab",
+      "category": "ツール",
+      "url": "https://x.com/lucky_note_lab/status/2113476369418228154",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVSTQG3boAAlQFK.jpg"
+    },
+    {
+      "time": "19:18",
+      "headline": "電話で話しかけるだけのAI秘書、ChatGPTのdotsで分かるしくみと始め方",
+      "summary": "スマホの通話でメールや予定から今週のやることを出してもらう、会話だけでパソコン用のアプリを作る、Grok Botで複数のAIが分担してWebサイトを作る、を実際の画面で見せている。",
+      "handle": "SHIFT AI ニュース",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=twCNkh_TcoY",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/twCNkh_TcoY/hqdefault.jpg"
+    },
+    {
+      "time": "15:30",
+      "headline": "StripeとAnthropic、Claude Duetの中で買い物や請求書の送付ができるように",
+      "summary": "広告の出稿や備品の注文をClaude Duetに頼むと、1回ずつ人が承認してからバーチャルカードで支払う。請求書や支払いリンクの送付、売上の分析、返金もClaude Duetの中でできる。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000135.000077879.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/77879/135/77879-135-517062902719305f5603a2d561f68ddb-1024x512.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "08:43",
+      "headline": "エクサウィザーズとスタジアム、営業のAIを入れるところから根づくまで手伝う",
+      "summary": "まず売れる営業のやり方を言葉にして型にし、AIロープレの導入と定着を支える。そのあとは営業専門の自律型AIエージェントにも広げていく。",
+      "handle": "GENICPRESSAPP",
+      "category": "ツール",
+      "url": "https://x.com/GENICPRESSAPP/status/2113415871930782157",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVRcXLAaAAANsDb.jpg"
+    },
+    {
+      "time": "10:50",
+      "headline": "Claude Duetが発表、パソコンを閉じても仕事が進む秘書型AIを速報で解説",
+      "summary": "いつものClaudeのつなぎ先や記憶を引き継ぎ、クラウド上の専用パソコンで動く。向こうから届く通知、決まった時間に動く仕事、先回りの下書き、安全のくふうを紹介している。",
+      "handle": "まさおAIじっくり解説ch",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=jl5jWMcanp0",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/jl5jWMcanp0/hqdefault.jpg"
+    },
+    {
+      "time": "16:01",
+      "headline": "EngageLab、送ったメールへのお客さんの返信にAIエージェントが答える",
+      "summary": "返信を受け取って前のやりとりをふまえて答え、買う気の高いお客さんの情報を顧客管理の仕組みに書きこむ。メールを書くだけでなく、送ったあとの対応までAIに任せられる。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000043.000179486.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/179486/43/179486-43-55bdfa52a2bcb25f211483aaf7d48ad2-1915x821.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "16:04",
+      "headline": "Claude CodeでAI社員を雇うには、29人のAIカンパニーと雇い方を紹介",
+      "summary": "教頭先生が、自分のAIカンパニーで働く29人のAI社員と、Claude CodeでAI社員を雇って仕事を任せるまでのやり方を動画で見せている。",
+      "handle": "asahi_ai_x",
+      "category": "作り方",
+      "url": "https://x.com/asahi_ai_x/status/2113526837968289989",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2113387314651258880/img/TGpmbmzDHIbiuz0U.jpg"
+    },
+    {
+      "time": "18:00",
+      "headline": "ゼロから、Claude Codeで自分専用のAI社員を作って会社を回す",
+      "summary": "会社のフォルダ一式をAIに作ってもらうところから、営業の企画書・見積書、案内メール、受付名簿、登壇スライド、開催報告書、請求書までを順に任せていく。",
+      "handle": "AIの中の人",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=MfbFh1vfZfM",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/MfbFh1vfZfM/hqdefault.jpg"
+    },
+    {
+      "time": "04:20",
+      "headline": "Xの投稿からnote記事を書く「note担当のAI社員」を作った全手順",
+      "summary": "自分の投稿を読んでネタを出し、本文とサムネを作って、noteの下書きに入れるまでをAI社員に任せた。どう作り、どんな決まりで動かしているかを書いている。",
+      "handle": "ドンメカ｜メカノ姫β",
+      "category": "作り方",
+      "url": "https://note.com/don_mecha/n/n39d5d76d58f2",
+      "source": "web",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/326636536/rectangle_large_type_2_49ec3cdbb5c57acfa3913944aa8f9830.png?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "21:21",
+      "headline": "AI社員の記憶をChatGPTに渡せた、でも「送信」だけは自動にしなかった",
+      "summary": "非エンジニアがAI社員と作った「忘れない仕組み」の開発記録。パソコンの中の記憶をChatGPTに渡すところまで進めたが、できることとやっていいことは同じではないと考えた。",
+      "handle": "AIShainLab",
+      "category": "作り方",
+      "url": "https://x.com/AIShainLab/status/2113606738431893549",
+      "source": "x",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/323193498/rectangle_large_type_2_372d426bda125b2191f249e70c54fde3.png?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "22:00",
+      "headline": "元AI開発者が3時間で作った「エリートAI社員」、調べものも予約も会話だけ",
+      "summary": "何のツールで作ったか、専属AIの作り方、できることの広がりを実際に動かしながら見せている。",
+      "handle": "Claudeを使えば苦労しない | フィアナ",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=xEsq8-QASfU",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/xEsq8-QASfU/hqdefault.jpg"
+    },
+    {
+      "time": "13:34",
+      "headline": "採用のAIを入れても仕事が減らない、「任せる」と「確かめる」の線を3つの問いで引く",
+      "summary": "AIが作った文面を毎回人が見直すだけだと、手間がかえって増える。導入した会社の53%で工数が変わらなかった理由と、採用の仕事のどこをAIに任せるかの決め方をまとめている。",
+      "handle": "ChordOneApp",
+      "category": "作り方",
+      "url": "https://x.com/ChordOneApp/status/2113489246661329365",
+      "source": "x",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/327486369/rectangle_large_type_2_f3c9a140c208306759cd43cd7532a3e1.jpeg?fit=bounds&quality=85&width=1280"
+    }
+  ]
+}

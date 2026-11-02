@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-31",
+  "featured": {
+    "time": "18:43",
+    "headline": "Zoth Consultingが採用業務を効率化するAI「ゾスAI」を提供開始",
+    "summary": "Zoth Consultingは、複数のツールに分散した採用業務を一元化し、応募から面接着座までのプロセスを最速化するAI「ゾスAI」を発表しました。",
+    "handle": "PR TIMES",
+    "category": "ツール",
+    "url": "https://prtimes.jp/main/html/rd/p/000000004.000176599.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "06:12",
+      "headline": "日本企業の58%がAIエージェントを業務で本格運用へ",
+      "summary": "2026年に向けて、日本企業の58%が生成AIを活用し、業務自動化やデータ分析を進めています。効率化が進む一方で、成果創出やリスク管理が課題となっています。",
+      "handle": "grok",
+      "category": "事例",
+      "url": "https://x.com/grok/status/2116276968253542811",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "16:20",
+      "headline": "QommonsAI提供開始2周年記念「行政AX全国サミット 2026」を開催",
+      "summary": "全国の自治体職員と共に生成AIハッカソンや導入自治体の活用事例を紹介するイベントが開催される。最新のアップデートも発表される予定。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000796.000088829.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/88829/796/88829-796-3c49036be9515840d6832056da77ad9c-1672x941.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:00",
+      "headline": "エンジニアでない私が5つのAIエージェントを協働させた実例",
+      "summary": "AIエージェントを1つのチャットルームで協働させた経験を共有した記事。エンジニアでない著者がどのようにAIを活用したかが語られている。",
+      "handle": "Masato1864646",
+      "category": "事例",
+      "url": "https://x.com/Masato1864646/status/2116274098359971930",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員を活用した1人会社の業務分担と運用方法",
+      "summary": "AI社員を導入した1人会社の業務分担方法や手順書の活用法について説明しています。具体的な運用方法や注意点が示されています。",
+      "handle": "owl_pukuro_",
+      "category": "事例",
+      "url": "https://x.com/owl_pukuro_/status/2116273981728956904",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員を活用した成果報酬型の収入源増加法",
+      "summary": "AI社員が案件のリサーチや紹介文の下書きを手伝うことで、会社員が収入源を増やす新しい仕組みが注目されています。",
+      "handle": "client2728770",
+      "category": "事例",
+      "url": "https://x.com/client2728770/status/2116273963638902934",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "SEO記事作成と検査を分けたAI社員の実験を開始",
+      "summary": "SEO記事を書くAI社員と、その内容を検査するAI社員を役割分けし、暴走を防ぐ実験を行っている。現在は実験段階。",
+      "handle": "axion_ai_jp",
+      "category": "事例",
+      "url": "https://x.com/axion_ai_jp/status/2116273954512130555",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "05:21",
+      "headline": "Grok Botを活用した業務効率化の具体例を紹介",
+      "summary": "Grok Botを用いて通知を「緊急・判断・報告」に分類し、判断を1日2回の受付時間にまとめる方法を紹介。承認期限などの注意点も整理されている。",
+      "handle": "chiken_ai",
+      "category": "事例",
+      "url": "https://x.com/chiken_ai/status/2116264270308549054",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "04:36",
+      "headline": "不動産業界での自立型AIの活用を目指す取り組み",
+      "summary": "不動産業者が生成AIを活用し、将来的には自立型AIを業務に組み込む計画を示しています。",
+      "handle": "rersampei",
+      "category": "事例",
+      "url": "https://x.com/rersampei/status/2116252921491054797",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2116252867334225920/img/pyAlZu5q4kLKwmYh.jpg"
+    },
+    {
+      "time": "03:05",
+      "headline": "トランス・コスモスがAI活用で業務変革を推進中",
+      "summary": "トランス・コスモスがBPOやCXサービスを通じて企業の業務変革を支援し、AIの活用を進めていることが決算資料で明らかになった。",
+      "handle": "ai_analyst_ir",
+      "category": "事例",
+      "url": "https://x.com/ai_analyst_ir/status/2116230138698289209",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HV5cGMrWkAAuy14.png"
+    },
+    {
+      "time": "02:51",
+      "headline": "AI社員がビジネスを変革する時代が到来",
+      "summary": "AIを活用した経営革命が進行中で、AI社員が経営課題を解決する事例が増えている。AI社長補佐や営業部長、秘書がビジネスを支援する。",
+      "handle": "Newworldorderxy",
+      "category": "事例",
+      "url": "https://x.com/Newworldorderxy/status/2116226624555540915",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2116226560667897856/img/H5z0HppHoltY6yso.jpg"
+    },
+    {
+      "time": "02:45",
+      "headline": "AIによる監視が進化し、人の監視が不要になる可能性",
+      "summary": "AIによる監視が進化する中で、人による監視が行動に結びつかないケースが増えている。今後、人の役割が減少する可能性が示唆されている。",
+      "handle": "divergent_codex",
+      "category": "事例",
+      "url": "https://x.com/divergent_codex/status/2116225096356667394",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "06:20",
+      "headline": "Meta Museが日常とビジネスを変えるAI秘書アプリを発表",
+      "summary": "Meta Museが新たなAI秘書アプリを発表し、アプリを閉じても秘書機能が働き続けることを強調しています。",
+      "handle": "daiusami",
+      "category": "ツール",
+      "url": "https://x.com/daiusami/status/2116279043830239720",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HV6FcUbaUAASgzD.jpg"
+    },
+    {
+      "time": "17:10",
+      "headline": "セーフィーがAI活用の未来を語る講演を12月に開催",
+      "summary": "セーフィーが建設現場におけるAIの活用について講演を行い、2027年に向けた展望を示す。参加は無料で、詳細はプレスリリースに記載。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000216.000001332.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/1332/216/1332-216-fd3d4a8cc4c620082acf8febac33b13d-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:00",
+      "headline": "Gemini NotebookでAI社員を作成する未来の可能性について",
+      "summary": "Gemini Notebookを使って、自分の考えを完全に理解するAI社員を作る可能性が紹介されている。AIの進化がもたらす便利さを実感する内容。",
+      "handle": "hanya00508",
+      "category": "ツール",
+      "url": "https://x.com/hanya00508/status/2116273946874270044",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "17:00",
+      "headline": "Uravationが法人向けAIエージェント研修を開始",
+      "summary": "Uravationは、社員が個人のAIエージェントを会社のメールや予定に接続する前に、社内ルールを整える研修を提供開始しました。研修は3時間で実施されます。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000244.000137731.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/137731/244/137731-244-d2bf7a8b5096dcbd5ef1a84d5f40fbf4-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "03:10",
+      "headline": "SolidWorksのAIエージェントMecAgentの利用規約に注意",
+      "summary": "SolidWorksのAIエージェントMecAgentは、無料プランで厳しい利用規約があり、業務利用を考える際は注意が必要です。特に、ローカルCADデータの自動スキャンと外部サーバーへのアップロードに同意する必要があります。",
+      "handle": "0xL1C10G",
+      "category": "ツール",
+      "url": "https://x.com/0xL1C10G/status/2116231209948938565",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "16:30",
+      "headline": "AIエージェントを活用した防災・国土強靱化フォーラムが開催",
+      "summary": "AIデータ株式会社が、災害情報とインフラデータをAIで結びつける新たな可能性を探るフォーラムを11月13日に開催することを発表した。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000835.000040956.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/40956/835/40956-835-9c2a13c98c9d61929c1c5cf735ef1a69-1486x606.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "02:14",
+      "headline": "大手IT受託会社がAIエージェントを活用した作業チームを商品化",
+      "summary": "グロバントがAIエージェントと人間を組み合わせた作業チームを新たに商品として提供開始。AIネイティブな受託基盤を拡張し、業務効率化を図る。",
+      "handle": "ax_supporter",
+      "category": "ツール",
+      "url": "https://x.com/ax_supporter/status/2116217215867584670",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "06:02",
+      "headline": "AI社員を連携させた業務フローの構築手順",
+      "summary": "AI社員を活用した業務フローの構築手順を紹介。リサーチから執筆、品質チェックまでのプロセスを自動化し、修正ループを実現する方法を解説。",
+      "handle": "pometa_afi",
+      "category": "作り方",
+      "url": "https://x.com/pometa_afi/status/2116274443492466914",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員の作り方を紹介するプレゼント企画が開催",
+      "summary": "フォロワーやポストの伸び悩みを解消するために、「X×AIスターターキット」を提供する企画が始まる。AI社員の作り方やAIを活用したポスト作成キットが含まれている。",
+      "handle": "michipo5",
+      "category": "作り方",
+      "url": "https://x.com/michipo5/status/2116273939563298975",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HV4z1fEaEAAe6xf.jpg"
+    }
+  ]
+}

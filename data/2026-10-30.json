@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-30",
+  "featured": {
+    "time": "19:00",
+    "headline": "エッジアウト株式会社がAIを活用した開発体制を導入",
+    "summary": "エッジアウト株式会社は、従来の人月ベースの開発からAIを活用した成果重視の開発体制へと移行することを発表した。",
+    "handle": "PR TIMES",
+    "category": "事例",
+    "url": "https://prtimes.jp/main/html/rd/p/000000008.000187394.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "06:24",
+      "headline": "AI秘書を活用して本せどりの業務効率化を実現",
+      "summary": "本せどりの仕事で、苦手な部分をAI秘書に任せることで、他の業務に時間を使うことができた事例を紹介。",
+      "handle": "mikisedoribrog",
+      "category": "事例",
+      "url": "https://x.com/mikisedoribrog/status/2115917594536612090",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HV0_1m2a0AA1uVD.jpg"
+    },
+    {
+      "time": "18:00",
+      "headline": "YORISOIが採用代行・RPOサービスのAI活用事例を分析",
+      "summary": "株式会社YORISOIが採用代行・RPOサービスにおける新サービス5事例を比較分析し、AIの活用と専門性から今後の支援価値を考察した。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000061.000175265.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/175265/61/175265-61-70d7cfd902b54b64fd5c5535ce85b4d9-1672x941.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:19",
+      "headline": "アナログ企業の事業承継にAIが効果的な理由とは",
+      "summary": "古い業務形態を持つ企業でも、AIを活用することで事業承継がスムーズに行える可能性があることを示唆しています。",
+      "handle": "mitsuhiro_jp",
+      "category": "事例",
+      "url": "https://x.com/mitsuhiro_jp/status/2115916461206278619",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "17:10",
+      "headline": "三共電機が業務の9割自動化を実現するセミナーを開催",
+      "summary": "三共電機が「社員年収700万円」を目指し、業務の9割を自動化する実践法を紹介するセミナーを12月10日に開催する。参加は無料。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000213.000001332.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/1332/213/1332-213-906ce6577f72bd5b28143c68b6867ed5-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:13",
+      "headline": "JPIがAIエージェント運用のセミナーを開催、実例を紹介",
+      "summary": "JPIは知財とAIエージェントに関するセミナーを開催し、押谷昌宗氏が2026年からの全業務でのAIエージェント運用実例を詳説した。",
+      "handle": "GENICPRESSAPP",
+      "category": "事例",
+      "url": "https://x.com/GENICPRESSAPP/status/2115914876401160605",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HV09WpIb0AAu9QI.jpg"
+    },
+    {
+      "time": "16:17",
+      "headline": "福島のzero oneホールディングスがDAIJOBUの研修を導入",
+      "summary": "福島の建設など4社を束ねるzero oneホールディングスが、非エンジニア向けの「Claude Code法人研修」を導入した事例を公開しました。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000044.000136673.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/136673/44/136673-44-b129f52e5b741f5e8b09d697edd13ff4-2000x1125.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:06",
+      "headline": "AIエージェントが変える仕事の未来と最先端の働き方",
+      "summary": "AIを活用した新しい働き方についての考察が紹介されており、資産防衛に関する仕事術も触れられています。",
+      "handle": "k_koga555",
+      "category": "事例",
+      "url": "https://x.com/k_koga555/status/2115913306552860834",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員を活用した成果報酬型の収入源増加の提案",
+      "summary": "AI社員を利用して、商品紹介や案件探しを効率化し、収入源を増やす方法が提案されている。条件確認や紹介先選びを行うだけで、仕入れや発送の手間が省ける。",
+      "handle": "client2728770",
+      "category": "事例",
+      "url": "https://x.com/client2728770/status/2115911579523076169",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員による自動バックアップの実施状況",
+      "summary": "毎朝、AI社員がサーバーのバックアップを自動で行っており、活動記録の保護が図られている。",
+      "handle": "axion_ai_jp",
+      "category": "事例",
+      "url": "https://x.com/axion_ai_jp/status/2115911567527354643",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員が投稿状況を報告、社長の指示で投稿が実施される",
+      "summary": "AI社員は投稿が0本になると報告したが、社長の指示後に投稿が行われた。警告は書いた場所ではなく、読む人の目の前に表示される。",
+      "handle": "aikaishawip",
+      "category": "事例",
+      "url": "https://x.com/aikaishawip/status/2115911555766263848",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVdsp74bkAA9EM4.png"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI秘書を学ぶコミュニティの初回オリエンテーションに参加",
+      "summary": "AI秘書や裏方支援を学ぶコミュニティの初回オリエンテーションに参加し、運営者と現状について話し合った。AIを仕事にどう活かすか模索中。",
+      "handle": "andryu_navi",
+      "category": "事例",
+      "url": "https://x.com/andryu_navi/status/2115911557913927756",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "06:18",
+      "headline": "Codexで制作したLPをAI社員が担当するセミナーを開催",
+      "summary": "Codexを使用して制作したランディングページを担当するAI社員の内容をセミナーで公開する。参加申し込みは専用フォームから可能。",
+      "handle": "MatoToushi",
+      "category": "ツール",
+      "url": "https://x.com/MatoToushi/status/2115916157270265908",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "18:00",
+      "headline": "ブレインズテクノロジーと酉島製作所がAIモニタリングシステムを開発",
+      "summary": "ブレインズテクノロジーと酉島製作所は、河川排水機場向けのAIモニタリングシステムの研究開発を進めることを発表した。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000066.000014739.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/14739/66/14739-66-960531268ee4fc6c69d1901c6ff387f6-1909x618.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:00",
+      "headline": "AIエージェントのセキュリティと冪等性キーの実装方法",
+      "summary": "AIエージェントの異常検知や正常の保守についての設計が必要であること、また冪等性キーの最小実装に関する情報が提供されています。",
+      "handle": "Masato1864646",
+      "category": "ツール",
+      "url": "https://x.com/Masato1864646/status/2115911734829752425",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "17:00",
+      "headline": "Uravation、法人向け「Grok Bot 業務活用研修」を開始",
+      "summary": "Uravationが法人向けに「Grok Bot 業務活用研修」を提供開始。AIエージェントに業務を任せる前に、役割と運用ルールを決める研修を実施します。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000243.000137731.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/137731/243/137731-243-84f78459886ec728b110e5323484a2f3-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "05:54",
+      "headline": "AIがWordやExcelの書類作成をサポートする新サービス登場",
+      "summary": "新たに発表されたサービスでは、AIが文章作成を手助けし、書類の整形まで行う機能が提供される。これにより、業務効率が向上することが期待されている。",
+      "handle": "ahosyacyou",
+      "category": "ツール",
+      "url": "https://x.com/ahosyacyou/status/2115910064729211038",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HV04-0Aa0AAW7UN.jpg"
+    },
+    {
+      "time": "06:12",
+      "headline": "AIを活用した採用スカウト文面のパーソナライズ設計",
+      "summary": "AIを用いた採用スカウト文面のパーソナライズに関する設計例を紹介。人力からAI支援へ移行する際の注意点についても言及している。",
+      "handle": "Chat_yuu",
+      "category": "作り方",
+      "url": "https://x.com/Chat_yuu/status/2115914665507357165",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "19:05",
+      "headline": "AIを24時間働かせる仕組みとエージェントの選び方を解説",
+      "summary": "AIを24時間稼働させるための仕組みやエージェントの選び方について詳しく解説する動画です。実際の運用方法や裏側に迫ります。",
+      "handle": "Rei丨暮らしとNotion。",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=KmOSWSJ46lo",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/KmOSWSJ46lo/hqdefault.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AIを活用したポスト自動化の簡単な方法を紹介",
+      "summary": "AIを使ってポストを自動化し、労力をかけずに多くの反響を得る方法を説明しています。具体的な手順も紹介されています。",
+      "handle": "michipo5",
+      "category": "作り方",
+      "url": "https://x.com/michipo5/status/2115911558572196015",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVzyLTFa4AA5KyZ.png"
+    },
+    {
+      "time": "18:00",
+      "headline": "Claude Codeを使ったAI秘書の作成方法を解説",
+      "summary": "Claude Codeを活用して、自分専用のAI秘書が事務作業を行う方法について解説する動画です。具体的な手順が紹介されています。",
+      "handle": "【りょう】のClaude仕事術ラボ",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=WVFsWkBB0Fg",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/WVFsWkBB0Fg/hqdefault.jpg"
+    }
+  ]
+}

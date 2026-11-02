@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-22",
+  "featured": {
+    "time": "08:00",
+    "headline": "デジタル庁、政府職員約18万人にAIエージェントの利用環境を入れる「源内」、安全の基準も決める",
+    "summary": "話しかけると複数の作業をまとめて進める「エージェントチャット」を10月20日から各府省庁へ順に入れ、12月ごろにはより高度な「源内工房」も目指す。利用者・管理者・開発者それぞれが守ることを書いた「源内基準」も作り、仕組みは2027年2月ごろにだれでも使える形で公開する予定。",
+    "handle": "Impress Watch",
+    "category": "事例",
+    "url": "https://www.watch.impress.co.jp/docs/news/2149756.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "09:04",
+      "headline": "AI秘書の記録に「やると決めただけ」のタスクが完了として並んでいた",
+      "summary": "ファイルも送信も実際には無かった。今は完了の横にパス・URL・IDのどれかを必ず書かせ、書けないものは完了にしない決まりにした。",
+      "handle": "niko_kobo",
+      "category": "事例",
+      "url": "https://x.com/niko_kobo/status/2112696484454183353",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "21:12",
+      "headline": "生成AI研修会社の全社合宿に密着、AI社員きんちゃんの半年を振り返る",
+      "summary": "WEAVEが広島で行った3日間の合宿。AI社員専用の席、きんちゃんの半年の振り返り、AIと紙飛行機の対決まで見せている。",
+      "handle": "久保直樹 | AI先生",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=z8hEjk6Wthc",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/z8hEjk6Wthc/hqdefault.jpg"
+    },
+    {
+      "time": "21:59",
+      "headline": "AI社員の自動化で起きた6つの失敗と直し方、noteの毎日投稿は2日止まっていた",
+      "summary": "ブラウザにつながらず黙って止まった投稿、鍵の作り直しで止まったXの投稿、非公開のままのYouTubeなど。多くはAIの外側の「つなぎ目」が原因で、失敗したら社長に知らせる形に変えた。",
+      "handle": "社員は全員AI｜1人会社の記録",
+      "category": "事例",
+      "url": "https://note.com/shain_zenin_ai/n/n161e04b7ac32",
+      "source": "web",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/326939123/rectangle_large_type_2_40747f1fb273538b65759b813b768a57.png?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "20:27",
+      "headline": "社内にAI社員だけのセキュリティ部署ができた、指摘は全部正論でも直すのは1人",
+      "summary": "「PHPが古い」「使っていないドメインがある」といった指摘を、現場がついてこられるよう1つずつタスクにして片づけている、ひとり情シスの話。",
+      "handle": "SoloSELifeop",
+      "category": "事例",
+      "url": "https://x.com/SoloSELifeop/status/2112868489979707426",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "00:07",
+      "headline": "AI社員の会社を作ったのに、ずっと自分が担当同士の伝言係だった",
+      "summary": "記事・画像・実装・確認の担当を作ったが、指示と結果を人が運び続けていた。「もう本人に聞いて」と頼んだ日から、担当同士で依頼が渡り始めた体験記。",
+      "handle": "小鳩",
+      "category": "事例",
+      "url": "https://note.com/kobato7910/n/n8225d5e8a587",
+      "source": "web",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/326976795/rectangle_large_type_2_75bd83186860bd3242c9b29af63f5d84.png?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "00:20",
+      "headline": "国スポの試合前、対戦相手の情報集めをAI社員に任せた",
+      "summary": "選手として出た大会で、出場チームと次の相手の情報を集めさせたら、前日の夕方にはそろっていた。70本目のAI社員の話。",
+      "handle": "nakyatsukuruapp",
+      "category": "事例",
+      "url": "https://x.com/nakyatsukuruapp/status/2112926893301473668",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "13:54",
+      "headline": "AI社員にTikTokを任せたら、投稿する前に何度も止まった",
+      "summary": "AI社員が台本を書いた14秒の動画を、TikTokの受信箱に下書きとして送るまでの記録。公開ボタンは人が押すと決め、止まった理由の半分は自分で作った安全の仕組みだった。",
+      "handle": "tokyo_worklog",
+      "category": "事例",
+      "url": "https://x.com/tokyo_worklog/status/2112769536554574013",
+      "source": "x",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/326783121/rectangle_large_type_2_f3e98661d9a409d99191e7e399acb940.png?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "time": "11:10",
+      "headline": "1日で10都市・1,000件のお店の名簿を作ったAI社員",
+      "summary": "海外営業担当のAI社員が作った名簿で、電話番号の空欄は0件だったと紹介している。",
+      "handle": "keikamotsu_naka",
+      "category": "事例",
+      "url": "https://x.com/keikamotsu_naka/status/2112728197523808611",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "17:00",
+      "headline": "AI社員を3人雇って、喫茶店の限定メニューのページを任せてみた",
+      "summary": "無料アプリPaperclipでCEOを雇うと、作る係のClaude Codeと確かめる係のCodexを採用し、仕事をチケットで割り振る。人は承認するだけのはずが、つまずく所もあった記録。",
+      "handle": "AI勉強会",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=des5a3kZ-Gg",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/des5a3kZ-Gg/hqdefault.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "NEXT STANDARDS、LINEで頼むと電話や予約まで代わりに進めるAIアシスタント「Wonder」LINE版",
+      "summary": "「土曜10時に美容院を予約して」と送ると、お店を探して電話をかけ、結果をLINEで知らせる。比較表づくりや予約サイトの入力も代わりに進め、月額980円。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000011.000175773.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/175773/11/175773-11-1b01e5fef51f7b0c1abbaef842df5fbd-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "19:35",
+      "headline": "福岡DXPOに384社、資料づくりを自分で進める「ハコ入りAI社員」も登場",
+      "summary": "人手不足や手作業の自動化に向けた展示会で、過去のデータをもとに資料作成を代わりに進めるAI社員などが紹介された。",
+      "handle": "福岡テレQニュース",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=ptSvAoeEdQY",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/ptSvAoeEdQY/hqdefault.jpg"
+    },
+    {
+      "time": "15:57",
+      "headline": "SamuraiAX、会話で一度やった集計を「ワークフローにして」と頼むと毎月自動で動かす",
+      "summary": "手順を図にして決まった時刻に動かす使い方と、就業規則をもとに社員の質問に答える社内窓口を作る使い方を始めた。うまくいったやり方を作った人以外も使える形で残す。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000192.000085052.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/85052/192/85052-192-9c8a5b8864eb5e9cd870ccd7c5d90d6d-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "17:57",
+      "headline": "名前と持ち場を持ったAI社員を何人でも置ける「Grok Bot」を、使ってわかったことで解説",
+      "summary": "パソコンを閉じても作業を続けるBotの正体、どこまで任せるかを自分で決める仕組み、毎朝のネタ集めなどの使い道と、始める前の注意点を画面で見せている。",
+      "handle": "まな式AIラボ",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=Q13oelSPi8s",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/Q13oelSPi8s/hqdefault.jpg"
+    },
+    {
+      "time": "21:19",
+      "headline": "むさしAI研修、社長の頭の中の判断をAIエージェントに移す中小企業向け「シス学」",
+      "summary": "営業・見積もり・経理などの仕事ごとにマニュアルを整えてAIエージェントで動かし、人が直した点をマニュアルにためて自社AIを育てる。戦略・研修・開発を同じチームが受け持つ。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000001.000193063.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/193063/1/193063-1-5c0f7e740349b7db0f596d80d0b28519-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "21:00",
+      "headline": "Discordから指示できて決めた時間に自分で動くAI社員を、4ステップで作る",
+      "summary": "人がやるのはアカウントを3つ作るところだけで、あとは日本語でClaude Codeに頼む。線を引くのは「任せる仕事」と「許す権限」の2つ。",
+      "handle": "starriver0513",
+      "category": "作り方",
+      "url": "https://x.com/starriver0513/status/2112876564509499658",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "22:30",
+      "headline": "ITが苦手な中小企業でも1か月で事務をAIエージェントに任せる4ステップ",
+      "summary": "「記録する・繋ぐ・寄せる・覚えさせる」の順に、録音ツール、MCP、Googleドライブを使った実演つきで41分で解説。全自動にしてはいけない理由にも触れている。",
+      "handle": "中小企業のAI参謀   佐藤尚功@ウツセバ",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=adwBxv437OY",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/adwBxv437OY/hqdefault.jpg"
+    },
+    {
+      "time": "21:01",
+      "headline": "Claude Codeは、自分では守っているルールを部下のAIへの指示文に書いていなかった",
+      "summary": "自分が読むときはログイン済みのブラウザを使うのに、任せた調べものではログインしていないブラウザを指定していた。指示文の見直しどころがわかる話。",
+      "handle": "nobu_note_lab",
+      "category": "作り方",
+      "url": "https://x.com/nobu_note_lab/status/2112514574494920801",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HVEoZKsbgAASdTx.jpg"
+    },
+    {
+      "time": "19:00",
+      "headline": "Claude Codeで、請求書PDFを読んでExcelに転記するAI社員を作る",
+      "summary": "フォルダの請求書PDFを決まった形の一覧に写すスキルを作り、「請求書PDFをExcelに転記して」の一言で動かすまでを見せる。先に作業させてからスキルにする手順も紹介。",
+      "handle": "メンタエクセル",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=6icFqhMxT7o",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/6icFqhMxT7o/hqdefault.jpg"
+    },
+    {
+      "time": "06:16",
+      "headline": "AIエージェント導入で「RPAを捨てる」は間違い、ガートナーが示す4つの判断基準",
+      "summary": "2028年までに現場の社員が作るエージェントの数が、これまでのアプリやボットの合計を上回るという予測をもとに、RPAとの使い分けと現場主導の開発を管理する考え方を解説する。",
+      "handle": "bitsbbit",
+      "category": "作り方",
+      "url": "https://x.com/bitsbbit/status/2113016660042940696",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "22:54",
+      "headline": "Claude CodeでAI社員を作る方法を、実際の画面100枚で解説",
+      "summary": "ターミナルを使わずデスクトップアプリで、AI社員用のフォルダ、常設の指示、合格条件を用意する。最初の1体は業務を棚卸しして、任せる仕事と人が持つ仕事を分ける役にしている。",
+      "handle": "aki_jpgf",
+      "category": "作り方",
+      "url": "https://x.com/aki_jpgf/status/2112905456452845923",
+      "source": "x",
+      "thumbnail": "https://assets.st-note.com/production/uploads/images/317076947/rectangle_large_type_2_3b7ba551306f2f43afb6deb429ff8d88.png?fit=bounds&quality=85&width=1280"
+    }
+  ]
+}

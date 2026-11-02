@@ -453,9 +453,13 @@ def main():
     raw += collect_youtube() + collect_web()
     cut = today - dt.timedelta(days=WINDOW_DAYS)
     cands, pub = [], {}
-    drop = {"seen": 0, "no_date": 0, "00:00": 0, "window": 0, "classify_err": 0, "judged_false": 0, "ok": 0}
+    stage_keys = ("fetched", "seen", "no_date", "00:00", "window", "classify_err", "judged_false", "ok")
+    stages = {s: dict.fromkeys(stage_keys, 0) for s in ("x", "youtube", "web")}
+    drop = stages["web"]
     for c in raw:
-        w = c["source"] == "web"
+        w = True
+        drop = stages.setdefault(c["source"], dict.fromkeys(stage_keys, 0))
+        drop["fetched"] += 1
         if c["url"] in seen or not c["published"]:
             if w: drop["seen" if c["url"] in seen else "no_date"] += 1
             continue
@@ -477,9 +481,15 @@ def main():
         if w: drop["ok"] += 1
         c.update(category=j["category"], headline=j["headline"].strip(), summary=j["summary"].strip())
         cands.append(c); pub[c["url"]] = p
-    log("Web stages:", "fetched", WEB_STATS["fetched"], "og_failed", WEB_STATS["og_failed"], *[f"{k} {v}" for k, v in drop.items()])
+    web_drop = {k: v for k, v in stages["web"].items() if k != "fetched"}
+    log("Web stages:", "fetched", WEB_STATS["fetched"], "og_failed", WEB_STATS["og_failed"], *[f"{k} {v}" for k, v in web_drop.items()])
+    for src, st in stages.items():
+        log(f"Stages {src}:", st)
     cands.sort(key=lambda c: c["published"], reverse=True)
     featured, items = select(cands, no_x)
+    picked_urls = {i["url"] for i in items} | {f["url"] for f in (featured if isinstance(featured, list) else [featured]) if isinstance(f, dict) and f.get("url")}
+    log("Picked by source:", dict(Counter(i["source"] for i in items)), "by category:", dict(Counter(i["category"] for i in items)))
+    log("Passed but not picked by source:", dict(Counter(c["source"] for c in cands if c["url"] not in picked_urls)))
     d = build_issue(today, featured, items, no_x)
     errs = validate(d, seen, pub, today)
     log("sources", Counter(i["source"] for i in items), "categories", Counter(i["category"] for i in items), "no_x", no_x)

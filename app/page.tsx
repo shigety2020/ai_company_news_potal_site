@@ -1,5 +1,6 @@
 import { headers } from "next/headers";
 import { findAdjacentDates } from "../lib/daily";
+import ThumbImg from "./thumb-img";
 
 export const dynamic = "force-dynamic";
 
@@ -286,8 +287,7 @@ function IndexStory({ item }: { item: DailyItem }) {
       </div>
       <div className="item-row">
         <div className="item-thumb" aria-hidden="true">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={thumb} alt="" />
+          <ThumbImg src={thumb} fallback={thumbFallbackForUrl(item.url)} />
         </div>
         <div className="item-copy">
           <h2 className="item-headline">{item.headline}</h2>

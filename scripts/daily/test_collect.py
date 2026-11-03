@@ -62,6 +62,29 @@ class T(unittest.TestCase):
         self.assertTrue(C.validate(d, {items[0]["url"]}))
         self.assertTrue(C.validate(d, set(), {items[0]["url"]: dt.date(2026, 6, 1)}, dt.date(2026, 10, 22)))
 
+    def test_single_web_stays_in_items(self):
+        cs = [cand("web", 0)] + [cand("x", i) for i in range(1, 15)] + [cand("youtube", i) for i in range(20, 30)]
+        f, items = C.select(cs, no_x=False)
+        d = C.build_issue(dt.date(2026, 10, 22), f, items, False)
+        self.assertEqual(C.validate(d, set()), [])
+        self.assertNotEqual(f["source"], "web")
+        self.assertEqual(sum(1 for i in items if i["source"] == "web"), 1)
+
+    def test_two_webs_featured_web_and_one_in_items(self):
+        cs = [cand("web", 0), cand("web", 30)] + [cand("x", i) for i in range(1, 15)] + [cand("youtube", i) for i in range(20, 30)]
+        f, items = C.select(cs, no_x=False)
+        self.assertEqual(f["source"], "web")
+        self.assertEqual(sum(1 for i in items if i["source"] == "web"), 1)
+
+    def test_only_web_featured_web(self):
+        f, items = C.select([cand("web", 0)], no_x=True)
+        self.assertEqual(f["source"], "web")
+
+    def test_web_queries_and_limit(self):
+        src = open(C.__file__, encoding="utf8").read()
+        self.assertIn("h)))[:20]", src)
+        self.assertTrue(all("導入" in q or "業務" in q for q in C.WEB_QUERIES))
+
 
 if __name__ == "__main__":
     unittest.main()

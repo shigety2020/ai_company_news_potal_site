@@ -29,7 +29,8 @@ X_QUERIES = [  # 1回の収集で3回まで・max_results<=20・次ページな�
     '"AI秘書" -is:retweet lang:ja',
 ]
 YT_QUERIES = ["AI社員", "AIエージェント 業務", "AI秘書 作り方"]
-WEB_QUERIES = ["AI社員", "AIエージェント 業務", "デジタル社員"]
+WEB_QUERIES = ["AI社員 導入", "AIエージェント 導入 事例", "AIエージェント 業務効率化", "デジタル社員 導入"]
+WEB_STATS = {"fetched": 0, "og_failed": 0}  # 段ごとの件数ログ用
 ITEM_KEYS = ["time", "headline", "summary", "handle", "category", "url", "source", "thumbnail"]
 FEATURED_KEYS = ["time", "headline", "summary", "handle", "category", "url", "source"]
 
@@ -222,7 +223,9 @@ def collect_youtube():
 def og(url):
     try:
         h = http(url)
-    except Exception:
+    except Exception as e:
+        WEB_STATS["og_failed"] += 1
+        log("og failed:", url, e)
         return None, None, "", None
     def meta(p):
         m = re.search(r'<meta[^>]+(?:property|name)=["\']' + p + r'["\'][^>]*content=["\']([^"\']*)', h) or \
@@ -247,7 +250,7 @@ def collect_web():
         except Exception as e:
             log("PR TIMES search failed:", q, e)
             h = ""
-        for path in list(dict.fromkeys(re.findall(r'/main/html/rd/p/\d+\.\d+\.html', h)))[:10]:
+        for path in list(dict.fromkeys(re.findall(r'/main/html/rd/p/\d+\.\d+\.html', h)))[:20]:
             url = "https://prtimes.jp" + path
             if url in seen:
                 continue
@@ -272,6 +275,8 @@ def collect_web():
             out.append({"source": "web", "url": url, "handle": u.get("nickname") or u.get("urlname"),
                         "published": dt.datetime.fromisoformat(n["publish_at"]), "title": n.get("name", ""),
                         "text": (n.get("description") or n.get("body") or "")[:800], "thumbnail": n.get("eyecatch")})
+    WEB_STATS["fetched"] = len(out)
+    log("Web fetched:", len(out), "PR TIMES:", sum(1 for c in out if c["handle"] == "PR TIMES"), "og failed:", WEB_STATS["og_failed"])
     return out
 
 
@@ -323,7 +328,14 @@ def select(cands, no_x):
         return True
     def take(c):
         used_urls.add(c["url"]); used_handles.add((c["source"], c["handle"])); pick[c["source"]].append(c)
-    featured = next((c for c in cands if c["source"] == "web"), None) or (cands[0] if cands else None)
+    # 特集は Web を優先。ただし判定を通った Web が1件だけで、ほかの出どころがある日は、
+    # 目次に Web を残すため特集には Web 以外（いちばん新しいもの）を使う。
+    webs = [c for c in cands if c["source"] == "web"]
+    others = [c for c in cands if c["source"] != "web" and not (no_x and c["source"] == "x")]
+    if len(webs) >= 2 or (webs and not others):
+        featured = webs[0]
+    else:
+        featured = others[0] if others else (cands[0] if cands else None)
     if featured:
         used_urls.add(featured["url"])
     for s in SRCS:  # まず目安どおり
@@ -441,24 +453,43 @@ def main():
     raw += collect_youtube() + collect_web()
     cut = today - dt.timedelta(days=WINDOW_DAYS)
     cands, pub = [], {}
+    stage_keys = ("fetched", "seen", "no_date", "00:00", "window", "classify_err", "judged_false", "ok")
+    stages = {s: dict.fromkeys(stage_keys, 0) for s in ("x", "youtube", "web")}
+    drop = stages["web"]
     for c in raw:
+        w = True
+        drop = stages.setdefault(c["source"], dict.fromkeys(stage_keys, 0))
+        drop["fetched"] += 1
         if c["url"] in seen or not c["published"]:
+            if w: drop["seen" if c["url"] in seen else "no_date"] += 1
             continue
         if hhmm(c["published"]) == "00:00":
+            if w: drop["00:00"] += 1
             continue  # 時刻が分からないものは載せない（PB1 QA「00:00 が無い」）
         p = c["published"].astimezone(JST).date()
         if not (cut <= p <= today):
+            if w: drop["window"] += 1
             continue
         try:
             j = classify(c, key, model)
         except Exception as e:
+            if w: drop["classify_err"] += 1
             log("classify failed:", c["url"], e); continue
         if not j or not j.get("is_ai_employee"):
+            if w: drop["judged_false"] += 1
             continue
+        if w: drop["ok"] += 1
         c.update(category=j["category"], headline=j["headline"].strip(), summary=j["summary"].strip())
         cands.append(c); pub[c["url"]] = p
+    web_drop = {k: v for k, v in stages["web"].items() if k != "fetched"}
+    log("Web stages:", "fetched", WEB_STATS["fetched"], "og_failed", WEB_STATS["og_failed"], *[f"{k} {v}" for k, v in web_drop.items()])
+    for src, st in stages.items():
+        log(f"Stages {src}:", st)
     cands.sort(key=lambda c: c["published"], reverse=True)
     featured, items = select(cands, no_x)
+    picked_urls = {i["url"] for i in items} | {f["url"] for f in (featured if isinstance(featured, list) else [featured]) if isinstance(f, dict) and f.get("url")}
+    log("Picked by source:", dict(Counter(i["source"] for i in items)), "by category:", dict(Counter(i["category"] for i in items)))
+    log("Passed but not picked by source:", dict(Counter(c["source"] for c in cands if c["url"] not in picked_urls)))
     d = build_issue(today, featured, items, no_x)
     errs = validate(d, seen, pub, today)
     log("sources", Counter(i["source"] for i in items), "categories", Counter(i["category"] for i in items), "no_x", no_x)

@@ -1,0 +1,214 @@
+{
+  "date": "2026-11-04",
+  "featured": {
+    "time": "12:00",
+    "headline": "ゴムマリの業務AIエージェントがExcel台帳のデータベース化を提供開始",
+    "summary": "ゴムマリ株式会社は、業務AIエージェントによるExcel台帳のデータベース化サービスを新たに提供開始した。",
+    "handle": "PR TIMES",
+    "category": "ツール",
+    "url": "https://prtimes.jp/main/html/rd/p/000000029.000185093.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "06:25",
+      "headline": "AIエージェントの業務完了の定義についての考察",
+      "summary": "AIエージェントの業務完了を、処理完了と業務完了で分けて考える重要性について述べています。出力後の確認事項を明確にすることが求められています。",
+      "handle": "comen_ryotaro",
+      "category": "事例",
+      "url": "https://x.com/comen_ryotaro/status/2117729834583695666",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "13:30",
+      "headline": "ジェイテクト、フィジカルAIを活用した部品取り出し工程の成功率97.1％達成",
+      "summary": "ジェイテクトはフィジカルAIを用いた工場実証において、部品取り出し工程の成功率を97.1％に達成したと発表した。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000609.000028729.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/28729/609/28729-609-0d7aa72a89fb3f310ff2ace0b3ccd85c-1147x391.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:21",
+      "headline": "AI社員が夜のお店の業務をサポートする事例",
+      "summary": "夜のお店での業務をAI社員が担当し、出勤連絡や予約、媒体の更新を行う事例が紹介されています。",
+      "handle": "AIinvestshoji",
+      "category": "事例",
+      "url": "https://x.com/AIinvestshoji/status/2117728791426711755",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HWOvFjfaMAA-S5B.jpg"
+    },
+    {
+      "time": "12:00",
+      "headline": "ロボパットAIが「AI RPA Best Partner Award」を受賞",
+      "summary": "株式会社ＦＣＥが開催した「PKSHA Partner Conference 2026」で、ロボパットAIが「AI RPA Best Partner Award」を受賞しました。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000454.000029370.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/29370/454/29370-454-e05238f89f6eb8e92991a5d8af20b9ab-972x650.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:18",
+      "headline": "AI秘書を活用したサブスク管理の実例を紹介",
+      "summary": "AI秘書を使ってサブスクリプションの管理を行った結果、月1万円を超える支出があったことを報告しています。",
+      "handle": "hironewyorklove",
+      "category": "事例",
+      "url": "https://x.com/hironewyorklove/status/2117728036099608834",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "12:00",
+      "headline": "キジトラ、Helmrを活用したAI業務システムの開発支援を開始",
+      "summary": "株式会社キジトラは、Helmrを用いたAI業務システムの開発・運用支援を開始し、AIが業務を進める仕組みを構築することを目指す。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000002.000191685.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/191685/2/191685-2-b5cd952c35a83374c6b214cb0e92252e-1600x840.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員タキが社長にAIクレジットの使い道を報告",
+      "summary": "AI社員タキが、社長からの依頼でAIのクレジットの使い道を調査した結果、先月の約2割が未使用で消失していたことが判明した。",
+      "handle": "goemon_real",
+      "category": "事例",
+      "url": "https://x.com/goemon_real/status/2117723513922769280",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "05:50",
+      "headline": "AIが作成したコンテンツを人間が修正する新たな協働の形",
+      "summary": "AIが生成したコンテンツを人間が修正し、その経験を次の業務に活かすことで、AIがより信頼できるパートナーになる可能性についての考えが示された。",
+      "handle": "HirofumiTAS",
+      "category": "事例",
+      "url": "https://x.com/HirofumiTAS/status/2117721163036283074",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "05:26",
+      "headline": "Grok Botを活用した営業支援の実例を紹介",
+      "summary": "Grok Botを用いて過去の記録を調査し、連絡が途切れた顧客を特定する営業支援の事例が紹介されました。",
+      "handle": "chiken_ai",
+      "category": "事例",
+      "url": "https://x.com/chiken_ai/status/2117715138585444364",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "05:01",
+      "headline": "AI秘書と共に本を制作する取り組みを紹介",
+      "summary": "臼井正己氏がAI秘書と共に本を作るプロセスを紹介するシリーズの第一弾。AIを活用した新しい創作の形を探る内容。",
+      "handle": "usuimasami",
+      "category": "事例",
+      "url": "https://x.com/usuimasami/status/2117708690904293711",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "業務自動化に最適なAIツールの選び方を紹介",
+      "summary": "アプリ開発や業務自動化、AI社員としての仕事を任せるツールの選び方を解説。特にGrokBotが注目されている。",
+      "handle": "krdinit",
+      "category": "ツール",
+      "url": "https://x.com/krdinit/status/2117723492259082491",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "13:42",
+      "headline": "AIエージェント派遣サービス「AIクル」が11月6日より提供開始",
+      "summary": "株式会社メディア・グローブがAIエージェント派遣サービス「AIクル」を11月6日から提供開始することを発表しました。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000007.000141922.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/141922/7/141922-7-8a40cc74351665c06dde7f7b1ed59fd6-1352x735.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "05:57",
+      "headline": "Grok BotをAI社員として活用する方法を紹介する動画を公開",
+      "summary": "Grok BotをAI社員として利用したい方向けに、実演動画や具体的な活用法を無料オプチャで共有しています。",
+      "handle": "Ruchin_Otoko",
+      "category": "ツール",
+      "url": "https://x.com/Ruchin_Otoko/status/2117722785808110009",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "11:40",
+      "headline": "AIデータ社が人材配置最適化AIモデルをリリース",
+      "summary": "AIデータ株式会社が新たに人材配置最適化AIモデル「AI孔明 on IDX」を発表し、サービス業の生産性向上を目指す。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000836.000040956.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/40956/836/40956-836-8e717a0471dab5ef7f6208c441d93272-1047x645.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "05:10",
+      "headline": "業務代行に進化するAIツール7選を紹介",
+      "summary": "最近のGitHubでは、AIが業務を代行する方向に進化している。複数の作業を自律的に進められるオープンソースのAIツールを7つ紹介する。",
+      "handle": "nhabb",
+      "category": "ツール",
+      "url": "https://x.com/nhabb/status/2117710996852851197",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "05:03",
+      "headline": "Snowflakeが企業向けAIエージェント「CoWork Bots」を発表",
+      "summary": "Snowflakeは11月3日に新機能「CoWork Bots」を発表しました。この機能は業務をバックグラウンドで進め、人に確認が必要な場面で判断を促します。",
+      "handle": "shin_AI_shigoto",
+      "category": "ツール",
+      "url": "https://x.com/shin_AI_shigoto/status/2117709318460203338",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "Claudeを活用したアフィリエイト投稿の手順を紹介",
+      "summary": "Claudeを使ってターゲットの悩みを分析し、アフィリエイト商品を集めて投稿文を作成する手順を解説。成約率の分析も行い、効果的な投稿を横展開する方法を示しています。",
+      "handle": "owl_pukuro_",
+      "category": "作り方",
+      "url": "https://x.com/owl_pukuro_/status/2117723505584472487",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "GrokBotを使った楽天アフィリエイトの業務自動化の提案",
+      "summary": "GrokBotを活用して楽天アフィリエイトの業務を自動化する仕組みを提案し、月7桁の収益を狙える可能性を示唆しています。具体的なやり方も公開する予定です。",
+      "handle": "risu_aiafi",
+      "category": "作り方",
+      "url": "https://x.com/risu_aiafi/status/2117723503780585848",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HWNe8fAbYAAFopR.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AIを活用した副業の仕組み作りの重要性について",
+      "summary": "AI副業においては、AIを使うだけでなく、AIに仕事を任せる仕組みを構築することが重要であると述べています。仕組みを早期に作ることで、検証と改善が迅速に行えるとしています。",
+      "handle": "AI_jikan",
+      "category": "作り方",
+      "url": "https://x.com/AI_jikan/status/2117723496294105536",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "03:48",
+      "headline": "AI秘書の実現に向けた考察と課題",
+      "summary": "AI秘書の開発に対する期待感が高まる一方で、PC内での理解を持つAIの実現には課題が残るとの意見が示された。",
+      "handle": "rika891",
+      "category": "作り方",
+      "url": "https://x.com/rika891/status/2117690452761821351",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    }
+  ]
+}

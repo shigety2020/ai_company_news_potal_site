@@ -441,7 +441,7 @@ img {
 
 .issue-nav {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: 1fr auto 1fr auto;
   align-items: center;
   gap: 12px;
   padding: 12px 0;
@@ -462,7 +462,7 @@ img {
   justify-self: start;
 }
 
-.issue-nav-link:last-child {
+.issue-nav > :nth-child(3) {
   justify-self: end;
 }
 
@@ -507,7 +507,12 @@ img {
 }
 
 /* PB5: category chips / filtered list */
-.backnumber-link { margin-left: 12px; color: var(--accent); font-weight: 700; display: inline-flex; align-items: center; min-height: 44px; }
+.backnumber-link { justify-self: end; white-space: nowrap; }
+/* SP 390: 入らなければ次の行に右寄せ（ユイの指定） */
+@media (max-width: 1023px) {
+  .issue-nav { grid-template-columns: 1fr auto 1fr; }
+  .backnumber-link { grid-column: 1 / -1; }
+}
 .cat-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 24px 0 14px; }
 .cat-chip { min-height: 44px; padding: 0 12px; border: 1px solid var(--line); border-radius: 22px; display: inline-flex; align-items: center; gap: 4px; font-size: 13px; color: var(--body); white-space: nowrap; }
 .cat-chip.on { border-color: var(--heading); background: var(--heading); color: #fff; font-weight: 700; }

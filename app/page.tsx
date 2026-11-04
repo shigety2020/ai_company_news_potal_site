@@ -423,7 +423,7 @@ export default async function Home({
             <span className="issue-nav-slot" aria-hidden="true" />
           )}
           <a className="issue-nav-link backnumber-link" href="/backnumber">
-            過去の号一覧 →
+            バックナンバー一覧 →
           </a>
         </nav>
         <main>

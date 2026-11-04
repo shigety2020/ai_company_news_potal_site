@@ -489,6 +489,11 @@ def main():
     featured, items = select(cands, no_x)
     picked_urls = {i["url"] for i in items} | {f["url"] for f in (featured if isinstance(featured, list) else [featured]) if isinstance(f, dict) and f.get("url")}
     log("Picked by source:", dict(Counter(i["source"] for i in items)), "by category:", dict(Counter(i["category"] for i in items)))
+    picked_n = Counter(i["source"] for i in items)
+    for src in ("x", "youtube", "web"):
+        if picked_n[src] == 0:
+            st = stages.get(src, {})
+            log(f"Zero source: {src} reason=" + ("fetch_empty" if not st.get("fetched") else str({k: v for k, v in st.items() if v})))
     log("Passed but not picked by source:", dict(Counter(c["source"] for c in cands if c["url"] not in picked_urls)))
     d = build_issue(today, featured, items, no_x)
     errs = validate(d, seen, pub, today)

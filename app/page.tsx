@@ -414,9 +414,6 @@ export default async function Home({
           )}
           <span className="issue-nav-current">
             {formatIssueDate(data.date)}
-            <a className="backnumber-link" href="/backnumber">
-              バックナンバー
-            </a>
           </span>
           {nextDate ? (
             <a className="issue-nav-link" href={`/?date=${nextDate}`}>
@@ -425,6 +422,9 @@ export default async function Home({
           ) : (
             <span className="issue-nav-slot" aria-hidden="true" />
           )}
+          <a className="issue-nav-link backnumber-link" href="/backnumber">
+            バックナンバー一覧 →
+          </a>
         </nav>
         <main>
           <Featured

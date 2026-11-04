@@ -490,8 +490,6 @@ def main():
     picked_urls = {i["url"] for i in items} | {f["url"] for f in (featured if isinstance(featured, list) else [featured]) if isinstance(f, dict) and f.get("url")}
     log("Picked by source:", dict(Counter(i["source"] for i in items)), "by category:", dict(Counter(i["category"] for i in items)))
     picked_n = Counter(i["source"] for i in items)
-    if isinstance(featured, dict) and featured.get("source"):
-        picked_n[featured["source"]] += 1
     for src in ("x", "youtube", "web"):
         if picked_n[src] == 0:
             st = stages.get(src, {})

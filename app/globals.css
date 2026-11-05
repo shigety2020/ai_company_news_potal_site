@@ -517,7 +517,7 @@ img {
 .backnumber-link { margin-left: auto; color: var(--muted); font-size: 13px; letter-spacing: 0.04em; white-space: nowrap; }
 .backnumber-link:hover { color: var(--accent); }
 @media (max-width: 1023px) {
-  .backnumber-link { display: inline-flex; align-items: center; min-height: 44px; }
+  .backnumber-link { display: none; }
 }
 .cat-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 24px 0 14px; }
 .cat-chip { min-height: 44px; padding: 0 12px; border: 1px solid var(--line); border-radius: 22px; display: inline-flex; align-items: center; gap: 4px; font-size: 13px; color: var(--body); white-space: nowrap; }

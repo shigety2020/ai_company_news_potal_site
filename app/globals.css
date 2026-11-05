@@ -512,7 +512,7 @@ img {
 
 /* PB5: category chips / filtered list */
 /* 11/6 シゲッティ: バックナンバー一覧はタグラインと同じ行の右端 */
-.tagline-row { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; }
+.tagline-row { width: 100%; justify-self: stretch; display: flex; align-items: baseline; justify-content: space-between; gap: 16px; }
 .tagline-row .tagline { min-width: 0; }
 .backnumber-link { margin-left: auto; color: var(--muted); font-size: 13px; letter-spacing: 0.04em; white-space: nowrap; }
 .backnumber-link:hover { color: var(--accent); }

@@ -402,7 +402,12 @@ export default async function Home({
             <p className="disclaimer">※実在の人間の求人情報ではありません</p>
           </div>
           <p className="issue-date"><span className="issue-vol-sp">VOL.001 | </span>{formatIssueDate(data.date)}</p>
-          <p className="tagline">AI社員の話題を、毎朝まとめて</p>
+          <div className="tagline-row">
+            <p className="tagline">AI社員の話題を、毎朝まとめて</p>
+            <a className="backnumber-link" href="/backnumber">
+              バックナンバー一覧 →
+            </a>
+          </div>
         </header>
         <nav className="issue-nav" aria-label="号の日付">
           {prevDate ? (
@@ -422,9 +427,6 @@ export default async function Home({
           ) : (
             <span className="issue-nav-slot" aria-hidden="true" />
           )}
-          <a className="issue-nav-link backnumber-link" href="/backnumber">
-            バックナンバー一覧 →
-          </a>
         </nav>
         <main>
           <Featured

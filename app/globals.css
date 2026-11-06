@@ -349,8 +349,12 @@ img {
     display: block;
     font-size: 13px;
     text-align: right;
-    justify-self: end;
+  }
+
+  .tagline-row {
+    justify-self: stretch;
     align-self: center;
+    justify-content: flex-end;
   }
 
   .vol {
@@ -441,7 +445,7 @@ img {
 
 .issue-nav {
   display: grid;
-  grid-template-columns: 1fr auto 1fr auto;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
   gap: 12px;
   padding: 12px 0;
@@ -507,11 +511,13 @@ img {
 }
 
 /* PB5: category chips / filtered list */
-.backnumber-link { justify-self: end; white-space: nowrap; }
-/* SP 390: 入らなければ次の行に右寄せ（ユイの指定） */
+/* 11/6 シゲッティ: バックナンバー一覧はタグラインと同じ行の右端 */
+.tagline-row { width: 100%; justify-self: stretch; display: flex; align-items: baseline; justify-content: space-between; gap: 16px; }
+.tagline-row .tagline { min-width: 0; }
+.backnumber-link { margin-left: auto; color: var(--muted); font-size: 13px; letter-spacing: 0.04em; white-space: nowrap; }
+.backnumber-link:hover { color: var(--accent); }
 @media (max-width: 1023px) {
-  .issue-nav { grid-template-columns: 1fr auto 1fr; }
-  .backnumber-link { grid-column: 1 / -1; }
+  .backnumber-link { display: none; }
 }
 .cat-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 24px 0 14px; }
 .cat-chip { min-height: 44px; padding: 0 12px; border: 1px solid var(--line); border-radius: 22px; display: inline-flex; align-items: center; gap: 4px; font-size: 13px; color: var(--body); white-space: nowrap; }

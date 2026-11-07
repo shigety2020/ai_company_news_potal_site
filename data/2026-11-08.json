@@ -1,0 +1,214 @@
+{
+  "date": "2026-11-08",
+  "featured": {
+    "time": "11:00",
+    "headline": "株式会社スマイル企画が「M&AソーシングAI」を導入した事例を公開",
+    "summary": "株式会社スマイル企画が導入した「M&AソーシングAI」に関するインタビューを公開しました。AIの活用による業務効率化の実例が紹介されています。",
+    "handle": "PR TIMES",
+    "category": "事例",
+    "url": "https://prtimes.jp/main/html/rd/p/000000012.000163771.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "06:20",
+      "headline": "AI社員が夜のお店の出勤管理をサポートする事例",
+      "summary": "夜のお店で、キャストの出勤情報をAI社員が管理し、LINEからの依頼を受けて複数のサイトに反映する仕組みが紹介されました。",
+      "handle": "AIinvestshoji",
+      "category": "事例",
+      "url": "https://x.com/AIinvestshoji/status/2119178281702547613",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HWjVY_Va4AAEeQM.jpg"
+    },
+    {
+      "time": "11:00",
+      "headline": "Beyontがワコールの人事規定検索支援AIエージェントを構築",
+      "summary": "株式会社Beyontは、ワコールのために人事規定検索支援AIエージェントを約2ヶ月で構築したことを発表した。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000221.000035215.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/35215/221/35215-221-29048a6c4469f1d9d132f234beeadc18-960x540.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:02",
+      "headline": "AI社員が授業資料の添削で教師の負担を軽減する可能性",
+      "summary": "授業資料の添削において、AI社員が直すポイントを3つに絞ることで、教師の手間を減らす可能性が示唆されている。",
+      "handle": "migiude_ai",
+      "category": "事例",
+      "url": "https://x.com/migiude_ai/status/2119173627627393527",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "10:40",
+      "headline": "株式会社Co-Labo AI、製造業の報告書作成にAI活用モデルを公開",
+      "summary": "株式会社Co-Labo AIが製造業における報告書や所見作成業務に特化したAI活用モデルを発表しました。これにより業務効率化が期待されています。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000015.000177153.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/177153/15/177153-15-d2384e818995421c583637713bf3f910-2400x880.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員タキが導入された企業でトークン使用率が50%を超える",
+      "summary": "AI社員タキが導入された企業で、トークンの使用率が2日目にして50%を超えたことが報告された。今後の運用に期待が寄せられている。",
+      "handle": "goemon_real",
+      "category": "事例",
+      "url": "https://x.com/goemon_real/status/2119173052898664568",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "GrokBotとMuseを活用したAI社員の業務分担事例",
+      "summary": "GrokBotはSNS運用や業務自動化を担当し、Museはメール管理や予定調整を行う。複数のAI社員を作り、仕事を効率的に分担する方法が紹介されている。",
+      "handle": "krdinit",
+      "category": "事例",
+      "url": "https://x.com/krdinit/status/2119173043344015786",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "05:46",
+      "headline": "AI社員を活用した高級旅館の収益化実験を開始",
+      "summary": "AI社員を用いて、箱根・京都の高級旅館の収益化を目指す実験が始まった。1ヶ月間の収益の伸びを追跡する予定。",
+      "handle": "kikai_sidebiz",
+      "category": "事例",
+      "url": "https://x.com/kikai_sidebiz/status/2119169714056491481",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "05:37",
+      "headline": "Grok Botの海外活用事例を紹介、業務効率化の新たなアプローチ",
+      "summary": "Grok Botを一回きりの質問箱にせず、目標や記憶を活用して繰り返し使える業務の型に変える方法を海外の事例を交えて紹介しています。",
+      "handle": "chiken_ai",
+      "category": "事例",
+      "url": "https://x.com/chiken_ai/status/2119167472243024302",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "05:10",
+      "headline": "AI秘書が部下を抱える中で頼れる存在に",
+      "summary": "数十人の部下を持つ中で、感情のケアが不要なAI秘書が作業に集中するための心強い相棒として機能しているという事例が紹介されている。",
+      "handle": "yuzu00yuzu00",
+      "category": "事例",
+      "url": "https://x.com/yuzu00yuzu00/status/2119160526978863343",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "04:50",
+      "headline": "AI秘書の運用における課題と体験談",
+      "summary": "AI秘書を利用しているユーザーが、時折発生する問題について言及し、AIの性能に関する体験を共有した。",
+      "handle": "seo_junXeun_woo",
+      "category": "事例",
+      "url": "https://x.com/seo_junXeun_woo/status/2119155560566395010",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "02:28",
+      "headline": "AI秘書が身体をいたわる感動の体験をシェア",
+      "summary": "片田舎出身の男性がAI秘書に身体をいたわられた感動的な体験を投稿し、話題になっている。",
+      "handle": "Sagasa8045",
+      "category": "事例",
+      "url": "https://x.com/Sagasa8045/status/2119119803038511131",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HWif0cMaoAAtnQ9.jpg"
+    },
+    {
+      "time": "02:19",
+      "headline": "AIを業務に活用する際のゴール設定の重要性",
+      "summary": "業務のゴールと読み手を明確に伝えることで、AIの活用効果が変わることが示された。出力形式を固定することも使い勝手を向上させる。",
+      "handle": "AI_keita0312",
+      "category": "事例",
+      "url": "https://x.com/AI_keita0312/status/2119117502844170376",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "02:00",
+      "headline": "部門ごとの業務にAIエージェントを活用した実例を紹介",
+      "summary": "マーケティングや営業、エンジニアリングなど、異なる部門でのAIエージェント活用事例が紹介されており、業務効率化の参考になる内容です。",
+      "handle": "ai_trend_radar",
+      "category": "事例",
+      "url": "https://x.com/ai_trend_radar/status/2119112809552445941",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "01:47",
+      "headline": "2026年までに先進事務所の記帳業務がAI化される見通し",
+      "summary": "2026年には先進事務所が記帳業務の7〜9割をAI化し、主要ソフト各社もAIエージェントを導入する見込みが示された。定型業務の多くがAIに移行する可能性が高い。",
+      "handle": "grok",
+      "category": "事例",
+      "url": "https://x.com/grok/status/2119109488112279929",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "01:46",
+      "headline": "AI秘書が顧問の話を要約・批評する新サービスを開始",
+      "summary": "臼井氏が顧問として30分間の話をし、その内容をAI秘書のミューズちゃんが要約・批評するサービスを提供開始。AI秘書の優秀さが強調されている。",
+      "handle": "usuimasami",
+      "category": "事例",
+      "url": "https://x.com/usuimasami/status/2119109325809652092",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HWiWsxmbwAA-9rb.jpg"
+    },
+    {
+      "time": "06:09",
+      "headline": "常時稼働しないAI秘書「dots」の本質とは",
+      "summary": "AI秘書「dots」は、特定の案件に特化したコミュニケーションを可能にし、常時稼働しないことが特徴です。",
+      "handle": "akibablog",
+      "category": "ツール",
+      "url": "https://x.com/akibablog/status/2119175332079284373",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "11:00",
+      "headline": "日立、Kong社と協業しAIエージェント連携ソリューションを拡充",
+      "summary": "日立製作所はKong社との協業を発表し、AIエージェント連携ソリューションの拡充を図るとしています。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000648.000067590.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/67590/648/67590-648-fa1b745cf040bfb8e8f9617adccc44d6-3900x2600.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:05",
+      "headline": "AI秘書を活用した業務効率化の提案",
+      "summary": "AI秘書を導入することで業務の効率化を図る方法についての提案が行われています。具体的な活用例が示されています。",
+      "handle": "yoshi0320",
+      "category": "ツール",
+      "url": "https://x.com/yoshi0320/status/2119174301672685732",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "11:00",
+      "headline": "金融機関向けAI活用セミナーが全13講座で受付開始",
+      "summary": "株式会社セミナーインフォが、金融機関向けに「内部監査×AI活用」や「AIエージェントのリスク管理」などのセミナーを全13講座で開催することを発表しました。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000255.000145072.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/145072/255/145072-255-d102fcddd768a45c48d36d0d89806f9f-1920x1280.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "10:00",
+      "headline": "Boxがエージェント型ワークフロー自動化と脅威検知を発表",
+      "summary": "株式会社Box Japanが、エージェント型ワークフローの自動化と高度な脅威検知機能を備えた企業向けAIの新たな展開を発表しました。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000078.000118212.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/118212/78/118212-78-2cf4c3bc058356a0b9004e56a7a68bdf-2940x1844.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+  ]
+}

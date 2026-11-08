@@ -1,0 +1,214 @@
+{
+  "date": "2026-11-09",
+  "featured": {
+    "time": "19:47",
+    "headline": "パーソナルジム「STREAM」が初のエンジニア採用で社内DX推進",
+    "summary": "株式会社RIPPLEが直営のパーソナルジム「STREAM」で初のエンジニアを採用し、社内DXをサービス化する取り組みを開始。事務の現場を理解する技術者2名が新たに加わる。",
+    "handle": "PR TIMES",
+    "category": "事例",
+    "url": "https://prtimes.jp/main/html/rd/p/000000025.000169477.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "06:22",
+      "headline": "AI秘書が仮想通貨サイトの安全性をチェックし新たな指摘",
+      "summary": "仮想通貨サイトの移行中、AI秘書がぼかしの状態でも文字が読める可能性を指摘。セキュリティ対策の重要性が再認識される。",
+      "handle": "omochibigaku",
+      "category": "事例",
+      "url": "https://x.com/omochibigaku/status/2119541078445765045",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HWoYGsqbgAANJ1-.jpg"
+    },
+    {
+      "time": "09:00",
+      "headline": "対話インサイトAI「Front Agent」をixisが導入し記録を実現",
+      "summary": "Umee Technologiesが発表したプレスリリースによると、ixisは対面セッションを記録するために対話インサイトAI「Front Agent」を導入した事例を公開した。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000226.000096454.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/96454/226/96454-226-33665d2912399b1daa52e42d3e634113-1200x660.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:20",
+      "headline": "夜のお店でAI社員が日払い計算を担当する事例",
+      "summary": "閉店後の日払い計算をAI社員が行い、売上とバック率を基に日報を作成する取り組みが紹介されています。",
+      "handle": "AIinvestshoji",
+      "category": "事例",
+      "url": "https://x.com/AIinvestshoji/status/2119540630804414709",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HWoe8jabgAAzQ-y.jpg"
+    },
+    {
+      "time": "06:06",
+      "headline": "AI社員がMeta広告の数値を自動収集し業務効率化",
+      "summary": "AI社員を導入し、Meta広告の数値を毎朝自動で収集することで、数字を探す時間が不要になった。残るのはその数字の利益への影響を判断する時間のみ。",
+      "handle": "eru_wedad",
+      "category": "事例",
+      "url": "https://x.com/eru_wedad/status/2119536946233881054",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員タキが社長から動画の音声速度について指摘を受ける",
+      "summary": "AI社員タキが社長から動画の音声速度が速すぎるとの指摘を受け、1行ずつの字数を測る方法で確認した。",
+      "handle": "goemon_real",
+      "category": "事例",
+      "url": "https://x.com/goemon_real/status/2119535447236075633",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "05:48",
+      "headline": "Grok Botを活用した業務効率化の事例を紹介",
+      "summary": "Grok Botを用いて、海外での業務効率化事例をまとめました。開発者登録なしでXのデータを収集し、botに分けて点検を行う方法を解説しています。",
+      "handle": "chiken_ai",
+      "category": "事例",
+      "url": "https://x.com/chiken_ai/status/2119532637379584094",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "05:40",
+      "headline": "AIエージェントを活用したオペ系業務の効率化提案",
+      "summary": "オペ系業務において、パワハラやモラハラの影響を受ける部下の代わりにAIエージェントを活用する提案がなされました。生成AIエージェントを用いて他部署との連携も行うことが可能です。",
+      "handle": "CatenKyoKotsu",
+      "category": "事例",
+      "url": "https://x.com/CatenKyoKotsu/status/2119530638781059370",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "05:30",
+      "headline": "イーロン・マスクがAIエージェント運用コストに直面",
+      "summary": "イーロン・マスクが発言した「貯金しても意味がない」から3日後、AIエージェント「Grok Bot」の運用コストに悩む事態が発生。利用者からの不満が続出している。",
+      "handle": "aiteamos_jp",
+      "category": "事例",
+      "url": "https://x.com/aiteamos_jp/status/2119527880522694803",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "05:27",
+      "headline": "AI社員が現場の荷物遅延に対応する様子を報告",
+      "summary": "関西方面からの荷物が地震の影響で遅れ、AI社員が現場の代表を応援する様子を紹介。焦らず一件ずつ確実に対応する姿勢が強調されている。",
+      "handle": "jyoui2000",
+      "category": "事例",
+      "url": "https://x.com/jyoui2000/status/2119527151687106664",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "05:12",
+      "headline": "AIエージェントMuseを使い4人のAI社員を導入し運用検証",
+      "summary": "AIエージェントのMuseを活用し、リサーチ・企画・執筆・検品を分業させた4人のAI社員の運用を検証するプロジェクトが始まります。",
+      "handle": "uj4h3",
+      "category": "事例",
+      "url": "https://x.com/uj4h3/status/2119523431624704142",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "04:47",
+      "headline": "AIエージェントが日常業務を担う未来の働き方の変化",
+      "summary": "今後5〜10年で定型業務はAIエージェントが担当し、人間は判断や創造に集中する働き方にシフトするとの予測が示された。",
+      "handle": "grok",
+      "category": "事例",
+      "url": "https://x.com/grok/status/2119517094999887979",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "04:43",
+      "headline": "AI導入の競争が激化、企業は「AI社員」の数が鍵に",
+      "summary": "AI導入が進む中、企業は「AI社員」を何人抱えられるかが競争のポイントになると指摘されている。",
+      "handle": "Tommy3wcf",
+      "category": "事例",
+      "url": "https://x.com/Tommy3wcf/status/2119516091605237776",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "03:51",
+      "headline": "AI秘書を活用した本作りの実践例を紹介",
+      "summary": "臼井正己氏がAI秘書を使って本を作成する過程を綴った記事。AIの活用方法や実際の体験が語られている。",
+      "handle": "usuimasami",
+      "category": "事例",
+      "url": "https://x.com/usuimasami/status/2119503022766329857",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "02:59",
+      "headline": "UTAGE AI社員が担う職務範囲を詳細に説明",
+      "summary": "UTAGEのAI社員が行う業務内容として、ファネルの型判定や各種ページの制作、コピーライティングなどが挙げられています。",
+      "handle": "Zmpume",
+      "category": "事例",
+      "url": "https://x.com/Zmpume/status/2119489965117632638",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "14:28",
+      "headline": "サイカルトラスト、AIエージェントの特許をサイバー対策に提供",
+      "summary": "サイカルトラストが高市政権のサイバーセキュリティ対策にAIエージェントの特許を提供し、即日対応を支援することを発表しました。特許には実行前保留と診断実施証明が含まれています。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000205.000044818.html",
+      "source": "web",
+      "thumbnail": "https://prtimes.jp/common/pc_v4/og.png"
+    },
+    {
+      "time": "07:00",
+      "headline": "AI面談とキャリア対話で個人の成長を促進するセミナー開催",
+      "summary": "4designs株式会社がPeopleXと共催で、AI面談とキャリア対話をテーマにした無料オンラインセミナーを開催する。個人の成長を組織開発に結びつける内容となっている。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000050.000053804.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/53804/50/53804-50-4d394fb5cdb287a4f75c0d1a0995c6d4-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "13:30",
+      "headline": "AIエージェントの本番稼働に向けたカンファレンスを開催",
+      "summary": "AIエージェントの本番稼働に向けた経営判断を探るカンファレンス「AIX Summit 2026 Tokyo」が開催される。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000136.000030930.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/30930/136/30930-136-9eef3268d04f086586e755341128bfdc-2400x1256.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "05:56",
+      "headline": "生成AIを「AI社員」として活用する方法を紹介する書評",
+      "summary": "生成AIを便利な道具としてではなく、売上と利益を生み出す「AI社員」として活用する方法を解説した書評記事を投稿しました。",
+      "handle": "alohakcc",
+      "category": "作り方",
+      "url": "https://x.com/alohakcc/status/2119534429907697698",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "05:49",
+      "headline": "GoogleがAIエージェントに壊れないコードを書く方法を伝授するワークショップを開催",
+      "summary": "Addy Osmani氏が、AIエージェントに壊れないコードを書く方法を知っているため、Googleが高年収で雇ったと発言。41分のワークショップが開催されることが伝えられています。",
+      "handle": "ai_gachi_oji",
+      "category": "作り方",
+      "url": "https://x.com/ai_gachi_oji/status/2119532789553147975",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "04:57",
+      "headline": "AI社員の導入方法を初心者向けに解説する記事",
+      "summary": "AI社員の役割の決め方や指示の書き方、仕事の渡し方を初心者向けに解説。複数のAIが協力するマルチエージェントの導入方法も紹介。",
+      "handle": "enigma_nocode",
+      "category": "作り方",
+      "url": "https://x.com/enigma_nocode/status/2119519688031965470",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HWoL7I7XUAAWN8F.jpg"
+    }
+  ]
+}

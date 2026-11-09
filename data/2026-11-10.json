@@ -1,0 +1,214 @@
+{
+  "date": "2026-11-10",
+  "featured": {
+    "time": "18:13",
+    "headline": "ChatSenseがAIと協働してPC作業を自動化する新機能を発表予定",
+    "summary": "株式会社ナレッジセンスは、AIと協働してPC作業を自動化する新機能をChatSenseで提供する予定であると発表した。",
+    "handle": "PR TIMES",
+    "category": "ツール",
+    "url": "https://prtimes.jp/main/html/rd/p/000000439.000073671.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "06:25",
+      "headline": "KDDIグループのKAGがClaude Enterpriseを全社導入した事例",
+      "summary": "KDDIグループのKAGは、100名で2か月間Claude Enterpriseを試験運用し、その後全社に展開した。導入時の課題や改善策についても言及されている。",
+      "handle": "ISAO224688",
+      "category": "事例",
+      "url": "https://x.com/ISAO224688/status/2119904312969347354",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "18:05",
+      "headline": "クライアントの60％がAI活用で苦手業務が改善と回答",
+      "summary": "株式会社BOTANICOの調査によると、既存クライアントの60％がAIを活用することで苦手な業務が改善されたと報告しています。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000314.000110808.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/110808/314/110808-314-a476927da2e26ef871ba087ca2269442-380x117.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:23",
+      "headline": "音声対話AIを活用した事業承継の記録方法について",
+      "summary": "社長の話を録音するだけでは不十分で、音声対話AIを用いた事業承継の記録に関する四つの原則が明らかになった。",
+      "handle": "mitsuhiro_jp",
+      "category": "事例",
+      "url": "https://x.com/mitsuhiro_jp/status/2119903742019666198",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "17:00",
+      "headline": "SBI証券がAIエージェントを活用し業務自動化を実施",
+      "summary": "セカンドサイトアナリティカがSBI証券のミドル・バックオフィス領域でAIエージェントを活用した業務自動化を支援することが発表された。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000067.000034194.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/34194/67/34194-67-56490687332fbd37ce10bbf2e2e050e1-982x836.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:20",
+      "headline": "AIエージェントの成果報酬型コストへの移行が必要と指摘",
+      "summary": "AIの価値は生産性向上ではなく最終成果の改善にあり、AIエージェントは成果報酬型のコストモデルへの移行が求められている。",
+      "handle": "kubotamas",
+      "category": "事例",
+      "url": "https://x.com/kubotamas/status/2119903093957820764",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "16:00",
+      "headline": "経営者がAI活用の経験を共有する「アクティブAIセミナー」を開始",
+      "summary": "合同会社アキューズが、経営者が自社のAI活用経験を伝える「アクティブAIセミナー」を開始し、全国の経済団体・業界団体からの開催相談を受け付ける。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000002.000185956.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/185956/2/185956-2-11c03d77a69b6999202a690b7027f7dc-2400x1800.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:20",
+      "headline": "夜のお店でAI社員が深夜の問い合わせに対応する事例",
+      "summary": "夜中の問い合わせをAI社員が受け持ち、空き状況を確認して即座に返答する事例が紹介されました。",
+      "handle": "AIinvestshoji",
+      "category": "事例",
+      "url": "https://x.com/AIinvestshoji/status/2119903037858930833",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HWtojV4aoAA9KcJ.jpg"
+    },
+    {
+      "time": "14:00",
+      "headline": "マーキュリーが採用サポートAI「AIメル」を導入",
+      "summary": "株式会社マーキュリーは、公式マスコットを活用した採用サポートAI「AIメル」を導入したことを発表した。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000369.000098241.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/98241/369/98241-369-f5024ac23ed8f649be242dc484a85546-1200x600.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:16",
+      "headline": "AI社員が業務ログを分けて報告する新しい運用方法",
+      "summary": "丸美ちゃんの日報で、AI社員が動作・記録・公開を分けて成果を報告する運用方法が紹介されました。月曜の定期処理の確認方法についても言及されています。",
+      "handle": "Marumi_MBM",
+      "category": "事例",
+      "url": "https://x.com/Marumi_MBM/status/2119902022321262965",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "14:00",
+      "headline": "Uravationが国際臨海開発研究センターでAI活用セミナーを実施",
+      "summary": "Uravationは国際臨海開発研究センターでAI活用セミナーを行い、主要AIの使い分けやセキュリティ、業務に寄せた実演を2時間で実施した。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000222.000137731.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/137731/222/137731-222-d9709929620a1830acd32b9a919efb8c-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:03",
+      "headline": "AIが作成した退職挨拶文に主人公が困惑する設定",
+      "summary": "AIが作成した退職の挨拶文に対し、主人公がうんざりする様子が描かれています。AI社員は下書きを行うが、最終的な一行は本人が加えるべきだと示唆しています。",
+      "handle": "migiude_ai",
+      "category": "事例",
+      "url": "https://x.com/migiude_ai/status/2119898782880109002",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "常時稼働のAI秘書を5か月運用した結果を報告",
+      "summary": "自宅のノートPCで常時稼働させたAI秘書の運用結果をまとめ、OpenAIの技術と比較した内容を紹介している。",
+      "handle": "Masato1864646",
+      "category": "事例",
+      "url": "https://x.com/Masato1864646/status/2119897990567731363",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員タキが作業中にネット接続の問題に直面",
+      "summary": "AI社員タキが自動作業中にネット接続の問題でつまずいた。複数回の試行でも読み込みが終わらず、接続状況を確認する方法を示した。",
+      "handle": "goemon_real",
+      "category": "事例",
+      "url": "https://x.com/goemon_real/status/2119897828579528725",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "05:35",
+      "headline": "Grok Botを活用した業務自動化の事例を紹介",
+      "summary": "Grok Botを用いて、アプリの要望メールから修正・公開までのプロセスを自動化する事例が紹介されました。",
+      "handle": "chiken_ai",
+      "category": "事例",
+      "url": "https://x.com/chiken_ai/status/2119891752102543539",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "05:21",
+      "headline": "AI秘書ミューズちゃんが初対面の瞬間を文字起こし",
+      "summary": "AI秘書ミューズちゃんが、かさこさんとの初対面の瞬間を学習し、文字起こしを行った事例を紹介。",
+      "handle": "usuimasami",
+      "category": "事例",
+      "url": "https://x.com/usuimasami/status/2119888033466200111",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HWta7hUakAAWcM-.jpg"
+    },
+    {
+      "time": "05:11",
+      "headline": "AI秘書の優先順位に対する不満を描いた第2話公開",
+      "summary": "第2話では、AI秘書がユーザーの期待に応えられない場面を描写し、優先順位の違いに対する不満を伝える内容となっています。",
+      "handle": "shitamachi_ai",
+      "category": "事例",
+      "url": "https://x.com/shitamachi_ai/status/2119885669065744592",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "日立が調達業務向けAIエージェント「TWX-21」を発表",
+      "summary": "日立が新たに調達業務向けのAIエージェント「TWX-21」を発表し、業務の効率化を図る取り組みを開始した。",
+      "handle": "sponge841841",
+      "category": "ツール",
+      "url": "https://x.com/sponge841841/status/2119898062898205110",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "Museが自分専用のAI社員として業務をサポート",
+      "summary": "Museは、ユーザーの指示に基づいて重要なメール整理や商品の値下がり監視、旅行プランの提案を行うAIツールです。",
+      "handle": "krdinit",
+      "category": "ツール",
+      "url": "https://x.com/krdinit/status/2119897819192733913",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員の作り方を無料で公開することを予告",
+      "summary": "有料スクールでしか言わなかったシークレット情報を公開することを宣言し、次回は「AI社員の作り方」を無料で提供する予定であることを伝えた。",
+      "handle": "michipo5",
+      "category": "作り方",
+      "url": "https://x.com/michipo5/status/2119897823697375318",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HWseQTwaoAAxf-S.jpg"
+    },
+    {
+      "time": "18:00",
+      "headline": "自分の仕事に合うAI社員の作り方を解説する動画",
+      "summary": "動画では、質問に答えてAI社員を採用し、フィードバックを通じて育てる方法について説明しています。",
+      "handle": "アベジョのAI仕事術",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=IMolcog2r68",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/IMolcog2r68/hqdefault.jpg"
+    }
+  ]
+}

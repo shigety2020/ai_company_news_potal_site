@@ -115,9 +115,9 @@ def _walk(o, key):
             yield from _walk(v, key)
 
 
-def yt_published(vid):
+def yt_published(vid, timeout=30):
     try:
-        h = http(f"https://www.youtube.com/watch?v={vid}&hl=ja&gl=JP")
+        h = http(f"https://www.youtube.com/watch?v={vid}&hl=ja&gl=JP", timeout=timeout)
     except Exception as e:
         log("YouTube watch failed:", vid, e)
         return None, ""
@@ -140,13 +140,13 @@ def yt_published(vid):
 _FEEDS = {}
 
 
-def yt_feed_published(channel_id, vid):
+def yt_feed_published(channel_id, vid, timeout=30, refresh=False):
     """チャンネルの RSS から公開日時を取る（watch ページが読めないときの代わり）。"""
     if not channel_id:
         return None
-    if channel_id not in _FEEDS:
+    if refresh or channel_id not in _FEEDS:
         try:
-            _FEEDS[channel_id] = http(f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}")
+            _FEEDS[channel_id] = http(f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}", timeout=timeout)
         except Exception as e:
             log("YouTube feed failed:", channel_id, e)
             _FEEDS[channel_id] = ""
@@ -175,6 +175,56 @@ def yt_relative(text, now=None):
     return dt.datetime(d.year, d.month, d.day, tzinfo=JST)  # 時刻なし -> 00:00（既存どおり）
 
 
+YT_REFETCH_TIMEOUT = 8  # 公開日の取り直しは1回だけ。日次の延長を抑える
+
+
+def yt_video_id(url):
+    m = re.search(r"[?&]v=([^&]+)", url or "")
+    return m.group(1) if m else None
+
+
+def yt_refetch_published(vid, channel_id=None, timeout=YT_REFETCH_TIMEOUT, refresh_feed=True):
+    """公開日が空のとき、watch ページとチャンネル RSS をもう一度だけ取り直す。"""
+    if not vid:
+        return None
+    pub, _desc = yt_published(vid, timeout=timeout)
+    if pub is not None and pub.tzinfo is JST and (pub.hour, pub.minute) == (0, 0):
+        pub = None  # 日付だけで時刻が無い -> RSS で本当の時刻を探す（初回と同じ）
+    if pub is None:
+        pub = yt_feed_published(channel_id, vid, timeout=timeout, refresh=refresh_feed)
+    return pub
+
+
+def refill_youtube_dates(cands, timeout=YT_REFETCH_TIMEOUT, seen=None):
+    """published が空の YouTube 候補だけ、公開日を1回取り直す。seen の URL は対象外。新しさの絞り込みは変えない。"""
+    recovered = 0
+    still_missing = 0
+    refreshed_feeds = set()
+    seen = seen or set()
+    for c in cands:
+        if c.get("source") != "youtube" or c.get("published"):
+            continue
+        if c.get("url") in seen:
+            continue
+        vid = yt_video_id(c.get("url", ""))
+        cid = c.get("channel_id") or ""
+        refresh = bool(cid) and cid not in refreshed_feeds
+        try:
+            pub = yt_refetch_published(vid, cid, timeout=timeout, refresh_feed=refresh)
+        except Exception as e:
+            log("YouTube date refetch failed:", c.get("url"), e)
+            pub = None
+        if cid:
+            refreshed_feeds.add(cid)
+        if pub is not None:
+            c["published"] = pub
+            recovered += 1
+        else:
+            still_missing += 1
+    log("YouTube date refetch: recovered", recovered, "still missing", still_missing)
+    return recovered
+
+
 def collect_youtube():
     out, seen = [], set()
     for q in YT_QUERIES:
@@ -199,7 +249,9 @@ def collect_youtube():
             if not vid or vid in seen:
                 continue
             seen.add(vid)
-            ch = (v.get("ownerText", {}).get("runs") or [{}])[0].get("text", "")
+            owner = (v.get("ownerText", {}).get("runs") or [{}])[0]
+            ch = owner.get("text", "")
+            cid = owner.get("navigationEndpoint", {}).get("browseEndpoint", {}).get("browseId", "")
             title = "".join(r.get("text", "") for r in v.get("title", {}).get("runs", []))
             pub, desc = yt_published(vid)
             if not desc:
@@ -207,14 +259,14 @@ def collect_youtube():
             if pub is not None and pub.tzinfo is JST and (pub.hour, pub.minute) == (0, 0):
                 pub = None  # 日付だけで時刻が無い -> RSS で本当の時刻を探す
             if pub is None:
-                cid = (v.get("ownerText", {}).get("runs") or [{}])[0].get("navigationEndpoint", {}).get("browseEndpoint", {}).get("browseId", "")
                 pub = yt_feed_published(cid, vid)
             if pub is None:
                 pub = yt_relative(v.get("publishedTimeText", {}).get("simpleText", ""))
                 if pub is not None and (pub.hour, pub.minute) == (0, 0):
                     pub = None  # 時刻が分からない動画は載せない（00:00 を出さない）
             out.append({"source": "youtube", "url": f"https://www.youtube.com/watch?v={vid}", "handle": ch, "published": pub,
-                        "title": title, "text": desc[:800], "thumbnail": f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"})
+                        "title": title, "text": desc[:800], "thumbnail": f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg",
+                        "channel_id": cid})
     log("YouTube candidates:", len(out), "with date:", sum(1 for c in out if c["published"]))
     return out
 
@@ -452,6 +504,7 @@ def main():
     else:
         no_x = True
     raw += collect_youtube() + collect_web()
+    refill_youtube_dates(raw, seen=seen)  # 公開日の取り直しは seen を外したあとに1回。絞り込みの順は変えない
     cut = today - dt.timedelta(days=WINDOW_DAYS)
     cands, pub = [], {}
     stage_keys = ("fetched", "seen", "no_date", "00:00", "window", "classify_err", "judged_false", "ok")

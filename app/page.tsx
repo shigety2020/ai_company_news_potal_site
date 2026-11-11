@@ -239,18 +239,31 @@ function EmptyIssueBody({ showLatestLink }: { showLatestLink: boolean }) {
 
 
 /** TOC source line. Missing source treated as x (main-compatible). */
-function formatVia(item: DailyItem): string {
+function formatViaParts(item: DailyItem): { full: string; label: string; name: string | null } {
   const source: Source =
     item.source === "youtube" || item.source === "web" || item.source === "x"
       ? item.source
       : "x";
-  const label =
+  const sourceLabel =
     item.sourceLabel?.trim() ||
     (source === "youtube" ? "YouTube" : source === "web" ? "Web" : "X");
   const raw = (item.handle ?? "").trim();
-  if (!raw) return `via ${label}`;
+  if (!raw) {
+    const full = `via ${sourceLabel}`;
+    return { full, label: full, name: null };
+  }
   const name = source === "x" ? (raw.startsWith("@") ? raw : `@${raw}`) : raw;
-  return `via ${label} · ${name}`;
+  const label = `via ${sourceLabel} · `;
+  return { full: `${label}${name}`, label, name };
+}
+
+function ViaLine({ item }: { item: DailyItem }) {
+  const { full, label, name } = formatViaParts(item);
+  return (
+    <p className="via" title={full}>
+      <span className="via-label">{label}</span>{name ? <span className="via-name">{name}</span> : null}
+    </p>
+  );
 }
 
 const THUMB_FALLBACK_COUNT = 6;
@@ -292,7 +305,7 @@ function IndexStory({ item }: { item: DailyItem }) {
         <div className="item-copy">
           <h2 className="item-headline">{item.headline}</h2>
           <p className="item-summary">{item.summary}</p>
-          <p className="via">{formatVia(item)}</p>
+          <ViaLine item={item} />
         </div>
       </div>
     </a>

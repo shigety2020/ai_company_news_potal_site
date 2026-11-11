@@ -28,7 +28,36 @@ X_QUERIES = [  # 1回の収集で3回まで・max_results<=20・次ページな�
     '("AIエージェント" OR "デジタル社員") 業務 -is:retweet lang:ja',
     '"AI秘書" -is:retweet lang:ja',
 ]
-YT_QUERIES = ["AI社員", "AIエージェント 業務", "AI秘書 作り方"]
+# YouTube 検索語: 基本語は毎回使う。日替わり語は号の日付（JST）から決め、同じ日付なら同じ結果。
+# 検索回数はこれまで 3。上限は +1 の 4。
+YT_BASE_QUERIES = ["AI社員", "AIエージェント 業務"]
+YT_ROTATION_QUERIES = [
+    "AI秘書 作り方",
+    "デジタル社員",
+    "業務自動化 AI",
+    "AI社員 導入",
+    "AIエージェント 事例",
+    "AI employee",
+    "AI agent 業務",
+    "AI秘書 業務",
+]
+YT_ROTATION_COUNT = 2
+YT_QUERY_LIMIT = 4  # 現行 3 + 1
+
+
+def yt_queries_for_date(date):
+    """号の日付（JST の date）から検索語を返す。同じ日付なら同じ結果。再実行しても変わらない。"""
+    start = date.toordinal() % len(YT_ROTATION_QUERIES)
+    rotating = []
+    for i in range(len(YT_ROTATION_QUERIES)):
+        q = YT_ROTATION_QUERIES[(start + i) % len(YT_ROTATION_QUERIES)]
+        if q in YT_BASE_QUERIES or q in rotating:
+            continue
+        rotating.append(q)
+        if len(rotating) >= YT_ROTATION_COUNT:
+            break
+    return (list(YT_BASE_QUERIES) + rotating)[:YT_QUERY_LIMIT]
+
 WEB_QUERIES = ["AI社員 導入", "AIエージェント 導入 事例", "AIエージェント 業務効率化", "デジタル社員 導入"]
 WEB_STATS = {"fetched": 0, "og_failed": 0}  # 段ごとの件数ログ用
 ITEM_KEYS = ["time", "headline", "summary", "handle", "category", "url", "source", "thumbnail"]
@@ -212,7 +241,7 @@ def refill_youtube_dates(cands, timeout=YT_REFETCH_TIMEOUT, seen=None):
         try:
             pub = yt_refetch_published(vid, cid, timeout=timeout, refresh_feed=refresh)
         except Exception as e:
-            log("YouTube date refetch failed:", c.get("url"), e)
+            log("YouTube date refetch failed:", c.get("url"), type(e).__name__, e)
             pub = None
         if cid:
             refreshed_feeds.add(cid)
@@ -225,9 +254,11 @@ def refill_youtube_dates(cands, timeout=YT_REFETCH_TIMEOUT, seen=None):
     return recovered
 
 
-def collect_youtube():
+def collect_youtube(date=None):
+    queries = yt_queries_for_date(date if date is not None else dt.datetime.now(JST).date())
+    log("YT queries:", *queries)
     out, seen = [], set()
-    for q in YT_QUERIES:
+    for q in queries:
         h = ""
         for _ in range(2):  # ytInitialData が無い応答（ボット確認など）はもう1回だけ
             try:
@@ -503,7 +534,7 @@ def main():
             no_x = True
     else:
         no_x = True
-    raw += collect_youtube() + collect_web()
+    raw += collect_youtube(today) + collect_web()
     refill_youtube_dates(raw, seen=seen)  # 公開日の取り直しは seen を外したあとに1回。絞り込みの順は変えない
     cut = today - dt.timedelta(days=WINDOW_DAYS)
     cands, pub = [], {}

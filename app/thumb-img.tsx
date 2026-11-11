@@ -18,5 +18,5 @@ export default function ThumbImg({ src, fallback }: { src: string; fallback: str
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   // eslint-disable-next-line @next/next/no-img-element
-  return <img ref={ref} src={src} alt="" onError={swap} />;
+  return <img ref={ref} src={src} alt="" loading="lazy" decoding="async" onError={swap} />;
 }

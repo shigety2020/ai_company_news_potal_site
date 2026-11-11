@@ -223,9 +223,59 @@ class RefetchPublishDate(unittest.TestCase):
 
     def test_window_filter_untouched(self):
         src = open(C.__file__, encoding="utf8").read()
-        self.assertIn("refill_youtube_dates(out)", src)
+        self.assertIn("refill_youtube_dates(raw, seen=seen)", src)
+        self.assertNotIn("refill_youtube_dates(out)", src)
         self.assertIn("cut = today - dt.timedelta(days=WINDOW_DAYS)", src)
         self.assertIn("if not (cut <= p <= today):", src)
+        # 絞り込みは seen → no_date → 00:00 → 窓 → 判定のまま
+        i_seen = src.index('if c["url"] in seen or not c["published"]:')
+        i_midnight = src.index('if hhmm(c["published"]) == "00:00":')
+        i_window = src.index("if not (cut <= p <= today):")
+        i_classify = src.index("j = classify(c, key, model)")
+        self.assertLess(i_seen, i_midnight)
+        self.assertLess(i_midnight, i_window)
+        self.assertLess(i_window, i_classify)
+
+    def test_refill_skips_seen_url(self):
+        recovered_pub = dt.datetime(2026, 11, 10, 8, 30, tzinfo=C.JST)
+        cands = [
+            {"source": "youtube", "url": "https://www.youtube.com/watch?v=seen1", "published": None, "channel_id": "UCa"},
+            {"source": "youtube", "url": "https://www.youtube.com/watch?v=miss1", "published": None, "channel_id": "UCb"},
+        ]
+        called = []
+        def fake_refetch(vid, channel_id=None, timeout=8, refresh_feed=True):
+            called.append(vid)
+            return recovered_pub
+        orig = C.yt_refetch_published
+        C.yt_refetch_published = fake_refetch
+        try:
+            n = C.refill_youtube_dates(cands, seen={"https://www.youtube.com/watch?v=seen1"})
+        finally:
+            C.yt_refetch_published = orig
+        self.assertEqual(n, 1)
+        self.assertIsNone(cands[0]["published"])
+        self.assertEqual(cands[1]["published"], recovered_pub)
+        self.assertEqual(called, ["miss1"])
+
+    def test_refill_continues_after_one_raises(self):
+        recovered_pub = dt.datetime(2026, 11, 10, 8, 30, tzinfo=C.JST)
+        cands = [
+            {"source": "youtube", "url": "https://www.youtube.com/watch?v=boom", "published": None, "channel_id": "UCa"},
+            {"source": "youtube", "url": "https://www.youtube.com/watch?v=ok1", "published": None, "channel_id": "UCb"},
+        ]
+        def fake_refetch(vid, channel_id=None, timeout=8, refresh_feed=True):
+            if vid == "boom":
+                raise RuntimeError("boom")
+            return recovered_pub
+        orig = C.yt_refetch_published
+        C.yt_refetch_published = fake_refetch
+        try:
+            n = C.refill_youtube_dates(cands)
+        finally:
+            C.yt_refetch_published = orig
+        self.assertEqual(n, 1)
+        self.assertIsNone(cands[0]["published"])
+        self.assertEqual(cands[1]["published"], recovered_pub)
 
 
 if __name__ == "__main__":

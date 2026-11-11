@@ -195,18 +195,25 @@ def yt_refetch_published(vid, channel_id=None, timeout=YT_REFETCH_TIMEOUT, refre
     return pub
 
 
-def refill_youtube_dates(cands, timeout=YT_REFETCH_TIMEOUT):
-    """published が空の YouTube 候補だけ、公開日を1回取り直す。新しさの絞り込みは変えない。"""
+def refill_youtube_dates(cands, timeout=YT_REFETCH_TIMEOUT, seen=None):
+    """published が空の YouTube 候補だけ、公開日を1回取り直す。seen の URL は対象外。新しさの絞り込みは変えない。"""
     recovered = 0
     still_missing = 0
     refreshed_feeds = set()
+    seen = seen or set()
     for c in cands:
         if c.get("source") != "youtube" or c.get("published"):
+            continue
+        if c.get("url") in seen:
             continue
         vid = yt_video_id(c.get("url", ""))
         cid = c.get("channel_id") or ""
         refresh = bool(cid) and cid not in refreshed_feeds
-        pub = yt_refetch_published(vid, cid, timeout=timeout, refresh_feed=refresh)
+        try:
+            pub = yt_refetch_published(vid, cid, timeout=timeout, refresh_feed=refresh)
+        except Exception as e:
+            log("YouTube date refetch failed:", c.get("url"), e)
+            pub = None
         if cid:
             refreshed_feeds.add(cid)
         if pub is not None:
@@ -260,7 +267,6 @@ def collect_youtube():
             out.append({"source": "youtube", "url": f"https://www.youtube.com/watch?v={vid}", "handle": ch, "published": pub,
                         "title": title, "text": desc[:800], "thumbnail": f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg",
                         "channel_id": cid})
-    refill_youtube_dates(out)
     log("YouTube candidates:", len(out), "with date:", sum(1 for c in out if c["published"]))
     return out
 
@@ -497,6 +503,7 @@ def main():
     else:
         no_x = True
     raw += collect_youtube() + collect_web()
+    refill_youtube_dates(raw, seen=seen)  # 公開日の取り直しは seen を外したあとに1回。絞り込みの順は変えない
     cut = today - dt.timedelta(days=WINDOW_DAYS)
     cands, pub = [], {}
     stage_keys = ("fetched", "seen", "no_date", "00:00", "window", "classify_err", "judged_false", "ok")

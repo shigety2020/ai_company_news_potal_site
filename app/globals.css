@@ -560,6 +560,15 @@ img {
 .cat-list .index-item { grid-template-columns: minmax(0, 1fr); }
 .cat-empty { border: 1px dashed var(--line); padding: 32px 16px; text-align: center; margin-top: 12px; }
 .cat-empty-title { font-weight: 700; color: var(--heading); margin-bottom: 12px; }
+
+/* PB b: SP のみ。via と空表示の最終行が1〜2文字だけにならないように（見出しと同じ指定） */
+@media (max-width: 1023px) {
+  .via,
+  .cat-empty-title {
+    text-wrap: pretty;
+    word-break: auto-phrase;
+  }
+}
 .cat-empty-actions { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
 .btn { min-height: 44px; padding: 0 16px; border: 1px solid var(--heading); display: inline-flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; color: var(--heading); background: #fff; }
 .btn-solid { background: var(--heading); color: #fff; }

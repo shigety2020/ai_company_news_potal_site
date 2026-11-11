@@ -194,6 +194,34 @@ img {
   margin-top: 12px;
 }
 
+/* PB b: PC only — keep the via label visible and ellipsize the name on one line. */
+@media (min-width: 1024px) {
+  .index-pc .story,
+  .index-pc .item-row {
+    min-width: 0;
+  }
+
+  .via {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .via-label {
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+
+  .via-name {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
 .item-row {
   display: flex;
   align-items: flex-start;
@@ -400,11 +428,12 @@ img {
 
   .index-pc {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     padding: 8px 0;
   }
 
   .index-col {
+    min-width: 0;
     padding: 28px 24px;
     border-right: 1px solid var(--line);
   }

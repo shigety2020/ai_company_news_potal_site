@@ -1,5 +1,5 @@
 """キー無しのテスト: python3 -m unittest scripts/daily/test_collect.py"""
-import datetime as dt, glob, json, os, sys, unittest
+import datetime as dt, glob, io, json, os, sys, unittest
 sys.path.insert(0, os.path.dirname(__file__))
 import collect as C
 
@@ -276,6 +276,62 @@ class RefetchPublishDate(unittest.TestCase):
         self.assertEqual(n, 1)
         self.assertIsNone(cands[0]["published"])
         self.assertEqual(cands[1]["published"], recovered_pub)
+
+    def test_refill_failure_log_includes_exception_type(self):
+        cands = [{"source": "youtube", "url": "https://www.youtube.com/watch?v=boom", "published": None, "channel_id": "UCa"}]
+        def fake_refetch(*_a, **_k):
+            raise TimeoutError("boom")
+        orig = C.yt_refetch_published
+        buf = io.StringIO()
+        C.yt_refetch_published = fake_refetch
+        orig_err = sys.stderr
+        try:
+            sys.stderr = buf
+            C.refill_youtube_dates(cands)
+        finally:
+            sys.stderr = orig_err
+            C.yt_refetch_published = orig
+        logged = buf.getvalue()
+        self.assertIn("YouTube date refetch failed:", logged)
+        self.assertIn("TimeoutError", logged)
+        self.assertIn("boom", logged)
+
+
+class YtQueryRotation(unittest.TestCase):
+    """号の日付から YouTube 検索語を決める（通信なし）。"""
+
+    def test_same_date_same_queries(self):
+        d = dt.date(2026, 11, 11)
+        self.assertEqual(C.yt_queries_for_date(d), C.yt_queries_for_date(d))
+        self.assertEqual(C.yt_queries_for_date(d), C.yt_queries_for_date(dt.date(2026, 11, 11)))
+
+    def test_different_dates_change_queries(self):
+        a = C.yt_queries_for_date(dt.date(2026, 11, 11))
+        b = C.yt_queries_for_date(dt.date(2026, 11, 12))
+        self.assertNotEqual(a, b)
+
+    def test_base_queries_always_included(self):
+        for d in (dt.date(2026, 11, 11), dt.date(2026, 11, 12), dt.date(2026, 12, 1), dt.date(2027, 1, 1)):
+            q = C.yt_queries_for_date(d)
+            for base in C.YT_BASE_QUERIES:
+                self.assertIn(base, q, d)
+
+    def test_query_count_within_limit(self):
+        self.assertLessEqual(C.YT_QUERY_LIMIT, 3 + 1)  # 現行3に対し +1 まで
+        self.assertEqual(C.YT_QUERY_LIMIT, 4)
+        for i in range(40):
+            d = dt.date(2026, 11, 11) + dt.timedelta(days=i)
+            q = C.yt_queries_for_date(d)
+            self.assertLessEqual(len(q), C.YT_QUERY_LIMIT, d)
+            self.assertEqual(len(q), len(set(q)), d)
+            self.assertGreaterEqual(len(q), len(C.YT_BASE_QUERIES), d)
+
+    def test_collect_uses_date_queries(self):
+        src = open(C.__file__, encoding="utf8").read()
+        self.assertIn("collect_youtube(today)", src)
+        self.assertIn("yt_queries_for_date(", src)
+        self.assertNotIn("YT_QUERIES =", src)
+        self.assertNotIn("for q in YT_QUERIES", src)
 
 
 if __name__ == "__main__":

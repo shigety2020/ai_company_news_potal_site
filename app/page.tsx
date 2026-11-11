@@ -478,13 +478,10 @@ export default async function Home({
                 </ul>
               ) : (
                 <div className="cat-empty">
-                  <p className="cat-empty-title">この号には「{selectedCategory}」の記事がありません</p>
+                  <p className="cat-empty-title">この日は、このカテゴリの記事がありません</p>
                   <div className="cat-empty-actions">
                     <a className="btn btn-solid" href="/backnumber">
-                      ほかの号の「{selectedCategory}」を見る
-                    </a>
-                    <a className="btn" href={`/?date=${data.date}`}>
-                      絞り込みを解除して全件を見る
+                      バックナンバー一覧へ
                     </a>
                   </div>
                 </div>

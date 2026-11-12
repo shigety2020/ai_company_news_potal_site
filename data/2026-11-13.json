@@ -1,0 +1,214 @@
+{
+  "date": "2026-11-13",
+  "featured": {
+    "time": "17:02",
+    "headline": "三十三銀行とライトアップが中小企業のAI活用を支援",
+    "summary": "三十三銀行と株式会社ライトアップが、三重・愛知の中小企業向けにAI活用の相談を行う取り組みを開始した。",
+    "handle": "PR TIMES",
+    "category": "事例",
+    "url": "https://prtimes.jp/main/html/rd/p/000000399.000042366.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "06:21",
+      "headline": "AI社員が出勤表の管理を効率化、雨の日の欠勤にも対応",
+      "summary": "雨の日の夕方、複数の従業員からの欠勤連絡に対し、AI社員が出勤表を自動で更新する事例が紹介されました。これにより、業務の効率化が図られています。",
+      "handle": "AIinvestshoji",
+      "category": "事例",
+      "url": "https://x.com/AIinvestshoji/status/2120990314509087025",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HW9FbRxbIAAhQGB.jpg"
+    },
+    {
+      "time": "16:00",
+      "headline": "AI導入後の成果を上げるための社内データ整備セミナー開催",
+      "summary": "スパイスファクトリーが12月3日に開催するセミナーでは、AI導入後の成果を上げるために必要な社内データの整備と活用について議論される。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000237.000022779.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/22779/237/22779-237-4d6e7096e4816f8c7847b581bb37a206-1280x720.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:06",
+      "headline": "AI社員の業務分担と確認者の重要性についての考察",
+      "summary": "AI社員に業務を任せる際、誰が確認するかを事前に決めることで手戻りを防ぎ、作業効率が向上することが示唆されています。",
+      "handle": "migiude_ai",
+      "category": "事例",
+      "url": "https://x.com/migiude_ai/status/2120986540675637357",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "14:00",
+      "headline": "AI実践者コミュニティ「AX CLUB」の活動レポートを公開",
+      "summary": "株式会社AXがAI実践者コミュニティ「AX CLUB」の活動レポートを公開し、検証の共有チャンネルやクエストの取り組みを紹介しました。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000077.000171095.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/171095/77/171095-77-db5fb692c35f0c3f0d6f9710975b4306-1671x941.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:02",
+      "headline": "AI導入で外注費5,000万円削減、売上も増加",
+      "summary": "AIを導入した結果、外注費が年間約5,000万円減少し、売上は前年よりも伸び、商品数も2倍になったという事例が報告されました。",
+      "handle": "osaruproducer",
+      "category": "事例",
+      "url": "https://x.com/osaruproducer/status/2120985485346787512",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "13:00",
+      "headline": "喜林グループが介護職員と理学療法士で業務アプリを開発",
+      "summary": "喜林グループがAlgoritmiAIPを用いて介護職員や理学療法士が業務アプリを開発し、現場での運用を開始した。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000003.000192707.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/192707/3/192707-3-491ed7d06fe7b1094f0558353a8ca631-3900x2925.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員を活用した1人会社の業務分担と運用方法",
+      "summary": "AI社員を導入した1人会社の業務分担方法や手順書の活用法について説明しています。具体的な運用方法や注意点が示されています。",
+      "handle": "owl_pukuro_",
+      "category": "事例",
+      "url": "https://x.com/owl_pukuro_/status/2120985026318008547",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員が制作した動画の構成が似ていると指摘される",
+      "summary": "AI社員のタキが制作した4本の動画が、構成が似ていると社長から指摘されました。画面の割り方が同じだったことが原因とされています。",
+      "handle": "goemon_real",
+      "category": "事例",
+      "url": "https://x.com/goemon_real/status/2120985009440031225",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "GrokBot活用法：AIに仕事を任せる順番が鍵",
+      "summary": "GrokBotを使う際は、AIの性能よりも仕事の任せ方が重要であることが強調されている。調査や制作を分担し、改善を繰り返すことで効果が異なる。",
+      "handle": "krdinit",
+      "category": "事例",
+      "url": "https://x.com/krdinit/status/2120984991270425083",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "05:47",
+      "headline": "Grok Botを活用したAIによる業務効率化の事例を紹介",
+      "summary": "Grok Botを用いて、別のAIにルールや記憶を点検させることで矛盾や重複を削減する事例が紹介されました。最終的な判断は人間が行います。",
+      "handle": "chiken_ai",
+      "category": "事例",
+      "url": "https://x.com/chiken_ai/status/2120981820342985072",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "05:36",
+      "headline": "AI社員による会社の自動化の難しさを語る投稿",
+      "summary": "AI社員を活用した会社の自動化やアプリ開発の難しさについての意見が述べられています。実用的なアウトプットが少ない現状に疑問を呈しています。",
+      "handle": "inagaki_keita",
+      "category": "事例",
+      "url": "https://x.com/inagaki_keita/status/2120979150899216674",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "05:36",
+      "headline": "大阪市議がAI秘書を活用し業務を効率化",
+      "summary": "現職の大阪市議がAI秘書のMuseを使い、業務の分担を行っています。AIを活用することで、議員の仕事を大幅に効率化しています。",
+      "handle": "JuliaDygon",
+      "category": "事例",
+      "url": "https://x.com/JuliaDygon/status/2120979018321396119",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "06:22",
+      "headline": "Databricksが自律型AIエージェント「Always-On Genie」を発表",
+      "summary": "Databricksは、企業業務を自律的に遂行する「Always-On Genie（第2世代Genie）」を発表しました。従来の対話型アシスタントから進化したこのツールは、バックグラウンド処理を自律的に行います。",
+      "handle": "Tyr_Nippon",
+      "category": "ツール",
+      "url": "https://x.com/Tyr_Nippon/status/2120990689324617793",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HW9FycpaUAAXdTJ.jpg"
+    },
+    {
+      "time": "17:30",
+      "headline": "MetaのAI秘書「Muse」の活用法と設定を解説",
+      "summary": "Metaが提供するAI秘書「Muse」の効果的な活用法や重要な設定について詳しく解説する動画です。AIを業務に取り入れる方法が紹介されています。",
+      "handle": "SHIFT AI ニュース",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=u9PqpLEWgro",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/u9PqpLEWgro/hqdefault.jpg"
+    },
+    {
+      "time": "15:30",
+      "headline": "イオレがHR事業をAIで拡張、採用から定着まで支援",
+      "summary": "株式会社イオレはHR事業をAIを活用した総合支援に拡張し、採用から定着までのプロセスをワンストップで支援するパートナーを目指すと発表した。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000330.000030850.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/30850/330/30850-330-110a174ccfa5c77b090b4cba50db9b3e-1999x1050.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:18",
+      "headline": "AIエージェントが好みに応じた文章生成を可能にする新機能",
+      "summary": "AIエージェントが他の記事を取り込み、ユーザーの好みに合わせた文章を出力できる機能を追加しました。これにより、より個人に合ったコンテンツ生成が実現します。",
+      "handle": "Kyo_AI_SE",
+      "category": "ツール",
+      "url": "https://x.com/Kyo_AI_SE/status/2120989611648520396",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HW9EcLgbkAASmA-.png"
+    },
+    {
+      "time": "06:10",
+      "headline": "AnthropicがAIエージェントの共通規格「Agent Skills」を発表",
+      "summary": "AIエージェントの業務利用を促進するため、Anthropicが業界共通の規格「Agent Skills」を発表しました。これにより、AIに覚えさせた仕事のやり方をどのAIでも使い回せる時代が到来します。",
+      "handle": "ISAO224688",
+      "category": "ツール",
+      "url": "https://x.com/ISAO224688/status/2120987559572758544",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "04:47",
+      "headline": "AI秘書「Pickle」を活用したスムーズな一日の段取り",
+      "summary": "AI秘書「Pickle」を使うことで、早朝に一日の計画を立てることができ、業務がスムーズに進むことが紹介されています。",
+      "handle": "bGKlBaWWPsAaNTo",
+      "category": "ツール",
+      "url": "https://x.com/bGKlBaWWPsAaNTo/status/2120966610307658121",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員を活用した記事作成の具体的手順を解説",
+      "summary": "GrokBotやClaude Codeを使い、AI社員に記事作成を任せる方法や分業の設定について詳しく解説しています。",
+      "handle": "buttanoteragoya",
+      "category": "作り方",
+      "url": "https://x.com/buttanoteragoya/status/2120984989135417503",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "14:00",
+      "headline": "Microsoft 365 Copilotを活用した社内FDE育成の進め方を解説",
+      "summary": "株式会社AIworkerがMicrosoft 365 Copilotを導入した企業向けに、社内FDE育成の進め方をまとめたレポートを発表しました。",
+      "handle": "PR TIMES",
+      "category": "作り方",
+      "url": "https://prtimes.jp/main/html/rd/p/000000030.000169819.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/169819/30/169819-30-04a0c4d1ff106046222665ce1bb43bff-1600x900.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+  ]
+}

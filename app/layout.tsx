@@ -6,18 +6,20 @@ import "./globals.css";
 
 const sans = Noto_Sans_JP({
   subsets: ["latin"],
-  weight: ["400", "500", "700"],
+  weight: ["400", "700"],
   display: "swap",
   variable: "--font-sans",
   adjustFontFallback: false,
+  preload: false,
 });
 
 const serif = Shippori_Mincho({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["400", "600", "700"],
   display: "swap",
   variable: "--font-serif",
   adjustFontFallback: false,
+  preload: false,
 });
 
 export const metadata: Metadata = {

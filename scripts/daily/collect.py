@@ -162,10 +162,18 @@ def yt_has_clock(t):
     return t is not None and not (t.tzinfo is JST and (t.hour, t.minute) == (0, 0))
 
 
-def yt_player_published(vid, timeout=30):
-    """watch ページから取れないとき、player API の microformat から公開日時を取る。"""
-    if not vid:
+YT_PLAYER_TIMEOUT = 8  # player は1件8秒まで
+YT_PLAYER_MAX_CALLS = 30  # 1回の収集で player を呼ぶ上限（全部タイムアウトでも約4分）
+_PLAYER_CALLS = [0]
+
+
+def yt_player_published(vid, timeout=YT_PLAYER_TIMEOUT):
+    """watch ページから取れないとき、player API の microformat から公開日時を取る。
+    上限を超えたら呼ばない。想定外の応答は (None, "") を返し、例外を外に出さない。"""
+    if not vid or _PLAYER_CALLS[0] >= YT_PLAYER_MAX_CALLS:
         return None, ""
+    _PLAYER_CALLS[0] += 1
+    timeout = min(timeout, YT_PLAYER_TIMEOUT)
     payload = json.dumps({
         "context": {"client": {"clientName": "WEB", "clientVersion": "2.20241115.01.00", "hl": "ja", "gl": "JP"}},
         "videoId": vid,
@@ -182,14 +190,15 @@ def yt_player_published(vid, timeout=30):
         return None, ""
     try:
         d = json.loads(h)
-    except json.JSONDecodeError:
+        mf = (d.get("microformat") or {}).get("playerMicroformatRenderer") or {}
+        s = mf.get("publishDate") or mf.get("uploadDate") or ""
+        desc = (d.get("videoDetails") or {}).get("shortDescription") or ""
+        if not desc:
+            desc = ((mf.get("description") or {}).get("simpleText") or "")
+        return yt_parse_published(s), str(desc)
+    except Exception as e:
+        log("YouTube player parse failed:", vid, type(e).__name__, e)
         return None, ""
-    mf = (d.get("microformat") or {}).get("playerMicroformatRenderer") or {}
-    s = mf.get("publishDate") or mf.get("uploadDate") or ""
-    desc = (d.get("videoDetails") or {}).get("shortDescription") or ""
-    if not desc:
-        desc = ((mf.get("description") or {}).get("simpleText") or "")
-    return yt_parse_published(s), desc
 
 
 def yt_published(vid, timeout=30):
@@ -330,7 +339,11 @@ def collect_youtube(date=None):
             ch = owner.get("text", "")
             cid = owner.get("navigationEndpoint", {}).get("browseEndpoint", {}).get("browseId", "")
             title = "".join(r.get("text", "") for r in v.get("title", {}).get("runs", []))
-            pub, desc = yt_published(vid)
+            try:
+                pub, desc = yt_published(vid)
+            except Exception as e:
+                log("YouTube date failed:", vid, type(e).__name__, e)
+                pub, desc = None, ""
             if not desc:
                 desc = "".join(r.get("text", "") for r in (v.get("detailedMetadataSnippets") or [{}])[0].get("snippetText", {}).get("runs", []))
             if pub is not None and pub.tzinfo is JST and (pub.hour, pub.minute) == (0, 0):

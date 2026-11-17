@@ -91,6 +91,7 @@ class RefetchPublishDate(unittest.TestCase):
 
     def setUp(self):
         C._FEEDS.clear()
+        C._PLAYER_CALLS[0] = 0
 
     def test_yt_video_id(self):
         self.assertEqual(C.yt_video_id("https://www.youtube.com/watch?v=IMolcog2r68"), "IMolcog2r68")
@@ -288,6 +289,43 @@ class RefetchPublishDate(unittest.TestCase):
         C.http = fake_http
         try:
             self.assertEqual(C.yt_refetch_published("abc123", "UCx"), pub)
+        finally:
+            C.http = orig
+
+    def test_player_timeout_is_capped_at_8(self):
+        seen = []
+        def fake_http(url, headers=None, data=None, timeout=30):
+            seen.append(timeout)
+            return "{}"
+        orig = C.http
+        C.http = fake_http
+        try:
+            C.yt_player_published("abc", timeout=30)
+        finally:
+            C.http = orig
+        self.assertEqual(seen, [8])
+
+    def test_player_stops_after_max_calls(self):
+        calls = []
+        def fake_http(url, headers=None, data=None, timeout=30):
+            calls.append(url)
+            raise TimeoutError("slow")
+        orig = C.http
+        C.http = fake_http
+        try:
+            for i in range(C.YT_PLAYER_MAX_CALLS + 10):
+                self.assertEqual(C.yt_player_published(f"v{i}"), (None, ""))
+        finally:
+            C.http = orig
+        self.assertEqual(len(calls), C.YT_PLAYER_MAX_CALLS)
+
+    def test_player_unexpected_json_shape_does_not_raise(self):
+        bodies = ["[]", '"x"', '{"microformat": []}', '{"microformat": {"playerMicroformatRenderer": {"publishDate": 5}}}', "not json"]
+        orig = C.http
+        try:
+            for b in bodies:
+                C.http = lambda url, headers=None, data=None, timeout=30, b=b: b
+                self.assertEqual(C.yt_player_published("abc"), (None, ""))
         finally:
             C.http = orig
 

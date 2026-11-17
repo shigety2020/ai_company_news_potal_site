@@ -1,0 +1,214 @@
+{
+  "date": "2026-11-18",
+  "featured": {
+    "time": "17:43",
+    "headline": "経営者向けAI導入支援で20超の業務を自動化",
+    "summary": "株式会社Shakeが提供するAI導入支援サービスにより、経営者が1日で業務を密着し、設計と実装を行うことで20以上の業務が自動化される事例が紹介されている。",
+    "handle": "PR TIMES",
+    "category": "事例",
+    "url": "https://prtimes.jp/main/html/rd/p/000000019.000187561.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "06:25",
+      "headline": "AI社員が予約情報を管理し、掲載料の見直しをサポート",
+      "summary": "AI社員が予約の情報を自動で管理することで、月末の掲載料の見直しが容易になり、経費の把握がしやすくなる事例を紹介しています。",
+      "handle": "AIinvestshoji",
+      "category": "事例",
+      "url": "https://x.com/AIinvestshoji/status/2122803439516463540",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HXW2c74bgAAAYYN.jpg"
+    },
+    {
+      "time": "14:31",
+      "headline": "新規採用職員向けに「AIさくらさん」を導入しセルフケア支援",
+      "summary": "ティファナ・ドットコムが自治体向けに「AIさくらさん」を導入し、新規採用職員のセルフケアを支援。1ヶ月で1,100件以上の利用があった。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000211.000060004.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/60004/211/60004-211-9b33b724f44c3c3365dfbcdfb671c2e3-1186x791.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:18",
+      "headline": "少人数でも回る筋肉質な会社を目指すAI活用の実例",
+      "summary": "AIを導入することで、少人数でも業務が円滑に進む体制を整えた企業の取り組みについて紹介しています。",
+      "handle": "mitsuhiro_jp",
+      "category": "事例",
+      "url": "https://x.com/mitsuhiro_jp/status/2122801669172072930",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "14:00",
+      "headline": "経費処理AIが経営戦略に活用される事例を紹介",
+      "summary": "株式会社コンカーが経費処理AIを経営に活かす方法についてのプレスリリースを発表。AIの活用が経営戦略にどのように寄与するかを示している。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000237.000048283.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/48283/237/48283-237-30c3e08b3069854da1549bbbf4731cd3-1132x579.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:07",
+      "headline": "アニメ制作におけるAI社員の役割と課題についての考察",
+      "summary": "アニメーターの意向を無視した社内デモが行われ、AI社員の活用におけるコミュニケーションの重要性が指摘されている。",
+      "handle": "migiude_ai",
+      "category": "事例",
+      "url": "https://x.com/migiude_ai/status/2122798873249034266",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "11:00",
+      "headline": "ITフリーランス活用企業の約7割がAIエンジニアに期待以上の効果",
+      "summary": "レバレジーズの調査によると、ITフリーランスを活用する企業の約7割が期待を上回る効果を実感しており、今後はAIエンジニアの活用を増やしたいと考えている。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000001016.000010591.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/10591/1016/10591-1016-c77a261bd6db1958a27b9124420193a7-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:06",
+      "headline": "SpaceXSIがGrok Botを導入し経理業務を自動化",
+      "summary": "SpaceXSIはGrok Botを5台導入し、経理業務の大部分を自動化した。請求書発行や入金処理の時間を大幅に短縮した。",
+      "handle": "K6kaSwuX8u1467",
+      "category": "事例",
+      "url": "https://x.com/K6kaSwuX8u1467/status/2122798488455114809",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "11:00",
+      "headline": "ふくおかフィナンシャルグループ、Agentforceで営業変革を実現",
+      "summary": "ふくおかフィナンシャルグループが傘下の3行でAIツールAgentforceを導入し、営業の効率化と変革を進めている。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000422.000041550.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/41550/422/41550-422-ea8fe341a3c0b3ff8afa78acc8437a1c-602x339.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:03",
+      "headline": "Grok Botを活用した会議要点の自動文書化事例",
+      "summary": "Grok Botを使い、移動中に会議の要点を伝え文書化・共有・予定登録を行う事例を紹介。運転中の操作制限についても言及。",
+      "handle": "chiken_ai",
+      "category": "事例",
+      "url": "https://x.com/chiken_ai/status/2122797748848349659",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員導入の成功には勝ちパターンの構築が不可欠",
+      "summary": "AI社員を増やすだけでは効果が薄く、自分の勝ちパターンを持つことが重要であると述べられている。",
+      "handle": "mine_shaho",
+      "category": "事例",
+      "url": "https://x.com/mine_shaho/status/2122796955923525752",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員がOneDriveの不具合を解決するまでの経緯",
+      "summary": "AI社員のタキがOneDriveの雲マークが消えた問題を発見し、どのように確認・修正したかの経緯を紹介しています。",
+      "handle": "goemon_real",
+      "category": "事例",
+      "url": "https://x.com/goemon_real/status/2122796949288206370",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員による承認依頼が1日で26枚に増加",
+      "summary": "AI社員が承認依頼を行うことで、依頼の枚数が急増した。社長の判断が必要なものは全て出す方針に変更し、時間の短縮を目指す。",
+      "handle": "aikaishawip",
+      "category": "事例",
+      "url": "https://x.com/aikaishawip/status/2122796923321258071",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HWj_ltmaEAAsTqK.png"
+    },
+    {
+      "time": "05:26",
+      "headline": "生成AIセミナーでAIエージェント活用による業務効率化を紹介",
+      "summary": "生成AIセミナーで、AIエージェントの進化による業務効率化の体験を共有。スキル登録で動画制作が少ない工数で可能になったことを説明した。",
+      "handle": "yado_nao",
+      "category": "事例",
+      "url": "https://x.com/yado_nao/status/2122788428031160753",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HXWo0QwaoAArg89.jpg"
+    },
+    {
+      "time": "05:04",
+      "headline": "AIが専門家レベルの成果物を低コストで提供する時代へ",
+      "summary": "AIの進化により、従来の回答提供から専門家レベルの成果物を効率的に完成させる能力が求められるようになった。",
+      "handle": "shimesaba_type0",
+      "category": "事例",
+      "url": "https://x.com/shimesaba_type0/status/2122782892648714573",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "04:48",
+      "headline": "AI秘書AIRAが100万円チャレンジで約16.3倍の成果を達成",
+      "summary": "AI秘書AIRAを活用した100万円チャレンジで、残高が約16.3倍に増加した実績が報告された。取引は行われていないが、最大ドローダウンは0%で安定した運用が続いている。",
+      "handle": "mtp_lab",
+      "category": "事例",
+      "url": "https://x.com/mtp_lab/status/2122779040369246617",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HXWgQZBb0AAt6xf.jpg"
+    },
+    {
+      "time": "04:33",
+      "headline": "AI秘書「Pickle」を活用して業務を効率化した事例",
+      "summary": "水曜の朝、AI秘書「Pickle」に調べ物や手配を任せることで、業務をスムーズに始めることができた事例を紹介しています。",
+      "handle": "bGKlBaWWPsAaNTo",
+      "category": "事例",
+      "url": "https://x.com/bGKlBaWWPsAaNTo/status/2122775026663391237",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "04:15",
+      "headline": "中小企業でのAI社員導入の実態と課題について",
+      "summary": "AI社員を導入する企業の実情を考察し、中小企業での運用が生産性向上に寄与しているか疑問を呈している。",
+      "handle": "aristidescneto1",
+      "category": "事例",
+      "url": "https://x.com/aristidescneto1/status/2122770679796035962",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HXWYnUFWwAA_Ms7.jpg"
+    },
+    {
+      "time": "05:00",
+      "headline": "Amazon WorkSpacesがAIエージェントの運用を簡素化",
+      "summary": "Amazon WorkSpacesがAIエージェントの環境構築や接続、操作記録の管理を容易にする機能を提供開始。OIDC対応の認証やユーザー代理のサインインも可能に。",
+      "handle": "hoshino_popopo_",
+      "category": "ツール",
+      "url": "https://x.com/hoshino_popopo_/status/2122781826095702523",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "12:00",
+      "headline": "ゴムマリの業務AIエージェントが市場・競合リサーチを提供開始",
+      "summary": "ゴムマリ株式会社が業務AIエージェントによる『市場・競合リサーチ』サービスの提供を開始しました。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000056.000185093.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/185093/56/185093-56-12f6924fc152cbd9435c0ea59fe23e0f-2400x1260.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "22:32",
+      "headline": "Claude Codeを使ったAI社員10人の会社の作り方を実演",
+      "summary": "Claude Codeを活用してAI社員10人の会社を構築する方法を実演し、仕事の流れを公開しています。",
+      "handle": "【ソウタ】AIの先生",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=uf2gSK7OfiE",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/uf2gSK7OfiE/hqdefault.jpg"
+    }
+  ]
+}

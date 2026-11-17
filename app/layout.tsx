@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import type { Metadata } from "next";
-import { Noto_Sans_JP, Shippori_Mincho } from "next/font/google";
+import { Noto_Sans_JP } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
@@ -9,15 +9,6 @@ const sans = Noto_Sans_JP({
   weight: ["400", "700"],
   display: "swap",
   variable: "--font-sans",
-  adjustFontFallback: false,
-  preload: false,
-});
-
-const serif = Shippori_Mincho({
-  subsets: ["latin"],
-  weight: ["400", "600", "700"],
-  display: "swap",
-  variable: "--font-serif",
   adjustFontFallback: false,
   preload: false,
 });
@@ -41,7 +32,20 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="ja" className={`${sans.variable} ${serif.variable}`}>
+    <html lang="ja" className={sans.variable}>
+      <head>
+        {/* 明朝は PC 幅だけ。Google Fonts CSS を media で読み、リポに woff2 を足さない。 */}
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600;700&display=swap"
+          media="(min-width: 1024px)"
+        />
+        <style
+          dangerouslySetInnerHTML={{
+            __html: '@media (min-width: 1024px){html{--font-serif:"Shippori Mincho",serif}}',
+          }}
+        />
+      </head>
       <body>
         {children}
         <Analytics />

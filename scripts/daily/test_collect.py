@@ -215,13 +215,84 @@ class RefetchPublishDate(unittest.TestCase):
             self.assertIsNone(C.yt_refetch_published("abc123", "UCx", timeout=8))
         finally:
             C.http = orig
-        self.assertEqual(len(seen), 2)
+        self.assertEqual(len(seen), 3)
         self.assertIn("watch?v=abc123", seen[0][0])
         self.assertEqual(seen[0][1], 8)
-        self.assertIn("channel_id=UCx", seen[1][0])
+        self.assertIn("youtubei/v1/player", seen[1][0])
         self.assertEqual(seen[1][1], 8)
+        self.assertIn("channel_id=UCx", seen[2][0])
+        self.assertEqual(seen[2][1], 8)
+
+    def test_yt_published_uses_player_when_watch_has_no_date(self):
+        pub = "2026-11-10T09:15:00+09:00"
+        def fake_http(url, headers=None, data=None, timeout=30):
+            if "watch?v=" in url:
+                return "<html><title>no dates</title></html>"
+            if "youtubei/v1/player" in url:
+                self.assertEqual(timeout, 8)
+                self.assertEqual((headers or {}).get("Content-Type"), "application/json")
+                body = json.loads(data.decode())
+                self.assertEqual(body["videoId"], "abc123")
+                return json.dumps({
+                    "microformat": {"playerMicroformatRenderer": {"publishDate": pub}},
+                    "videoDetails": {"shortDescription": "hello"},
+                })
+            self.fail(url)
+        orig = C.http
+        C.http = fake_http
+        try:
+            t, desc = C.yt_published("abc123", timeout=8)
+        finally:
+            C.http = orig
+        self.assertEqual(t, dt.datetime.fromisoformat(pub))
+        self.assertEqual(desc, "hello")
+
+    def test_yt_published_skips_player_when_watch_has_time(self):
+        def fake_http(url, headers=None, data=None, timeout=30):
+            if "watch?v=" in url:
+                return '"publishDate":"2026-11-10T09:15:00+09:00"<meta name="description" content="d">'
+            self.fail("watch で時刻が取れたときは player を呼ばない")
+        orig = C.http
+        C.http = fake_http
+        try:
+            t, desc = C.yt_published("abc123")
+        finally:
+            C.http = orig
+        self.assertEqual(t, dt.datetime.fromisoformat("2026-11-10T09:15:00+09:00"))
+        self.assertEqual(desc, "d")
+
+    def test_yt_published_uses_player_when_watch_is_date_only(self):
+        def fake_http(url, headers=None, data=None, timeout=30):
+            if "watch?v=" in url:
+                return '"publishDate":"2026-11-10"'
+            if "youtubei/v1/player" in url:
+                return json.dumps({"microformat": {"playerMicroformatRenderer": {"publishDate": "2026-11-10T09:15:00+09:00"}}})
+            self.fail(url)
+        orig = C.http
+        C.http = fake_http
+        try:
+            t, _desc = C.yt_published("abc123")
+        finally:
+            C.http = orig
+        self.assertEqual(t, dt.datetime.fromisoformat("2026-11-10T09:15:00+09:00"))
+
+    def test_refetch_uses_player_before_feed_when_watch_fails(self):
+        pub = dt.datetime(2026, 11, 10, 9, 15, tzinfo=C.JST)
+        def fake_http(url, headers=None, data=None, timeout=30):
+            if "watch?v=" in url:
+                return "<html></html>"
+            if "youtubei/v1/player" in url:
+                return json.dumps({"microformat": {"playerMicroformatRenderer": {"publishDate": pub.isoformat()}}})
+            self.fail("player で時刻が取れたときは feed を呼ばない")
+        orig = C.http
+        C.http = fake_http
+        try:
+            self.assertEqual(C.yt_refetch_published("abc123", "UCx"), pub)
+        finally:
+            C.http = orig
 
     def test_window_filter_untouched(self):
+
         src = open(C.__file__, encoding="utf8").read()
         self.assertIn("refill_youtube_dates(raw, seen=seen)", src)
         self.assertNotIn("refill_youtube_dates(out)", src)

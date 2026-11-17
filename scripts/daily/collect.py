@@ -144,26 +144,72 @@ def _walk(o, key):
             yield from _walk(v, key)
 
 
+def yt_parse_published(s):
+    """ISO の公開日時文字列を datetime にする。日付だけなら 00:00 JST（既存どおり）。"""
+    if not s:
+        return None
+    try:
+        if "T" in s:
+            return dt.datetime.fromisoformat(s)
+        t = dt.datetime.fromisoformat(s[:10]).replace(tzinfo=JST)
+        return t.replace(hour=0, minute=0)
+    except ValueError:
+        return None
+
+
+def yt_has_clock(t):
+    """日付だけでなく時刻が付いているか（00:00 JST は時刻なしとみなす）。"""
+    return t is not None and not (t.tzinfo is JST and (t.hour, t.minute) == (0, 0))
+
+
+def yt_player_published(vid, timeout=30):
+    """watch ページから取れないとき、player API の microformat から公開日時を取る。"""
+    if not vid:
+        return None, ""
+    payload = json.dumps({
+        "context": {"client": {"clientName": "WEB", "clientVersion": "2.20241115.01.00", "hl": "ja", "gl": "JP"}},
+        "videoId": vid,
+    }).encode()
+    try:
+        h = http(
+            "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+            headers={"Content-Type": "application/json"},
+            data=payload,
+            timeout=timeout,
+        )
+    except Exception as e:
+        log("YouTube player failed:", vid, e)
+        return None, ""
+    try:
+        d = json.loads(h)
+    except json.JSONDecodeError:
+        return None, ""
+    mf = (d.get("microformat") or {}).get("playerMicroformatRenderer") or {}
+    s = mf.get("publishDate") or mf.get("uploadDate") or ""
+    desc = (d.get("videoDetails") or {}).get("shortDescription") or ""
+    if not desc:
+        desc = ((mf.get("description") or {}).get("simpleText") or "")
+    return yt_parse_published(s), desc
+
+
 def yt_published(vid, timeout=30):
+    t, desc = None, ""
     try:
         h = http(f"https://www.youtube.com/watch?v={vid}&hl=ja&gl=JP", timeout=timeout)
     except Exception as e:
         log("YouTube watch failed:", vid, e)
-        return None, ""
-    m = re.search(r'"(?:publishDate|uploadDate)":"([^"]+)"', h)
-    desc = re.search(r'<meta name="description" content="([^"]*)"', h)
-    t = None
-    if m:
-        s = m.group(1)
-        try:
-            t = dt.datetime.fromisoformat(s) if "T" in s else None
-            if t is None:
-                t = dt.datetime.fromisoformat(s[:10]).replace(tzinfo=JST)  # 時刻なし -> 00:00（既存どおり）
-                t = t.replace(hour=0, minute=0)
-                return t, html.unescape(desc.group(1)) if desc else ""
-        except ValueError:
-            t = None
-    return t, html.unescape(desc.group(1)) if desc else ""
+        h = ""
+    if h:
+        m = re.search(r'"(?:publishDate|uploadDate)":"([^"]+)"', h)
+        dm = re.search(r'<meta name="description" content="([^"]*)"', h)
+        desc = html.unescape(dm.group(1)) if dm else ""
+        if m:
+            t = yt_parse_published(m.group(1))
+    if not yt_has_clock(t):
+        pt, pdesc = yt_player_published(vid, timeout=timeout)
+        if pt is not None:
+            return pt, desc or pdesc
+    return t, desc
 
 
 _FEEDS = {}
@@ -213,7 +259,7 @@ def yt_video_id(url):
 
 
 def yt_refetch_published(vid, channel_id=None, timeout=YT_REFETCH_TIMEOUT, refresh_feed=True):
-    """公開日が空のとき、watch ページとチャンネル RSS をもう一度だけ取り直す。"""
+    """公開日が空のとき、watch / player API / チャンネル RSS をもう一度だけ取り直す。"""
     if not vid:
         return None
     pub, _desc = yt_published(vid, timeout=timeout)

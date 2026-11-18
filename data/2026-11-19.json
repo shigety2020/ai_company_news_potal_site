@@ -1,0 +1,214 @@
+{
+  "date": "2026-11-19",
+  "featured": {
+    "time": "15:30",
+    "headline": "エクサウィザーズ、米XBOWとAIエージェントの販売契約を締結",
+    "summary": "エクサウィザーズが米XBOWと販売パートナー契約を結び、自律型AIエージェントによるペネトレーションテストを国内で提供することを発表した。",
+    "handle": "PR TIMES",
+    "category": "ツール",
+    "url": "https://prtimes.jp/main/html/rd/p/000000524.000030192.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "06:24",
+      "headline": "音声対話AIを活用し後継者が先代の判断を再現",
+      "summary": "後継者が音声対話AIを使い、先代の判断を模索する事例を紹介。取引先との打ち合わせ後に、先代ならどう考えたかを問い続ける様子が描かれている。",
+      "handle": "mitsuhiro_jp",
+      "category": "事例",
+      "url": "https://x.com/mitsuhiro_jp/status/2123165348723855812",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "19:15",
+      "headline": "Meta Museを活用した仕事の実例を6つ紹介",
+      "summary": "Meta Museを業務で活用した具体的な事例を6つ紹介し、実際の頼み方を実演しています。",
+      "handle": "れい_非エンジニアのAI仕事術",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=rS37YOG8myU",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/rS37YOG8myU/hqdefault.jpg"
+    },
+    {
+      "time": "14:00",
+      "headline": "WILLER、AIエージェントによる自動お問い合わせ対応を開始し自己解決率向上",
+      "summary": "WILLER MARKETINGは、AIエージェントとCRMのAPI連携により、24時間365日の自動お問い合わせ対応を開始し、自己解決率が50％から80％に向上した。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000479.000027749.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/27749/479/27749-479-6a39288420deedaae723faa58c9c5418-1322x747.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:21",
+      "headline": "AI社員が新人の写真を全サイトで統一する業務を担当",
+      "summary": "新人の写真やプロフィールを複数のサイトで統一する業務をAI社員が行うことで、手間を省き、効率化を図っています。",
+      "handle": "AIinvestshoji",
+      "category": "事例",
+      "url": "https://x.com/AIinvestshoji/status/2123164689060479179",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HXb_Av4bUAAyXI8.jpg"
+    },
+    {
+      "time": "13:00",
+      "headline": "鹿児島県鹿屋市が市民課業務にAI電話を導入",
+      "summary": "鹿児島県鹿屋市は、市民課業務における電話対応にAI電話「Graffer AIオペレーター」を導入した。これにより、業務効率の向上が期待される。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000151.000038525.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/38525/151/38525-151-11dcb0845b2fadffc3fb765d7fb831d8-2400x1260.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:17",
+      "headline": "AIエージェントが業務の大部分を自動化し人間は戦略に集中",
+      "summary": "AIエージェントがメール作成や議事録、データ集計などを自動で行い、人間は最終判断や戦略立案に専念する業務形態が標準化することが示されています。",
+      "handle": "grok",
+      "category": "事例",
+      "url": "https://x.com/grok/status/2123163658897289424",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "13:00",
+      "headline": "オムロンデジタルがARIを導入し品質管理のDXを実現",
+      "summary": "オムロンデジタルがARIを導入し、品質管理のデジタルトランスフォーメーションを支援した事例について紹介しています。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000139.000066765.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/66765/139/66765-139-ce94f521032852af4a12c1f5e9dfa0ab-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:10",
+      "headline": "AI秘書モコが飲食店のホームページを制作するサービス開始",
+      "summary": "飲食店向けにAI秘書モコがホームページを制作するサービスが始まり、顧客は手間なく依頼できる。料金は税込5,000円で、相談は無料。",
+      "handle": "MiyagiTadaq7b3",
+      "category": "事例",
+      "url": "https://x.com/MiyagiTadaq7b3/status/2123161898757825021",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "12:00",
+      "headline": "東武鉄道、主要6駅で自動化による業務時間の創出を実現",
+      "summary": "東武鉄道が主要6駅で駅案内のDXを進め、月間約1万件の窓口案内を自動化し、約1,000時間の業務時間を創出した。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000213.000060004.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/60004/213/60004-213-3b7b06a870aa665755a1dccdc8858aae-640x427.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:04",
+      "headline": "AIエージェントを活用した業務効率化の取り組み",
+      "summary": "SNS運用や動画編集、バックオフィス業務にAIエージェントを導入し、効率化を図る取り組みが紹介されています。",
+      "handle": "Hana0827y",
+      "category": "事例",
+      "url": "https://x.com/Hana0827y/status/2123160502293725259",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HXb7OTObwAAltK8.jpg"
+    },
+    {
+      "time": "06:04",
+      "headline": "AI社員に繰り返し作業を任せる際の注意点",
+      "summary": "AI社員に小さな繰り返し作業を任せる際、修正点を記録する工程が重要であることが指摘されています。修正点を明確にできるまで任せる範囲を広げないことが推奨されています。",
+      "handle": "migiude_ai",
+      "category": "事例",
+      "url": "https://x.com/migiude_ai/status/2123160448262713616",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員が12人に増加し、個性的な名前を付けた事例",
+      "summary": "AI社員が12人に増え、それぞれにユニークな名前を付けたことを紹介しています。秘書室長やSNS広報など、役割ごとに名付けられたAIたちの様子が伺えます。",
+      "handle": "Y_Mahalo_co",
+      "category": "事例",
+      "url": "https://x.com/Y_Mahalo_co/status/2123159313707593750",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HW40OTXbkAEjU62.jpg"
+    },
+    {
+      "time": "05:41",
+      "headline": "AI秘書が忘年会の行き方を最適化し、時間を調整した事例",
+      "summary": "AI秘書が忘年会の行き方を調査し、遅れることを予測して出発時間を調整しました。運賃や乗り換え情報も提供し、ホーム番号まで案内しました。",
+      "handle": "g_tunerc",
+      "category": "事例",
+      "url": "https://x.com/g_tunerc/status/2123154570310537407",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "05:35",
+      "headline": "Grok Botを活用したメルマガとSNS投稿の業務分担事例",
+      "summary": "Grok Botを使い、メルマガの反応やSNS投稿をAIが分担する事例を紹介。人による承認や権利の注意点も整理されている。",
+      "handle": "chiken_ai",
+      "category": "事例",
+      "url": "https://x.com/chiken_ai/status/2123153135137104169",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "05:32",
+      "headline": "AI秘書が状況に応じて行動を変化させる実例",
+      "summary": "AI秘書が状況に応じて柔軟に行動を変える様子が紹介されています。具体的な運用の実例が示されています。",
+      "handle": "touri_sns1",
+      "category": "事例",
+      "url": "https://x.com/touri_sns1/status/2123152390799192294",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "06:26",
+      "headline": "AI秘書Museが旅行計画をサポートする新サービスを紹介",
+      "summary": "AI秘書Museが旅行の計画やホテル比較、予算整理を行うサービスが登場。手間のかかる調査をAIが代行することで、旅行準備がスムーズに進む。",
+      "handle": "live_youlove_77",
+      "category": "ツール",
+      "url": "https://x.com/live_youlove_77/status/2123165939550347541",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "11:10",
+      "headline": "昇降機保守技術者向けの生成AIを三菱電機が開発",
+      "summary": "三菱電機ビルソリューションズが、昇降機保守技術者の作業や教育を支援する生成AIを開発したことを発表しました。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000044.000143377.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/143377/44/143377-44-4581c73638310a60aff4b402d599f17e-1356x467.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:06",
+      "headline": "Museアフィを使った1人会社のスタート手順を解説",
+      "summary": "Museを利用した1人会社の立ち上げ手順を紹介。公式サイトからの登録やAIエージェントのセットアップ方法など、具体的なステップが示されている。",
+      "handle": "ai_march39",
+      "category": "作り方",
+      "url": "https://x.com/ai_march39/status/2123160976954699961",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AIに絵を頼む際の鏡の向きに関する注意点",
+      "summary": "AI社員のタキが、鏡の向きに関する注意点を紹介。AIで描いた絵の動画を通じて、鏡の面が逆向きになってしまった事例を共有。",
+      "handle": "goemon_real",
+      "category": "作り方",
+      "url": "https://x.com/goemon_real/status/2123159333634703700",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AIに旅行計画を頼む際の注意点と工夫",
+      "summary": "AIに旅行計画を依頼する際、不要な要素を避けるための具体的な指示方法を紹介しています。役割表に「やらないこと」を明記する工夫も提案されています。",
+      "handle": "aikaishawip",
+      "category": "作り方",
+      "url": "https://x.com/aikaishawip/status/2123159309206868057",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HWj_ytSbQAADcgZ.png"
+    }
+  ]
+}

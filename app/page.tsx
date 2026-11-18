@@ -1,4 +1,5 @@
 import { headers } from "next/headers";
+import { preload } from "react-dom";
 import { findAdjacentDates } from "../lib/daily";
 import ThumbImg from "./thumb-img";
 
@@ -182,10 +183,11 @@ async function findLatestIssue(fromDate: string): Promise<DailyResponse> {
 }
 
 function Photo({ src, alt }: { src: string; alt: string }) {
+  preload(src, { as: "image", fetchPriority: "high" });
   return (
     <div className="photo">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={src} alt={alt} />
+      <img src={src} alt={alt} fetchPriority="high" />
     </div>
   );
 }

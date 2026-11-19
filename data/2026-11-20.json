@@ -1,0 +1,214 @@
+{
+  "date": "2026-11-20",
+  "featured": {
+    "time": "17:30",
+    "headline": "富士通Japan、AIを用いた治験候補患者探索の効率化を確認",
+    "summary": "富士通Japanは、AIとParadigmのプラットフォームを活用し、治験候補患者の探索業務の効率化に成功したことを発表した。",
+    "handle": "PR TIMES",
+    "category": "事例",
+    "url": "https://prtimes.jp/main/html/rd/p/000000638.000093942.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "06:20",
+      "headline": "AI社員が出勤と予約の空きを同時に管理し業務効率化",
+      "summary": "AI社員が出勤状況と予約の空きを同時に管理することで、電話対応の待ち時間を削減し、業務の効率化を実現した事例です。",
+      "handle": "AIinvestshoji",
+      "category": "事例",
+      "url": "https://x.com/AIinvestshoji/status/2123526943958327482",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HXhIemvbwAAWBH7.jpg"
+    },
+    {
+      "time": "17:00",
+      "headline": "上場社長が選んだAIエージェントで業務効率が向上",
+      "summary": "上場社長がAIエージェントを導入し、業務の効率が5倍から10倍に向上した事例を紹介しています。",
+      "handle": "上場社長 秋好陽介【AI×経営】",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=iqjkSPFWFnk",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/iqjkSPFWFnk/hqdefault.jpg"
+    },
+    {
+      "time": "16:47",
+      "headline": "CATV局が地域の記憶を聞くAIを実証実験",
+      "summary": "東京ケーブルネットワークが地域の記憶を収集するAIを活用した実証実験を行い、地域とのつながりを深める取り組みを進めている。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000004.000098688.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/98688/4/98688-4-a857456ce1cbfbb45eef84383b639cd2-1827x856.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員タキが描いた絵の修正ミスを報告",
+      "summary": "AI社員タキが描いた絵に関する修正が完了したと思われたが、社長から指摘があり、実際には修正されていなかったことが明らかになった。",
+      "handle": "goemon_real",
+      "category": "事例",
+      "url": "https://x.com/goemon_real/status/2123521707801743495",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "15:00",
+      "headline": "営業現場での生成AI活用、資料作成時短は5割超も受注率向上は5.2%",
+      "summary": "ウィルソン・ラーニングによると、営業で生成AIを活用した結果、資料作成の時短は5割を超えたが、受注率の向上はわずか5.2%にとどまった。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000007.000185987.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/185987/7/185987-7-5106c1a6baa06ac0573956de320158b6-897x463.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員を導入し、業務効率が向上した実体験",
+      "summary": "AI社員を迎えることで、従来の業務を大幅に効率化し、収入の増加を実現した体験談が紹介されています。",
+      "handle": "sns_dekinai",
+      "category": "事例",
+      "url": "https://x.com/sns_dekinai/status/2123521699605827879",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "14:10",
+      "headline": "株式会社ifがNexTech Week 2026でAI導入の相談を多数受ける",
+      "summary": "株式会社ifはNexTech Week 2026での出展を通じて、AIの導入から定着、業務改善に関する新たな相談を多数受けたことを発表しました。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000103.000103307.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/103307/103/103307-103-bcfe837baf6577f6920aafda3d69aa4c-1280x670.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "05:55",
+      "headline": "AI秘書とのコミュニケーションが業務に与える影響",
+      "summary": "AI秘書とのやり取りが長くなることがあるが、新しいチャットツールへの移行を実施している様子が紹介されている。",
+      "handle": "Inochan_AI",
+      "category": "事例",
+      "url": "https://x.com/Inochan_AI/status/2123520547070062872",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "12:09",
+      "headline": "AI運送経営システム「迅」が導入され、成長を加速する2社が決定",
+      "summary": "AI運送経営システム「迅」が提供開始から1か月足らずで2社に導入され、業務の効率化と成長を目指す取り組みが進んでいる。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000001.000194821.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/194821/1/194821-1-3b72ca23a8e63e6570d66cef3c5a183c-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "05:54",
+      "headline": "Grok Botを活用した業務効率化の実例を紹介",
+      "summary": "Grok Botを業務に活用する際の目的設定や判断基準の教え方についての考え方を整理した事例をまとめました。",
+      "handle": "chiken_ai",
+      "category": "事例",
+      "url": "https://x.com/chiken_ai/status/2123520305893347420",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "11:00",
+      "headline": "ヤマハUS子会社におけるPMO変革とAI活用事例を公開",
+      "summary": "WrikeがヤマハのUS子会社でのプロジェクト管理オフィス（PMO）の変革とAIの活用事例を紹介するビデオを公開しました。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000023.000041519.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/41519/23/41519-23-50d6e4e68b7b14b24fea51959e951580-1160x400.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "05:50",
+      "headline": "AI秘書が買い物の支払い内容を自動照合する実例",
+      "summary": "AI秘書が直近の買い物金額と照合し、一致する注文を添えてくれることで、支払い内容がすぐに分かるようになった事例を紹介します。",
+      "handle": "g_tunerc",
+      "category": "事例",
+      "url": "https://x.com/g_tunerc/status/2123519423860584825",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "05:38",
+      "headline": "Microsoftが常時稼働型AIエージェント「Autopilot」を社内展開",
+      "summary": "Microsoftは、AIエージェント「Autopilot」を導入し、メール管理や会議準備などを自律的に実行することで業務の効率化を図っている。",
+      "handle": "HKamijikkoku",
+      "category": "事例",
+      "url": "https://x.com/HKamijikkoku/status/2123516239343763592",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "05:09",
+      "headline": "AIがGTA 6をクリアし、全マップ解放やイースターエッグ発見",
+      "summary": "投稿者によると、Claude Codeが約12時間でGTA 6をクリアし、全マップを解放、500個以上のイースターエッグを発見した。",
+      "handle": "ai_gachi_oji",
+      "category": "事例",
+      "url": "https://x.com/ai_gachi_oji/status/2123509023807029671",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "03:43",
+      "headline": "AI秘書「Pickle」を活用し、週末前の業務を効率化",
+      "summary": "AI秘書「Pickle」を使うことで、週末前の調べ物や手配を任せ、一日の業務がスムーズに進むようになった事例を紹介。",
+      "handle": "bGKlBaWWPsAaNTo",
+      "category": "事例",
+      "url": "https://x.com/bGKlBaWWPsAaNTo/status/2123487219235356689",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "06:15",
+      "headline": "AI秘書「Muse」が面倒な作業を代行する新しい働き方",
+      "summary": "Museは、会社員が副業のための情報収集や資料作成をAIに任せることで、時間を有効活用できるツールです。",
+      "handle": "queru_kun",
+      "category": "ツール",
+      "url": "https://x.com/queru_kun/status/2123525471921172534",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "06:28",
+      "headline": "スマホでAIを使い、タクシードライバーが記事作成を実現",
+      "summary": "66歳の現役タクシードライバーが、スマホを使ってAIに記事作成を任せる方法を公開。AIが文章整理やタイトル作成を行い、手軽に記事を書くことができる。",
+      "handle": "taxi_line24",
+      "category": "作り方",
+      "url": "https://x.com/taxi_line24/status/2123528946407088452",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "00:50",
+      "headline": "GPT 6 Astraを使ったAI社員の作り方を解説",
+      "summary": "この動画では、GPT 6 Astraを利用して自分だけのAI社員を作る方法について解説しています。具体的な手順やポイントが紹介されています。",
+      "handle": "James Blue",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=_PbDW3OyBiY",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/_PbDW3OyBiY/hqdefault.jpg"
+    },
+    {
+      "time": "06:13",
+      "headline": "AI×BIで経営会議の準備を効率化する方法",
+      "summary": "AI BIを活用して経営会議の準備を軽減する方法について説明しています。具体的な設計例を通じて、AI活用の入口での迷いを解消するためのポイントを示しています。",
+      "handle": "Chat_yuu",
+      "category": "作り方",
+      "url": "https://x.com/Chat_yuu/status/2123525149827965079",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "06:07",
+      "headline": "AI秘書を活用した業務効率化の講座を実施中",
+      "summary": "AI秘書の使い方を実演する講座が開催されており、商品動画やSNS自動投稿などの業務をAIに任せる方法が紹介されています。",
+      "handle": "daiusami",
+      "category": "作り方",
+      "url": "https://x.com/daiusami/status/2123523592210276683",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    }
+  ]
+}

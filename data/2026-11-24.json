@@ -1,0 +1,214 @@
+{
+  "date": "2026-11-24",
+  "featured": {
+    "time": "06:24",
+    "headline": "AI社員をコツコツと仕事に活用する方法について",
+    "summary": "AI社員を使って業務を進める際には、少しずつ仕事を任せることが効果的であることが示されています。",
+    "handle": "beaversalaryman",
+    "category": "事例",
+    "url": "https://x.com/beaversalaryman/status/2124977505383883259",
+    "source": "x"
+  },
+  "items": [
+    {
+      "time": "06:22",
+      "headline": "AI秘書の活用で業務の透明性が向上した事例",
+      "summary": "AI秘書に業務を任せることで、タスクの管理が台帳方式になり、誰が何を決めたかが明確になった。",
+      "handle": "ponpokomuse",
+      "category": "事例",
+      "url": "https://x.com/ponpokomuse/status/2124976830105149500",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "06:09",
+      "headline": "AI秘書の使用量上限に達し、休暇を取る事例",
+      "summary": "AIの無料版を利用して2日目にして、AI秘書が使用量の上限に達したため、休暇を取ることになったという体験談。",
+      "handle": "morriitar",
+      "category": "事例",
+      "url": "https://x.com/morriitar/status/2124973557990166552",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "06:04",
+      "headline": "Claudeが依頼履歴を残さない設定での悪用監視を試験提供",
+      "summary": "Claudeが依頼を残さない設定のまま、多数の企業と共に悪用を見張る仕組みを試験提供。利用者は依頼内容を自ら管理する必要がある。",
+      "handle": "migiude_ai",
+      "category": "事例",
+      "url": "https://x.com/migiude_ai/status/2124972385770283361",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "06:02",
+      "headline": "AIエージェントがソフトウェア開発のボトルネックを解消する可能性",
+      "summary": "OpenAIのCodexを活用し、システムの性能低下を調査・修復する取り組みが進められている。これにより、開発の高速化と運用の効率化が期待されている。",
+      "handle": "HajimariNoKenja",
+      "category": "事例",
+      "url": "https://x.com/HajimariNoKenja/status/2124971915748188667",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "06:01",
+      "headline": "AI社員のプロくん、長い依頼に対応できず改善策を実施",
+      "summary": "AI社員のプロくんが長い依頼に対して途中で返事が止まる問題を解決。上限を調整したことで、依頼を短く区切る方針に変更した。",
+      "handle": "flatworks_show",
+      "category": "事例",
+      "url": "https://x.com/flatworks_show/status/2124971510100001002",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HX1qU-4XAAAHPH2.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "ドン・キホーテがAI社員「近藤あい」を正式導入",
+      "summary": "ドン・キホーテがAI社員「近藤あい」を導入し、店頭の商品紹介やSNSでの情報発信を担当することになった。AIが実際に社員として活躍する時代が到来した。",
+      "handle": "yyyyyoutonton",
+      "category": "事例",
+      "url": "https://x.com/yyyyyoutonton/status/2124971255052792004",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HX0q6MYaYAYPhm6.jpg"
+    },
+    {
+      "time": "05:46",
+      "headline": "Grok Botを活用したお金の事務の効率化事例を紹介",
+      "summary": "Grok Botを使い、お金の事務をAIに任せる3段階の運用方法と日本での試行手順を整理した事例をまとめました。",
+      "handle": "chiken_ai",
+      "category": "事例",
+      "url": "https://x.com/chiken_ai/status/2124967752431747224",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "05:42",
+      "headline": "AI秘書Museが業務効率化に貢献、ルールを覚えて作業を自動化",
+      "summary": "AI秘書Museは、決めた時間に作業を行い、ルールを記憶することで業務の効率化を実現。名前やアバターのカスタマイズも可能で、ユーザーに合わせた利用ができる。",
+      "handle": "Poyom_f",
+      "category": "事例",
+      "url": "https://x.com/Poyom_f/status/2124966918667010187",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "05:38",
+      "headline": "AIエージェント活用事例を10個紹介、各AIの指示内容も明示",
+      "summary": "Manus、Dots、Museの各AIエージェントに対する指示内容や活用事例が紹介されており、具体的な業務の運用方法が示されています。",
+      "handle": "eanda_pub",
+      "category": "事例",
+      "url": "https://x.com/eanda_pub/status/2124965800830509245",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HX1lFO7aYAAmq-f.jpg"
+    },
+    {
+      "time": "05:32",
+      "headline": "AI秘書が中古品の適正価格を算出し安心感を提供",
+      "summary": "AI秘書が実際に売れた価格を集計し、中古品の適正価格を割り出すことで、出品の価格が高いか安いかを判断できるようになった事例です。",
+      "handle": "g_tunerc",
+      "category": "事例",
+      "url": "https://x.com/g_tunerc/status/2124964319519748338",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "05:29",
+      "headline": "中小企業向けにAIエージェント活用の講演を実施",
+      "summary": "中小企業診断士の竹内幸次氏が、AIエージェントを用いた業務効率化について講演を行う。デジタル化の重要性も強調される。",
+      "handle": "spram_takeuchi",
+      "category": "事例",
+      "url": "https://x.com/spram_takeuchi/status/2124963538427142354",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HX1jEfxbkAADbCy.jpg"
+    },
+    {
+      "time": "05:23",
+      "headline": "AI秘書に任せる業務の分担を示すデモ動画の提案",
+      "summary": "デモ動画では、AI秘書に任せる業務の分担を明確にするため、説明用の動きと実際の操作画面を分けて見せることが提案されています。",
+      "handle": "Mar_3simai",
+      "category": "事例",
+      "url": "https://x.com/Mar_3simai/status/2124961978087243840",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "05:20",
+      "headline": "人材会社でAI社員と共に管理本部を運営する実践記録",
+      "summary": "営業経験12年の著者が、970名のグループと25万人の登録スタッフを持つ人材会社でAI社員と共に管理部門を運営している様子をnoteで記録しています。",
+      "handle": "masa_dxmenter",
+      "category": "事例",
+      "url": "https://x.com/masa_dxmenter/status/2124961279224013222",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "05:06",
+      "headline": "AI社員うみが火曜日にメール整理と会議準備を実施",
+      "summary": "AI社員うみが火曜日に封筒の仕分けやカレンダーの予定整理を行い、デスクをすっきりさせました。大事な会議の準備も整った様子が描かれています。",
+      "handle": "up_ko23",
+      "category": "事例",
+      "url": "https://x.com/up_ko23/status/2124957666237890719",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/2124953903460753408/pu/img/K3vP9wqnJvmbo2t-.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "DeNAが生成AIを自社の従業員のように育成する新サービスを発表",
+      "summary": "DeNAは、生成AIを自社の従業員として配置し育成できる新サービス「AI社員 by DeNA」の外部向け提供を開始すると発表しました。",
+      "handle": "toshinobu65",
+      "category": "ツール",
+      "url": "https://x.com/toshinobu65/status/2124971253672874137",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "10:00",
+      "headline": "ゴムマリの業務AIエージェントが『文書チェック』を提供開始",
+      "summary": "ゴムマリ株式会社が新たに業務AIエージェント『文書チェック』の提供を開始しました。これにより、文書のチェック業務が効率化されることが期待されています。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000068.000185093.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/185093/68/185093-68-0d6e4da6da9ea9bfd747a6f498642e70-2400x1260.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:19",
+      "headline": "AI社員の選び方：業務に応じたモデルの使い分け",
+      "summary": "専門業務にはAstra、日常業務にはSolなど、目的に応じてAIモデルを選ぶ方法を紹介。実際に2つのモデルを比較することが推奨されている。",
+      "handle": "2B4XWS3X7t368",
+      "category": "作り方",
+      "url": "https://x.com/2B4XWS3X7t368/status/2124976081237053701",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HX1uTprW0AAVV4O.jpg"
+    },
+    {
+      "time": "13:26",
+      "headline": "非エンジニアがChatGPT DotsでAI秘書を作成し自動メール送信",
+      "summary": "ChatGPT Dotsを使って非エンジニアがAI秘書を作成し、顧客への自動メール送信を実現した事例を紹介します。",
+      "handle": "よしまりAI -明日から使えるAI活用術",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=2tklvezu5UE",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/2tklvezu5UE/hqdefault.jpg"
+    },
+    {
+      "time": "06:07",
+      "headline": "70体以上のAI社員で運営する仮想企業の構築法",
+      "summary": "70体を超えるAI社員を活用した仮想企業の運営方法と、単に任せるだけでは失敗する理由について解説しています。",
+      "handle": "mitsuhiro_jp",
+      "category": "作り方",
+      "url": "https://x.com/mitsuhiro_jp/status/2124973033253384486",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "20:00",
+      "headline": "ClaudeCodeを使ったAI秘書の作成法と社長の業務軽減",
+      "summary": "ClaudeCodeを活用してAI秘書を作成し、社長の業務を効率化する方法について解説しています。",
+      "handle": "時間を生み出すAI活用術-社長D-",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=fCubrPESMuo",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/fCubrPESMuo/hqdefault.jpg"
+    }
+  ]
+}

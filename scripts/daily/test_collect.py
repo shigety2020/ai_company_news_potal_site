@@ -579,5 +579,82 @@ class YtDataApi(unittest.TestCase):
         self.assertLessEqual(C.YT_API_DAILY_BUDGET, 10000 // 2)
 
 
+class OpenAiModel(unittest.TestCase):
+    C1 = {"source": "web", "handle": "h", "title": "t", "text": "x", "url": "https://example.com/1"}
+    OK = json.dumps({"choices": [{"message": {"content": json.dumps({"is_ai_employee": True, "category": "事例", "headline": "h", "summary": "s"})}}]})
+
+    def setUp(self):
+        self.orig_http, self.calls = C.http, []
+        C.OPENAI["use"] = None
+        os.environ.pop("OPENAI_FALLBACK_MODEL", None)
+
+    def tearDown(self):
+        C.http = self.orig_http
+        C.OPENAI["use"] = None
+
+    def fake(self, bad=()):
+        def f(url, headers=None, data=None, timeout=30):
+            b = json.loads(data)
+            self.calls.append(b)
+            if b["model"] in bad:
+                raise urllib.error.HTTPError(url, 400, "Bad Request", {}, io.BytesIO(b'{"error":{"message":"Unsupported parameter: temperature sk-abcdefghijklmnop"}}'))
+            return self.OK
+        return f
+
+    def test_luna_body_has_no_temperature(self):
+        b = json.loads(C.openai_body("gpt-6-luna", []))
+        self.assertNotIn("temperature", b)
+        self.assertEqual(b["reasoning_effort"], "none")
+        self.assertEqual(b["response_format"], {"type": "json_object"})
+
+    def test_4o_mini_body_unchanged(self):
+        b = json.loads(C.openai_body("gpt-4o-mini", [{"role": "user", "content": "x"}]))
+        self.assertEqual(b, {"model": "gpt-4o-mini", "response_format": {"type": "json_object"}, "temperature": 0.2,
+                             "messages": [{"role": "user", "content": "x"}]})
+
+    def test_400_falls_back_once_then_stays(self):
+        C.http = self.fake(bad=("gpt-6-luna",))
+        err = io.StringIO(); old, sys.stderr = sys.stderr, err
+        try:
+            self.assertEqual(C.classify(self.C1, "sk-SECRETKEY123456", "gpt-6-luna")["category"], "事例")
+            C.classify(self.C1, "sk-SECRETKEY123456", "gpt-6-luna")
+        finally:
+            sys.stderr = old
+        self.assertEqual([b["model"] for b in self.calls], ["gpt-6-luna", "gpt-4o-mini", "gpt-4o-mini"])
+        self.assertEqual(C.OPENAI["use"], "gpt-4o-mini")
+        out = err.getvalue()
+        self.assertIn("OpenAI error model=gpt-6-luna status=400", out)
+        self.assertIn("OpenAI model fallback: gpt-6-luna -> gpt-4o-mini", out)
+        self.assertNotIn("abcdefghijklmnop", out)
+
+    def test_no_retry_when_model_is_fallback(self):
+        C.http = self.fake(bad=("gpt-4o-mini",))
+        with self.assertRaises(urllib.error.HTTPError):
+            C.classify(self.C1, "k", "gpt-4o-mini")
+        self.assertEqual(len(self.calls), 1)
+
+    def test_validation_failed_exits_1_without_typeerror(self):
+        saved = {n: getattr(C, n) for n in ("collect_x", "collect_youtube", "collect_web", "refill_youtube_dates")}
+        C.collect_x = lambda *a, **k: []
+        C.collect_youtube = lambda *a, **k: []
+        C.collect_web = lambda *a, **k: []
+        C.refill_youtube_dates = lambda *a, **k: None
+        env = {k: os.environ.get(k) for k in ("OPENAI_API_KEY", "X_BEARER_TOKEN", "YOUTUBE_API_KEY")}
+        os.environ["OPENAI_API_KEY"] = "k"; os.environ.pop("X_BEARER_TOKEN", None); os.environ.pop("YOUTUBE_API_KEY", None)
+        argv, sys.argv = sys.argv, ["collect.py", "--date", "2099-01-01", "--dry-run"]
+        err = io.StringIO(); old, sys.stderr = sys.stderr, err
+        try:
+            with self.assertRaises(SystemExit) as cm:
+                C.main()
+        finally:
+            sys.stderr, sys.argv = old, argv
+            for n, f in saved.items(): setattr(C, n, f)
+            for k, v in env.items():
+                if v is None: os.environ.pop(k, None)
+                else: os.environ[k] = v
+        self.assertEqual(cm.exception.code, 1)
+        self.assertIn("validation failed:", err.getvalue())
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -9,7 +9,8 @@
 環境変数:
   X_BEARER_TOKEN   X API v2 の Bearer Token（無ければ X なしで 20 件・"collection":"no-x"）
   OPENAI_API_KEY   OpenAI API キー（判定・見出し・要約に使う。必須）
-  OPENAI_MODEL     既定 gpt-4o-mini
+  OPENAI_MODEL     既定 gpt-4o-mini（推論モデル gpt-5/6・o 系は temperature なし・reasoning_effort=none で送る）
+  OPENAI_FALLBACK_MODEL  4xx のときの予備モデル。既定 gpt-4o-mini
   YOUTUBE_API_KEY  YouTube Data API v3 のキー（無ければ今までどおり検索ページを読む。ログに「YOUTUBE_API_KEY なし」）
 """
 import argparse, datetime as dt, glob, html, json, math, os, re, sys, urllib.error, urllib.parse, urllib.request
@@ -65,8 +66,8 @@ ITEM_KEYS = ["time", "headline", "summary", "handle", "category", "url", "source
 FEATURED_KEYS = ["time", "headline", "summary", "handle", "category", "url", "source"]
 
 
-def log(*a):
-    print(*a, file=sys.stderr, flush=True)
+def log(*a, sep=" "):
+    print(*a, sep=sep, file=sys.stderr, flush=True)
 
 
 def fallback_thumb(url):
@@ -562,13 +563,50 @@ PROMPT = """あなたは「AI社員」ニュースまとめサイトの編集者
 返す形: {"is_ai_employee": bool, "category": str, "headline": str, "summary": str}"""
 
 
+OPENAI = {"use": None}  # 4xx で予備モデルに切り替えたら、その実行の残りは予備モデルで呼ぶ
+
+
+def openai_fallback_model():
+    return os.environ.get("OPENAI_FALLBACK_MODEL") or "gpt-4o-mini"
+
+
+def openai_body(model, messages):
+    """推論モデル（gpt-5/6, o1/o3/o4 など）は temperature を受け付けないので送らず、reasoning_effort=none にする。"""
+    b = {"model": model, "response_format": {"type": "json_object"}}
+    if re.match(r"(gpt-[5-9]|o\d)", model):
+        b["reasoning_effort"] = "none"
+    else:
+        b["temperature"] = 0.2
+    b["messages"] = messages
+    return json.dumps(b).encode()
+
+
+def mask_secret(t, key):
+    t = t.replace(key, "***") if key else t
+    return re.sub(r"sk-[A-Za-z0-9_\-]{8,}", "sk-***", t)
+
+
 def classify(c, key, model):
-    body = json.dumps({"model": model, "response_format": {"type": "json_object"}, "temperature": 0.2,
-                       "messages": [{"role": "system", "content": PROMPT},
-                                    {"role": "user", "content": json.dumps({"source": c["source"], "author": c["handle"], "title": c["title"],
-                                                                            "text": c["text"][:1500], "url": c["url"]}, ensure_ascii=False)}]}).encode()
-    r = json.loads(http("https://api.openai.com/v1/chat/completions",
-                        {"Authorization": f"Bearer {key}", "Content-Type": "application/json"}, data=body, timeout=60))
+    messages = [{"role": "system", "content": PROMPT},
+                {"role": "user", "content": json.dumps({"source": c["source"], "author": c["handle"], "title": c["title"],
+                                                        "text": c["text"][:1500], "url": c["url"]}, ensure_ascii=False)}]
+    def call(m):
+        return json.loads(http("https://api.openai.com/v1/chat/completions",
+                               {"Authorization": f"Bearer {key}", "Content-Type": "application/json"}, data=openai_body(m, messages), timeout=60))
+    use, fb = OPENAI["use"] or model, openai_fallback_model()
+    try:
+        r = call(use)
+    except urllib.error.HTTPError as e:
+        if not (400 <= e.code < 500) or use == fb:
+            raise
+        try:
+            body = e.read().decode("utf8", "ignore")
+        except Exception:
+            body = ""
+        log(f"OpenAI error model={use} status={e.code} body={mask_secret(body, key)[:300]!r}")
+        log(f"OpenAI model fallback: {use} -> {fb}")
+        OPENAI["use"] = fb
+        r = call(fb)
     j = json.loads(r["choices"][0]["message"]["content"])
     if j.get("category") not in CATS or not j.get("headline") or not j.get("summary"):
         return None
@@ -756,6 +794,7 @@ def main():
         if w: drop["ok"] += 1
         c.update(category=j["category"], headline=j["headline"].strip(), summary=j["summary"].strip())
         cands.append(c); pub[c["url"]] = p
+    log(f"OpenAI model used: {OPENAI['use'] or model} (fallback: {'yes' if OPENAI['use'] and OPENAI['use'] != model else 'no'})")
     web_drop = {k: v for k, v in stages["web"].items() if k != "fetched"}
     log("Web stages:", "fetched", WEB_STATS["fetched"], "og_failed", WEB_STATS["og_failed"], *[f"{k} {v}" for k, v in web_drop.items()])
     for src, st in stages.items():

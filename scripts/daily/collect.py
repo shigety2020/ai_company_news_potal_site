@@ -10,8 +10,9 @@
   X_BEARER_TOKEN   X API v2 の Bearer Token（無ければ X なしで 20 件・"collection":"no-x"）
   OPENAI_API_KEY   OpenAI API キー（判定・見出し・要約に使う。必須）
   OPENAI_MODEL     既定 gpt-4o-mini
+  YOUTUBE_API_KEY  YouTube Data API v3 のキー（無ければ今までどおり検索ページを読む。ログに「YOUTUBE_API_KEY なし」）
 """
-import argparse, datetime as dt, glob, html, json, os, re, sys, urllib.parse, urllib.request
+import argparse, datetime as dt, glob, html, json, math, os, re, sys, urllib.error, urllib.parse, urllib.request
 from collections import Counter
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
@@ -309,9 +310,135 @@ def refill_youtube_dates(cands, timeout=YT_REFETCH_TIMEOUT, seen=None):
     return recovered
 
 
-def collect_youtube(date=None):
-    queries = yt_queries_for_date(date if date is not None else dt.datetime.now(JST).date())
+# ---------------- YouTube Data API v3（キーがあればこちら。検索 search.list + 日付 videos.list） ----------------
+YT_API = "https://www.googleapis.com/youtube/v3/"
+YT_API_SEARCH_UNITS = 100  # search.list 1回
+YT_API_VIDEOS_UNITS = 1  # videos.list 1回（id は50件まで）
+YT_API_DAILY_BUDGET = 5000  # 無料枠 10,000/日の半分
+YT_API_RUN_LIMIT = 500  # 1回の収集で使ってよい上限。定時2回＋手動の dry_run 8回でも 5,000 に収まる
+YT_API_MAX_RESULTS = 15  # 1検索あたり（旧経路の vr[:15] と同じ）
+YT_API_TIMEOUT = 20
+YT_STATS = {}  # ログ・Zero source の理由用
+
+
+class YtApiError(Exception):
+    def __init__(self, method, status, reason):
+        super().__init__(f"{method} HTTP {status} reason={reason}")
+        self.method, self.status, self.reason = method, status, reason
+
+
+def yt_api_cost(n_queries, n_ids):
+    """検索語の数×100 + videos.list の回数（50件ごとに1回）。"""
+    return n_queries * YT_API_SEARCH_UNITS + math.ceil(n_ids / 50) * YT_API_VIDEOS_UNITS
+
+
+def yt_api_get(method, params, key):
+    """API を1回呼ぶ。失敗は YtApiError（HTTP ステータスと API のエラー理由）にする。キーはログに出さない。"""
+    url = YT_API + method + "?" + urllib.parse.urlencode(dict(params, key=key))
+    try:
+        return json.loads(http(url, headers={"Accept": "application/json"}, timeout=YT_API_TIMEOUT))
+    except urllib.error.HTTPError as e:
+        reason = ""
+        try:
+            err = json.loads(e.read().decode("utf8", "ignore")).get("error", {})
+            reason = ((err.get("errors") or [{}])[0].get("reason")) or err.get("status") or ""
+        except Exception:
+            pass
+        raise YtApiError(method, e.code, reason or "unknown") from None
+    except urllib.error.URLError as e:
+        raise YtApiError(method, "-", f"URLError {e.reason}") from None
+    except (ValueError, TimeoutError, OSError) as e:
+        raise YtApiError(method, "-", f"{type(e).__name__} {e}") from None
+
+
+def yt_api_thumb(sn, vid):
+    th = sn.get("thumbnails") or {}
+    for k in ("high", "medium", "standard", "default"):
+        u = (th.get(k) or {}).get("url")
+        if u:
+            return u
+    return f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"
+
+
+def collect_youtube_api(queries, key, today, limit=YT_API_RUN_LIMIT):
+    """search.list で動画 id を集め、videos.list で公開日時（publishedAt）・説明・サムネを付ける。
+    使う units は limit を超えない（超えそうなら呼ぶ前に止める）。失敗は YtApiError を投げる。"""
+    st = YT_STATS
+    st.update(mode="api", searches=0, items=0, with_date=0, units=0, error="")
+    after = dt.datetime.combine(today - dt.timedelta(days=WINDOW_DAYS), dt.time(), JST).astimezone(dt.timezone.utc)
+    ids, chan = [], {}
+    for q in queries:
+        if st["units"] + YT_API_SEARCH_UNITS + YT_API_VIDEOS_UNITS > limit:  # 日付を取る1回分は残す
+            log("YouTube API: units の上限で検索を止めます", q, "used", st["units"], "limit", limit)
+            st["error"] = st["error"] or "unit_limit"
+            break
+        st["units"] += YT_API_SEARCH_UNITS
+        st["searches"] += 1
+        d = yt_api_get("search", {"part": "snippet", "type": "video", "q": q, "regionCode": "JP", "relevanceLanguage": "ja",
+                                  "order": "date", "publishedAfter": after.strftime("%Y-%m-%dT%H:%M:%SZ"),
+                                  "maxResults": YT_API_MAX_RESULTS}, key)
+        got = [((i.get("id") or {}).get("videoId"), i.get("snippet") or {}) for i in d.get("items", [])]
+        log("YT search(api)", q, "results", len(got))
+        for vid, sn in got:
+            if vid and vid not in chan:
+                ids.append(vid); chan[vid] = sn
+    out = []
+    for k in range(0, len(ids), 50):
+        if st["units"] + YT_API_VIDEOS_UNITS > limit:
+            log("YouTube API: units の上限で日付取得を止めます", "used", st["units"], "limit", limit)
+            st["error"] = st["error"] or "unit_limit"
+            break
+        st["units"] += YT_API_VIDEOS_UNITS
+        chunk = ids[k:k + 50]
+        d = yt_api_get("videos", {"part": "snippet", "id": ",".join(chunk), "maxResults": 50}, key)
+        by_id = {v.get("id"): v.get("snippet") or {} for v in d.get("items", [])}
+        for vid in chunk:
+            sn = by_id.get(vid) or chan[vid]  # 消えた動画は search の snippet で（日付は search の publishedAt）
+            pub = None
+            s = sn.get("publishedAt") or ""
+            if s:
+                try:
+                    pub = dt.datetime.fromisoformat(s.replace("Z", "+00:00"))
+                except ValueError:
+                    pub = None
+            out.append({"source": "youtube", "url": f"https://www.youtube.com/watch?v={vid}",
+                        "handle": html.unescape(sn.get("channelTitle", "")), "published": pub,
+                        "title": html.unescape(sn.get("title", "")), "text": html.unescape(sn.get("description", ""))[:800],
+                        "thumbnail": yt_api_thumb(sn, vid), "channel_id": sn.get("channelId", "")})
+    st["items"] = len(out)
+    st["with_date"] = sum(1 for c in out if c["published"])
+    return out
+
+
+def collect_youtube(date=None, key=None):
+    """キーがあれば API、無いか API が失敗したら今までの検索ページ読み（理由をログに出す）。"""
+    today = date if date is not None else dt.datetime.now(JST).date()
+    queries = yt_queries_for_date(today)
     log("YT queries:", *queries)
+    key = os.environ.get("YOUTUBE_API_KEY") if key is None else key
+    YT_STATS.clear()
+    if not key:
+        log("YouTube: YOUTUBE_API_KEY なし -> 旧経路（検索ページ）")
+        out = collect_youtube_scrape(queries)
+        YT_STATS.update(mode="scrape", reason="YOUTUBE_API_KEY なし")
+        return out
+    try:
+        out = collect_youtube_api(queries, key, today)
+    except YtApiError as e:
+        YT_STATS.update(error=str(e))
+        log("YouTube API failed:", e, "| searches", YT_STATS.get("searches", 0), "units", YT_STATS.get("units", 0),
+            "-> 旧経路（検索ページ）")
+        out = collect_youtube_scrape(queries)
+        YT_STATS.update(mode="scrape", reason=f"API 失敗 {e}")
+        return out
+    log("YouTube API: searches", YT_STATS["searches"], "items", YT_STATS["items"], "with date", YT_STATS["with_date"],
+        "units", YT_STATS["units"], f"(1回の上限 {YT_API_RUN_LIMIT} / 1日の目安 {YT_API_DAILY_BUDGET})",
+        *(["stopped", YT_STATS["error"]] if YT_STATS["error"] else []))
+    return out
+
+
+def collect_youtube_scrape(queries):
+    """旧経路: 検索ページを読み、watch / player / RSS / 相対表示で日付を取る。"""
     out, seen = [], set()
     for q in queries:
         h = ""
@@ -358,6 +485,7 @@ def collect_youtube(date=None):
                         "title": title, "text": desc[:800], "thumbnail": f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg",
                         "channel_id": cid})
     log("YouTube candidates:", len(out), "with date:", sum(1 for c in out if c["published"]))
+    YT_STATS.update(searches=len(queries), items=len(out), with_date=sum(1 for c in out if c["published"]), units=0)
     return out
 
 
@@ -572,6 +700,7 @@ def main():
         sys.exit(1 if bad else 0)
 
     today = dt.date.fromisoformat(a.date) if a.date else dt.datetime.now(JST).date()
+    log("YouTube mode:", "api (YOUTUBE_API_KEY あり)" if os.environ.get("YOUTUBE_API_KEY") else "YOUTUBE_API_KEY なし -> 旧経路")
     out = os.path.join(DATA, f"{today}.json")
     if os.path.exists(out):
         log("already exists:", out); return
@@ -637,7 +766,8 @@ def main():
     for src in ("x", "youtube", "web"):
         if picked_n[src] == 0:
             st = stages.get(src, {})
-            log(f"Zero source: {src} reason=" + ("fetch_empty" if not st.get("fetched") else str({k: v for k, v in st.items() if v})))
+            yt = f" youtube={YT_STATS}" if src == "youtube" else ""
+            log(f"Zero source: {src} reason=" + ("fetch_empty" if not st.get("fetched") else str({k: v for k, v in st.items() if v})) + yt)
     log("Passed but not picked by source:", dict(Counter(c["source"] for c in cands if c["url"] not in picked_urls)))
     d = build_issue(today, featured, items, no_x)
     errs = validate(d, seen, pub, today)

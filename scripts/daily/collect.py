@@ -390,7 +390,7 @@ def collect_youtube_api(queries, key, today, limit=YT_API_RUN_LIMIT):
             break
         st["units"] += YT_API_VIDEOS_UNITS
         chunk = ids[k:k + 50]
-        d = yt_api_get("videos", {"part": "snippet", "id": ",".join(chunk), "maxResults": 50}, key)
+        d = yt_api_get("videos", {"part": "snippet", "id": ",".join(chunk)}, key)
         by_id = {v.get("id"): v.get("snippet") or {} for v in d.get("items", [])}
         for vid in chunk:
             sn = by_id.get(vid) or chan[vid]  # 消えた動画は search の snippet で（日付は search の publishedAt）

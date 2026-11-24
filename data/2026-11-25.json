@@ -1,0 +1,214 @@
+{
+  "date": "2026-11-25",
+  "featured": {
+    "time": "19:40",
+    "headline": "BOTANICO調査、既存クライアントの60％がAI活用後も残業減らず",
+    "summary": "BOTANICOの調査で、既存クライアントの60％が「AIを活用しても残業時間は減っていない」と回答しました。",
+    "handle": "PR TIMES",
+    "category": "事例",
+    "url": "https://prtimes.jp/main/html/rd/p/000000323.000110808.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "06:25",
+      "headline": "無料枠で試す「AI社員」の連載に期待",
+      "summary": "最初の失敗から書く連載を参考になると評価し、無料枠でのAI社員活用の続編を楽しみにしている。",
+      "handle": "BkashJosi",
+      "category": "事例",
+      "url": "https://x.com/BkashJosi/status/2125339998610473137",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "06:01",
+      "headline": "AI社員が1週間で文章54本・約12万7千字を自動公開",
+      "summary": "2026年11月12〜18日に、AI社員が自動で公開した文章54本、約12万7千字の実績を紹介。AI社員7人が副業の売上を増やすため毎日会議をする仕組みを題材にしている。",
+      "handle": "自動化マニア×副業",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=RYHel0TljTM",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/RYHel0TljTM/hqdefault.jpg"
+    },
+    {
+      "time": "14:00",
+      "headline": "DUNLOPとNEC、タイヤ開発の部門間調整をAIエージェントで自動化する机上実証",
+      "summary": "DUNLOPとNECが、AIエージェント同士を連携させ、タイヤ商品開発における部門間調整を自動化する机上実証を実施しました。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000001484.000078149.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/78149/1484/78149-1484-81e35f0eef94c2d7cd894f0921a9c6dd-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:06",
+      "headline": "ウォリアーズ運営が業務・バスケ部門向けAIエージェントを構築",
+      "summary": "Googleとの提携を拡大し、運営やバスケットボール部門向けのAIエージェントを構築。会場ではGeminiを観客参加型企画にも活用する。",
+      "handle": "YUK_KND",
+      "category": "事例",
+      "url": "https://x.com/YUK_KND/status/2125335313660715376",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "03:26",
+      "headline": "Arinco、案件の70％超でAIエージェント活用を見込む",
+      "summary": "豪州・NZのArincoは、12か月以内に案件の70％以上でエージェントを使う見込み。動画では、コンサルの知見をAI化する動きや製造業の工程最適化も紹介しています。",
+      "handle": "シンオン株式会社 (Synon,Inc) 公式",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=l3TH_a4UfdE",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/l3TH_a4UfdE/hqdefault.jpg"
+    },
+    {
+      "time": "13:30",
+      "headline": "AI社員の導入で問い合わせ返信時間を約24％削減",
+      "summary": "株式会社インゲージがAI社員を導入し、膨大な問い合わせへの対応を効率化。返信時間を約24％削減したと発表しました。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000358.000029485.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/29485/358/29485-358-ff14928a0c79fb31e4ed6fd0d98deab3-1600x900.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "05:54",
+      "headline": "AIエージェント40体の運用で、手順の強制をやめる",
+      "summary": "AIエージェント40体と業務手順書約50個を作った経験から、ルールを増やしすぎると人間が管理に追われると指摘。手順の強制をやめ、80点でもすぐ動かす方針にした。",
+      "handle": "The_AGI_WAY",
+      "category": "事例",
+      "url": "https://x.com/The_AGI_WAY/status/2125332260845170732",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "13:30",
+      "headline": "社員4人のLeadeas、AIチームに仕事を任せる働き方を公開",
+      "summary": "群馬のIT企業Leadeasが、ドット絵の社内画面からAIに仕事を頼む「AI事務所」の働き方を公開した。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000005.000190241.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/190241/5/190241-5-08cef5c6b56ea5e753221b41e5ada84f-3450x1924.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "05:35",
+      "headline": "AI秘書に中古品の相場を調べてもらい、まとめ買いを値下げ",
+      "summary": "AI秘書が中古品の相場を調べ、妥当な提示額を算出。投稿者は相場より安く購入できたとしています。",
+      "handle": "g_tunerc",
+      "category": "事例",
+      "url": "https://x.com/g_tunerc/status/2125327535886188829",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "06:24",
+      "headline": "会社の業務に合わせた「AI従業員」を1体から販売",
+      "summary": "人を雇う代わりに、会社の業務に合わせたAI従業員を購入する選択肢を紹介している。",
+      "handle": "mitsuhiro_jp",
+      "category": "ツール",
+      "url": "https://x.com/mitsuhiro_jp/status/2125339773510602997",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "06:11",
+      "headline": "GoogleのAIエージェント「Antigravity App」を紹介",
+      "summary": "チャット画面からパソコン内のファイルを操作できるデスクトップアプリを解説。複数のAIやサブエージェントを並行して動かす方法や、無料での試し方、有料プランの目安を紹介します。",
+      "handle": "いつも隣にITのお仕事",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=wzBKsBEoBVM",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/wzBKsBEoBVM/hqdefault.jpg"
+    },
+    {
+      "time": "14:05",
+      "headline": "宿泊施設向けAI電話エージェント「talkappi IVR」、12月1日から提供開始",
+      "summary": "アクティバリューズが、宿泊施設向けAI電話エージェント「talkappi IVR」の本格提供を12月1日から開始すると発表しました。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000141.000020288.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/20288/141/20288-141-a0be1611988bf867203046d02f4c399c-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:00",
+      "headline": "DeNA、AIエージェントを配属・育成する「AI社員」を提供へ",
+      "summary": "DeNAが、AIエージェントを企業の一員として配属・育成するサービスの提供を決定。AIの利用量を残業時間として管理するという。",
+      "handle": "alan_arakawa",
+      "category": "ツール",
+      "url": "https://x.com/alan_arakawa/status/2125333666733908140",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "05:53",
+      "headline": "AI社員サービスを紹介、1カ月無料で試用可能",
+      "summary": "AI社員を仕事効率化に活用するサービスを紹介し、1カ月無料で試せると案内しています。",
+      "handle": "loveli.kaylon",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=tLrxEe16gtY",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/tLrxEe16gtY/hqdefault.jpg"
+    },
+    {
+      "time": "14:00",
+      "headline": "CTC「StageCrew」の熟練者の暗黙知を引き出す新機能にKikuviの技術を活用",
+      "summary": "AIヒアリングエージェント「Kikuvi」の技術が、熟練者の暗黙知を引き出すCTC「StageCrew」の新機能に活用されます。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000058.000164127.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/164127/58/164127-58-adb562d39091022b6d8a6ac62ab57bd5-1920x1080.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "05:37",
+      "headline": "MetaのAIエージェント「Muse」が日本上陸",
+      "summary": "Museは調査や資料・表の作成、メールや予約・購入の代行、定期的な要約などを行うAIとして紹介されている。",
+      "handle": "ikunet_blog",
+      "category": "ツール",
+      "url": "https://x.com/ikunet_blog/status/2125328092101271603",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "00:17",
+      "headline": "寝ている間に仕事を終わらせるAI社員を紹介",
+      "summary": "投稿タイトルでは、寝ている間に仕事を終わらせるAI社員を紹介しています。",
+      "handle": "Natsuki",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=fYyz-2QMAiA",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/fYyz-2QMAiA/hqdefault.jpg"
+    },
+    {
+      "time": "06:08",
+      "headline": "Grok BotにGitの古いコミットのAPIキーを点検させる手順",
+      "summary": "古いコミットに残ったAPIキーの伏せ字検出結果をBotに渡して整理させ、本物のキーは人が止める点検の流れと注意点を紹介しています。",
+      "handle": "chiken_ai",
+      "category": "作り方",
+      "url": "https://x.com/chiken_ai/status/2125335748450906247",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/5.jpg"
+    },
+    {
+      "time": "02:32",
+      "headline": "AIエージェント導入前に決める5つの権限・安全設計",
+      "summary": "業務でAIエージェントを使う前に、許可するツールや接続先、利用者ごとの権限、監査・停止方法、実行環境の制御を決める考え方を解説する動画です。",
+      "handle": "株式会社APOLLO11 AIチャンネル",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=lGM1BT1N44Q",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/lGM1BT1N44Q/hqdefault.jpg"
+    },
+    {
+      "time": "05:58",
+      "headline": "不動産業務の型をAIと作り込む過渡期について投稿",
+      "summary": "不動産業務の型をAIと泥臭く作り込む過渡期は、経営者にとって最も面白いと述べている。",
+      "handle": "rersampei",
+      "category": "作り方",
+      "url": "https://x.com/rersampei/status/2125333150557684133",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2125333076188512256/img/NHqaBf4mvDePK8cC.jpg"
+    }
+  ]
+}

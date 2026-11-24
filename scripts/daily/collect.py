@@ -634,17 +634,18 @@ def count_boilerplate(text):
 
 
 def rewrite_summary(c, summary, key, model):
-    """決まり文句のある要約を、同じモデルでもう1回だけ書き直す。失敗時は例外をそのまま出す。"""
-    body = json.dumps({"model": model, "response_format": {"type": "json_object"}, "temperature": 0.2,
-                       "messages": [{"role": "system", "content": REWRITE_PROMPT},
-                                    {"role": "user", "content": json.dumps({
-                                        "source": c.get("source"), "author": c.get("handle"),
-                                        "title": c.get("title") or c.get("headline") or "",
-                                        "text": (c.get("text") or "")[:1500], "url": c.get("url"),
-                                        "headline": c.get("headline") or "", "summary": summary,
-                                    }, ensure_ascii=False)}]}).encode()
+    """決まり文句のある要約を、同じモデルでもう1回だけ書き直す。失敗時は例外をそのまま出す。
+    本文は classify と同じ openai_body で作る。OPENAI["use"] があればそれを使う（書き直し側で予備モデルへは切り替えない）。"""
+    messages = [{"role": "system", "content": REWRITE_PROMPT},
+                {"role": "user", "content": json.dumps({
+                    "source": c.get("source"), "author": c.get("handle"),
+                    "title": c.get("title") or c.get("headline") or "",
+                    "text": (c.get("text") or "")[:1500], "url": c.get("url"),
+                    "headline": c.get("headline") or "", "summary": summary,
+                }, ensure_ascii=False)}]
     r = json.loads(http("https://api.openai.com/v1/chat/completions",
-                        {"Authorization": f"Bearer {key}", "Content-Type": "application/json"}, data=body, timeout=60))
+                        {"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
+                        data=openai_body(OPENAI["use"] or model, messages), timeout=60))
     j = json.loads(r["choices"][0]["message"]["content"])
     return (j.get("summary") or "").strip()
 

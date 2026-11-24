@@ -664,10 +664,12 @@ class SummaryBoilerplate(unittest.TestCase):
         self.err = io.StringIO()
         self.orig_stderr = sys.stderr
         sys.stderr = self.err
+        C.OPENAI["use"] = None
 
     def tearDown(self):
         C.http = self.orig_http
         sys.stderr = self.orig_stderr
+        C.OPENAI["use"] = None
 
     def cand(self, summary, url="https://example.com/1", title="t", text="本文"):
         return {"source": "web", "handle": "h", "title": title, "text": text,
@@ -712,16 +714,24 @@ class SummaryBoilerplate(unittest.TestCase):
     def test_rewrite_called_once_when_hit(self):
         orig = "この事例が紹介されています。"
         new = "A社はAI社員を導入し、返信時間を半分にした。"
-        C.http = self.fake_openai(new)
-        c = self.cand(orig)
-        self.assertEqual(C.polish_summary(c, orig, "k", "test-model"), new)
-        self.assertEqual(len(self.calls), 1)
-        body = self.calls[0]["data"]
-        self.assertEqual(body["model"], "test-model")
-        self.assertEqual(body["response_format"], {"type": "json_object"})
-        self.assertEqual(body["temperature"], 0.2)
-        self.assertEqual(self.calls[0]["timeout"], 60)
-        self.assertEqual(set(body.keys()), {"model", "response_format", "temperature", "messages"})
+        cases = [
+            ("gpt-6-luna", None, "gpt-6-luna"),
+            ("gpt-4o-mini", None, "gpt-4o-mini"),
+            ("gpt-6-luna", "gpt-4o-mini", "gpt-4o-mini"),  # OPENAI["use"] の予備モデル
+        ]
+        for model, use, expect_model in cases:
+            with self.subTest(model=model, use=use):
+                self.calls.clear()
+                C.OPENAI["use"] = use
+                C.http = self.fake_openai(new)
+                c = self.cand(orig)
+                self.assertEqual(C.polish_summary(c, orig, "k", model), new)
+                self.assertEqual(len(self.calls), 1)
+                self.assertEqual(self.calls[0]["timeout"], 60)
+                body = self.calls[0]["data"]
+                expected = json.loads(C.openai_body(expect_model, body["messages"]))
+                self.assertEqual(body, expected)
+                self.assertEqual(body["model"], expect_model)
 
     def test_rewrite_not_called_when_clean(self):
         C.http = lambda *a, **k: self.fail("きれいな要約では書き直しを呼ばない")
@@ -749,9 +759,11 @@ class SummaryBoilerplate(unittest.TestCase):
             raise urllib.error.HTTPError(url, 400, "Bad Request", None, io.BytesIO(b'{"error":"invalid_model"}'))
 
         C.http = bad
-        out = C.polish_summary(self.cand(orig), orig, "k", "test-model")
+        C.OPENAI["use"] = None
+        out = C.polish_summary(self.cand(orig), orig, "k", "gpt-6-luna")
         self.assertEqual(out, orig)
         self.assertEqual(len(self.calls), 1)
+        self.assertIsNone(C.OPENAI["use"])  # 書き直しの失敗では予備モデルに切り替えない
         self.assertIn("summary rewrite failed", self.err.getvalue())
 
     def test_still_hit_logs_remaining(self):

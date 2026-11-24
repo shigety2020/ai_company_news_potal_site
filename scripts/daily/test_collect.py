@@ -690,6 +690,8 @@ class SummaryBoilerplate(unittest.TestCase):
             ("手順書の活用について具体的に説明されている。", 1),
             ("少しずつ任せることが効果的であることが示されています。", 1),
             ("新機能が紹介されており、効果も期待されます。", 2),
+            ("動画では任せ方のコツが述べられています。", 1),
+            ("導入の苦労が語られている。", 1),
         ]
         for text, n in samples:
             self.assertEqual(C.count_boilerplate(text), n, text)

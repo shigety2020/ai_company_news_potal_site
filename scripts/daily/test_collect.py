@@ -1,5 +1,5 @@
 """キー無しのテスト: python3 -m unittest scripts/daily/test_collect.py"""
-import datetime as dt, glob, io, json, os, sys, unittest
+import datetime as dt, glob, io, json, os, sys, unittest, urllib.error, urllib.parse
 sys.path.insert(0, os.path.dirname(__file__))
 import collect as C
 
@@ -441,6 +441,142 @@ class YtQueryRotation(unittest.TestCase):
         self.assertIn("yt_queries_for_date(", src)
         self.assertNotIn("YT_QUERIES =", src)
         self.assertNotIn("for q in YT_QUERIES", src)
+
+
+class YtDataApi(unittest.TestCase):
+    """YouTube Data API v3（search.list -> videos.list）。通信はモック。"""
+
+    def setUp(self):
+        self.orig_http, self.orig_scrape = C.http, C.collect_youtube_scrape
+        self.calls, self.scraped = [], []
+        self.err = io.StringIO()
+        self.orig_stderr = sys.stderr
+        sys.stderr = self.err
+
+        def scrape(queries):
+            self.scraped.append(list(queries))
+            return []
+        C.collect_youtube_scrape = scrape
+
+    def tearDown(self):
+        C.http, C.collect_youtube_scrape = self.orig_http, self.orig_scrape
+        sys.stderr = self.orig_stderr
+
+    def fake_ok(self, url, headers=None, data=None, timeout=30):
+        self.calls.append(url)
+        q = urllib.parse.parse_qs(urllib.parse.urlparse(url).query)
+        if "/youtube/v3/search?" in url:
+            n = len([c for c in self.calls if "/search?" in c])
+            items = [{"id": {"kind": "youtube#video", "videoId": f"v{n}{i}"},
+                      "snippet": {"title": "t &amp; x", "channelTitle": f"ch{n}{i}", "channelId": f"UC{n}{i}"}} for i in range(3)]
+            return json.dumps({"items": items})
+        if "/youtube/v3/videos?" in url:
+            ids = q["id"][0].split(",")
+            return json.dumps({"items": [{"id": v, "snippet": {
+                "publishedAt": "2026-11-20T03:04:05Z", "title": "T & x", "description": "desc " + v,
+                "channelTitle": "ch " + v, "channelId": "UC" + v,
+                "thumbnails": {"default": {"url": "d.jpg"}, "high": {"url": f"https://i.ytimg.com/vi/{v}/hqdefault.jpg"}}}} for v in ids]})
+        raise AssertionError(url)
+
+    def test_search_then_videos_gives_dates(self):
+        C.http = self.fake_ok
+        out = C.collect_youtube(dt.date(2026, 11, 24), key="K")
+        qs = C.yt_queries_for_date(dt.date(2026, 11, 24))
+        searches = [c for c in self.calls if "/search?" in c]
+        videos = [c for c in self.calls if "/videos?" in c]
+        self.assertEqual(len(searches), len(qs))
+        self.assertEqual(len(videos), 1)
+        p = urllib.parse.parse_qs(urllib.parse.urlparse(searches[0]).query)
+        self.assertEqual(p["part"], ["snippet"]); self.assertEqual(p["type"], ["video"])
+        self.assertEqual(p["regionCode"], ["JP"]); self.assertEqual(p["relevanceLanguage"], ["ja"])
+        self.assertEqual(p["q"], [qs[0]])
+        self.assertEqual(p["publishedAfter"], ["2026-08-25T15:00:00Z"])  # 90日前の 0:00 JST
+        self.assertEqual(len(out), 3 * len(qs))
+        self.assertTrue(all(c["published"] for c in out))
+        c = out[0]
+        self.assertEqual(set(c), {"source", "url", "handle", "published", "title", "text", "thumbnail", "channel_id"})
+        self.assertEqual(c["source"], "youtube")
+        self.assertEqual(C.hhmm(c["published"]), "12:04")
+        self.assertEqual(c["url"], "https://www.youtube.com/watch?v=v10")
+        self.assertEqual(c["thumbnail"], "https://i.ytimg.com/vi/v10/hqdefault.jpg")
+        self.assertEqual(c["title"], "T & x")
+        self.assertEqual(self.scraped, [])
+        self.assertEqual(C.YT_STATS["units"], len(qs) * 100 + 1)
+        log = self.err.getvalue()
+        self.assertIn(f"YouTube API: searches {len(qs)} items {len(out)} with date {len(out)} units {len(qs) * 100 + 1}", log)
+        self.assertNotIn("K", [w for w in log.split()])  # キーはログに出ない
+        self.assertNotIn("key=K", log)
+
+    def _http_error(self, code, reason):
+        body = json.dumps({"error": {"code": code, "errors": [{"reason": reason}]}}).encode()
+        def f(url, headers=None, data=None, timeout=30):
+            self.calls.append(url)
+            raise urllib.error.HTTPError("https://www.googleapis.com/youtube/v3/x", code, "err", {}, io.BytesIO(body))
+        return f
+
+    def test_quota_exceeded_logs_reason_and_falls_back(self):
+        C.http = self._http_error(403, "quotaExceeded")
+        out = C.collect_youtube(dt.date(2026, 11, 24), key="K")
+        self.assertEqual(out, [])
+        self.assertEqual(len(self.scraped), 1)
+        log = self.err.getvalue()
+        self.assertIn("HTTP 403 reason=quotaExceeded", log)
+        self.assertIn("旧経路", log)
+        self.assertEqual(C.YT_STATS["mode"], "scrape")
+        self.assertIn("quotaExceeded", C.YT_STATS["reason"])
+        self.assertEqual(len(self.calls), 1)  # 失敗したら API はそれ以上呼ばない
+
+    def test_key_invalid_400(self):
+        C.http = self._http_error(400, "keyInvalid")
+        C.collect_youtube(dt.date(2026, 11, 24), key="K")
+        self.assertIn("HTTP 400 reason=keyInvalid", self.err.getvalue())
+        self.assertEqual(len(self.scraped), 1)
+
+    def test_unexpected_error_falls_back(self):
+        import http.client
+        def f(url, headers=None, data=None, timeout=30):
+            self.calls.append(url)
+            raise http.client.IncompleteRead(b"abc", 10)
+        C.http = f
+        out = C.collect_youtube(dt.date(2026, 11, 24), key="SECRETKEY")
+        self.assertEqual(out, [])
+        self.assertEqual(len(self.scraped), 1)
+        log = self.err.getvalue()
+        self.assertIn("IncompleteRead", log)
+        self.assertIn("旧経路", log)
+        self.assertNotIn("SECRETKEY", log)
+        self.assertEqual(C.YT_STATS["mode"], "scrape")
+        self.assertIn("IncompleteRead", C.YT_STATS["reason"])
+
+    def test_no_key_uses_old_path(self):
+        C.http = lambda *a, **k: self.fail("API を呼ばない")
+        old = os.environ.pop("YOUTUBE_API_KEY", None)
+        try:
+            C.collect_youtube(dt.date(2026, 11, 24))
+        finally:
+            if old is not None:
+                os.environ["YOUTUBE_API_KEY"] = old
+        self.assertEqual(len(self.scraped), 1)
+        self.assertIn("YOUTUBE_API_KEY なし", self.err.getvalue())
+        self.assertEqual(C.YT_STATS["reason"], "YOUTUBE_API_KEY なし")
+
+    def test_unit_limit_guard(self):
+        C.http = self.fake_ok
+        qs = ["a", "b", "c", "d"]
+        out = C.collect_youtube_api(qs, "K", dt.date(2026, 11, 24), limit=250)
+        self.assertEqual(len([c for c in self.calls if "/search?" in c]), 2)  # 2*100 + videos 1 <= 250、3回目は止める
+        self.assertEqual(len([c for c in self.calls if "/videos?" in c]), 1)
+        self.assertLessEqual(C.YT_STATS["units"], 250)
+        self.assertEqual(C.YT_STATS["error"], "unit_limit")
+        self.assertEqual(len(out), 6)
+
+    def test_unit_budget_numbers(self):
+        n = C.YT_QUERY_LIMIT
+        per_run = C.yt_api_cost(n, n * C.YT_API_MAX_RESULTS)
+        self.assertEqual(per_run, n * 100 + 2)  # 4語なら 402
+        self.assertLessEqual(per_run, C.YT_API_RUN_LIMIT)
+        self.assertLessEqual(C.YT_API_RUN_LIMIT * 10, C.YT_API_DAILY_BUDGET)  # 1日10回動いても 5,000 以下
+        self.assertLessEqual(C.YT_API_DAILY_BUDGET, 10000 // 2)
 
 
 if __name__ == "__main__":

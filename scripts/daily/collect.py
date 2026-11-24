@@ -424,12 +424,14 @@ def collect_youtube(date=None, key=None):
         return out
     try:
         out = collect_youtube_api(queries, key, today)
-    except YtApiError as e:
-        YT_STATS.update(error=str(e))
-        log("YouTube API failed:", e, "| searches", YT_STATS.get("searches", 0), "units", YT_STATS.get("units", 0),
+    except Exception as e:  # IncompleteRead など想定外の失敗でも、その日の収集を落とさず旧経路に戻す
+        msg = str(e) if isinstance(e, YtApiError) else f"{type(e).__name__} {e}"
+        msg = msg.replace(key, "***")  # 念のためキーはログに出さない
+        YT_STATS.update(error=msg)
+        log("YouTube API failed:", msg, "| searches", YT_STATS.get("searches", 0), "units", YT_STATS.get("units", 0),
             "-> 旧経路（検索ページ）")
         out = collect_youtube_scrape(queries)
-        YT_STATS.update(mode="scrape", reason=f"API 失敗 {e}")
+        YT_STATS.update(mode="scrape", reason=f"API 失敗 {msg}")
         return out
     log("YouTube API: searches", YT_STATS["searches"], "items", YT_STATS["items"], "with date", YT_STATS["with_date"],
         "units", YT_STATS["units"], f"(1回の上限 {YT_API_RUN_LIMIT} / 1日の目安 {YT_API_DAILY_BUDGET})",

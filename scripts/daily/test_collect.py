@@ -532,6 +532,22 @@ class YtDataApi(unittest.TestCase):
         self.assertIn("HTTP 400 reason=keyInvalid", self.err.getvalue())
         self.assertEqual(len(self.scraped), 1)
 
+    def test_unexpected_error_falls_back(self):
+        import http.client
+        def f(url, headers=None, data=None, timeout=30):
+            self.calls.append(url)
+            raise http.client.IncompleteRead(b"abc", 10)
+        C.http = f
+        out = C.collect_youtube(dt.date(2026, 11, 24), key="SECRETKEY")
+        self.assertEqual(out, [])
+        self.assertEqual(len(self.scraped), 1)
+        log = self.err.getvalue()
+        self.assertIn("IncompleteRead", log)
+        self.assertIn("旧経路", log)
+        self.assertNotIn("SECRETKEY", log)
+        self.assertEqual(C.YT_STATS["mode"], "scrape")
+        self.assertIn("IncompleteRead", C.YT_STATS["reason"])
+
     def test_no_key_uses_old_path(self):
         C.http = lambda *a, **k: self.fail("API を呼ばない")
         old = os.environ.pop("YOUTUBE_API_KEY", None)

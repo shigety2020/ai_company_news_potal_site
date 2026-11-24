@@ -4,5 +4,5 @@ export type { DailyIssue } from "./store";
 export { findAdjacentDates } from "./adjacent";
 export { CATEGORIES, filterByCategory, isCategory } from "./filter";
 export type { Category } from "./filter";
-export { listIssueSummaries } from "./issues";
+export { issueOrdinal, listIssueSummaries } from "./issues";
 export type { IssueSummary } from "./issues";

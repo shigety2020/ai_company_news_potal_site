@@ -12,6 +12,7 @@ AI社員を特集したニュース記事のまとめサイト
 | --- | --- | --- |
 | `X_BEARER_TOKEN` | X API v2 の Bearer Token（検索は1回の収集で3回まで・max_results 20・次ページなし） | X なしで20件を作り、`"collection": "no-x"` を付ける |
 | `OPENAI_API_KEY` | OpenAI の API キー（AI社員の話かの判定・カテゴリ・見出し・要約） | 収集が失敗し、何も push しない |
+| `YOUTUBE_API_KEY` | YouTube Data API v3 のキー（検索 `search.list` 100 units×検索語の数＋日付 `videos.list` 1 unit×50件ごと。1回 500 units まで、1日 5,000 以下が目安） | 今までどおり検索ページを読む。ログに「YOUTUBE_API_KEY なし」。API が失敗したとき（quotaExceeded・keyInvalid など）も理由をログに出して同じ取り方に戻る |
 
 任意の variable：`OPENAI_MODEL`（既定 `gpt-4o-mini`）。
 

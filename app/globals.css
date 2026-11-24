@@ -127,15 +127,6 @@ img {
   white-space: nowrap;
 }
 
-.issue-date {
-  color: var(--muted);
-  font-size: 12px;
-  letter-spacing: 0.14em;
-  font-variant-numeric: tabular-nums;
-  white-space: nowrap;
-  align-self: flex-start;
-}
-
 .featured {
   display: grid;
   gap: 16px;
@@ -360,7 +351,7 @@ img {
 
   .masthead {
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    grid-template-columns: 1fr auto;
     align-items: start;
     gap: 16px;
   }
@@ -388,12 +379,6 @@ img {
   .vol {
     display: block;
     font-size: 12px;
-  }
-
-  .issue-date {
-    font-size: 13px;
-    justify-self: center;
-    align-self: center;
   }
 
   .issue-vol-sp {
@@ -472,52 +457,6 @@ img {
   }
 }
 
-.issue-nav {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  align-items: center;
-  gap: 12px;
-  padding: 12px 0;
-  border-bottom: 1px solid var(--line);
-  font-size: 13px;
-  letter-spacing: 0.04em;
-}
-
-.issue-nav-link {
-  color: var(--muted);
-}
-
-.issue-nav-link:hover {
-  color: var(--accent);
-}
-
-.issue-nav-link:first-child {
-  justify-self: start;
-}
-
-.issue-nav > :nth-child(3) {
-  justify-self: end;
-}
-
-.issue-nav-current {
-  color: var(--heading);
-  font-variant-numeric: tabular-nums;
-}
-
-/* PB3: スマホでは前日・翌日のタップ範囲を高さ44px以上に（ユイの指定） */
-@media (max-width: 1023px) {
-  .issue-nav {
-    column-gap: 8px;
-  }
-
-  .issue-nav-link {
-    display: inline-flex;
-    align-items: center;
-    min-height: 44px;
-    padding: 0 12px;
-  }
-}
-
 /* Empty issue (PB1): link to the latest issue with content. */
 .latest-link {
   display: inline-block;
@@ -543,11 +482,6 @@ img {
 /* 11/6 シゲッティ: バックナンバー一覧はタグラインと同じ行の右端 */
 .tagline-row { width: 100%; justify-self: stretch; display: flex; align-items: baseline; justify-content: space-between; gap: 16px; }
 .tagline-row .tagline { min-width: 0; }
-.backnumber-link { margin-left: auto; color: var(--muted); font-size: 13px; letter-spacing: 0.04em; white-space: nowrap; }
-.backnumber-link:hover { color: var(--accent); }
-@media (max-width: 1023px) {
-  .backnumber-link { display: none; }
-}
 .cat-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 24px 0 14px; }
 .cat-chip { min-height: 44px; padding: 0 12px; border: 1px solid var(--line); border-radius: 22px; display: inline-flex; align-items: center; gap: 4px; font-size: 13px; color: var(--body); white-space: nowrap; }
 .cat-chip.on { border-color: var(--heading); background: var(--heading); color: #fff; font-weight: 700; }
@@ -572,7 +506,7 @@ img {
 .cat-empty-actions { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
 .btn { min-height: 44px; padding: 0 16px; border: 1px solid var(--heading); display: inline-flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; color: var(--heading); background: #fff; }
 .btn-solid { background: var(--heading); color: #fff; }
-.cat-chip:focus-visible, .btn:focus-visible, .cat-clear:focus-visible, .backnumber-link:focus-visible,
+.cat-chip:focus-visible, .btn:focus-visible, .cat-clear:focus-visible, .issue-bar-btn:focus-visible,
 .cal-nav:focus-visible, .cal-day:focus-visible, .bn-row:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 /* PB5: back numbers */
@@ -599,3 +533,27 @@ img {
 .bn-open { margin-left: auto; color: var(--accent); font-weight: 700; font-size: 13px; }
 .bn-more { margin-top: 16px; }
 @media (min-width: 1024px) { .bn-grid { grid-template-columns: 1fr 1fr; } }
+
+/* PBI 3（ユイ案A）：ヘッダー直下の発行日バー。日付・前号・次号・バックナンバー一覧をここに集める。 */
+.issue-bar { display: flex; flex-direction: column; align-items: stretch; gap: 10px; padding: 12px 0 14px; border-bottom: 1px solid var(--line); }
+.issue-bar-date { color: var(--heading); font-size: 18px; font-weight: 700; letter-spacing: 0.02em; line-height: 1.4; font-variant-numeric: tabular-nums; }
+.issue-vol-sp { display: block; color: var(--muted); font-size: 11px; font-weight: 400; letter-spacing: 0.18em; line-height: 1.4; }
+.issue-bar-nav { display: flex; gap: 8px; width: 100%; }
+.issue-bar-btn { flex: 1 1 0; min-height: 44px; min-width: 44px; padding: 0 6px; border: 1px solid var(--line); display: inline-flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; color: var(--heading); background: #fff; letter-spacing: 0.02em; line-height: 1.2; white-space: nowrap; }
+.issue-bar-btn-list { border-color: var(--heading); background: var(--heading); color: #fff; }
+.issue-bar-btn.is-disabled { color: #c8c8c8; font-weight: 400; cursor: default; }
+.issue-bar .label-pc { display: none; }
+@media (min-width: 1024px) {
+  .issue-bar { flex-direction: row; align-items: center; justify-content: space-between; gap: 24px; padding: 16px 0; }
+  .issue-bar-date { font-family: var(--font-serif), "Shippori Mincho", serif; font-size: 24px; font-weight: 600; letter-spacing: 0.06em; flex: 1 1 auto; }
+  .issue-vol-sp { display: none; }
+  .issue-bar-nav { width: auto; flex: 0 0 auto; gap: 4px; }
+  .issue-bar-btn { flex: 0 0 auto; padding: 0 16px; font-size: 14px; }
+  .issue-bar-btn-prev, .issue-bar-btn-next { border-color: transparent; background: transparent; font-weight: 400; color: var(--body); }
+  .issue-bar-btn-prev:hover, .issue-bar-btn-next:hover { color: var(--accent); }
+  .issue-bar-btn-prev.is-disabled, .issue-bar-btn-next.is-disabled { color: #c8c8c8; }
+  .issue-bar-btn-list { background: #fff; color: var(--heading); }
+  .issue-bar-btn-list:hover { background: var(--heading); color: #fff; }
+  .issue-bar .label-pc { display: inline; }
+  .issue-bar .label-sp { display: none; }
+}

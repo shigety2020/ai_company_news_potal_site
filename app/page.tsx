@@ -1,6 +1,6 @@
 import { headers } from "next/headers";
 import { preload } from "react-dom";
-import { findAdjacentDates } from "../lib/daily";
+import { findAdjacentDates, issueOrdinal } from "../lib/daily";
 import ThumbImg from "./thumb-img";
 
 export const dynamic = "force-dynamic";
@@ -43,9 +43,16 @@ function jstDate(d = new Date()): string {
   }).format(d);
 }
 
+const WEEKDAYS_JA = ["日", "月", "火", "水", "木", "金", "土"] as const;
+
+/** 「2026年11月23日（月）号」。ゼロ埋めなし、曜日は号の日付（今日ではない）。 */
 function formatIssueDate(iso: string): string {
-  const [y, m, d] = iso.split("-");
-  return `${y}.${m}.${d}`;
+  const [y, m, d] = iso.split("-").map(Number);
+  return `${y}年${m}月${d}日（${WEEKDAYS_JA[weekdaySun0(iso)]}）号`;
+}
+
+function formatVol(n: number): string {
+  return `VOL.${String(n).padStart(3, "0")}`;
 }
 
 /** Shift YYYY-MM-DD by delta days in calendar (UTC noon to avoid TZ edge). */
@@ -392,7 +399,11 @@ export default async function Home({
     items: pickThreePreferSources(items.filter((item) => item.category === cat)),
   })).filter((section) => section.items.length > 0);
   // PB5: jump only to the nearest issue with content; never past today. null → no link.
-  const { prevDate, nextDate } = await findAdjacentDates(data.date, today);
+  const [{ prevDate, nextDate }, volNumber] = await Promise.all([
+    findAdjacentDates(data.date, today),
+    issueOrdinal(data.date, today),
+  ]);
+  const vol = formatVol(volNumber);
   const indexNumbers = new Map<string, number>();
   let indexSeq = 0;
   for (const section of sections) {
@@ -412,36 +423,43 @@ export default async function Home({
                 <span className="logo-mark" aria-hidden="true">み</span>
                 <h1 className="logo">みんなのデジタル社員</h1>
               </div>
-              <p className="vol">VOL.001</p>
+              <p className="vol">{vol}</p>
             </div>
             <p className="disclaimer">※実在の人間の求人情報ではありません</p>
           </div>
-          <p className="issue-date"><span className="issue-vol-sp">VOL.001 | </span>{formatIssueDate(data.date)}</p>
           <div className="tagline-row">
             <p className="tagline">AI社員の話題を、毎朝まとめて</p>
-            <a className="backnumber-link" href="/backnumber">
-              バックナンバー一覧 →
-            </a>
           </div>
         </header>
-        <nav className="issue-nav" aria-label="号の日付">
-          {prevDate ? (
-            <a className="issue-nav-link" href={`/?date=${prevDate}`}>
-              ← 前日
-            </a>
-          ) : (
-            <span className="issue-nav-slot" aria-hidden="true" />
-          )}
-          <span className="issue-nav-current">
+        <nav className="issue-bar" aria-label="号の日付とバックナンバー">
+          <p className="issue-bar-date">
+            <span className="issue-vol-sp">{vol}</span>
             {formatIssueDate(data.date)}
-          </span>
-          {nextDate ? (
-            <a className="issue-nav-link" href={`/?date=${nextDate}`}>
-              翌日 →
+          </p>
+          <div className="issue-bar-nav">
+            {prevDate ? (
+              <a className="issue-bar-btn issue-bar-btn-prev" href={`/?date=${prevDate}`}>
+                <span className="label-pc" aria-hidden="true">← </span>前号
+              </a>
+            ) : (
+              <span className="issue-bar-btn issue-bar-btn-prev is-disabled" aria-disabled="true">
+                <span className="label-pc" aria-hidden="true">← </span>前号
+              </span>
+            )}
+            {nextDate ? (
+              <a className="issue-bar-btn issue-bar-btn-next" href={`/?date=${nextDate}`}>
+                次号<span className="label-pc" aria-hidden="true"> →</span>
+              </a>
+            ) : (
+              <span className="issue-bar-btn issue-bar-btn-next is-disabled" aria-disabled="true">
+                次号<span className="label-pc" aria-hidden="true"> →</span>
+              </span>
+            )}
+            <a className="issue-bar-btn issue-bar-btn-list" href="/backnumber" aria-label="バックナンバー一覧">
+              <span className="label-sp">一覧</span>
+              <span className="label-pc">バックナンバー一覧</span>
             </a>
-          ) : (
-            <span className="issue-nav-slot" aria-hidden="true" />
-          )}
+          </div>
         </nav>
         <main>
           <Featured

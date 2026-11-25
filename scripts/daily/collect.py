@@ -560,6 +560,7 @@ PROMPT = """あなたは「AI社員」ニュースまとめサイトの編集者
 - 製品や機能の紹介ではなく、実際に使った結果（何がどう変わったか）が書かれている投稿は、ツールではなく事例にする。
 - headline: 日本語の見出し 60字以内。何が起きたかを具体的に、煽らない
 - summary: 日本語の要約 1〜2文・120字以内。本文に無いことは書かない
+- 「〜が紹介されています」「〜が期待されます」「詳細は記載されていません」「〜と述べられています／語られています／示されています」のような言い回しは使わず、何が起きたか、何が公開・変更されたか、何ができるかを具体的に書く
 返す形: {"is_ai_employee": bool, "category": str, "headline": str, "summary": str}"""
 
 
@@ -611,6 +612,79 @@ def classify(c, key, model):
     if j.get("category") not in CATS or not j.get("headline") or not j.get("summary"):
         return None
     return j
+
+
+# 要約の決まり文句（PBI 2）。号の JSON を数えるときと同じ 4 種。
+BOILERPLATE_PATTERNS = [
+    r"紹介(され|し)て(い|お)",
+    r"期待され",
+    r"記載(されていない|されていません|はない|はありません|がない)|詳細(は|が)[^。]{0,12}(ない|ません)",
+    r"(述べら|語ら|言及さ|指摘さ|説明さ|解説さ|示さ)れて(い|お)",
+]
+REWRITE_PROMPT = """次の要約だけを書き直して JSON で返してください。
+- 「〜が紹介されています」「〜が期待されます」「詳細は記載されていません」「〜と述べられています／語られています／示されています」のような言い回しは使わない
+- 何が起きたか、何が公開・変更されたか、何ができるかを具体的に書く
+- 日本語の要約 1〜2文・120字以内。本文に無いことは書かない
+返す形: {"summary": str}"""
+
+
+def count_boilerplate(text):
+    """要約に当たった決まり文句の種類数（0〜4）を返す。"""
+    return sum(1 for p in BOILERPLATE_PATTERNS if re.search(p, text or ""))
+
+
+def rewrite_summary(c, summary, key, model):
+    """決まり文句のある要約を、同じモデルでもう1回だけ書き直す。失敗時は例外をそのまま出す。
+    本文は classify と同じ openai_body で作る。OPENAI["use"] があればそれを使う（書き直し側で予備モデルへは切り替えない）。"""
+    messages = [{"role": "system", "content": REWRITE_PROMPT},
+                {"role": "user", "content": json.dumps({
+                    "source": c.get("source"), "author": c.get("handle"),
+                    "title": c.get("title") or c.get("headline") or "",
+                    "text": (c.get("text") or "")[:1500], "url": c.get("url"),
+                    "headline": c.get("headline") or "", "summary": summary,
+                }, ensure_ascii=False)}]
+    r = json.loads(http("https://api.openai.com/v1/chat/completions",
+                        {"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
+                        data=openai_body(OPENAI["use"] or model, messages), timeout=60))
+    j = json.loads(r["choices"][0]["message"]["content"])
+    return (j.get("summary") or "").strip()
+
+
+def polish_summary(c, summary, key, model):
+    """当たっていたら1回だけ書き直す。条件を満たさなければ元の要約のまま。例外でも収集は止めない。"""
+    summary = (summary or "").strip()
+    n = count_boilerplate(summary)
+    if n == 0:
+        return summary
+    try:
+        new = rewrite_summary(c, summary, key, model)
+        if new and len(new) <= 120 and count_boilerplate(new) < n:
+            return new
+    except Exception as e:
+        log("summary rewrite failed:", c.get("url"), type(e).__name__, e)
+    return summary
+
+
+def polish_issue_summaries(featured, items, by_url, key, model):
+    """特集と目次の要約だけを書き直す（1号あたり最大で約21回）。残った件数をログに出す。"""
+    remaining = 0
+
+    def one(item):
+        nonlocal remaining
+        if not item:
+            return
+        src = by_url.get(item.get("url"), item)
+        item["summary"] = polish_summary(src, item.get("summary", ""), key, model)
+        n = count_boilerplate(item.get("summary", ""))
+        if n:
+            log(f"[summary-boilerplate] remaining={n}")
+            remaining += 1
+
+    one(featured)
+    for it in items or []:
+        one(it)
+    log(f"[summary-boilerplate] issue total={remaining}")
+    return remaining
 
 
 # ---------------- 選ぶ・組み立てる ----------------
@@ -801,6 +875,7 @@ def main():
         log(f"Stages {src}:", st)
     cands.sort(key=lambda c: c["published"], reverse=True)
     featured, items = select(cands, no_x)
+    polish_issue_summaries(featured, items, {c["url"]: c for c in cands}, key, model)
     picked_urls = {i["url"] for i in items} | {f["url"] for f in (featured if isinstance(featured, list) else [featured]) if isinstance(f, dict) and f.get("url")}
     log("Picked by source:", dict(Counter(i["source"] for i in items)), "by category:", dict(Counter(i["category"] for i in items)))
     picked_n = Counter(i["source"] for i in items)

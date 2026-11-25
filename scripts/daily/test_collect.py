@@ -655,6 +655,145 @@ class OpenAiModel(unittest.TestCase):
         self.assertEqual(cm.exception.code, 1)
         self.assertIn("validation failed:", err.getvalue())
 
+class SummaryBoilerplate(unittest.TestCase):
+    """PBI 2: 要約の決まり文句の判定と、1回だけの書き直し（OpenAI はモック）。"""
+
+    def setUp(self):
+        self.orig_http = C.http
+        self.calls = []
+        self.err = io.StringIO()
+        self.orig_stderr = sys.stderr
+        sys.stderr = self.err
+        C.OPENAI["use"] = None
+
+    def tearDown(self):
+        C.http = self.orig_http
+        sys.stderr = self.orig_stderr
+        C.OPENAI["use"] = None
+
+    def cand(self, summary, url="https://example.com/1", title="t", text="本文"):
+        return {"source": "web", "handle": "h", "title": title, "text": text,
+                "url": url, "headline": "見出し", "summary": summary}
+
+    def fake_openai(self, summary):
+        def http(url, headers=None, data=None, timeout=30):
+            self.calls.append({"url": url, "data": json.loads(data.decode()) if data else None, "timeout": timeout})
+            return json.dumps({"choices": [{"message": {"content": json.dumps({"summary": summary}, ensure_ascii=False)}}]})
+        return http
+
+    def test_patterns_positive(self):
+        samples = [
+            ("この動画ではAI社員の活用事例が紹介されています。", 1),
+            ("導入事例を紹介しています。", 1),
+            ("業務の効率化が期待されます。", 1),
+            ("詳細は記載されていません。", 1),
+            ("詳細が書かれていない。", 1),
+            ("任せ方が重要であると指摘されている。", 1),
+            ("手順書の活用について具体的に説明されている。", 1),
+            ("少しずつ任せることが効果的であることが示されています。", 1),
+            ("新機能が紹介されており、効果も期待されます。", 2),
+            ("動画では任せ方のコツが述べられています。", 1),
+            ("導入の苦労が語られている。", 1),
+        ]
+        for text, n in samples:
+            self.assertEqual(C.count_boilerplate(text), n, text)
+
+    def test_patterns_negative(self):
+        samples = [
+            "A社は営業支援のAI社員を導入し、返信時間を半分にした。",
+            "紹介資料を社内に配布した。",
+            "期待は高いが、まだ導入していない。",
+            "述べ方を変えて、具体的な手順を書いた。",
+            "記載内容を公開した。",
+            "",
+            None,
+        ]
+        for text in samples:
+            self.assertEqual(C.count_boilerplate(text), 0, text)
+
+    def test_rewrite_called_once_when_hit(self):
+        orig = "この事例が紹介されています。"
+        new = "A社はAI社員を導入し、返信時間を半分にした。"
+        cases = [
+            ("gpt-6-luna", None, "gpt-6-luna"),
+            ("gpt-4o-mini", None, "gpt-4o-mini"),
+            ("gpt-6-luna", "gpt-4o-mini", "gpt-4o-mini"),  # OPENAI["use"] の予備モデル
+        ]
+        for model, use, expect_model in cases:
+            with self.subTest(model=model, use=use):
+                self.calls.clear()
+                C.OPENAI["use"] = use
+                C.http = self.fake_openai(new)
+                c = self.cand(orig)
+                self.assertEqual(C.polish_summary(c, orig, "k", model), new)
+                self.assertEqual(len(self.calls), 1)
+                self.assertEqual(self.calls[0]["timeout"], 60)
+                body = self.calls[0]["data"]
+                expected = json.loads(C.openai_body(expect_model, body["messages"]))
+                self.assertEqual(body, expected)
+                self.assertEqual(body["model"], expect_model)
+
+    def test_rewrite_not_called_when_clean(self):
+        C.http = lambda *a, **k: self.fail("きれいな要約では書き直しを呼ばない")
+        text = "A社は営業支援のAI社員を導入し、返信時間を半分にした。"
+        self.assertEqual(C.polish_summary(self.cand(text), text, "k", "test-model"), text)
+        self.assertEqual(self.calls, [])
+
+    def test_rewrite_exception_keeps_original(self):
+        orig = "この事例が紹介されています。"
+
+        def boom(url, headers=None, data=None, timeout=30):
+            self.calls.append(url)
+            raise RuntimeError("network")
+
+        C.http = boom
+        self.assertEqual(C.polish_summary(self.cand(orig), orig, "k", "test-model"), orig)
+        self.assertEqual(len(self.calls), 1)
+        self.assertIn("summary rewrite failed", self.err.getvalue())
+
+    def test_rewrite_http_400_keeps_original(self):
+        orig = "この事例が紹介されています。"
+
+        def bad(url, headers=None, data=None, timeout=30):
+            self.calls.append(url)
+            raise urllib.error.HTTPError(url, 400, "Bad Request", None, io.BytesIO(b'{"error":"invalid_model"}'))
+
+        C.http = bad
+        C.OPENAI["use"] = None
+        out = C.polish_summary(self.cand(orig), orig, "k", "gpt-6-luna")
+        self.assertEqual(out, orig)
+        self.assertEqual(len(self.calls), 1)
+        self.assertIsNone(C.OPENAI["use"])  # 書き直しの失敗では予備モデルに切り替えない
+        self.assertIn("summary rewrite failed", self.err.getvalue())
+
+    def test_still_hit_logs_remaining(self):
+        orig = "事例が紹介されています。効果も期待されます。"
+        still = "導入効果が期待されます。"  # 1種残る。元より少ないので採用
+        C.http = self.fake_openai(still)
+        featured = {"url": "https://example.com/1", "summary": orig}
+        items = [{"url": "https://example.com/2", "summary": "A社は返信時間を半分にした。"}]
+        n = C.polish_issue_summaries(featured, items, {featured["url"]: self.cand(orig)}, "k", "m")
+        self.assertEqual(featured["summary"], still)
+        self.assertEqual(items[0]["summary"], "A社は返信時間を半分にした。")
+        self.assertEqual(n, 1)
+        log = self.err.getvalue()
+        self.assertIn("[summary-boilerplate] remaining=1", log)
+        self.assertIn("[summary-boilerplate] issue total=1", log)
+        self.assertEqual(len(self.calls), 1)
+
+    def test_over_120_char_rewrite_rejected(self):
+        orig = "この事例が紹介されています。"
+        too_long = "あ" * 121
+        C.http = self.fake_openai(too_long)
+        self.assertEqual(C.polish_summary(self.cand(orig), orig, "k", "test-model"), orig)
+        self.assertEqual(len(self.calls), 1)
+
+    def test_same_hits_rewrite_rejected(self):
+        orig = "この事例が紹介されています。"
+        C.http = self.fake_openai("別の事例が紹介されています。")
+        self.assertEqual(C.polish_summary(self.cand(orig), orig, "k", "test-model"), orig)
+
+
 
 if __name__ == "__main__":
     unittest.main()

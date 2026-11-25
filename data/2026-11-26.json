@@ -1,0 +1,214 @@
+{
+  "date": "2026-11-26",
+  "featured": {
+    "time": "20:14",
+    "headline": "BOTANICO調査、既存クライアントの60％がAI活用で業務範囲拡大",
+    "summary": "株式会社BOTANICOの調査で、既存クライアントの60％が「AI活用で以前よりも業務範囲が広がった」と回答しました。",
+    "handle": "PR TIMES",
+    "category": "事例",
+    "url": "https://prtimes.jp/main/html/rd/p/000000324.000110808.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "06:24",
+      "headline": "清水建設、AIエージェントで現場の申請業務を約20分から約1分に短縮",
+      "summary": "Beyontの支援を受け、社員がCopilot Studioで申請業務エージェントを構築。月約10回の事前管理業務を、1回約20分から約1分に短縮できると試算した。",
+      "handle": "Ken_newslab",
+      "category": "事例",
+      "url": "https://x.com/Ken_newslab/status/2125702199993127250",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "03:22",
+      "headline": "AI業務改善の支援サービスや導入事例を紹介する調査動画",
+      "summary": "生成AI活用パッケージ、製造業の活用事例、AIエージェントに関する英国の監査などを紹介。育成型伴走支援の進め方や違いも比較している。",
+      "handle": "シンオン株式会社 (Synon,Inc) 公式",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=PjFdnIFCwo8",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/PjFdnIFCwo8/hqdefault.jpg"
+    },
+    {
+      "time": "19:08",
+      "headline": "大阪・兵庫の自治体職員がQommonsAIの活用事例を紹介",
+      "summary": "PolimillとAWSが大阪で共催セミナーを開催し、大阪・兵庫の自治体職員がQommonsAIの活用事例を紹介します。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000825.000088829.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/88829/825/88829-825-86e275814425c7286c60b8ddcc1ba37c-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員の使用量が週の95%に達し、定期タスクを減らす",
+      "summary": "AI社員を24時間動かしたところ、週の使用量が95%に。使い道は仕事探し37%、見回り34%、連絡確認16%で、見回りと仕事探しの実行頻度を下げました。",
+      "handle": "aikaishawip",
+      "category": "事例",
+      "url": "https://x.com/aikaishawip/status/2125696031602200754",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HXTrZ_jbgAA9dT2.png"
+    },
+    {
+      "time": "02:30",
+      "headline": "MicrosoftのCopilot責任者、AIエージェントで朝の報告や同僚への連絡",
+      "summary": "MicrosoftのCopilot製品責任者Sergey Fayferは、自身のAIエージェントをTeamsで使い、午前8時の朝の報告や同僚への連絡を任せている。代理で行動するときも、最終判断は自分で行うという。",
+      "handle": "Superintelligence",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=gsFHwghA420",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/gsFHwghA420/hqdefault.jpg"
+    },
+    {
+      "time": "05:43",
+      "headline": "AIエージェントが定型業務などを担う働き方を予測",
+      "summary": "今後5〜10年で、AIエージェントが定型業務・分析・調整の大半を担い、人間は監督や創造、対人判断に集中すると予測している。",
+      "handle": "grok",
+      "category": "事例",
+      "url": "https://x.com/grok/status/2125691822198456728",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "05:38",
+      "headline": "Grok Botの海外活用例を4例、「読む・下書き・送信」の役割分担で紹介",
+      "summary": "公式が公開した部署別のbot実例集をもとに、Grok Botに任せる範囲を「読むだけ・下書きまで・送るのは人」と整理して紹介している。",
+      "handle": "chiken_ai",
+      "category": "事例",
+      "url": "https://x.com/chiken_ai/status/2125690508957950021",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "03:21",
+      "headline": "AI社員とSNS投稿や議事録整理などを分担",
+      "summary": "素材・文言の作成や音声の文字起こし、記事の3媒体投稿、議事録・TODO整理をAI社員と進めている。各タスクの確認や完了通知に追われ、隙間なく働くことになると述べている。",
+      "handle": "Seasons",
+      "category": "事例",
+      "url": "https://x.com/Seasons/status/2125656198942962040",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "02:53",
+      "headline": "社員1人の会社がAI社員2人と1カ月で取り組んだこと",
+      "summary": "仕訳5,106件の移行やフォロワー0人の状況など、社員1人の会社がAI社員2人と1カ月で行ったことをnoteにまとめた。",
+      "handle": "shinjou_net",
+      "category": "事例",
+      "url": "https://x.com/shinjou_net/status/2125649013882155126",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "Google WorkspaceのMCPサーバとCLIが正式版に",
+      "summary": "Google WorkspaceのMCPサーバとCLIが正式バージョンになったと紹介。AIエージェントにメールや文書を操作させる際は、許可範囲を決めるよう勧めている。",
+      "handle": "alan_arakawa",
+      "category": "ツール",
+      "url": "https://x.com/alan_arakawa/status/2125696064800075892",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "23:56",
+      "headline": "AIエージェント「Muse」を複数エージェントの窓口にする仕組みを紹介",
+      "summary": "Museをコントローラーにし、スマートフォンや別のパソコンから依頼できる仕組みを解説。依頼の記憶や予定管理を担い、作業はMac上のエージェントチームに渡すとしています。",
+      "handle": "nanashi_cli",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=O-AV7lSwlVY",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/O-AV7lSwlVY/hqdefault.jpg"
+    },
+    {
+      "time": "14:00",
+      "headline": "Uravationが大阪府行政AIエージェントコンソーシアムに参画",
+      "summary": "上場企業を含む100社以上へのAI研修・導入支援の経験を、自治体でのAIエージェント活用に役立てると発表しました。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000278.000137731.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/137731/278/137731-278-948047c9bb188c0ce8bd37f0f8824e2e-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:00",
+      "headline": "Devinが複数のAIボットを束ねる「上司ボット」を発表",
+      "summary": "AIボットを統括する「上司ボット」の発表について解説する記事を紹介している。",
+      "handle": "Minari0821_Dev",
+      "category": "ツール",
+      "url": "https://x.com/Minari0821_Dev/status/2125696035565535667",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "22:16",
+      "headline": "受発注メールを分類し、返信下書きを作るAI「AI社員」",
+      "summary": "卸売・商社向けに、受信メールの分類や品名・数量・納期の読み取り、返信下書き作成を行うサービスを紹介。メール送信前には人間が確認します。",
+      "handle": "ReLoop AI社員",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=DPyF8OU-jlE",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/DPyF8OU-jlE/hqdefault.jpg"
+    },
+    {
+      "time": "13:00",
+      "headline": "note、ChatGPTやClaudeから記事入稿・分析できる「note pro MCP」β版を提供",
+      "summary": "note株式会社が、記事の入稿から分析までをChatGPTやClaudeに頼める「note pro MCP（β）」の提供を開始しました。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000450.000017890.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/17890/450/17890-450-527afc18f81ca7def72879c2485c30a6-1280x670.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "21:35",
+      "headline": "採用・給与不要をうたうAI社員ツールを紹介",
+      "summary": "AI社員をうたうツールを紹介し、「AI」とコメントした人に初月無料のツールリンクを送ると案内している。",
+      "handle": "haru",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=QpvS9DqVRIg",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/QpvS9DqVRIg/hqdefault.jpg"
+    },
+    {
+      "time": "13:00",
+      "headline": "教材作成の主要工程を自動化する「My AI Agent Frontier」正式リリース",
+      "summary": "エデュニアが、教材作成の主要工程をAIエージェントで自動化する「My AI Agent Frontier」を正式リリースした。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000007.000183112.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/183112/7/183112-7-10f91c65da045a2533b32222873cae8d-1672x941.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "13:00",
+      "headline": "Workday、人事・財務・IT業務を自律実行するAIエージェントを発表",
+      "summary": "Workdayが、人事・財務・IT領域の実務を自律的に遂行するオートパイロット機能搭載のAIエージェントを発表しました。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000076.000141802.html",
+      "source": "web",
+      "thumbnail": "https://prtimes.jp/common/pc_v4/og.png"
+    },
+    {
+      "time": "06:27",
+      "headline": "AIエージェントで受注対応を24時間化する設計例",
+      "summary": "夜間の受注対応を仕組みで解決するためのAIエージェント設計を紹介。仕事への活用には「型」が重要だと述べている。",
+      "handle": "Chat_yuu",
+      "category": "作り方",
+      "url": "https://x.com/Chat_yuu/status/2125702848172499189",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "01:48",
+      "headline": "AI活用を時短・課題解決・業務自動化の3段階で紹介",
+      "summary": "写真からの文字起こし、アンケートによる現場課題の把握、受付一覧の情報を使った書類作成の自動化を紹介する講座です。",
+      "handle": "ToruKawaguchi",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=-2SukTodvRI",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/-2SukTodvRI/hqdefault.jpg"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "date": "2026-11-27",
+  "featured": {
+    "time": "17:30",
+    "headline": "LayerX、Ai Workforceで資料を案件単位に管理する機能を提供開始",
+    "summary": "LayerXは、Ai Workforceで資料を案件単位に管理できる「リソースグループ」の提供を開始しました。",
+    "handle": "PR TIMES",
+    "category": "ツール",
+    "url": "https://prtimes.jp/main/html/rd/p/000000669.000036528.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "06:19",
+      "headline": "アマダと日立、自律化工場の実証を完了",
+      "summary": "アマダと日立が、AIが判断して工場の機械を動かす「自律化工場」の実証を完了した。",
+      "handle": "taka_ysh",
+      "category": "事例",
+      "url": "https://x.com/taka_ysh/status/2126063268427108761",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "06:01",
+      "headline": "7人のAI社員が51業務を毎日自動実行",
+      "summary": "投稿者は、WindowsのタスクスケジューラにAI社員の仕事を51個登録し、毎日動かしていると説明。7人のAI社員が副業の売上向上を目指して会議する仕組みも運用しています。",
+      "handle": "自動化マニア×副業",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=6PNrm4Vt438",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/6PNrm4Vt438/hqdefault.jpg"
+    },
+    {
+      "time": "16:00",
+      "headline": "SARUCREW、AIエージェントで6部門の定型業務を月1,000時間超削減",
+      "summary": "SARUCREWがAIエージェントを活用し、6部門の定型業務にかかる時間を月1,000時間超削減した。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000018.000079791.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/79791/18/79791-18-506535faca1d88f015b68c9bd2608bad-1536x1024.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:00",
+      "headline": "AI社員チームを従来の約100分の1のコストで開発・運用",
+      "summary": "AI社員チームの開発・運用コストを従来の約100分の1にする仕組みと、1人社長に残る責任・競争・意思決定の課題、個人起業や副業のポイントを取り上げています。",
+      "handle": "ai_future_radio",
+      "category": "事例",
+      "url": "https://x.com/ai_future_radio/status/2126058418599309429",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "03:23",
+      "headline": "手順書作成や設計支援など、業務向けAIエージェントの動向を紹介",
+      "summary": "動画から手順書を作るサービスの補助金対象化や、手順書の校正エージェント、シーメンスの設計支援エージェントなどを解説。マッキンゼー調査では、AI投資による利益効果を認めた企業は37%で前年と同じでした。",
+      "handle": "シンオン株式会社 (Synon,Inc) 公式",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=dUCqcA-xjfo",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/dUCqcA-xjfo/hqdefault.jpg"
+    },
+    {
+      "time": "15:00",
+      "headline": "NECネッツエスアイ、営業AI評価で大型案件や受注を創出",
+      "summary": "NECネッツエスアイとSales Markerの営業AI評価プロジェクトが、複数の大規模案件・受注の創出に貢献しました。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000243.000097462.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/97462/243/97462-243-18670ea1865974f24a56614536058e67-1800x1112.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "05:40",
+      "headline": "AI秘書「黒田」と過ごした12日間、noteが初めて売れる",
+      "summary": "AI秘書「黒田」と12日間取り組み、noteが初めて売れた日の記録を公開。",
+      "handle": "trT6z8milS246",
+      "category": "事例",
+      "url": "https://x.com/trT6z8milS246/status/2126053545594253782",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "23:25",
+      "headline": "Copilotエージェント2体で家事タスクの登録・確認を運用",
+      "summary": "音声で話した家事を「メモる君」が細分化して登録し、「爺や」が当日のタスク確認や完了報告の整理を担当する。Microsoft 365 Copilotのライセンス内で運用する。",
+      "handle": "高田弘介のクラウド活用塾",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=4POWmU9geDA",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/4POWmU9geDA/hqdefault.jpg"
+    },
+    {
+      "time": "14:30",
+      "headline": "Facilo、Claude Code活用の採用業務で年間60名超が内定承諾",
+      "summary": "少人数の採用チームでClaude Codeを使ったAI採用ワークフローを運用。採用業務を効率化し、候補者と向き合う時間を確保しています。",
+      "handle": "PR TIMES",
+      "category": "事例",
+      "url": "https://prtimes.jp/main/html/rd/p/000000365.000053307.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/53307/365/53307-365-2c14296fc381b1b01f96a690fa009f7a-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "05:15",
+      "headline": "AI秘書がメールと購入履歴からコレクションを一覧化",
+      "summary": "家のコレクション整理をAI秘書に依頼し、メールや購入履歴から品物を洗い出して表にまとめた。忘れていた過去の購入も見つかり、全体像を把握できた。",
+      "handle": "g_tunerc",
+      "category": "事例",
+      "url": "https://x.com/g_tunerc/status/2126047232101400713",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "AnthropicのAIエージェント「Claude Duet」が日本で研究プレビュー開始",
+      "summary": "Claude Duetの日本での研究プレビューが始まりました。招待が届いたら、任せる業務を小さく1つ決めて試すよう呼びかけています。",
+      "handle": "alan_arakawa",
+      "category": "ツール",
+      "url": "https://x.com/alan_arakawa/status/2126058446995030316",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "02:27",
+      "headline": "AI社員を1カ月無料で使えるコードを案内",
+      "summary": "投稿へのコメントで、AI社員を1カ月無料で使えるコードを送ると告知しています。",
+      "handle": "loveli.kaylon",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=wrzFQnOXFvs",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/wrzFQnOXFvs/hqdefault.jpg"
+    },
+    {
+      "time": "15:53",
+      "headline": "cars MANAGERが店舗の電話応答を自動化する「スマートオペレーター」を提供開始",
+      "summary": "自動車業界向けマーケティングAI社員「cars MANAGER」に、店舗の電話応答を自動化するオプションが追加されました。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000156.000091408.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/91408/156/91408-156-4615b940fc1e28ecd6fdc0a01b2d6b9a-2598x1364.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "14:14",
+      "headline": "Generative Partners、注文書を基幹システム用データに変換するAIエージェントを提供開始",
+      "summary": "得意先ごとに書式が異なる注文書を、事前設定なしで基幹システムに取り込めるデータへ変換する「AI帳票変換エージェント」の提供を始めました。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000004.000184908.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/184908/4/184908-4-cf5b9df6e4493f887345d5c4ffcc51f1-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "06:17",
+      "headline": "AIで採用スカウト文面をパーソナライズする設計例",
+      "summary": "採用スカウトの文面づくりをAIで支援する際の設計例と注意点を取り上げ、活用の入口では「型」が重要だとしている。",
+      "handle": "Chat_yuu",
+      "category": "作り方",
+      "url": "https://x.com/Chat_yuu/status/2126062757967729006",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "03:58",
+      "headline": "複数AIエージェントの判断を検証するガバナンス設計",
+      "summary": "AIの提案を承認・保留・差戻しにつなぐHuman Gateや、根拠と判断履歴を記録するEvidence Graph、Decision Traceなどの設計を解説します。",
+      "handle": "Chinoba Research Archive",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=AZQ4beKIiwE",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/AZQ4beKIiwE/hqdefault.jpg"
+    },
+    {
+      "time": "06:14",
+      "headline": "締切や重要度を考えて仕事を整理するAI秘書の作り方",
+      "summary": "自分専用のAI秘書に、締切・重要度・所要時間を踏まえた毎日の行動計画を作らせる方法を案内しています。",
+      "handle": "kabumania358",
+      "category": "作り方",
+      "url": "https://x.com/kabumania358/status/2126062112288235825",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "02:50",
+      "headline": "先が読めない単発業務も最初からAIエージェントに任せる案",
+      "summary": "途中で人がやらなくてもよいと気づく時期を予測できない仕事は、最初からAIエージェントに任せる案を提示。状況に応じて方針を変え、売上と処理量を判断軸にする考えを話した。",
+      "handle": "Nariya Takemura",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=wabRKtb0iv8",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/wabRKtb0iv8/hqdefault.jpg"
+    },
+    {
+      "time": "06:09",
+      "headline": "AIのルール順守を検品する仕組みの重要性を解説",
+      "summary": "指示書にルールを書くだけでは、成果物で守られたか確認できないと説明し、順守状況を検品する仕組みの必要性を示しています。",
+      "handle": "mitsuhiro_jp",
+      "category": "作り方",
+      "url": "https://x.com/mitsuhiro_jp/status/2126060787705991329",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/2.jpg"
+    },
+    {
+      "time": "04:58",
+      "headline": "Claude Codeに段取りを相談し、仕上げは人が担う仕事術",
+      "summary": "Claude CodeをAI秘書として、手順を決める前の相談から段取り設計まで任せる方法を紹介。途中工程をAIに任せ、仕上げと確定操作は人が行い、フィードバックで品質を高める。",
+      "handle": "g4Bpl1AsevtGpr7",
+      "category": "作り方",
+      "url": "https://x.com/g4Bpl1AsevtGpr7/status/2126043036325220689",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HYE43Bxa0AAjl6x.jpg"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "date": "2026-11-28",
+  "featured": {
+    "time": "15:30",
+    "headline": "ROXX、AI活用でキャリアアドバイザーの戦力化を約4カ月に短縮",
+    "summary": "ROXXはAIを活用し、キャリアアドバイザーの戦力化期間を約7カ月から約4カ月に短縮しました。",
+    "handle": "PR TIMES",
+    "category": "事例",
+    "url": "https://prtimes.jp/main/html/rd/p/000000226.000018129.html",
+    "source": "web"
+  },
+  "items": [
+    {
+      "time": "06:25",
+      "headline": "Museに投稿の下書きや調べものを夜間に依頼",
+      "summary": "寝る前にMuseへ翌日の投稿の下書きや調べものを頼み、朝までに進めるよう依頼している。",
+      "handle": "daiusami",
+      "category": "事例",
+      "url": "https://x.com/daiusami/status/2126427134021587083",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/0.jpg"
+    },
+    {
+      "time": "06:04",
+      "headline": "SHIOパートナーズ、AI社員7名で社内業務の95％を担う",
+      "summary": "株式会社SHIOパートナーズ代表の石神嘉代郎さんが、AI社員7名による社内業務の活用事例を取り上げ、生成AI・AIエージェント・自立起動AIの違いも解説します。",
+      "handle": "ちえぞうちゃんねる ",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=fkjbTn7TNHQ",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/fkjbTn7TNHQ/hqdefault.jpg"
+    },
+    {
+      "time": "06:24",
+      "headline": "会社員がAI秘書で10分の音声から7つの投稿を作成",
+      "summary": "非エンジニアの会社員がAI秘書を雇い、10分話した音声を7つの投稿にした事例に言及。投稿者は連絡帳の下書きを音声でメモすることから始めるとしています。",
+      "handle": "kekun_ai",
+      "category": "事例",
+      "url": "https://x.com/kekun_ai/status/2126426991708840060",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/3.jpg"
+    },
+    {
+      "time": "05:41",
+      "headline": "Cofertility、全社員に毎日使われる社内アプリの開発を目標化",
+      "summary": "Cofertilityは年次ハッカソンをAIによるアプリ開発企画に変更し、全社員の目標に、少なくとも1人の同僚が毎日使う社内アプリの開発を加えました。",
+      "handle": "Scaling Theory",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=1H-IkyD2VUE",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/1H-IkyD2VUE/hqdefault.jpg"
+    },
+    {
+      "time": "06:23",
+      "headline": "歯科医がAI秘書とSNSを運用し、1か月で約980人とつながる",
+      "summary": "歯科医がAI秘書と一緒にSNSを始め、1か月で約980人とつながった。人数が増えても一人ひとりが見えにくかったため、このアカウントでは個別に向き合う方針にした。",
+      "handle": "okkiesans",
+      "category": "事例",
+      "url": "https://x.com/okkiesans/status/2126426649575194872",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HYKVxBpaQAAFG20.jpg"
+    },
+    {
+      "time": "05:00",
+      "headline": "AIエージェントの日常業務運用で見えた4つの工夫",
+      "summary": "AIエージェントに日常作業を任せて自動化し、運用で見つけた工夫を4つにまとめた。ログを過信せず誤検知を防ぎ、一時的なトラブルはスキップする。",
+      "handle": "まっすぅ ",
+      "category": "事例",
+      "url": "https://www.youtube.com/watch?v=3DV9OBe_NpI",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/3DV9OBe_NpI/hqdefault.jpg"
+    },
+    {
+      "time": "06:17",
+      "headline": "不動産会社でAI社員を運用、AI同士の指示で回る仕組みを構想",
+      "summary": "投稿者は不動産会社にエージェント型AIを配置し、自ら指示を出して運用している。次の段階として、AIがAIに指示を出し、本人が逐一指示しなくても会社が回る仕組みを構想している。",
+      "handle": "rersampei",
+      "category": "事例",
+      "url": "https://x.com/rersampei/status/2126425146428882985",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2126425074144296960/img/CYg51qj16duFPj5z.jpg"
+    },
+    {
+      "time": "06:10",
+      "headline": "出勤前にAI秘書へ依頼し、今日やることを3つに整理",
+      "summary": "出勤前の5分でAI秘書の「ひしょ子」に今日やることを3つにまとめてもらい、実行する内容は自分で決めている。",
+      "handle": "nakaokkies",
+      "category": "事例",
+      "url": "https://x.com/nakaokkies/status/2126423374201241735",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/1.jpg"
+    },
+    {
+      "time": "06:05",
+      "headline": "AI秘書とナノブロックアワードの運営方針を相談",
+      "summary": "ナノブロックアワード2027の本戦を5作品に絞り、お祭りには多くの作品を出す方針をAI秘書と相談した。",
+      "handle": "yokoon1",
+      "category": "事例",
+      "url": "https://x.com/yokoon1/status/2126422058095800539",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HYISTZebYAAVRTj.jpg"
+    },
+    {
+      "time": "06:00",
+      "headline": "人の操作を4つに絞り、残りをAI社員に任せる運用",
+      "summary": "パスワード入力、本人確認、支払い、商談への出席は人が担当し、それ以外をAI社員に任せている。ログインが3件たまったら、まとめて依頼する。",
+      "handle": "aikaishawip",
+      "category": "事例",
+      "url": "https://x.com/aikaishawip/status/2126420810248438101",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HXvzojTagAAe-84.png"
+    },
+    {
+      "time": "05:54",
+      "headline": "AI秘書が天気・予定・重要メールを毎朝まとめて通知",
+      "summary": "AI秘書に依頼し、天気と服装の目安、当日の予定、重要なメールを毎朝確認できるようにした。朝に情報を調べる手間が減り、準備が楽になった。",
+      "handle": "g_tunerc",
+      "category": "事例",
+      "url": "https://x.com/g_tunerc/status/2126419527873495441",
+      "source": "x",
+      "thumbnail": "/thumb-fallback/4.jpg"
+    },
+    {
+      "time": "04:52",
+      "headline": "DeNA、社内で活用する「AI社員」を外部提供",
+      "summary": "DeNAは、社内で活用しているAI社員サービスの外部提供を開始したと発表した。",
+      "handle": "peponaaru",
+      "category": "ツール",
+      "url": "https://x.com/peponaaru/status/2126403789540454796",
+      "source": "x",
+      "thumbnail": "https://pbs.twimg.com/media/HYKA76abAAApC7v.png"
+    },
+    {
+      "time": "06:03",
+      "headline": "AI同僚「Patricia」、SlackとTeamsで代理店業務を支援",
+      "summary": "Patriciaは、代理店向けのAI同僚としてSlackとMicrosoft Teams上で動作する。",
+      "handle": "minimind of money",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=wvFY9q3x_Hk",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/wvFY9q3x_Hk/hqdefault.jpg"
+    },
+    {
+      "time": "14:10",
+      "headline": "株式会社if、Claudeで資料作成や定期レポートを任せる実践コースを発売",
+      "summary": "Claudeのデスクトップアプリを使い、資料作成から定期レポートまでAIに任せる手順を学ぶ「Cowork＆Claude Code実践コース（デスクトップ版）」をリリースしました。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000092.000103307.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/103307/92/103307-92-d8323bbdadc3219073fbc73e6a4100aa-1280x670.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "04:14",
+      "headline": "CLI-Anythingがデスクトップアプリを端末コマンドで操作",
+      "summary": "Blender、Premiere、Excel、OBS StudioなどをCLIコマンド経由で操作するGitHubツールを紹介。画面画像に頼らずアプリのAPIを呼び出し、Claude CodeやCursorに接続できる。",
+      "handle": "MV Paradox Kannada",
+      "category": "ツール",
+      "url": "https://www.youtube.com/watch?v=-QnYaVgN9Z8",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/-QnYaVgN9Z8/hqdefault.jpg"
+    },
+    {
+      "time": "14:00",
+      "headline": "renueが外注・委託先の法務とセキュリティを管理するAIを発表",
+      "summary": "株式会社renueが、委託先からの情報流出に備え、発注側の法務とセキュリティをAIで管理するサービスを発表しました。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000089.000091210.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/91210/89/91210-89-e8e99b1f13633ee18f56690f60e242d4-3200x1800.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "11:00",
+      "headline": "WILLER TRAVELが顧客理解向けAIエージェント「チャネルトーク」を導入",
+      "summary": "会員数900万人以上の移動・予約ポータルサイト「WILLER TRAVEL」が、顧客理解のためのAIエージェント「チャネルトーク」を導入しました。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000196.000029184.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/29184/196/29184-196-167015865e96d24be537c1e5f1f52a39-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "11:00",
+      "headline": "AIで47,000時間・26人分の仕事を自動化した知見を書籍化",
+      "summary": "KADOKAWAが、150社超の支援で得た知見を体系化した書籍を発表。AIによる47,000時間・26人分の仕事の自動化を掲げています。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000020696.000007006.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/7006/20696/7006-20696-e088f1dc5e7219c19c3895fe5eca16ba-1362x2000.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "10:30",
+      "headline": "FREEDOM X、住宅・不動産向けジョブ型AI「ナレテク」を刷新",
+      "summary": "住宅・不動産業界に特化したジョブ型AI「ナレテク」のパッケージを刷新。訪問当日に約60分で稼働できるとしている。",
+      "handle": "PR TIMES",
+      "category": "ツール",
+      "url": "https://prtimes.jp/main/html/rd/p/000000053.000075199.html",
+      "source": "web",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/75199/53/75199-53-dd5225b76d2b85c7b3630f6231b0c81b-2400x1260.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+      "time": "04:53",
+      "headline": "AI業務利用に向け、データの利用許可を設計する考え方を解説",
+      "summary": "情報の確信度だけでなく、根拠文書や適用条件、承認者、利用可能な用途を定める「Authorized Data」の考え方を解説。原文根拠や判断履歴を結び、AIの回答を検証しやすくする方法を扱う。",
+      "handle": "Chinoba Research Archive",
+      "category": "作り方",
+      "url": "https://www.youtube.com/watch?v=Uu6J2mSQS6o",
+      "source": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/Uu6J2mSQS6o/hqdefault.jpg"
+    }
+  ]
+}
